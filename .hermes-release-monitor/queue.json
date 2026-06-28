@@ -577,9 +577,13 @@
     "reason": "hourly-new-major-minor",
     "release_url": "https://github.com/material-components/material-web/releases/tag/v2.4.0",
     "repo": "material-components/material-web",
-    "status": "pending",
+    "status": "done",
     "tag": "v2.4.0",
-    "version": "2.4.0"
+    "version": "2.4.0",
+    "completed_at": "2026-06-28T22:18:35Z",
+    "post_path": "src/content/posts/material-web-v2-4-0.md",
+    "commit_sha": "94600f887042b942b43f23215c2c9763d4378a5d",
+    "pushed": true
   },
   {
     "api_url": "https://api.github.com/repos/gravity-ui/components/releases/339663218",
