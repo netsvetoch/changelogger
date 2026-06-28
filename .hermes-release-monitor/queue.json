@@ -237,9 +237,13 @@
     "reason": "initial-latest-major-minor",
     "release_url": "https://github.com/TanStack/query/releases/tag/%40tanstack/react-query%405.101.0",
     "repo": "TanStack/query",
-    "status": "pending",
+    "status": "done",
     "tag": "@tanstack/react-query@5.101.0",
-    "version": "5.101.0"
+    "version": "5.101.0",
+    "completed_at": "2026-06-28T18:35:44Z",
+    "post_path": "src/content/posts/tanstack-react-query-5-101-0.md",
+    "commit_sha": "e2beae6481e33b4ae220033478d672fa047b4590",
+    "pushed": true
   },
   {
     "api_url": "https://api.github.com/repos/streamich/react-use/releases/189795085",
