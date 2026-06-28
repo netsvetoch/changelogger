@@ -334,5 +334,28 @@
     "post_path": "src/content/posts/nub-v0-1-0.md",
     "commit_sha": "4b0db66a1b293c55d32a331b3341f5d285b27799",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/nubjs/nub/releases/344414919",
+    "body_excerpt": "This release adds a web-standard `Worker` to stock Node and hardens the package manager's compatibility with pnpm, yarn, and bun.\n\n## Web Workers\n\nNub ships the browser-standard `Worker` — the same `new Worker(...)` constructor, `postMessage`, and event surface you write for the web, running on your installed Node. There is no Nub-specific API: it is the WHATWG Web Workers shape (Cloudflare semantics where there is no formal spec), preloaded as a polyfill over `node:worker_threads` and feature-detected so it installs only when no native global is present.\n\nThis closes the most-upvoted open issue on the `nodejs/node` repository — web `Worker` support — without waiting for Node to ship it.\n\n```ts\nconst worker = new Worker(new URL(\"./worker.ts\", import.meta.url), { type: \"module\" });\n\nworker.postMessage({ n: 41 });\nworker.onmessage = (ev) => console.log(ev.data); // → 42\n```\n\n```ts\n// worker.ts — runs directly, no build step\nself.onmessage = (ev) => self.postMessage(ev.data.n + 1);\n```\n\nWhat works:\n\n- **TypeScript and JSX worker entries run directly** — Nub transpiles the worker like any other entry, so a `.ts` worker needs no build step.\n- **Inline workers** via `data:` and `blob:` URLs — the WHATWG inline mechanisms, which `node:worker_threads` does not expose through a browser-shape constructor.\n- **Classic and module workers** — `type: \"module\"` (the default) and `type: \"classic\"`, the latter exposing synchronous `importScripts(...)`.\n- **`{ name }`** surfaces as `worker.name` (main thread) and `self.name` (worker).\n- **Real `MessageEvent` / `ErrorEvent`** — inbound messages arrive as `MessageEvent`s; a thrown worker error surfaces as an `ErrorEvent` with populated `filename` / `lineno` / `colno`.\n- **Transferables, `MessageChannel` / `MessagePort`, and `BroadcastChannel`** roundtrip correctly.\n\nThe polyfill is preloaded on Node 18.19 and up. `SharedWorker` and `ServiceWorker` are not part of this release; `terminate()` returns `undefined` (the spec shape). A WPT-based conformance harness now guards the surface in CI. ([#99](https://github.com/nubjs/nub/pull/99), [#119](https://github.com/nubjs/nub/pull/119))\n\n## Package manager\n\n| Area | What changed | PR |\n| --- | --- | --- |\n| yarn | Resolve yarn-berry catalogs instead of erroring | [#130](https://github.com/nubjs/nub/pull/130) |\n| yarn | Honor `npmMinimalAgeGate`; drop a fabricated bun `trustedDependencies` gate | [#131](https://github.com/nubjs/nub/pull/131) |\n| pnpm | Write `link:` versions for versionless workspace members in `pnpm-lock.yaml` | [#115](https://github.com/nubjs/nub/pull/115) |\n| pnpm | Audit pnpm v11.9.0: redact inherited credentials, honor multi-version `minimumReleaseAgeExclude` | [#104](https://github.com/nubjs/nub/pull/104) |\n| general | Fix a `packageManager` URL-form crash and store-open without `HOME` | [#116](https://github.com/nubjs/nub/pull/116) |\n| runtime | Recover from the async-loader `resolveSync` stub on the fast tier (Turbopack / Tailwind crash) | [#98](https://github.com/nubjs/nub/pull/98) |\n\n## Tooling and distribution\n\n| Area | What changed | PR |\n| --- | --- | --- |\n| Docker | Official Nub images (`node:26` slim + alpine) with a publish workflow | [#108](https://github.com/nubjs/nub/pull/108) |\n| Homebrew | Auto-bump the tap formula on release; Node-free `brew test` | [#121](https://github.com/nubjs/nub/pull/121), [#125](https://github.com/nubjs/nub/pull/125) |\n| Build | Split `nub-native` into its own workspace so the CLI builds with `panic=abort` | [#112](https://github.com/nubjs/nub/pull/112) |\n| Build | Drop the dead config-TUI (ratatui / crossterm) from the embedded engine | [#110](https://github.com/nubjs/nub/pull/110) |\n\n## Documentation\n\n- Per-major Node version/tier table on `/docs/runtime`, with recommended fast-tier versions and a cold-start cost callout. ([`7a67d39e`](https://github.com/nubjs/nub/commit/7a67d39e09837bfdbacf6d262037a581d9faaa38), [`5edbf338`](https://github.com/nubjs/nub/commit/5edbf3383a73249bb63b4567d21b",
+    "created_at": "2026-06-28T18:30:16Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "nub__nubjs-nub__v0.2.0",
+    "kind": "minor",
+    "name": "v0.2.0",
+    "package": "nub",
+    "processing_started_at": "2026-06-28T19:51:39Z",
+    "published_at": "2026-06-24T23:50:03Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/nubjs/nub/releases/tag/v0.2.0",
+    "repo": "nubjs/nub",
+    "status": "done",
+    "tag": "v0.2.0",
+    "version": "0.2.0",
+    "completed_at": "2026-06-28T19:55:23Z",
+    "post_path": "src/content/posts/nub-v0-2-0.md",
+    "commit_sha": "3c2694a2e9ad6180047873e07e2d856622b7f508",
+    "pushed": true
   }
 ]
