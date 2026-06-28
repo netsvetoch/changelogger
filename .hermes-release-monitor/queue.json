@@ -305,8 +305,12 @@
     "reason": "initial-latest-major-minor",
     "release_url": "https://github.com/prettier/prettier/releases/tag/3.9.0",
     "repo": "prettier/prettier",
-    "status": "pending",
+    "status": "skipped_existing",
     "tag": "3.9.0",
-    "version": "3.9.0"
+    "version": "3.9.0",
+    "completed_at": "2026-06-28T19:21:39Z",
+    "post_path": "src/content/posts/prettier-3-9-0.md",
+    "skip_reason": "existing_post",
+    "pushed": false
   }
 ]
