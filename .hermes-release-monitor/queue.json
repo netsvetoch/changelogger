@@ -555,9 +555,13 @@
     "reason": "hourly-new-major-minor",
     "release_url": "https://github.com/servo/servo/releases/tag/v0.3.0",
     "repo": "servo/servo",
-    "status": "pending",
+    "status": "done",
     "tag": "v0.3.0",
-    "version": "0.3.0"
+    "version": "0.3.0",
+    "completed_at": "2026-06-28T22:03:45Z",
+    "post_path": "src/content/posts/servo-v0-3-0.md",
+    "commit_sha": "834ecf4746d1e0c5b94aad0ef4df89fbcc1ecfbb",
+    "pushed": true
   },
   {
     "api_url": "https://api.github.com/repos/material-components/material-web/releases/241591041",
