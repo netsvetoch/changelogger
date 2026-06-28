@@ -2,7 +2,7 @@ import { defineAstroPaperConfig } from "./src/types/config";
 
 export default defineAstroPaperConfig({
   site: {
-    url: "https://changelogger.com/",
+    url: "https://changelogger.netsvetaev.dev/",
     title: "Changelogger",
     description: "Changelogger is a tool for managing your changelog.",
     author: "Artem Netsvetaev",

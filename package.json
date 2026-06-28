@@ -2,8 +2,14 @@
   "name": "changelogger",
   "type": "module",
   "version": "6.1.0",
-  "engines": {
-    "node": ">=22.12.0"
+  "browserslist": "baseline widely available with downstream",
+  "packageManager": "pnpm@11.9.0",
+  "devEngines": {
+    "runtime": {
+      "name": "node",
+      "version": "26.4.0",
+      "onFail": "download"
+    }
   },
   "scripts": {
     "dev": "astro dev",
