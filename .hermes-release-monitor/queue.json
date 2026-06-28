@@ -82,9 +82,13 @@
     "reason": "initial-latest-major-minor",
     "release_url": "https://github.com/hey-api/hey-api/releases/tag/%40hey-api/openapi-ts%400.95.0",
     "repo": "hey-api/openapi-ts",
-    "status": "pending",
+    "status": "done",
     "tag": "@hey-api/openapi-ts@0.95.0",
-    "version": "0.95.0"
+    "version": "0.95.0",
+    "completed_at": "2026-06-28T16:59:06Z",
+    "post_path": "src/content/posts/hey-api-openapi-ts-0-95-0.md",
+    "commit_sha": "51d725a928308fab0d15bb99a853668264bfeae8",
+    "pushed": true
   },
   {
     "api_url": "https://api.github.com/repos/gravity-ui/icons/releases/345359280",
