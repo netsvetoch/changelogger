@@ -148,9 +148,14 @@
     "reason": "initial-latest-major-minor",
     "release_url": "https://github.com/webpro-nl/knip/releases/tag/knip%406.23.0",
     "repo": "webpro-nl/knip",
-    "status": "pending",
+    "status": "done",
     "tag": "knip@6.23.0",
-    "version": "6.23.0"
+    "version": "6.23.0",
+    "processing_started_at": "2026-06-28T17:27:37Z",
+    "completed_at": "2026-06-28T17:30:42Z",
+    "post_path": "src/content/posts/knip-6-23-0.md",
+    "commit_sha": "db008351cfabf9ef09a42d9d9359ed91761d7869",
+    "pushed": true
   },
   {
     "api_url": "https://api.github.com/repos/vitejs/vite/releases/343456547",
