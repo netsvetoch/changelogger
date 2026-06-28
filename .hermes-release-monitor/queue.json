@@ -259,9 +259,13 @@
     "reason": "initial-latest-major-minor",
     "release_url": "https://github.com/streamich/react-use/releases/tag/v17.6.0",
     "repo": "streamich/react-use",
-    "status": "pending",
+    "status": "done",
     "tag": "v17.6.0",
-    "version": "17.6.0"
+    "version": "17.6.0",
+    "completed_at": "2026-06-28T18:49:43Z",
+    "post_path": "src/content/posts/react-use-v17-6-0.md",
+    "commit_sha": "293da6e6e4f021034837c31241a0e2ff718514c8",
+    "pushed": true
   },
   {
     "api_url": "https://api.github.com/repos/colinhacks/zod/releases/315490288",
