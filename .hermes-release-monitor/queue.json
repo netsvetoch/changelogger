@@ -533,9 +533,13 @@
     "reason": "hourly-new-major-minor",
     "release_url": "https://github.com/zed-industries/zed/releases/tag/v1.0.0",
     "repo": "zed-industries/zed",
-    "status": "pending",
+    "status": "done",
     "tag": "v1.0.0",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "completed_at": "2026-06-28T21:47:37Z",
+    "post_path": "src/content/posts/zed-v1-0-0.md",
+    "commit_sha": "2ab3f9893931ba683dedd4f79a85319413864536",
+    "pushed": true
   },
   {
     "api_url": "https://api.github.com/repos/servo/servo/releases/337947779",
