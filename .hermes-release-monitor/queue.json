@@ -281,9 +281,13 @@
     "reason": "initial-latest-major-minor",
     "release_url": "https://github.com/colinhacks/zod/releases/tag/v4.4.0",
     "repo": "colinhacks/zod",
-    "status": "pending",
+    "status": "done",
     "tag": "v4.4.0",
-    "version": "4.4.0"
+    "version": "4.4.0",
+    "completed_at": "2026-06-28T19:07:21Z",
+    "post_path": "src/content/posts/zod-v4-4-0.md",
+    "commit_sha": "5c91cd30557c5c6d5b5d78e62b350452da75d4cf",
+    "pushed": true
   },
   {
     "api_url": "https://api.github.com/repos/prettier/prettier/releases/345672462",
