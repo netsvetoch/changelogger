@@ -683,9 +683,13 @@
     "reason": "hourly-new-major-minor",
     "release_url": "https://github.com/nvm-sh/nvm/releases/tag/v0.40.0",
     "repo": "nvm-sh/nvm",
-    "status": "pending",
+    "status": "done",
     "tag": "v0.40.0",
-    "version": "0.40.0"
+    "version": "0.40.0",
+    "completed_at": "2026-06-28T23:23:07Z",
+    "post_path": "src/content/posts/nvm-v0-40-0.md",
+    "commit_sha": "e7f9b23867000f306f89e351d1731b9087e0eb4d",
+    "pushed": true
   },
   {
     "api_url": "https://api.github.com/repos/gravity-ui/graph/releases/344038600",
