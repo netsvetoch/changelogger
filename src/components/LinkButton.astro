@@ -1,11 +1,20 @@
 ---
 import type { HTMLAttributes } from "astro/types";
+import config from "@/config";
+import { isExternalHttpUrl, mergeSafeRel } from "@/utils/externalLinks.js";
 
 type Props = { disabled?: boolean } & HTMLAttributes<"a">;
 
 const { disabled, class: className, ...attrs } = Astro.props;
 
 const Button = disabled ? "span" : "a";
+const href = typeof attrs.href === "string" ? attrs.href : undefined;
+const isExternal = isExternalHttpUrl(href, config.site.url);
+
+if (!disabled && isExternal) {
+  attrs.target ??= "_blank";
+  attrs.rel = mergeSafeRel(attrs.rel).join(" ");
+}
 ---
 
 <Button
