@@ -36,6 +36,16 @@
       @apply overflow-x-clip;
     }
 
+    p:has(+ ul),
+    p:has(+ ol) {
+      @apply mb-2;
+    }
+
+    p + ul,
+    p + ol {
+      @apply mt-0;
+    }
+
     li {
       @apply marker:text-accent;
     }

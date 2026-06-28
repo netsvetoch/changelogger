@@ -60,3 +60,56 @@ test("does not typograf code blocks or inline code", () => {
   assert.equal(tree.children[0].children[0].children[0].value, '"const x = 1" - ok...');
   assert.equal(tree.children[1].children[0].value, '"code" - ok...');
 });
+
+test("preserves spaces around inline code", () => {
+  const tree = {
+    type: "root",
+    children: [
+      {
+        type: "element",
+        tagName: "p",
+        children: [
+          { type: "text", value: "Запусти " },
+          {
+            type: "element",
+            tagName: "code",
+            children: [{ type: "text", value: "pnpm build" }],
+          },
+          { type: "text", value: " и проверь результат." },
+        ],
+      },
+    ],
+  };
+
+  runPlugin(tree);
+
+  assert.equal(tree.children[0].children[0].value, "Запусти ");
+  assert.equal(tree.children[0].children[2].value, " и\u00a0проверь результат.");
+});
+
+test("applies typography rules across link boundaries", () => {
+  const tree = {
+    type: "root",
+    children: [
+      {
+        type: "element",
+        tagName: "p",
+        children: [
+          { type: "text", value: "Читайте в " },
+          {
+            type: "element",
+            tagName: "a",
+            properties: { href: "/docs" },
+            children: [{ type: "text", value: "документации" }],
+          },
+          { type: "text", value: " и примерах." },
+        ],
+      },
+    ],
+  };
+
+  runPlugin(tree);
+
+  assert.equal(tree.children[0].children[0].value, "Читайте в\u00a0");
+  assert.equal(tree.children[0].children[2].value, " и\u00a0примерах.");
+});
