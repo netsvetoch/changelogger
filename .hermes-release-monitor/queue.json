@@ -466,9 +466,13 @@
     "reason": "hourly-new-major-minor",
     "release_url": "https://github.com/elysiajs/elysia/releases/tag/1.4.0",
     "repo": "elysiajs/elysia",
-    "status": "pending",
+    "status": "done",
     "tag": "1.4.0",
-    "version": "1.4.0"
+    "version": "1.4.0",
+    "completed_at": "2026-06-28T21:01:04Z",
+    "post_path": "src/content/posts/elysia-1-4-0.md",
+    "commit_sha": "2e8b6a039dd4c94469011a0f0b933522aa198c9b",
+    "pushed": true
   },
   {
     "api_url": "https://api.github.com/repos/oven-sh/bun/releases/253627838",
