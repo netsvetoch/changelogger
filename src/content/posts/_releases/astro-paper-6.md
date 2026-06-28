@@ -4,6 +4,7 @@ title: AstroPaper 6.0
 slug: astro-paper-v6
 featured: true
 ogImage: assets/AstroPaper-v6.png
+draft: true
 tags:
   - release
 description: "AstroPaper v6: a from-scratch rewrite on Astro v6, Tailwind v4, and a new config system."
