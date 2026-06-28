@@ -60,9 +60,13 @@
     "reason": "initial-latest-major-minor",
     "release_url": "https://github.com/stylelint/stylelint/releases/tag/17.14.0",
     "repo": "stylelint/stylelint",
-    "status": "pending",
+    "status": "done",
     "tag": "17.14.0",
-    "version": "17.14.0"
+    "version": "17.14.0",
+    "completed_at": "2026-06-28T16:02:34Z",
+    "post_path": "src/content/posts/stylelint-17-14-0.md",
+    "commit_sha": "f2284764ca2ca8fb50280a7cdce5b89fe13686de",
+    "pushed": true
   },
   {
     "api_url": "https://api.github.com/repos/hey-api/hey-api/releases/304669874",
