@@ -661,9 +661,13 @@
     "reason": "hourly-new-major-minor",
     "release_url": "https://github.com/recharts/recharts/releases/tag/v3.9.0",
     "repo": "recharts/recharts",
-    "status": "pending",
+    "status": "done",
     "tag": "v3.9.0",
-    "version": "3.9.0"
+    "version": "3.9.0",
+    "completed_at": "2026-06-28T23:07:58.000Z",
+    "post_path": "src/content/posts/recharts-v3-9-0.md",
+    "commit_sha": "fd23d939ae5976207892f4ee0b9f67ca36f50eb0",
+    "pushed": true
   },
   {
     "api_url": "https://api.github.com/repos/nvm-sh/nvm/releases/167922634",
