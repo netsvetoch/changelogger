@@ -5,7 +5,7 @@ export default defineAstroPaperConfig({
     url: "https://changelogger.netsvetaev.dev/",
     title: "Changelogger",
     description: "Changelogger is a tool for managing your changelog.",
-    author: "Artem Netsvetaev",
+    author: "Артём Нецветаев",
     profile: "https://github.com/netsvetoch",
     ogImage: "default-og.jpg",
     lang: "ru",

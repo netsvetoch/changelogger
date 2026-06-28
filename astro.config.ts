@@ -12,6 +12,7 @@ import remarkToc from "remark-toc";
 import remarkCollapse from "remark-collapse";
 import rehypeCallouts from "rehype-callouts";
 import rehypeExternalLinks from "./src/utils/rehypeExternalLinks.js";
+import rehypeTypograf from "./src/utils/rehypeTypograf.js";
 import {
   transformerNotationDiff,
   transformerNotationHighlight,
@@ -44,6 +45,7 @@ export default defineConfig({
       ],
       rehypePlugins: [
         rehypeCallouts,
+        rehypeTypograf,
         [rehypeExternalLinks, { siteUrl: config.site.url }],
       ],
     }),

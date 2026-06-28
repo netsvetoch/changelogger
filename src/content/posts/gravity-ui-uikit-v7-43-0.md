@@ -1,5 +1,5 @@
 ---
-author: Artem Netsvetaev
+author: Артём Нецветаев
 pubDatetime: 2026-06-28T12:20:23.000Z
 title: "Gravity UI UIKit 7.43.0: Alert, Skeleton и обновлённые Popover API"
 slug: gravity-ui-uikit-v7-43-0

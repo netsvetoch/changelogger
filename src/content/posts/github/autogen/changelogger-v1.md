@@ -1,5 +1,5 @@
 ---
-author: Artem Netsvetaev
+author: Артём Нецветаев
 pubDatetime: 2026-06-28T14:42:10.000+04:00
 # modDatetime:
 title: Первая версия Changelogger!
