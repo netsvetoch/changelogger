@@ -171,9 +171,13 @@
     "reason": "initial-latest-major-minor",
     "release_url": "https://github.com/vitejs/vite/releases/tag/v8.1.0",
     "repo": "vitejs/vite",
-    "status": "pending",
+    "status": "done",
     "tag": "v8.1.0",
-    "version": "8.1.0"
+    "version": "8.1.0",
+    "completed_at": "2026-06-28T17:47:45Z",
+    "post_path": "src/content/posts/vite-v8-1-0.md",
+    "commit_sha": "01227d0fe80c8be806e7f939d6dc7ae07d59bb0f",
+    "pushed": true
   },
   {
     "api_url": "https://api.github.com/repos/react/react/releases/251522936",
