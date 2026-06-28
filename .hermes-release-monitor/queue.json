@@ -511,9 +511,13 @@
     "reason": "hourly-new-major-minor",
     "release_url": "https://github.com/mui/base-ui/releases/tag/v1.6.0",
     "repo": "mui/base-ui",
-    "status": "pending",
+    "status": "done",
     "tag": "v1.6.0",
-    "version": "1.6.0"
+    "version": "1.6.0",
+    "completed_at": "2026-06-28T21:31:29Z",
+    "post_path": "src/content/posts/base-ui-v1-6-0.md",
+    "commit_sha": "c231d9ae9b1a3a858a6f45103a22e2c0e5feab72",
+    "pushed": true
   },
   {
     "api_url": "https://api.github.com/repos/zed-industries/zed/releases/315106805",
