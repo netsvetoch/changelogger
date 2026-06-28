@@ -637,9 +637,13 @@
     "reason": "hourly-new-major-minor",
     "release_url": "https://github.com/drizzle-team/drizzle-orm/releases/tag/0.45.0",
     "repo": "drizzle-team/drizzle-orm",
-    "status": "pending",
+    "status": "done",
     "tag": "0.45.0",
-    "version": "0.45.0"
+    "version": "0.45.0",
+    "completed_at": "2026-06-28T22:50:45.000Z",
+    "post_path": "src/content/posts/drizzle-orm-0-45-0.md",
+    "commit_sha": "b2623edb755640d5c71afb603fb066062ecedfab",
+    "pushed": true
   },
   {
     "api_url": "https://api.github.com/repos/recharts/recharts/releases/343510952",
