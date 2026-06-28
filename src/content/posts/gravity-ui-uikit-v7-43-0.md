@@ -26,9 +26,40 @@ Gravity UI UIKit выпустил минорную версию [`v7.43.0`](http
 
 ### Default props provider
 
-В релиз добавлен механизм `default props provider`. Судя по названию изменения, он позволяет задавать значения props по умолчанию на уровне приложения или части дерева компонентов.
+В релиз добавлен механизм `default props provider`. В changelog про него сказано кратко, поэтому полезно смотреть не только текст релиза, но и фактический код изменения: в коммите [`f1f1a6a`](https://github.com/gravity-ui/uikit/commit/f1f1a6a6405f99c179421efa132a6771c135da22) у `ThemeProvider` появился новый prop `defaultProps?: ComponentDefaultPropsMap`, а компоненты начали пропускать входные props через `useDefaultProps("ComponentName", rawProps)`.
 
-Практический эффект для больших продуктов: меньше повторяющихся props в местах использования компонентов и проще централизованно менять поведение UI.
+Из реализации видно несколько важных деталей:
+
+- defaults задаются по имени компонента, например `Button`, `Alert`, `TextInput`, `Popover`;
+- пользовательские props имеют приоритет над defaults;
+- props со значением `undefined` не затирают default-значение;
+- вложенный `ThemeProvider` может переопределять defaults из родительского провайдера.
+
+Пример использования выглядит так:
+
+```tsx
+import { Button, TextInput, ThemeProvider } from "@gravity-ui/uikit";
+
+export function App() {
+  return (
+    <ThemeProvider
+      theme="light"
+      defaultProps={{
+        Button: { view: "outlined", size: "l" },
+        TextInput: { size: "l" },
+      }}
+    >
+      {/* Получит view="outlined" и size="l" из ThemeProvider */}
+      <Button>Сохранить</Button>
+
+      {/* Явный prop важнее defaultProps, поэтому size будет "m" */}
+      <TextInput size="m" placeholder="Название" />
+    </ThemeProvider>
+  );
+}
+```
+
+Практический эффект для больших продуктов: меньше повторяющихся props в местах использования компонентов и проще централизованно менять базовое поведение UI без обёрток вокруг каждого компонента.
 
 Изменение: [#2708](https://github.com/gravity-ui/uikit/issues/2708).
 
