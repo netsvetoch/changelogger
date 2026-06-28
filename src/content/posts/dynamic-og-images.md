@@ -60,9 +60,9 @@ export default defineConfig({
     {
       // Example: Japanese coverage (pick what you need for your audience)
       name: "Noto Sans JP",
-      cssVariable: "--font-google-sans-code",
+      cssVariable: "--font-inter",
       provider: fontProviders.google(),
-      fallbacks: ["monospace"],
+      fallbacks: ["sans-serif"],
       weights: [400, 700],
       styles: ["normal", "italic"],
       formats: ["woff", "ttf"],
@@ -71,7 +71,7 @@ export default defineConfig({
 });
 ```
 
-If you change `cssVariable`, also update the matching key in:
+If you change `cssVariable`, also update the matching font keys in:
 
 - `src/pages/og.png.ts`
 - `src/pages/posts/[...slug]/index.png.ts`

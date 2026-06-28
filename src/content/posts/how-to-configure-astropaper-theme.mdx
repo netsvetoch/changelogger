@@ -237,15 +237,15 @@ export default defineAstroPaperConfig({
 
 ## Configuring fonts
 
-AstroPaper uses Astro's [fonts API](https://docs.astro.build/en/guides/fonts/) with [Google Sans Code](https://fonts.google.com/specimen/Google+Sans+Code) as the default font. This provides consistent typography across all platforms with automatic font optimizations including preloading and caching.
+AstroPaper uses Astro's [fonts API](https://docs.astro.build/en/guides/fonts/) with [Inter](https://fonts.google.com/specimen/Inter) for interface and article text, [Montserrat](https://fonts.google.com/specimen/Montserrat) for headings, and [JetBrains Mono](https://fonts.google.com/specimen/JetBrains+Mono) for code. This provides consistent typography across all platforms with automatic font optimizations including preloading and caching.
 
 ### Using the default font
 
-The font is automatically configured in `astro.config.ts` and loaded in `Layout.astro`. No additional configuration is needed to use the default Google Sans Code font.
+The fonts are automatically configured in `astro.config.ts` and loaded in `Layout.astro`. No additional configuration is needed to use the default typography stack.
 
 ### Customizing the font
 
-To use a different font, update three places:
+To use a different font stack, update three places:
 
 1. **Update the font configuration in `astro.config.ts`:**
 
@@ -256,10 +256,10 @@ export default defineConfig({
   // ...
   fonts: [
     {
-      name: "Your Font Name", // [!code highlight]
-      cssVariable: "--font-your-font", // [!code highlight]
+      name: "Your Interface Font", // [!code highlight]
+      cssVariable: "--font-your-interface-font", // [!code highlight]
       provider: fontProviders.google(),
-      fallbacks: ["monospace"],
+      fallbacks: ["sans-serif"],
       weights: [300, 400, 500, 600, 700],
       styles: ["normal", "italic"],
     },
@@ -278,7 +278,7 @@ import { Font } from "astro:assets";
 <head>
   <!-- ... -->
   <Font
-    cssVariable="--font-your-font"
+    cssVariable="--font-your-interface-font"
     preload={[{ subset: "latin", weight: 400, style: "normal" }]}
   />
   <!-- ... -->
@@ -289,12 +289,14 @@ import { Font } from "astro:assets";
 
 ```css file="src/styles/theme.css"
 @theme inline {
-  --font-app: var(--font-your-font); /* [!code highlight] */
+  --font-app: var(--font-your-interface-font); /* [!code highlight] */
+  --font-heading: var(--font-your-heading-font);
+  --font-mono: var(--font-your-mono-font);
   /* ... */
 }
 ```
 
-The `--font-app` variable is used throughout the theme via the `font-app` Tailwind utility class, so updating this single variable applies your custom font everywhere.
+The `--font-app`, `--font-heading`, and `--font-mono` variables are used throughout the theme via Tailwind font utilities, so updating these variables applies your custom typography consistently.
 
 > [!WARNING]
 > Make sure the font name matches exactly as it appears on [Google Fonts](https://fonts.google.com). For other font providers or local fonts, refer to the [Astro Fonts documentation](https://docs.astro.build/en/guides/fonts/).

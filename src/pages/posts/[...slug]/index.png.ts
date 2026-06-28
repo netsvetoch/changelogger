@@ -27,9 +27,10 @@ export const GET: APIRoute = async ({ props, url }) => {
     return new Response(null, { status: 404, statusText: "Not found" });
   }
 
-  const fonts = fontData["--font-google-sans-code"];
-  const regularFontPath = getFontPathByWeight(fonts, 400);
-  const boldFontPath = getFontPathByWeight(fonts, 700);
+  const interFonts = fontData["--font-inter"];
+  const montserratFonts = fontData["--font-montserrat"];
+  const regularFontPath = getFontPathByWeight(interFonts, 400);
+  const boldFontPath = getFontPathByWeight(montserratFonts, 700);
 
   if (regularFontPath === undefined || boldFontPath === undefined) {
     throw new Error("Cannot find the font path.");
@@ -106,6 +107,7 @@ export const GET: APIRoute = async ({ props, url }) => {
                       props: {
                         style: {
                           fontSize: 72,
+                          fontFamily: "Montserrat",
                           fontWeight: "bold",
                           maxHeight: "84%",
                           overflow: "hidden",
@@ -173,13 +175,13 @@ export const GET: APIRoute = async ({ props, url }) => {
       embedFont: true,
       fonts: [
         {
-          name: "Google Sans Code",
+          name: "Inter",
           data: regularData,
           weight: 400,
           style: "normal",
         },
         {
-          name: "Google Sans Code",
+          name: "Montserrat",
           data: boldData,
           weight: 700,
           style: "normal",
