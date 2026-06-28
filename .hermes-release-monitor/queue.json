@@ -193,9 +193,13 @@
     "reason": "initial-latest-major-minor",
     "release_url": "https://github.com/react/react/releases/tag/v19.2.0",
     "repo": "facebook/react",
-    "status": "pending",
+    "status": "done",
     "tag": "v19.2.0",
-    "version": "19.2.0"
+    "version": "19.2.0",
+    "completed_at": "2026-06-28T18:06:30Z",
+    "post_path": "src/content/posts/react-v19-2-0.md",
+    "commit_sha": "11b535d189096d4d58385ed1408d9466a5fab043",
+    "pushed": true
   },
   {
     "api_url": "https://api.github.com/repos/heroui-inc/heroui/releases/339880274",
