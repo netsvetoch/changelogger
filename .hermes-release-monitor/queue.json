@@ -126,9 +126,13 @@
     "reason": "initial-latest-major-minor",
     "release_url": "https://github.com/acrazing/dpdm/releases/tag/v4.2.0",
     "repo": "acrazing/dpdm",
-    "status": "pending",
+    "status": "done",
     "tag": "v4.2.0",
-    "version": "4.2.0"
+    "version": "4.2.0",
+    "completed_at": "2026-06-28T17:14:22Z",
+    "post_path": "src/content/posts/dpdm-v4-2-0.md",
+    "commit_sha": "bc6a636897d2ecf3afbdf89e61fca669b2c7f6ea",
+    "pushed": true
   },
   {
     "api_url": "https://api.github.com/repos/webpro-nl/knip/releases/345864025",
