@@ -444,9 +444,13 @@
     "reason": "hourly-new-major-minor",
     "release_url": "https://github.com/denoland/deno/releases/tag/v2.9.0",
     "repo": "denoland/deno",
-    "status": "pending",
+    "status": "done",
     "tag": "v2.9.0",
-    "version": "2.9.0"
+    "version": "2.9.0",
+    "completed_at": "2026-06-28T20:46:57Z",
+    "post_path": "src/content/posts/deno-v2-9-0.md",
+    "commit_sha": "e5244f00cc8025192955bbcc86cd30eef684d6ef",
+    "pushed": true
   },
   {
     "api_url": "https://api.github.com/repos/elysiajs/elysia/releases/246834913",
