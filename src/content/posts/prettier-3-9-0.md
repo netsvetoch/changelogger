@@ -92,21 +92,31 @@ Prettier теперь использует новый Flow-парсер на Rus
 
 В режиме без точек с запятой Prettier 3.8 мог давать нестабильный результат при повторном форматировании комментариев рядом с `break` и последующим выражением ([#7161](https://github.com/prettier/prettier/pull/7161)). Prettier 3.9 стабилизирует вывод:
 
+<!-- prettier-ignore -->
 ```jsx
 // Input
 for (;;) {
   if (condition) {
     break; // breaking comment
 
-    (possibleArray || []).sort();
+    (possibleArray || []).sort()
+  }
+}
+
+// Prettier 3.8 (--no-semi, first format)
+for (;;) {
+  if (condition) {
+    break // breaking comment
+
+    ;(possibleArray || []).sort()
   }
 }
 
 // Prettier 3.8 (--no-semi, second format)
 for (;;) {
   if (condition) {
-    break; // breaking comment
-    (possibleArray || []).sort();
+    break // breaking comment
+    ;(possibleArray || []).sort()
   }
 }
 
@@ -124,12 +134,20 @@ for (;;) {
 
 Prettier 3.9 убирает избыточные скобки в некоторых `return`-выражениях, не теряя комментарии ([#18142](https://github.com/prettier/prettier/pull/18142)).
 
+<!-- prettier-ignore -->
 ```jsx
 // Input
 function sequenceExpressionInside() {
+  return ( // Reason for a
+    a, b
+  );
+}
+
+// Prettier 3.8
+function sequenceExpressionInside() {
   return (
     // Reason for a
-    a, b
+    (a, b)
   );
 }
 
@@ -146,13 +164,25 @@ function sequenceExpressionInside() {
 
 В шаблонных строках с embedded-разметкой исправлены выравнивание и лишние переносы внутри интерполяций ([#18380](https://github.com/prettier/prettier/pull/18380)). Это особенно заметно в CSS/HTML template literals.
 
+<!-- prettier-ignore -->
 ```jsx
 // Input
 css = css`
   .class {
     flex-direction: column${
-      long_cond && long_cond && long_cond ? "-reverse" : ""
+		long_cond && long_cond && long_cond
+  		? "-reverse" :
+		""
     };
+  }
+`;
+
+// Prettier 3.8
+css = css`
+  .class {
+    flex-direction: column${long_cond && long_cond && long_cond
+        ? "-reverse"
+        : ""};
   }
 `;
 
@@ -226,12 +256,13 @@ import foo from "./foo.json" with { type: "json" };
 
 Пример с conditional type constraint:
 
+<!-- prettier-ignore -->
 ```ts
 // Input
 const foo = <Foo extends (Bar extends Baz ? A : B)>() => true;
 
 // Prettier 3.8
-const foo = <Foo extends (Bar extends Baz ? A : B)>() => true;
+const foo = <Foo extends Bar extends Baz ? A : B>() => true;
 
 // Prettier 3.9
 const foo = <Foo extends (Bar extends Baz ? A : B)>() => true;
@@ -256,19 +287,20 @@ const foo = <Foo extends (Bar extends Baz ? A : B)>() => true;
 
 Пример новых Flow records и match patterns:
 
+<!-- prettier-ignore -->
 ```flow
 // Input
 record R {
   num: number,
 }
 
-const x = R { num: 1 };
+const x = R {num: 1};
 
 const label = match (x) {
   R {num: 0} => "zero",
   R {num: 1} => "one",
   R {const num} => `${num} items`,
-};
+}
 
 // Prettier 3.8
 // Unsupported
@@ -283,6 +315,7 @@ const label = match (x) {
 
 Технически такие преобразования не меняют то, как JSON-значение читается, но форматтер не должен менять эту форму записи.
 
+<!-- prettier-ignore -->
 ```jsonc
 // Input
 [
@@ -320,12 +353,18 @@ const label = match (x) {
 - лишняя trailing comma для parenthesized scalars ([#19091](https://github.com/prettier/prettier/pull/19091));
 - пробел перед `;` delimiter в SCSS `if()` function ([#19384](https://github.com/prettier/prettier/pull/19384)).
 
+<!-- prettier-ignore -->
 ```scss
 // Input
 @include container($foo: 2 * ($bar + $baz));
 
 // Prettier 3.8
-@include container($foo: 2 * ($bar + $baz));
+@include container(
+  $foo: 2 *
+    (
+      $bar + $baz,
+    )
+);
 
 // Prettier 3.9
 @include container($foo: 2 * ($bar + $baz));
@@ -428,6 +467,7 @@ Heading
 - block value, заканчивающееся пробельным символом ([#18331](https://github.com/prettier/prettier/pull/18331));
 - сохранение пустой строки после block scalar ([#19205](https://github.com/prettier/prettier/pull/19205)).
 
+<!-- prettier-ignore -->
 ```yaml
 # Input
 foo: >
