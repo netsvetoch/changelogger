@@ -100,9 +100,13 @@
     "reason": "initial-latest-major-minor",
     "release_url": "https://github.com/gravity-ui/icons/releases/tag/v2.19.0",
     "repo": "gravity-ui/icons",
-    "status": "pending",
+    "status": "done",
     "tag": "v2.19.0",
-    "version": "2.19.0"
+    "version": "2.19.0",
+    "completed_at": "2026-06-28T16:34:30Z",
+    "post_path": "src/content/posts/gravity-ui-icons-v2-19-0.md",
+    "commit_sha": "de13d2f",
+    "pushed": true
   },
   {
     "api_url": "https://api.github.com/repos/acrazing/dpdm/releases/320021225",
