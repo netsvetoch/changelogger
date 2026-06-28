@@ -2,14 +2,14 @@ import { defineAstroPaperConfig } from "./src/types/config";
 
 export default defineAstroPaperConfig({
   site: {
-    url: "https://astro-paper.pages.dev/",
-    title: "AstroPaper",
-    description: "A minimal, responsive and SEO-friendly Astro blog theme.",
-    author: "Sat Naing",
-    profile: "https://satna.ing",
+    url: "https://changelogger.com/",
+    title: "Changelogger",
+    description: "Changelogger is a tool for managing your changelog.",
+    author: "Artem Netsvetaev",
+    profile: "https://github.com/netsvetoch",
     ogImage: "default-og.jpg",
-    lang: "en",
-    timezone: "Asia/Bangkok",
+    lang: "ru",
+    timezone: "Asia/Yerevan",
     dir: "ltr",
   },
   posts: {
@@ -29,10 +29,10 @@ export default defineAstroPaperConfig({
     search: "pagefind",
   },
   socials: [
-    { name: "github",   url: "https://github.com/satnaing/astro-paper" },
-    { name: "x",        url: "https://x.com/username" },
-    { name: "linkedin", url: "https://www.linkedin.com/in/username/" },
-    { name: "mail",     url: "mailto:yourmail@gmail.com" },
+    { name: "github",   url: "https://github.com/netsvetoch" },
+    { name: "x",        url: "https://x.com/netsvetoch" },
+    { name: "linkedin", url: "https://www.linkedin.com/in/netsvetoch/" },
+    { name: "mail",     url: "mailto:netsvour@gmail.com" },
   ],
   shareLinks: [
     { name: "whatsapp", url: "https://wa.me/?text=" },
