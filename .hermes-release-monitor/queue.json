@@ -705,9 +705,13 @@
     "reason": "hourly-new-major-minor",
     "release_url": "https://github.com/gravity-ui/graph/releases/tag/v1.11.0",
     "repo": "gravity-ui/graph",
-    "status": "pending",
+    "status": "done",
     "tag": "v1.11.0",
-    "version": "1.11.0"
+    "version": "1.11.0",
+    "completed_at": "2026-06-28T23:38:45.000Z",
+    "post_path": "src/content/posts/gravity-ui-graph-v1-11-0.md",
+    "commit_sha": "fa48b120e2c59c4e906b83c5176a9ca4276f753e",
+    "pushed": true
   },
   {
     "api_url": "https://api.github.com/repos/gravity-ui/markdown-editor/releases/338109940",
