@@ -422,9 +422,13 @@
     "reason": "hourly-new-major-minor",
     "release_url": "https://github.com/withastro/astro/releases/tag/astro%407.0.0",
     "repo": "withastro/astro",
-    "status": "pending",
+    "status": "done",
     "tag": "astro@7.0.0",
-    "version": "7.0.0"
+    "version": "7.0.0",
+    "completed_at": "2026-06-28T20:27:25Z",
+    "post_path": "src/content/posts/astro-v7-0-0.md",
+    "commit_sha": "5ceac5e0c1a74a93af6d68ecea6067e3902cdae9",
+    "pushed": true
   },
   {
     "api_url": "https://api.github.com/repos/denoland/deno/releases/344734675",
