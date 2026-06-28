@@ -63,15 +63,92 @@ export function App() {
 
 Изменение: [#2708](https://github.com/gravity-ui/uikit/issues/2708).
 
-### Расширены API Popover и Tooltip
+### Popover и Tooltip: точнее управление триггерами
 
-`Popover` и `Tooltip` получили расширенный API. Это особенно важно, потому что всплывающие элементы часто оказываются в центре сложных сценариев: позиционирование, управление открытием, вложенные интерактивные элементы, фокус и доступность.
+В changelog это описано как `enrich Popover and Tooltip API`, но конкретика находится в коммите [`9fde213`](https://github.com/gravity-ui/uikit/commit/9fde213b29a1f9bb2e62b939de8c6c36ab59923b).
+
+У `Popover` появились новые props:
+
+- `trigger?: "all" | "click"` — раньше тип был только `"click"`, а поведение «и hover, и click» было неявным. Теперь оно явно называется `"all"` и используется по умолчанию.
+- `toggle?: boolean` — управляет тем, будет ли повторный клик переключать `open`-состояние. Значение по умолчанию — `true`.
+- `rest?: number` — сколько миллисекунд курсор должен оставаться неподвижным перед открытием по hover. Это прокидывается в `useHover` как `restMs`.
+
+У `Tooltip` изменился `trigger` и тоже появился `rest`:
+
+- `trigger?: "all" | "focus"` — значение по умолчанию `"all"` включает hover/focus-сценарий, а `"focus"` отключает hover-открытие.
+- `rest?: number` — задержка «покоя» курсора перед открытием tooltip по hover.
+
+Пример, где эти настройки действительно имеют смысл:
+
+```tsx
+import { Button, Popover, Tooltip } from "@gravity-ui/uikit";
+
+export function Example() {
+  return (
+    <>
+      {/* Открывается только по клику и не закрывается повторным кликом по якорю */}
+      <Popover trigger="click" toggle={false} content="Настройки">
+        <Button>Открыть popover</Button>
+      </Popover>
+
+      {/* Не показываем tooltip на случайном пролёте мышкой — ждём 400 мс покоя */}
+      <Tooltip content="Подробная подсказка" rest={400}>
+        <Button>Наведи курсор</Button>
+      </Tooltip>
+    </>
+  );
+}
+```
 
 Изменение: [#2635](https://github.com/gravity-ui/uikit/issues/2635).
 
 ### Skeleton стал настраиваемым
 
-Компонент `Skeleton` теперь стал более гибким — в changelog это обозначено как adjustable skeleton. Для приложений с большим количеством loading-состояний это приятное улучшение: скелетоны легче согласовать с реальной формой контента.
+`Skeleton` получил не просто «больше гибкости», а конкретный набор новых props в коммите [`8744e45`](https://github.com/gravity-ui/uikit/commit/8744e458179076166e5306b6b6cd788423c5a9b7):
+
+- `variant?: "rect" | "square" | "circle" | "text"` — предустановленная форма skeleton'а. По умолчанию `"rect"`.
+- `size?: "xs" | "s" | "m" | "l" | "xl"` — предустановленная высота, а для `circle`/`square` ещё и ширина.
+- `width?: number | string` и `height?: number | string` — прямые алиасы для `style.width` и `style.height`.
+- `animation` остался прежним: `"gradient" | "pulse" | "none"`.
+
+Что это меняет на практике:
+
+- `variant="circle"` задаёт `border-radius: 50%` и `aspect-ratio: 1` — удобно для avatar-placeholder.
+- `variant="square"` тоже задаёт `aspect-ratio: 1`, но сохраняет обычное скругление.
+- `variant="text"` делает высоту `1em` и использует `margin-block: calc((1lh - 1em) / 2)`, поэтому строка skeleton'а подстраивается под типографику родителя.
+- `size` выбирает токены высоты и border-radius (`xs`, `s`, `m`, `l`, `xl`), так что не нужно каждый раз руками писать одинаковые inline styles.
+
+Пример многострочного текстового placeholder'а:
+
+```tsx
+import { Skeleton, Text } from "@gravity-ui/uikit";
+
+export function ArticlePreviewSkeleton() {
+  return (
+    <Text variant="body-1">
+      <Skeleton variant="text" width={400} />
+      <Skeleton variant="text" width={400} />
+      <Skeleton variant="text" width={240} />
+    </Text>
+  );
+}
+```
+
+А так можно собрать skeleton для карточки пользователя без кастомных CSS-классов под круглый avatar:
+
+```tsx
+import { Skeleton, User } from "@gravity-ui/uikit";
+
+export function UserSkeleton() {
+  return (
+    <User
+      avatar={<Skeleton variant="circle" height={32} />}
+      name={<Skeleton variant="text" size="s" width={80} />}
+      description={<Skeleton variant="text" size="s" width={120} />}
+    />
+  );
+}
+```
 
 Изменение: [#2684](https://github.com/gravity-ui/uikit/issues/2684).
 
