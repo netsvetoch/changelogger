@@ -215,9 +215,13 @@
     "reason": "initial-latest-major-minor",
     "release_url": "https://github.com/heroui-inc/heroui/releases/tag/v3.2.0",
     "repo": "heroui-inc/heroui",
-    "status": "pending",
+    "status": "done",
     "tag": "v3.2.0",
-    "version": "3.2.0"
+    "version": "3.2.0",
+    "completed_at": "2026-06-28T18:19:26Z",
+    "post_path": "src/content/posts/heroui-react-v3-2-0.md",
+    "commit_sha": "44b2e70ce7f353c2b2f98df44657086957c5de48",
+    "pushed": true
   },
   {
     "api_url": "https://api.github.com/repos/TanStack/query/releases/333329003",
