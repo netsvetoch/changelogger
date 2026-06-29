@@ -1199,5 +1199,32 @@
     "post_path": "src/content/posts/qwen-code-v0-19-0.md",
     "commit_sha": "3271d20da450ddaa098648b8bd30c629a6df6c90",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/XiaomiMiMo/MiMo-Code/releases/337344632",
+    "body_excerpt": "Initial open-source release of MiMo Code.",
+    "changelog_url": null,
+    "created_at": "2026-06-29T10:29:41Z",
+    "existing_post_candidates": [
+      "src/content/posts/nub-v0-1-0.md"
+    ],
+    "featured": false,
+    "id": "mimo-code__XiaomiMiMo-MiMo-Code__v0.1.0",
+    "kind": "minor",
+    "name": "v0.1.0",
+    "package": "mimo-code",
+    "processing_started_at": "2026-06-29T11:26:50Z",
+    "published_at": "2026-06-10T16:05:43Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/XiaomiMiMo/MiMo-Code/releases/tag/v0.1.0",
+    "repo": "XiaomiMiMo/MiMo-Code",
+    "source": "github_release",
+    "status": "done",
+    "tag": "v0.1.0",
+    "version": "0.1.0",
+    "completed_at": "2026-06-29T11:30:47Z",
+    "post_path": "src/content/posts/mimo-code-v0-1-0.md",
+    "commit_sha": "c72a08e18de77e56f919ed7552f3dbc945f94ab2",
+    "pushed": true
   }
 ]
