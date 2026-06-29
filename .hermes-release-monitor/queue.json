@@ -884,9 +884,13 @@
     "reason": "hourly-new-major-minor",
     "release_url": "https://github.com/phaserjs/phaser/releases/tag/v4.2.0",
     "repo": "phaserjs/phaser",
-    "status": "pending",
+    "status": "done",
     "tag": "v4.2.0",
-    "version": "4.2.0"
+    "version": "4.2.0",
+    "completed_at": "2026-06-29T01:48:14Z",
+    "post_path": "src/content/posts/phaser-v4-2-0.md",
+    "commit_sha": "918d866bbea10c231abf818f0f8e0387937d37e0",
+    "pushed": true
   },
   {
     "api_url": "https://api.github.com/repos/typograf/typograf/releases/309467595",
