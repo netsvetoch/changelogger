@@ -1097,5 +1097,30 @@
     "post_path": "src/content/posts/nanotags-v0-15-0.md",
     "commit_sha": "ab4752f5d6ef7ebbaaba65d8bfe2cf6ea569ab43",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/anthropics/claude-code/contents/CHANGELOG.md?ref=main",
+    "body_excerpt": "## 2.1.0\n\n- Added automatic skill hot-reload - skills created or modified in `~/.claude/skills` or `.claude/skills` are now immediately available without restarting the session\n- Added support for running skills and slash commands in a forked sub-agent context using `context: fork` in skill frontmatter\n- Added support for `agent` field in skills to specify agent type for execution\n- Added `language` setting to configure Claude's response language (e.g., language: \"japanese\")\n- Changed Shift+Enter to work out of the box in iTerm2, WezTerm, Ghostty, and Kitty without modifying terminal configs\n- Added `respectGitignore` support in `settings.json` for per-project control over @-mention file picker behavior\n- Added `IS_DEMO` environment variable to hide email and organization from the UI, useful for streaming or recording sessions\n- Fixed security issue where sensitive data (OAuth tokens, API keys, passwords) could be exposed in debug logs\n- Fixed files and skills not being properly discovered when resuming sessions with `-c` or `--resume`\n- Fixed pasted content being lost when replaying prompts from history using up arrow or Ctrl+R search\n- Fixed Esc key with queued prompts to only move them to input without canceling the running task\n- Reduced permission prompts for complex bash commands\n- Fixed command search to prioritize exact and prefix matches on command names over fuzzy matches in descriptions\n- Fixed PreToolUse hooks to allow `updatedInput` when returning `ask` permission decision, enabling hooks to act as middleware while still requesting user consent\n- Fixed plugin path resolution for file-based marketplace sources\n- Fixed LSP tool being incorrectly enabled when no LSP servers were configured\n- Fixed background tasks failing with \"git repository not found\" error for repositories with dots in their names\n- Fixed Claude in Chrome support for WSL environments\n- Fixed Windows native installer silently failing when executable creation fails\n- Improved CLI help output to display options and subcommands in alphabetical order for easier navigation\n- Added wildcard pattern matching for Bash tool permissions using `*` at any position in rules (e.g., `Bash(npm *)`, `Bash(* install)`, `Bash(git * main)`)\n- Added unified Ctrl+B backgrounding for both bash commands and agents - pressing Ctrl+B now backgrounds all running foreground tasks simultaneously\n- Added support for MCP `list_changed` notifications, allowing MCP servers to dynamically update their available tools, prompts, and resources without requiring reconnection\n- Added `/teleport` and `/remote-env` slash commands for claude.ai subscribers, allowing them to resume and configure remote sessions\n- Added support for disabling specific agents using `Task(AgentName)` syntax in settings.json permissions or the `--disallowedTools` CLI flag\n- Added hooks support to agent frontmatter, allowing agents to define PreToolUse, PostToolUse, and Stop hooks scoped to the agent's lifecycle\n- Added hooks support for skill and slash command frontmatter\n- Added new Vim motions: `;` and `,` to repeat f/F/t/T motions, `y` operator for yank with `yy`/`Y`, `p`/`P` for paste, text objects (`iw`, `aw`, `iW`, `aW`, `i\"`, `a\"`, `i'`, `a'`, `i(`, `a(`, `i[`, `a[`, `i{`, `a{`), `>>` and `<<` for indent/dedent, and `J` to join lines\n- Added `/plan` command shortcut to enable plan mode directly from the prompt\n- Added slash command autocomplete support when `/` appears anywhere in input, not just at the beginning\n- Added `--tools` flag support in interactive mode to restrict which built-in tools Claude can use during interactive sessions\n- Added `CLAUDE_CODE_FILE_READ_MAX_OUTPUT_TOKENS` environment variable to override the default file read token limit\n- Added support for `once: true` config for hooks\n- Added support for YAML-style lists in frontmatter `allowed-tools` field for cleaner skill declarations\n- Added support for prompt and agent hook types from plugins (previously only command hooks were suppo",
+    "changelog_url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md",
+    "created_at": "2026-06-29T08:51:55Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "claude-code__anthropics-claude-code__changelog-v2.1.0",
+    "kind": "minor",
+    "name": "2.1.0",
+    "package": "claude-code",
+    "processing_started_at": "2026-06-29T10:22:50Z",
+    "published_at": null,
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md#210",
+    "repo": "anthropics/claude-code",
+    "source": "changelog",
+    "status": "done",
+    "tag": "changelog-v2.1.0",
+    "version": "2.1.0",
+    "completed_at": "2026-06-29T10:25:52.000Z",
+    "post_path": "src/content/posts/claude-code-v2-1-0.md",
+    "commit_sha": "22fbb1b1debc0fee7b147a1a9aaf535d68674d2c",
+    "pushed": true
   }
 ]
