@@ -838,9 +838,13 @@
     "reason": "hourly-new-major-minor",
     "release_url": "https://github.com/vite-pwa/vite-plugin-pwa/releases/tag/v1.3.0",
     "repo": "vite-pwa/vite-plugin-pwa",
-    "status": "pending",
+    "status": "done",
     "tag": "v1.3.0",
-    "version": "1.3.0"
+    "version": "1.3.0",
+    "completed_at": "2026-06-29T01:14:41Z",
+    "post_path": "src/content/posts/vite-plugin-pwa-v1-3-0.md",
+    "commit_sha": "0975ca998fef82558087d752fbba81599dae07dd",
+    "pushed": true
   },
   {
     "api_url": "https://api.github.com/repos/konvajs/react-konva/releases/193367784",
