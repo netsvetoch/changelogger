@@ -1072,5 +1072,30 @@
     "post_path": "src/content/posts/cline-v4-0-0.md",
     "commit_sha": "a96dbc3e92258591c2c4df58d0e9ad6d60a8119a",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/psd-coder/nanotags/contents/CHANGELOG.md?ref=main",
+    "body_excerpt": "## 0.15.0\n\n### Bug Fixes\n\n- Fix `renderOne` skipping update callback on subsequent calls without data (shared null reference caused identity check to short-circuit)\n\n### Refactoring\n\n- Align `getElement`/`getElements` generics with `one`/`many` pattern: separate overloads for tag-name and element-type instead of `E extends keyof HTMLElementTagNameMap`",
+    "changelog_url": "https://github.com/psd-coder/nanotags/blob/main/CHANGELOG.md",
+    "created_at": "2026-06-29T08:51:16Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "nanotags__psd-coder-nanotags__changelog-v0.15.0",
+    "kind": "minor",
+    "name": "0.15.0",
+    "package": "nanotags",
+    "processing_started_at": "2026-06-29T10:06:50Z",
+    "published_at": null,
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/psd-coder/nanotags/blob/main/CHANGELOG.md#0150",
+    "repo": "psd-coder/nanotags",
+    "source": "changelog",
+    "status": "done",
+    "tag": "changelog-v0.15.0",
+    "version": "0.15.0",
+    "completed_at": "2026-06-29T10:10:10Z",
+    "post_path": "src/content/posts/nanotags-v0-15-0.md",
+    "commit_sha": "ab4752f5d6ef7ebbaaba65d8bfe2cf6ea569ab43",
+    "pushed": true
   }
 ]
