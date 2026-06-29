@@ -906,9 +906,13 @@
     "reason": "hourly-new-major-minor",
     "release_url": "https://github.com/typograf/typograf/releases/tag/v7.7.0",
     "repo": "typograf/typograf",
-    "status": "pending",
+    "status": "done",
     "tag": "v7.7.0",
-    "version": "7.7.0"
+    "version": "7.7.0",
+    "completed_at": "2026-06-29T02:03:15Z",
+    "post_path": "src/content/posts/typograf-v7-7-0.md",
+    "commit_sha": "de31ffbe9f983c8995d2c955430a87369ffafb37",
+    "pushed": true
   },
   {
     "api_url": "https://api.github.com/repos/pmndrs/uikit/releases/255093270",
