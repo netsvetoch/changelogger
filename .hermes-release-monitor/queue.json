@@ -794,9 +794,13 @@
     "reason": "hourly-new-major-minor",
     "release_url": "https://github.com/gravity-ui/charts/releases/tag/v1.56.0",
     "repo": "gravity-ui/charts",
-    "status": "pending",
+    "status": "done",
     "tag": "v1.56.0",
-    "version": "1.56.0"
+    "version": "1.56.0",
+    "completed_at": "2026-06-29T00:42:56.000Z",
+    "post_path": "src/content/posts/gravity-ui-charts-v1-56-0.md",
+    "commit_sha": "1367cc235eaa6bf9a3e4ffbd17e167a2263171f4",
+    "pushed": true
   },
   {
     "api_url": "https://api.github.com/repos/gravity-ui/aikit/releases/343540986",
