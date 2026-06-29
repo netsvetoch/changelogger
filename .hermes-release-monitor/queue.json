@@ -1226,5 +1226,32 @@
     "post_path": "src/content/posts/mimo-code-v0-1-0.md",
     "commit_sha": "c72a08e18de77e56f919ed7552f3dbc945f94ab2",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/numman-ali/zai-cli/releases/273809159",
+    "body_excerpt": "## Added\n- Repo search language flag (defaults to English) and repo tree path/depth expansion.\n- Web reader flags for images summary, GFM control, and data URL preservation.\n- MCP tool discovery cache with 24h default TTL plus configurable cache directory.\n- Automatic retry/backoff for transient MCP failures (vision defaults to 2 retries).\n- `--no-vision` to skip vision MCP startup for faster non-vision commands.\n- Live MCP coverage tests and a tools benchmark script.\n- Advanced skill reference for raw tool usage and performance tuning.\n\n## Changed\n- CLI version now reads from package.json.\n- Tool schema output is redacted for secrets.",
+    "changelog_url": null,
+    "created_at": "2026-06-29T10:29:41Z",
+    "existing_post_candidates": [
+      "src/content/posts/grok-cli-grok-dev-1-1-0.md"
+    ],
+    "featured": false,
+    "id": "zai-cli__numman-ali-zai-cli__v1.1.0",
+    "kind": "minor",
+    "name": "zai-cli v1.1.0",
+    "package": "zai-cli",
+    "processing_started_at": "2026-06-29T11:42:51Z",
+    "published_at": "2026-01-02T12:29:17Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/numman-ali/zai-cli/releases/tag/v1.1.0",
+    "repo": "numman-ali/zai-cli",
+    "source": "github_release",
+    "status": "done",
+    "tag": "v1.1.0",
+    "version": "1.1.0",
+    "completed_at": "2026-06-29T11:46:18.000Z",
+    "post_path": "src/content/posts/zai-cli-v1-1-0.md",
+    "commit_sha": "aad4c5d1f9a96b9caff2ff9ce3b8312aad6b7853",
+    "pushed": true
   }
 ]
