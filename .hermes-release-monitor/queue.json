@@ -1280,5 +1280,30 @@
     "post_path": "src/content/posts/novita-cli-v0-1-0.md",
     "commit_sha": "aa317b6b908b9161095460b229036565d4332b10",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/MiniMax-AI/cli/releases/304085695",
+    "body_excerpt": "## What's Changed\n* feat: add MiniMax brand true-color status bar by @victor0602 in https://github.com/MiniMax-AI-Dev/cli/pull/6\n* feat(quota): redesign quota show as rich HUD with usage bar and i18n by @JochenYang in https://github.com/MiniMax-AI-Dev/cli/pull/7\n* fix: resolve 8 CLI quality issues found during audit by @liyuan97 in https://github.com/MiniMax-AI-Dev/cli/pull/8\n* refactor: decouple flag parsing, extract status-bar, cleanup dead code by @liyuan97 in https://github.com/MiniMax-AI-Dev/cli/pull/12\n* docs: rewrite README — Agent-era positioning by @victor0602 in https://github.com/MiniMax-AI-Dev/cli/pull/10\n* fix: speech/music URL mode returns empty output (no --out) by @liyuan97 in https://github.com/MiniMax-AI-Dev/cli/pull/13\n* docs: rewrite README + add README_CN by @liyuan97 in https://github.com/MiniMax-AI-Dev/cli/pull/14\n* feat: welcome screen + trim global flags by @liyuan97 in https://github.com/MiniMax-AI-Dev/cli/pull/15\n* docs: remove npm/bun install option by @liyuan97 in https://github.com/MiniMax-AI-Dev/cli/pull/16\n* Fix/audio url mode by @liyuan97 in https://github.com/MiniMax-AI-Dev/cli/pull/17\n\n## New Contributors\n* @JochenYang made their first contribution in https://github.com/MiniMax-AI-Dev/cli/pull/7\n\n**Full Changelog**: https://github.com/MiniMax-AI-Dev/cli/compare/v0.3.1...v0.4.0",
+    "changelog_url": null,
+    "created_at": "2026-06-29T10:29:42Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "minimax-cli__MiniMax-AI-cli__v0.4.0",
+    "kind": "minor",
+    "name": "v0.4.0",
+    "package": "minimax-cli",
+    "processing_started_at": "2026-06-29T12:14:51Z",
+    "published_at": "2026-04-01T09:03:40Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/MiniMax-AI/cli/releases/tag/v0.4.0",
+    "repo": "MiniMax-AI/cli",
+    "source": "github_release",
+    "status": "done",
+    "tag": "v0.4.0",
+    "version": "0.4.0",
+    "completed_at": "2026-06-29T12:18:41Z",
+    "post_path": "src/content/posts/minimax-cli-v0-4-0.md",
+    "commit_sha": "dd8a610bca1ae991ecddad9a264398cb35cbb50a",
+    "pushed": true
   }
 ]
