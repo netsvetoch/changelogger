@@ -980,5 +980,28 @@
     "post_path": "src/content/posts/opencode-v1-17-0.md",
     "commit_sha": "b501b8a85b084341cd2ecb47c9301356f7b802c5",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/NousResearch/hermes-agent/releases/342102548",
+    "body_excerpt": "# Hermes Agent v0.17.0 (v2026.6.19)\n\n**Release Date:** June 19, 2026\n**Since v0.16.0:** ~1,475 commits · ~800 merged PRs · 1,693 files changed · 235,390 insertions · 50,730 deletions · 300+ issues closed · 245 community contributors\n\n> **The Reach Release.** v0.16.0 put Hermes on your desktop. v0.17.0 is about how far that reach extends — across new places to talk to it, deeper into the tools you already use, and out to the people running Hermes for a team. Hermes reached two new channels (iMessage via Photon, and the Raft agent network), the desktop app gained substantial new capability, subagents can now run in the background, image generation learned to edit, and Cursor's Composer model is reachable through an xAI Grok subscription. The dashboard got a full profile builder and secure login, the Skills Hub browser was rehauled, the `memory` tool got a major upgrade, and the curator stopped spending aux-model budget on every routine run. 300+ issues closed ride along, plus a security round.\n\n## ✨ Highlights\n\n- **Hermes reaches iMessage — Photon Spectrum, no Mac relay required** — There's now an iMessage platform plugin built on Photon's managed line pool. Run `hermes photon login`, authenticate with a device code, and Hermes can send and receive iMessage — no Mac sitting in a closet running a relay, no BlueBubbles bridge to babysit. It's positioned as the successor to BlueBubbles: free to start, nothing to self-host. If your friends and family live in the blue bubbles, Hermes lives there now too. ([#32348](https://github.com/NousResearch/hermes-agent/pull/32348), [#42582](https://github.com/NousResearch/hermes-agent/pull/42582), [#44713](https://github.com/NousResearch/hermes-agent/pull/44713) — @teknium1)\n\n- **Raft — Hermes joins the Raft agent network as a gateway channel** — A new bundled Raft platform adapter lets Hermes connect to [Raft](https://raft.build) as an external agent through a wake-channel bridge. Set `RAFT_PROFILE`, run the bridge, and Raft can wake Hermes to handle messages — with a privacy-by-contract design where wake payloads carry only metadata (event IDs, timestamps), never message bodies. Another surface where Hermes can show up and do work. ([#48210](https://github.com/NousResearch/hermes-agent/pull/48210) — @xxchan, @teknium1)\n\n- **A substantially more capable desktop app** — v0.16.0 shipped the desktop app; v0.17.0 deepened it across dozens of PRs. Rebindable keyboard shortcuts, native OS notifications with per-type toggles, live subagent **watch-windows** that stream a delegated agent's activity into its own pane, a composer model selector with per-model presets, automatic RTL/bidi text direction, a resizable VS Code-themed terminal pane, per-thread composer drafts, and the ability to install **any VS Code Marketplace theme** directly into the app. The desktop is now a serious daily driver, not a preview. ([#45866](https://github.com/NousResearch/hermes-agent/pull/45866), [#40660](https://github.com/NousResearch/hermes-agent/pull/40660), [#47060](https://github.com/NousResearch/hermes-agent/pull/47060), [#46959](https://github.com/NousResearch/hermes-agent/pull/46959), [#43292](https://github.com/NousResearch/hermes-agent/pull/43292), [#44596](https://github.com/NousResearch/hermes-agent/pull/44596) — @OutThisLife, @teknium1)\n\n- **Background / async subagents — delegate work and keep going** — `delegate_task(background=true)` now dispatches a subagent that runs in the background and returns a handle immediately. You and the model keep working while it churns, and the full result re-enters the conversation as a new turn the moment it finishes. Kick off a long research dive or a multi-step build, then carry on with something else instead of sitting blocked waiting on it. ([#40946](https://github.com/NousResearch/hermes-agent/pull/40946), [#46968](https://github.com/NousResearch/hermes-agent/pull/46968) — @teknium1)\n\n- **Edit images, not just generate them — image-to-image in `image_generate`** — `ima",
+    "created_at": "2026-06-29T08:30:08Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "hermes-agent__NousResearch-hermes-agent__v2026.6.19",
+    "kind": "minor",
+    "name": "Hermes Agent v0.17.0 (v2026.6.19)",
+    "package": "hermes-agent",
+    "processing_started_at": "2026-06-29T09:02:49Z",
+    "published_at": "2026-06-19T19:39:06Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/NousResearch/hermes-agent/releases/tag/v2026.6.19",
+    "repo": "NousResearch/hermes-agent",
+    "status": "done",
+    "tag": "v2026.6.19",
+    "version": "0.17.0",
+    "completed_at": "2026-06-29T09:06:50.000Z",
+    "post_path": "src/content/posts/hermes-agent-v2026-6-19.md",
+    "commit_sha": "9d7989b723c5eb3d5f71ff17772d1574b90ef22b",
+    "pushed": true
   }
 ]
