@@ -1305,5 +1305,30 @@
     "post_path": "src/content/posts/minimax-cli-v0-4-0.md",
     "commit_sha": "dd8a610bca1ae991ecddad9a264398cb35cbb50a",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/Kilo-Org/kilocode/releases/323171729",
+    "body_excerpt": "No notable changes",
+    "changelog_url": null,
+    "created_at": "2026-06-29T10:29:45Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "kilocode__kilo-org-kilocode__v7.3.0",
+    "kind": "minor",
+    "name": "v7.3.0 (release)",
+    "package": "kilocode",
+    "processing_started_at": "2026-06-29T12:30:51Z",
+    "published_at": "2026-05-15T10:22:36Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/Kilo-Org/kilocode/releases/tag/v7.3.0",
+    "repo": "kilo-org/kilocode",
+    "source": "github_release",
+    "status": "done",
+    "tag": "v7.3.0",
+    "version": "7.3.0",
+    "completed_at": "2026-06-29T12:34:43.000Z",
+    "post_path": "src/content/posts/kilocode-v7-3-0.md",
+    "commit_sha": "396dd916d1d662126ee333e08fd9cd5816e64e77",
+    "pushed": true
   }
 ]
