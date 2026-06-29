@@ -860,9 +860,13 @@
     "reason": "hourly-new-major-minor",
     "release_url": "https://github.com/konvajs/react-konva/releases/tag/v18.1.0",
     "repo": "konvajs/react-konva",
-    "status": "pending",
+    "status": "done",
     "tag": "v18.1.0",
-    "version": "18.1.0"
+    "version": "18.1.0",
+    "completed_at": "2026-06-29T01:31:16Z",
+    "post_path": "src/content/posts/react-konva-v18-1-0.md",
+    "commit_sha": "daa36d6cc00baf99432a12fb587a3f98d8ce3902",
+    "pushed": true
   },
   {
     "api_url": "https://api.github.com/repos/phaserjs/phaser/releases/341966483",
