@@ -1003,5 +1003,28 @@
     "post_path": "src/content/posts/hermes-agent-v2026-6-19.md",
     "commit_sha": "9d7989b723c5eb3d5f71ff17772d1574b90ef22b",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/superagent-ai/grok-cli/releases/301989666",
+    "body_excerpt": "## What's Changed\r\n* chore: add Brin PR commit security scan by @homanp in https://github.com/superagent-ai/grok-cli/pull/220\r\n* Update CHANGELOG.md for recent changes by @shuriken-996 in https://github.com/superagent-ai/grok-cli/pull/219\r\n* feat: add CLI update checker by @homanp in https://github.com/superagent-ai/grok-cli/pull/223\r\n* ci: replace commit scan with PR security scan by @homanp in https://github.com/superagent-ai/grok-cli/pull/224\r\n* bump package.json to next version by @homanp in https://github.com/superagent-ai/grok-cli/pull/225\r\n* fix issue with schedule modal by @homanp in https://github.com/superagent-ai/grok-cli/pull/226\r\n\r\n## New Contributors\r\n* @shuriken-996 made their first contribution in https://github.com/superagent-ai/grok-cli/pull/219\r\n\r\n**Full Changelog**: https://github.com/superagent-ai/grok-cli/compare/grok-dev@1.0.0-rc7...grok-dev@1.1.0",
+    "created_at": "2026-06-29T08:30:09Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "grok-cli__superagent-ai-grok-cli__grok-dev@1.1.0",
+    "kind": "minor",
+    "name": "grok-dev@1.1.0",
+    "package": "grok-cli",
+    "processing_started_at": "2026-06-29T09:18:49Z",
+    "published_at": "2026-03-26T16:56:09Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/superagent-ai/grok-cli/releases/tag/grok-dev%401.1.0",
+    "repo": "superagent-ai/grok-cli",
+    "status": "done",
+    "tag": "grok-dev@1.1.0",
+    "version": "1.1.0",
+    "completed_at": "2026-06-29T09:21:53Z",
+    "post_path": "src/content/posts/grok-cli-grok-dev-1-1-0.md",
+    "commit_sha": "8c4977aefb83c5fd343ee30ed1776fc11b38c5e0",
+    "pushed": true
   }
 ]
