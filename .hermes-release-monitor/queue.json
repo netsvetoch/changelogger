@@ -771,9 +771,14 @@
     "reason": "hourly-new-major-minor",
     "release_url": "https://github.com/gravity-ui/date-utils/releases/tag/v2.7.0",
     "repo": "gravity-ui/date-utils",
-    "status": "pending",
+    "status": "done",
     "tag": "v2.7.0",
-    "version": "2.7.0"
+    "version": "2.7.0",
+    "completed_at": "2026-06-29T00:26:21Z",
+    "post_path": "src/content/posts/gravity-ui-date-utils-v2-7-0.md",
+    "commit_sha": "9f4e7a8717aacba948fe648a780891b981e0101b",
+    "pushed": true,
+    "processing_started_at": "2026-06-29T00:23:42Z"
   },
   {
     "api_url": "https://api.github.com/repos/gravity-ui/charts/releases/337831358",
