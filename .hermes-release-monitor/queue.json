@@ -928,8 +928,11 @@
     "reason": "hourly-new-major-minor",
     "release_url": "https://github.com/pmndrs/uikit/releases/tag/v1.0.46",
     "repo": "pmndrs/uikit",
-    "status": "pending",
+    "status": "skipped_patch",
     "tag": "v1.0.46",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "completed_at": "2026-06-29T02:15:43Z",
+    "error": "Skipped: GitHub release tag v1.0.46 is a patch semver tag (1.0.46), while changelogger release articles are allowed only for x.y.0 major/minor boundary releases.",
+    "release_tag_verified": "v1.0.46"
   }
 ]
