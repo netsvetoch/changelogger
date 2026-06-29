@@ -1174,5 +1174,30 @@
     "post_path": "src/content/posts/kimi-cli-1-48-0.md",
     "commit_sha": "a62a9def9782c45beac500027571a98afecf3703",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/QwenLM/qwen-code/releases/343261341",
+    "body_excerpt": "<!-- Release notes generated using configuration in .github/release.yml at release/v0.19.0 -->\n\n## What's Changed\n* chore(release): v0.18.5 by @qwen-code-ci-bot in https://github.com/QwenLM/qwen-code/pull/5558\n* ci(release): Auto-publish VSCode companion after stable releases by @yiliang114 in https://github.com/QwenLM/qwen-code/pull/5572\n* fix(cli): render full resume preview history by @cyphercodes in https://github.com/QwenLM/qwen-code/pull/5565\n* fix(cli): fill content area background on wrapped input lines by @lcheng321 in https://github.com/QwenLM/qwen-code/pull/5568\n* fix(cli): fail non-interactive runs on loop detection by @cyphercodes in https://github.com/QwenLM/qwen-code/pull/5564\n* fix(core): respect zero OpenAI log file limit by @russeell in https://github.com/QwenLM/qwen-code/pull/5569\n* fix(core): keep bare fast model on current auth by @yiliang114 in https://github.com/QwenLM/qwen-code/pull/5553\n* feat(lint): enforce kebab-case filenames with ESLint by @ZijianZhang989 in https://github.com/QwenLM/qwen-code/pull/4797\n* [codex] Fix legacy filename allowlist for kebab-case lint by @qqqys in https://github.com/QwenLM/qwen-code/pull/5578\n* refactor(cli): Rename serve files to kebab-case by @doudouOUC in https://github.com/QwenLM/qwen-code/pull/5592\n* feat(extensions): support archive install sources by @kkhomej33-netizen in https://github.com/QwenLM/qwen-code/pull/4909\n* fix(cli): prefer command name over alias in slash completion ranking by @Alex-ai-future in https://github.com/QwenLM/qwen-code/pull/5577\n* test(integration): add fake OpenAI server for no-AK daemon tests by @yiliang114 in https://github.com/QwenLM/qwen-code/pull/5560\n* refactor(core): replace OpenRouter/Requesty provider classes with customHeaders in preset by @pomelo-nwu in https://github.com/QwenLM/qwen-code/pull/5539\n* feat(voice): voice dictation with native capture, streaming, and biasing by @qqqys in https://github.com/QwenLM/qwen-code/pull/5502\n* feat: revivable background sub-agents and subagent transcript TTL by @qqqys in https://github.com/QwenLM/qwen-code/pull/5556\n* feat(core): add Artifact tool to publish interactive HTML pages by @qqqys in https://github.com/QwenLM/qwen-code/pull/5557\n* feat(cli): add optional [HH:MM:SS] timestamp before each assistant turn by @ZijianZhang989 in https://github.com/QwenLM/qwen-code/pull/5001\n* fix(core): require confirmation when user manually enters plan mode by @LaZzyMan in https://github.com/QwenLM/qwen-code/pull/5595\n* fix(core): always-on guard for consecutive identical tool calls (#5019) by @wenshao in https://github.com/QwenLM/qwen-code/pull/5573\n* fix(ci): harden tmux triage reporting by @yiliang114 in https://github.com/QwenLM/qwen-code/pull/5548\n* fix(voice): surface native recorder fallback so missing prebuilds aren't silent by @qqqys in https://github.com/QwenLM/qwen-code/pull/5605\n* fix(core): prevent GLM on DashScope from dropping web_fetch content by @tanzhenxin in https://github.com/QwenLM/qwen-code/pull/5599\n* Fix native voice recorder retry after stop errors by @qqqys in https://github.com/QwenLM/qwen-code/pull/5609\n* [codex] ci(triage): acknowledge slash triage requests by @yiliang114 in https://github.com/QwenLM/qwen-code/pull/5594\n* [codex] Support artifact auto-open setting by @qqqys in https://github.com/QwenLM/qwen-code/pull/5617\n* feat(tui): remove tool group borders and collapse completed tool results by @chiga0 in https://github.com/QwenLM/qwen-code/pull/5003\n* feat(workflows): finish Dynamic Workflows port — resume, saved workflows, keyword trigger, notifications (#4721) by @LaZzyMan in https://github.com/QwenLM/qwen-code/pull/5600\n* feat(web-shell): support daemon session branching by @ytahdn in https://github.com/QwenLM/qwen-code/pull/5613\n* fix(core): backend-aware artifact publish confirmation + cancel handling by @qqqys in https://github.com/QwenLM/qwen-code/pull/5615\n* test(integration): run no-AK smoke tests on PRs by @yiliang114 in https://github.com/QwenLM/qwen-code/",
+    "changelog_url": null,
+    "created_at": "2026-06-29T10:29:40Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "qwen-code__QwenLM-qwen-code__v0.19.0",
+    "kind": "minor",
+    "name": "Release v0.19.0",
+    "package": "qwen-code",
+    "processing_started_at": "2026-06-29T11:10:50Z",
+    "published_at": "2026-06-23T03:27:11Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.19.0",
+    "repo": "QwenLM/qwen-code",
+    "source": "github_release",
+    "status": "done",
+    "tag": "v0.19.0",
+    "version": "0.19.0",
+    "completed_at": "2026-06-29T11:14:51Z",
+    "post_path": "src/content/posts/qwen-code-v0-19-0.md",
+    "commit_sha": "3271d20da450ddaa098648b8bd30c629a6df6c90",
+    "pushed": true
   }
 ]
