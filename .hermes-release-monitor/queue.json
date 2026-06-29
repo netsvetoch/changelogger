@@ -1253,5 +1253,32 @@
     "post_path": "src/content/posts/zai-cli-v1-1-0.md",
     "commit_sha": "aad4c5d1f9a96b9caff2ff9ce3b8312aad6b7853",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/novitalabs/novita-cli/releases/315062923",
+    "body_excerpt": "## novita 0.1.0\n\nInitial PyPI release for the `novita` distribution.\n\n### Highlights\n- Install with `pip install novita`\n- Provides the `novita` CLI entry point\n- Covers text, image, video, audio, files/batch, GPU sandbox runtimes, serverless endpoints, templates, storage, account, and billing commands\n- Includes README hero artwork and example-oriented usage documentation\n- Publishes from GitHub Actions using the `v0.1.0` tag\n\n### Validation\n- CI passed on Python 3.9, 3.11, and 3.13\n- Build and `twine check` passed before release\n",
+    "changelog_url": null,
+    "created_at": "2026-06-29T10:29:41Z",
+    "existing_post_candidates": [
+      "src/content/posts/nub-v0-1-0.md"
+    ],
+    "featured": false,
+    "id": "novita-cli__novitalabs-novita-cli__v0.1.0",
+    "kind": "minor",
+    "name": "novita 0.1.0",
+    "package": "novita-cli",
+    "processing_started_at": "2026-06-29T11:58:51Z",
+    "published_at": "2026-04-29T08:14:32Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/novitalabs/novita-cli/releases/tag/v0.1.0",
+    "repo": "novitalabs/novita-cli",
+    "source": "github_release",
+    "status": "done",
+    "tag": "v0.1.0",
+    "version": "0.1.0",
+    "completed_at": "2026-06-29T12:02:25Z",
+    "post_path": "src/content/posts/novita-cli-v0-1-0.md",
+    "commit_sha": "aa317b6b908b9161095460b229036565d4332b10",
+    "pushed": true
   }
 ]
