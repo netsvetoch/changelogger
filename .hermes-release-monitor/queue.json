@@ -816,9 +816,13 @@
     "reason": "hourly-new-major-minor",
     "release_url": "https://github.com/gravity-ui/aikit/releases/tag/v2.7.0",
     "repo": "gravity-ui/aikit",
-    "status": "pending",
+    "status": "done",
     "tag": "v2.7.0",
-    "version": "2.7.0"
+    "version": "2.7.0",
+    "completed_at": "2026-06-29T00:58:28.000Z",
+    "post_path": "src/content/posts/gravity-ui-aikit-v2-7-0.md",
+    "commit_sha": "aee41d89151cfa89e9dcb2647e09cefe95018170",
+    "pushed": true
   },
   {
     "api_url": "https://api.github.com/repos/vite-pwa/vite-plugin-pwa/releases/317880273",
