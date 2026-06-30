@@ -1355,5 +1355,30 @@
     "post_path": "src/content/posts/gravity-ui-icons-v2-20-0.md",
     "commit_sha": "f549756180f7e9eb6793da4affc2e7a944cd3ac5",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/gravity-ui/markdown-editor/releases/346788415",
+    "body_excerpt": "## [15.42.0](https://github.com/gravity-ui/markdown-editor/compare/markdown-editor-v15.41.1...markdown-editor-v15.42.0) (2026-06-30)\n\n\n### Features\n\n* **bundle:** add changePreviewVisible method to editor api ([#1153](https://github.com/gravity-ui/markdown-editor/issues/1153)) ([2d5a7bb](https://github.com/gravity-ui/markdown-editor/commit/2d5a7bbf0bbeef8ed1d3da82db6d26a716567773))\n\n\n### Bug Fixes\n\n* **bundle:** fixed opening of drop-down list in ToolbarSelect component ([#1165](https://github.com/gravity-ui/markdown-editor/issues/1165)) ([513b3b9](https://github.com/gravity-ui/markdown-editor/commit/513b3b90eac4fb8fc248bd3048995cc7c8eb6a09))\n* **YfmHtmlBlock:** preserve nested html block serialization ([#1162](https://github.com/gravity-ui/markdown-editor/issues/1162)) ([58dffe0](https://github.com/gravity-ui/markdown-editor/commit/58dffe04b93ada8a2c41a271fc9a29c3eb93faba))",
+    "changelog_url": null,
+    "created_at": "2026-06-30T12:35:45Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "@gravity-ui-markdown-editor__gravity-ui-markdown-editor__markdown-editor-v15.42.0",
+    "kind": "minor",
+    "name": "markdown-editor: v15.42.0",
+    "package": "@gravity-ui/markdown-editor",
+    "processing_started_at": "2026-06-30T13:03:09Z",
+    "published_at": "2026-06-30T11:36:07Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/gravity-ui/markdown-editor/releases/tag/markdown-editor-v15.42.0",
+    "repo": "gravity-ui/markdown-editor",
+    "source": "github_release",
+    "status": "done",
+    "tag": "markdown-editor-v15.42.0",
+    "version": "15.42.0",
+    "completed_at": "2026-06-30T13:05:48Z",
+    "post_path": "src/content/posts/gravity-ui-markdown-editor-v15-42-0.md",
+    "commit_sha": "ef26a2c2ba675adccdefd754ece6fdc4b0e8b17f",
+    "pushed": true
   }
 ]
