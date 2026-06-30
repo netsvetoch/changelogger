@@ -1330,5 +1330,30 @@
     "post_path": "src/content/posts/kilocode-v7-3-0.md",
     "commit_sha": "396dd916d1d662126ee333e08fd9cd5816e64e77",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/gravity-ui/icons/releases/346788871",
+    "body_excerpt": "## [2.20.0](https://github.com/gravity-ui/icons/compare/v2.19.0...v2.20.0) (2026-06-30)\n\n\n### Features\n\n* make direct paths also ESM ([#98](https://github.com/gravity-ui/icons/issues/98)) ([0c74bb9](https://github.com/gravity-ui/icons/commit/0c74bb9c285550adef31535750d8c08fce619fac))\n* update deps ([#95](https://github.com/gravity-ui/icons/issues/95)) ([79f8684](https://github.com/gravity-ui/icons/commit/79f86846278c0333a9c3290e3c3b6c7761e23fd4))",
+    "changelog_url": null,
+    "created_at": "2026-06-30T12:35:22Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "@gravity-ui-icons__gravity-ui-icons__v2.20.0",
+    "kind": "minor",
+    "name": "v2.20.0",
+    "package": "@gravity-ui/icons",
+    "processing_started_at": "2026-06-30T12:47:08Z",
+    "published_at": "2026-06-30T11:37:12Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/gravity-ui/icons/releases/tag/v2.20.0",
+    "repo": "gravity-ui/icons",
+    "source": "github_release",
+    "status": "done",
+    "tag": "v2.20.0",
+    "version": "2.20.0",
+    "completed_at": "2026-06-30T12:50:29Z",
+    "post_path": "src/content/posts/gravity-ui-icons-v2-20-0.md",
+    "commit_sha": "f549756180f7e9eb6793da4affc2e7a944cd3ac5",
+    "pushed": true
   }
 ]
