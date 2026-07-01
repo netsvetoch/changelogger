@@ -1405,5 +1405,30 @@
     "post_path": "src/content/posts/zed-v1-9-0.md",
     "commit_sha": "632ce38bd513edfa23f4b5cbfbf9dc25def9bf2a",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/NousResearch/hermes-agent/releases/347692471",
+    "body_excerpt": "# Hermes Agent v0.18.0 (v2026.7.1)\n\n**Release Date:** July 1, 2026\n**Since v0.17.0:** ~1,720 commits · 998 merged PRs · 2,215 files changed · ~251,000 insertions · ~41,000 deletions · **949 issues closed** · **370+ community contributors**\n\n> **The Judgment Release.** Over the last week and a half the team put nearly all of its effort into one goal: resolve **every P0 and P1 issue and PR in the entire Hermes Agent repo** — and as of this release, **100% of them are closed.** Zero open P0s. Zero open P1s. That's **~700 highest-priority items** cleared as part of **~1,950 total issues and PRs closed** this window. We intend to keep P0/P1 at zero from here on.\n>\n> On top of that clean-sweep, v0.18.0 is about how *well* Hermes thinks and how it *knows when its work is actually done*. Mixture-of-Agents became a first-class citizen — named ensembles of models you can pick like any other model, with every reference model's reasoning shown to you and the aggregator's answer streamed live. The agent learned to verify its own work against evidence instead of vibes, `/goal` gained completion contracts, and `/learn` + `/journey` turned self-improvement into something you can see and steer. Underneath, the gateway became genuinely deployable-at-scale (scale-to-zero, drain coordination), the desktop grew first-class coding projects and a playable memory graph, and subagents can now fan out in the background.\n\n## 🎯 The P0/P1 Clean Sweep — 100% resolved\n\nThis is the release headline. For a week and a half the team hammered the priority backlog day and night, and every single P0 and P1 across the whole repo is now closed:\n\n| Priority | Issues closed | PRs merged |\n|---|---|---|\n| **P0** (critical) | 3 | 8 |\n| **P1** (high) | 493 | 188 |\n| **Total** | **496** | **196** |\n\nThat's **~692 highest-priority items resolved** in twelve days — and at the moment the sweep completed, the open P0/P1 count hit **0 across the entire repo.** The final cluster to fall was the interrupt-protected-compression sibling-fork bug (issue #56391) and its fix (#56416), closed on an all-nighter right before this release cut.\n\nSpecial shoutout to **@kshitijk4poor**, who burned through the priority backlog day and night alongside the core team — the cron reliability wave, the compression-fork fix, the credential-exfil hardening, and a huge share of the P1 closures are his.\n\nWe're keeping P0/P1 at **0** from here forward. 🫡\n\n## ✨ Highlights\n\n- **Mixture-of-Agents is now a first-class model you can pick** — MoA used to be a mode you toggled; now every named MoA preset shows up as a selectable model under a `moa` provider, right alongside Claude, GPT, and Grok in every model picker (CLI, TUI, desktop, gateway). Pick \"my-council\" the same way you'd pick any model, and Hermes routes your prompt through that ensemble automatically. An ensemble of frontier models deliberating on your hardest questions is now one selection away, on every surface. ([#46081](https://github.com/NousResearch/hermes-agent/pull/46081), [#53548](https://github.com/NousResearch/hermes-agent/pull/53548), [#53561](https://github.com/NousResearch/hermes-agent/pull/53561) — @teknium1)\n\n- **See every model's reasoning, then watch the answer stream in** — When a MoA ensemble runs, each reference model's full output now renders as its own labelled block — you can read what GPT-5 thought, what Claude thought, and what Grok thought, before the aggregator synthesizes them into one answer. And that final answer now streams to you live instead of appearing all at once after a long silence. This works in the CLI, the TUI, and the desktop app. You get to watch the committee deliberate, not just read the verdict. ([#53793](https://github.com/NousResearch/hermes-agent/pull/53793), [#53855](https://github.com/NousResearch/hermes-agent/pull/53855), [#55625](https://github.com/NousResearch/hermes-agent/pull/55625), [#56101](https://github.com/NousResearch/hermes-agent/pull/56101) — @teknium1)\n\n- **The agent verifies its o",
+    "changelog_url": null,
+    "created_at": "2026-07-01T20:38:28Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "hermes-agent__NousResearch-hermes-agent__v2026.7.1",
+    "kind": "minor",
+    "name": "Hermes Agent v0.18.0 (2026.7.1) — The Judgment Release",
+    "package": "hermes-agent",
+    "processing_started_at": "2026-07-01T20:50:30Z",
+    "published_at": "2026-07-01T20:08:06Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/NousResearch/hermes-agent/releases/tag/v2026.7.1",
+    "repo": "NousResearch/hermes-agent",
+    "source": "github_release",
+    "status": "done",
+    "tag": "v2026.7.1",
+    "version": "0.18.0",
+    "completed_at": "2026-07-01T20:55:08Z",
+    "post_path": "src/content/posts/hermes-agent-v2026-7-1.md",
+    "commit_sha": "a5e6b6d9f038565d734a663ae63b35c84c120d75",
+    "pushed": true
   }
 ]
