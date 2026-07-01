@@ -1380,5 +1380,30 @@
     "post_path": "src/content/posts/gravity-ui-markdown-editor-v15-42-0.md",
     "commit_sha": "ef26a2c2ba675adccdefd754ece6fdc4b0e8b17f",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/zed-industries/zed/releases/347541324",
+    "body_excerpt": "This week's release adds Telescope-style resizable pickers with file and text finder previews (resolving [a request](https://github.com/zed-industries/zed/issues/8279) with 860 👍s), including a new search modal that previews results live as you type, opened via the `text finder: toggle` action in the command palette, plus search in the Agent Panel.\r\n\r\n## Features\r\n\r\n### AI\r\n\r\n- Added in-thread search to the Agent Panel (Ctrl/Cmd+F). ([#57231](https://github.com/zed-industries/zed/pull/57231); thanks [dandv](https://github.com/dandv))\r\n- Added an entry to the Agent Panel options menu to quickly add a remote MCP server. ([#59359](https://github.com/zed-industries/zed/pull/59359))\r\n- Improved saved thread model selection for cloud-based providers. ([#59417](https://github.com/zed-industries/zed/pull/59417))\r\n- Improved Agent Panel file search results from the agent's `grep` tool so they open files at the matched line when clicked. ([#59230](https://github.com/zed-industries/zed/pull/59230))\r\n- Included the thread title in Agent Panel notifications when Zed is not focused. ([#59377](https://github.com/zed-industries/zed/pull/59377); thanks [e-compton](https://github.com/e-compton))\r\n- Added GLM 5.2 and Kimi K2.7 Code to OpenCode Go, and made DeepSeek V4 Pro available for OpenCode Zen. ([#59236](https://github.com/zed-industries/zed/pull/59236))\r\n- Improved OpenAI-compatible provider setup for reasoning models. ([#59213](https://github.com/zed-industries/zed/pull/59213); thanks [razmser](https://github.com/razmser))\r\n- Added ACP support for embedded resources in tool calls. ([#59821](https://github.com/zed-industries/zed/pull/59821))\r\n\r\n### Git\r\n\r\n- Improved the Git Panel changes header with a split button that keeps Stage All / Unstage All as the primary action and groups related change actions in a dropdown menu. ([#59608](https://github.com/zed-industries/zed/pull/59608); thanks [chirivelli](https://github.com/chirivelli))\r\n- Added a Git blame toggle to the gutter's context menu. ([#59460](https://github.com/zed-industries/zed/pull/59460); thanks [NsdHSO](https://github.com/NsdHSO))\r\n- Added a Git Panel View Options menu for switching between list/tree view, sorting by path or name, and grouping by status. Project Diff now follows the same file ordering as the Git Panel. ([#59043](https://github.com/zed-industries/zed/pull/59043); thanks [chirivelli](https://github.com/chirivelli))\r\n- Added a `git_panel.entry_primary_click_action` setting to control default click behavior for Git Panel files. ([#59649](https://github.com/zed-industries/zed/pull/59649); thanks [nathan-fiscaletti](https://github.com/nathan-fiscaletti))\r\n- Improved Git Graph search to find commits by abbreviated or full hash. ([#59132](https://github.com/zed-industries/zed/pull/59132); thanks [nguyenphutrong](https://github.com/nguyenphutrong))\r\n- Improved performance of Git Panel access checks. ([#59514](https://github.com/zed-industries/zed/pull/59514); thanks [lgeiger](https://github.com/lgeiger))\r\n\r\n### Languages\r\n\r\n- Improved Python completion item highlighting for methods and functions. ([#59758](https://github.com/zed-industries/zed/pull/59758); thanks [lingyaochu](https://github.com/lingyaochu))\r\n\r\n### Terminal\r\n\r\n- Added paragraph navigation in terminal Vim mode with `shift-{` and `shift-}`. ([#56038](https://github.com/zed-industries/zed/pull/56038); thanks [hron](https://github.com/hron))\r\n\r\n### Vim / Helix\r\n\r\n- Added Helix-mode debugger keybindings under `space shift-g` for starting, restarting, continuing, pausing, stepping, stopping, toggling breakpoints, and editing log breakpoints. ([#57756](https://github.com/zed-industries/zed/pull/57756); thanks [jgarte](https://github.com/jgarte))\r\n\r\n### Other\r\n\r\n- Added draggable resizing to picker modals. ([#59604](https://github.com/zed-industries/zed/pull/59604); thanks [ozacod](https://github.com/ozacod))\r\n- Added previews to the file finder, shown to the right or below the results depending on available sp",
+    "changelog_url": null,
+    "created_at": "2026-07-01T17:31:56Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "zed__zed-industries-zed__v1.9.0",
+    "kind": "minor",
+    "name": "v1.9.0",
+    "package": "zed",
+    "processing_started_at": "2026-07-01T17:34:28Z",
+    "published_at": "2026-07-01T17:02:17Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/zed-industries/zed/releases/tag/v1.9.0",
+    "repo": "zed-industries/zed",
+    "source": "github_release",
+    "status": "done",
+    "tag": "v1.9.0",
+    "version": "1.9.0",
+    "completed_at": "2026-07-01T17:38:26Z",
+    "post_path": "src/content/posts/zed-v1-9-0.md",
+    "commit_sha": "632ce38bd513edfa23f4b5cbfbf9dc25def9bf2a",
+    "pushed": true
   }
 ]
