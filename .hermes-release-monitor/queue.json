@@ -1430,5 +1430,30 @@
     "post_path": "src/content/posts/hermes-agent-v2026-7-1.md",
     "commit_sha": "a5e6b6d9f038565d734a663ae63b35c84c120d75",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/webpro-nl/knip/releases/347865513",
+    "body_excerpt": "* chore: update year in license (#1833) (32bc844dfd3895884b11fea5ef94bf3fa1974946) - thanks @trueberryless!\n* ci: pin github actions (#1835) (82a8d0913105a637e9eeccfe3b785be90c873e2a) - thanks @trueberryless!\n* Assume Node 24+/Bun and remove compilation step (d9ef038429bec06c37fdb520e5c7353c8cae6ce7)\n* Don't report working-directory scripts as unlisted binaries (resolve #1834) (aea7923438f0a8f459458578526f358b02497f77)\n* Add `pnpm run lint` to CI workflow (ec9aa1cabb58c97b8ecc4815e6cdd6421fe2a89e)\n* feat: add settings for Zed editor to use oxlint and oxfmt (#1836) (111f2e0a17999e3ffdf4c097cd42ba08acd48508) - thanks @trueberryless!\n* fix: remove format_on_save: true settings from Zed settings to respect user settings (#1838) (dc2a64043035d426eb99a9d1e0eb873d02a09e7d) - thanks @trueberryless!\n* feat: add Renovate for GitHub actions only (#1839) (ffce88c86f95822ee2a7cf8407e987a3ec79b097) - thanks @trueberryless!\n* Ignore import() in JSDoc examples (#1844) (6f090f90f04e8202700ed68977faa1dc626ff235) - thanks @cyphercodes!\n* Don't report types used only in module augmentations as unused (resolve #1843) (7901abd3c4b496f212445bff9768efc9548ded61)\n* Restore CI intent (0d739beab2e224385f449d62d6cc7d904107946e)\n* feat: add less, stylus compilers and astro, svelte, vue import resolution (#1845) (5525759f33a5664e4882aebe239e9c17eeb29f92) - thanks @trueberryless!\n* Don't report built-in compiler dependencies as unused (3c9d4adf369f0064399d9da7b4f11f0467180bf5)\n* feat: add scss handling to stencil plugin (#1846) (acba6b85ab05f70385228872fafea2b08290d0f6) - thanks @johnjenkins!\n* fix(reporters): always print the issue-type title for a single group (#1848) (cf997b2408cc0814c2d310d1e8c8680340153fa1) - thanks @morgan-coded!\n* Export Issue, IssueRecords and IssueType types (resolve #1840) (260f19230f42c9dceaac97d55bf34d17902c5b38)\n* Squeeze every bit of perf out around compilers (bb0eeb6e33d050dab736134b5b692a3d6413f358)",
+    "changelog_url": null,
+    "created_at": "2026-07-02T06:57:32Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "knip__webpro-nl-knip__knip@6.24.0",
+    "kind": "minor",
+    "name": "Release 6.24.0",
+    "package": "knip",
+    "processing_started_at": "2026-07-02T07:08:18Z",
+    "published_at": "2026-07-02T06:36:22Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/webpro-nl/knip/releases/tag/knip%406.24.0",
+    "repo": "webpro-nl/knip",
+    "source": "github_release",
+    "status": "done",
+    "tag": "knip@6.24.0",
+    "version": "6.24.0",
+    "completed_at": "2026-07-02T07:12:10.000Z",
+    "post_path": "src/content/posts/knip-6-24-0.md",
+    "commit_sha": "cf771e4c9fc6577c63aa314cc07f11a1b29df573",
+    "pushed": true
   }
 ]
