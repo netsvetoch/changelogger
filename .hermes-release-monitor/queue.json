@@ -1455,5 +1455,30 @@
     "post_path": "src/content/posts/knip-6-24-0.md",
     "commit_sha": "cf771e4c9fc6577c63aa314cc07f11a1b29df573",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/gravity-ui/aikit/releases/348493516",
+    "body_excerpt": "## [2.8.0](https://github.com/gravity-ui/aikit/compare/v2.7.0...v2.8.0) (2026-07-03)\n\n\n### Features\n\n* **PromptInput:** expose textarea control ref ([#195](https://github.com/gravity-ui/aikit/issues/195)) ([940b83e](https://github.com/gravity-ui/aikit/commit/940b83ecc56990ede78484f16e44d17f6e86f9b0))",
+    "changelog_url": null,
+    "created_at": "2026-07-03T08:48:14Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "@gravity-ui-aikit__gravity-ui-aikit__v2.8.0",
+    "kind": "minor",
+    "name": "v2.8.0",
+    "package": "@gravity-ui/aikit",
+    "processing_started_at": "2026-07-03T08:54:37Z",
+    "published_at": "2026-07-03T08:32:31Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/gravity-ui/aikit/releases/tag/v2.8.0",
+    "repo": "gravity-ui/aikit",
+    "source": "github_release",
+    "status": "done",
+    "tag": "v2.8.0",
+    "version": "2.8.0",
+    "completed_at": "2026-07-03T08:57:34Z",
+    "post_path": "src/content/posts/gravity-ui-aikit-v2-8-0.md",
+    "commit_sha": "d3e94f8328b6d13aefaf0e28cfb7e2023a423b03",
+    "pushed": true
   }
 ]
