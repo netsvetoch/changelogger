@@ -1557,5 +1557,30 @@
     "post_path": "src/content/posts/gravity-ui-uikit-v7-44-0.md",
     "commit_sha": "07b865a23f25306995dd7abd602fa0bfdf61e31a",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/webpro-nl/knip/releases/350115057",
+    "body_excerpt": "* fix: derive package name from package.json under Yarn `nodeLinker: pnpm` store (#1852) (3764605ed150b975fb6c88c4c4aa47f5bf9ae149) - thanks @blowery!\n* Pick up types used in module augmentations via path aliases (resolve #1850) (9cc5a4132793990b5fcf9eae6f3db37426d979c0)\n* feat: add support for `packageExtensions` in yarn and pnpm (#1847) (61d3164cdac6e9252b3c52ce3bb2909949b4690e) - thanks @trueberryless!\n* fix(ci): do not run integration on forks (#1855) (d23c10d1ae764c0b70addaafc79f01c543cc5efa) - thanks @trueberryless!\n* chore(ci): improve security through specific permissions (#1856) (1eb42e639f9ec12d6d2ef88e1aaf07397b5bf226) - thanks @trueberryless!\n* chore(ci): add concurrency blocks (#1857) (3bf3d115cf677fadcfe8fa72ce0e68cfd435d399) - thanks @trueberryless!\n* fix(next): resolve src/ entry patterns like Next.js does (#1859) (6e6a5094e924a5cd104867f3907dbbb378f871b3) - thanks @dayongkr!\n* Fix Bun test defaults (#1860) (2ac4c0427d2ac03939661f6dc236d15d11414fd5) - thanks @jakeleventhal!\n* Extend agentic guidelines re. plugins (da606eb522f01187def8747d7ddb917c6735157d)\n* Support rspack and path aliases in require.context (d231d67a5e8713c2f48f9d695ae12a9dbfa0260e)\n* Support path aliases in import.meta.glob (resolve #1821) (fc7bb1ecc194e69f9f493bff5b33a4cc807fd788)\n* Register MDX compiler in Storybook plugin (6f1813809608cd36e44af22583805e686c51c5bd)\n* Resolve TypeDoc customCss and customJs files (105687daf682884257a2d40f26967d80ea4abef8)\n* Resolve inline Babel presets/plugins in Jest transform (38e4a4a4a06d902cf55457155f666c3b91e05f28)\n* Mark graphql-codegen generated outputs as entries (125536921f1845eeec1347091b238bb615f329e0)\n* Add Fumadocs plugin (77c2142fcc6ad6fdee651c5dc60a74c158cd8de3)\n* Support next.config.mts in Next.js plugin (0f27e772935bba5eaeca73ee75ce028412c4a1cc)\n* Add script command parser built on unbash (195510c6c912ade9cd7846302d2f9256ede9852c)\n* Gate Bun test entries on an actual bun test invocation (92903ec29bb8b86586e3d7e846236d8c38787ea9)\n* Detect Node.js test runner via script command parser (a0bfe7ba2958a1270604764a9ebf09425ce857d4)\n* Extract shared command walker for bash-parser and plugins (13014753d5031cf1de8081b3d148212a5894dde0)\n* Normalize aliased glob patterns to posix for Win (23b4a744330d0dddd2b1517f2f2d72c9d373a0b9)\n* Resolve inherited tsconfig paths from the extended config's directory (resolve #1866) (e3f0e5c69641bb7dfab06585251c98e3b3def049)\n* Handle var interpolations in shell cmd scripts (resolve #1867) (9422d06adb07fd29a3388ee6b037cda47fe28d1a)\n* Update query snapshot (5e192e996fd680c41674c9503437ee148b0f1870)\n* Add support for Prettier overrides (#1869) (5dc7f1235ff201c461a71f8a757c611441f1607a) - thanks @remcohaszing!\n* Handle Serverless esbuild inject entries (#1865) (46111ef2f42c2ea89a43d8944b5efdcde7db2884) - thanks @jakeleventhal!\n* docs: add links to Discord and Contributing in issue templates (#1868) (5ab3483e30733edc234e9913b3bf4bf05de45470) - thanks @trueberryless!\n* Add eve (Vercel framework) plugin (#1864) (20cd970d2039835dd9bad79ee2e7f3a82cef1b6e) - thanks @jakeleventhal!\n* Add circular dependencies as opt-in `cycles` issue type (resolve #1734) (#1812) (1b0ed6b3906d726b37a89b495fb22331ec2a0fbb)\n* chore(ci): remove redundant tag triggers (#1863) (c61d0086e4e669a8aeee230dc5ac3606832ea893) - thanks @trueberryless!\n* Fix up docs a bit (89a2d8d6ac27ee866a15a8bcf5a49da3cba91b08)",
+    "changelog_url": null,
+    "created_at": "2026-07-07T08:50:06Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "knip__webpro-nl-knip__knip@6.25.0",
+    "kind": "minor",
+    "name": "Release 6.25.0",
+    "package": "knip",
+    "processing_started_at": "2026-07-07T08:59:52Z",
+    "published_at": "2026-07-07T08:43:08Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/webpro-nl/knip/releases/tag/knip%406.25.0",
+    "repo": "webpro-nl/knip",
+    "source": "github_release",
+    "status": "done",
+    "tag": "knip@6.25.0",
+    "version": "6.25.0",
+    "completed_at": "2026-07-07T09:06:02.000Z",
+    "post_path": "src/content/posts/knip-6-25-0.md",
+    "commit_sha": "2bed6d09e254834b48072aae3d47428222dcd99b",
+    "pushed": true
   }
 ]
