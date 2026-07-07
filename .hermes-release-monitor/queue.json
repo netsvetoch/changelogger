@@ -1634,5 +1634,32 @@
     "post_path": "src/content/posts/nub-v0-3-0.md",
     "commit_sha": "f221ee87654a5acd49bfd83cca99d21daa850b7c",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/nubjs/nub/releases/350599531",
+    "body_excerpt": "Framework compatibility fixes for Nuxt and VitePress, plus a change to how nub selects `.env` files.\n\n> [!IMPORTANT]\n> **`NODE_ENV` no longer selects `.env` files.** nub now treats `NODE_ENV` as the application's own dev/prod variable — it never sets it, never reads it to pick env files, and won't let a `.env` file change it. Env-file mode is now driven by `APP_ENV`. To migrate an ambient `NODE_ENV=<mode>` that was selecting `.env.{mode}` files, set `APP_ENV=<mode>` instead. This matches how Vite, varlock, dotenvx, Node, and Deno decoupled env-file mode from `NODE_ENV`.\n\n## Framework compatibility\n\n| Framework | What changed | PR |\n| --- | --- | --- |\n| Nuxt 4 | Optional peers that are present and range-satisfying are now hoisted into ejected closure members under the global virtual store, so `nuxt prepare`/`nuxt dev` resolve `@vue/compiler-sfc` (statically imported by `vue-router`'s `/vite` entry). | [#350](https://github.com/nubjs/nub/pull/350) |\n| VitePress | The store directory is now appended to Vite's `server.fs.allow` instead of being skipped when the list is already set, so VitePress can read linked files from the store. | [#346](https://github.com/nubjs/nub/pull/346) |\n\n## Env-file mode\n\n`.env.{mode}` selection is driven by `APP_ENV`. With it unset, only `.env.local` and `.env` load. The mode value is restricted to `[A-Za-z0-9_.-]`, and `--env-file` (repeatable) still loads specific files explicitly. ([#351](https://github.com/nubjs/nub/pull/351))\n\n## Install\n\n`--lockfile-only` is now exempt from the CI auto-frozen-lockfile default, so `nub install --lockfile-only` updates the lockfile in CI instead of failing as frozen. ([#349](https://github.com/nubjs/nub/pull/349))\n\n---\n\n## What's Changed\n* fix(pm): append store dir to Vite fs.allow instead of skip-if-set (VitePress) by @colinhacks in https://github.com/nubjs/nub/pull/346\n* fix(install): exempt --lockfile-only from the CI auto-frozen default by @colinhacks in https://github.com/nubjs/nub/pull/349\n* fix(pm): hoist satisfied optional peers into ejected closure members (GVS) by @colinhacks in https://github.com/nubjs/nub/pull/350\n* feat(env): select .env mode from --env > APP_ENV, drop NODE_ENV (breaking) by @colinhacks in https://github.com/nubjs/nub/pull/351\n\n\n**Full Changelog**: https://github.com/nubjs/nub/compare/v0.3.1...v0.4.0\n",
+    "changelog_url": null,
+    "created_at": "2026-07-07T22:16:18Z",
+    "existing_post_candidates": [
+      "src/content/posts/minimax-cli-v0-4-0.md"
+    ],
+    "featured": false,
+    "id": "nub__nubjs-nub__v0.4.0",
+    "kind": "minor",
+    "name": "v0.4.0",
+    "package": "nub",
+    "processing_started_at": "2026-07-07T22:18:02Z",
+    "published_at": "2026-07-07T22:04:58Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/nubjs/nub/releases/tag/v0.4.0",
+    "repo": "nubjs/nub",
+    "source": "github_release",
+    "status": "done",
+    "tag": "v0.4.0",
+    "version": "0.4.0",
+    "completed_at": "2026-07-07T22:21:17Z",
+    "post_path": "src/content/posts/nub-v0-4-0.md",
+    "commit_sha": "907fb97c2646ae815ff76abe509fb5925b0356d4",
+    "pushed": true
   }
 ]
