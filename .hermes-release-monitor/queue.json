@@ -1607,5 +1607,32 @@
     "post_path": "src/content/posts/gravity-ui-markdown-editor-v15-43-0.md",
     "commit_sha": "d6c03082cd0b7f6473d9cd4e549a5bdc2c07372e",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/nubjs/nub/releases/350418004",
+    "body_excerpt": "Undeclared (phantom) dependencies now resolve out of the box. nub's isolated install layout used to reject a package's undeclared `require`/`import` of a transitive it didn't list — the strict-but-surprising behavior behind a run of real-world breakages. nub now detects those cases and materializes just the needed closure on install, so the affected projects work without a config change.\n\n> [!IMPORTANT]\n> Phantom-eject is on for every install — no opt-in and no config change. Existing warm installs re-link once on the next install to converge to the new layout; there is no manual migration step.\n\n**Highlights**\n\n- [Phantom dependencies just work](#phantom-dependencies-just-work) — undeclared transitive `require`/`import` resolves out of the box, no config change\n- [Unified nubx](#unified-nubx) — one runner for a file, a script, a local CLI, or a registry package, with a consent-gated fetch that never runs remote code silently\n- [Framework support](#framework-support) — Vite, Parcel, Next.js, Nuxt 4, and more scaffold-and-run out of the box\n- [tsx and ts-node on Node 22 LTS](#runtime) — a script that shells out to `tsx` no longer crashes on Node 22.15–24.11.0\n- [Node auto-provisioning](#node-provisioning) — `nub` runs on a machine with no Node installed\n- [Cleaner install progress](#install-progress) — a smooth spinner and the name of each package as it's fetched replace the bar that looked stuck during linking\n- [The lockfile is now nub.lock](#lockfile) — migrates automatically, and `nub ci` never rewrites a checked-in one\n\n## Phantom dependencies just work\n\n- **Before:** `@inkjs/ui` importing `react`, or `@crawlee/basic` requiring `@apify/datastructures`, failed with `ERR_MODULE_NOT_FOUND` under the isolated layout even though the package installed fine.\n- **Now:** a per-version scanner detects the undeclared use and materializes the ancestor closure that makes it reachable, matching what pnpm's private-hoist fallback does by default. ([#302](https://github.com/nubjs/nub/pull/302), [#319](https://github.com/nubjs/nub/pull/319), [#321](https://github.com/nubjs/nub/pull/321), [#328](https://github.com/nubjs/nub/pull/328); closes [#280](https://github.com/nubjs/nub/issues/280))\n\nThe detector replaces the previous curated static list — it self-maintains across package versions, and a detection improvement re-scans already-cached content instead of going stale. To bypass the virtual store entirely, `install.materialization: disk` materializes every dependency to disk.\n\n## Unified nubx\n\nOne command now runs whatever a name points to. A bare `nubx <name>` resolves through four tiers and runs the first match:\n\n- **File** — `nubx build.ts` runs the file, the same as `nub build.ts`.\n- **Script** — `nubx test` runs the `package.json` script.\n- **Local bin** — `nubx vite` runs the CLI already in `node_modules/.bin`.\n- **Registry** — `nubx create-vite my-app` fetches and runs a package that isn't installed.\n\nScripts beat bins and a file beats both — the same precedence as `nub run`. A local match never touches the network.\n\nThe registry tier is consent-gated, so `nubx` never runs remote code silently. On a full local miss in an interactive terminal, nubx prompts before the first fetch of a spec and remembers the answer, so a consented tool doesn't re-prompt; in CI or any non-interactive context it fails closed. `-y`/`--yes` is the explicit opt-in for CI and scripts.\n\n`nub dlx` (short alias `nub x`) splits off as the explicit downloader — invoking it is the consent, so it fetches without a prompt and runs in CI. `nub exec` stays the local-bin-only runner. ([#224](https://github.com/nubjs/nub/pull/224), [#275](https://github.com/nubjs/nub/pull/275))\n\n## Framework support\n\nScaffold-and-run verified out of the box (install, dev, build, serve) for Vite, Astro, SvelteKit, SolidStart, Qwik, Next.js, React Router 7 / Remix, Angular, Nuxt 4, and Parcel.\n\n- **Vite** dev/build serve correctly under the symlinked layout. ([#318](https://github.com/nu",
+    "changelog_url": null,
+    "created_at": "2026-07-07T16:04:17Z",
+    "existing_post_candidates": [
+      "src/content/posts/servo-v0-3-0.md"
+    ],
+    "featured": false,
+    "id": "nub__nubjs-nub__v0.3.0",
+    "kind": "minor",
+    "name": "v0.3.0",
+    "package": "nub",
+    "processing_started_at": "2026-07-07T16:16:58Z",
+    "published_at": "2026-07-07T15:33:01Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/nubjs/nub/releases/tag/v0.3.0",
+    "repo": "nubjs/nub",
+    "source": "github_release",
+    "status": "done",
+    "tag": "v0.3.0",
+    "version": "0.3.0",
+    "completed_at": "2026-07-07T16:20:46Z",
+    "post_path": "src/content/posts/nub-v0-3-0.md",
+    "commit_sha": "f221ee87654a5acd49bfd83cca99d21daa850b7c",
+    "pushed": true
   }
 ]
