@@ -1661,5 +1661,30 @@
     "post_path": "src/content/posts/nub-v0-4-0.md",
     "commit_sha": "907fb97c2646ae815ff76abe509fb5925b0356d4",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/openai/codex/releases/350650561",
+    "body_excerpt": "## New Features\n\n- Remote plugins are now enabled by default, with richer catalog rows, npm marketplace sources, and visible remote/local versions. (#30297, #26705, #29375, #30981)\n- Codex can route authentication and Responses API traffic through macOS and Windows system proxies, including PAC and WPAD configurations. (#26708, #26709, #31335)\n- Added `codex remote-control pair` for generating manual pairing codes from a running daemon. (#29913)\n- Added Amazon Bedrock GPT-5.6 Sol, Terra, and Luna models, with first-class support for `max` reasoning effort. (#30285, #30467)\n- MCP tools now use tool search by default, and ChatGPT-hosted MCP servers can explicitly use session authentication. (#29486, #29733)\n- App-server clients can inspect environments, list descendant threads, and fork history through a specific turn. (#30291, #29591, #30277)\n\n## Bug Fixes\n\n- Fixed Windows ConPTY input handling for line endings and backspace, plus sandbox credential retry edge cases. (#29734, #29624, #29637)\n- Fixed stale TUI safety prompts and cancelled reviews that could leave MCP startup appearing busy. (#30490, #31189)\n- Improved recovery when exec servers are temporarily offline and prevented remote-control token refresh retry storms. (#30098, #30201)\n- Preserved trailing realtime transcript text and terminal rollout events during shutdown. (#29918, #30144)\n- Improved incremental WebSocket request success by ignoring response metadata during comparisons. (#30770)\n- Reduced installer failures from GitHub API rate limits by reusing release metadata. (#31056)\n\n## Documentation\n\n- Documented UUID7 thread and turn IDs, plus recommended remote-executor integration-test workflows. (#27714, #29790)\n\n## Chores\n\n- Updated OpenSSL, Hono, fast-uri, quick-xml, and crossbeam-epoch to address security advisories. (#29487, #29650, #30941, #31308)\n\n## Changelog\n\nFull Changelog: https://github.com/openai/codex/compare/rust-v0.142.0...rust-v0.143.0\n\n- #26708 PAC 3 - Add Windows system proxy resolver @canvrno-oai\n- #28769 Register full CDP requirements feature @syuan-oai\n- #29485 [codex] fetch featured IDs for remote plugins @ericning-o\n- #29487 Upgrade bundled OpenSSL to 3.6.3 @jif-oai\n- #29489 [codex] Update esbuild to 0.28.1 @pakrym-oai\n- #29488 [plugins] Add dark-mode logo metadata @drewschuster-openai\n- #29249 [codex] migrate environment context to model world state @pakrym-oai\n- #29494 core: wrap token budget window context @bolinfest\n- #29417 [codex] replace remote images with model-visible error text @rka-oai\n- #28360 feat(core): store turn_id on ResponseItem metadata @owenlin0\n- #29486 [codex] Use tool search for MCP tools by default @sayan-oai\n- #29501 path-uri: clarify host-native path conversion @anp-oai\n- #29504 fix: world state response item test @celia-oai\n- #26704 TUI Plugin Sharing 4 - cover remote plugin catalog flows @canvrno-oai\n- #29419 [codex] reject remote images at app-server ingress @rka-oai\n- #28992 chore: improve expired Bedrock credential errors @celia-oai\n- #29467 Make formatter output quiet on success @anp-oai\n- #26709 PAC 4 - Add macOS system proxy resolver @canvrno-oai\n- #29490 chore: warn when Code Mode lacks model metadata @celia-oai\n- #29493 mcp: accept foreign absolute cwd for remote stdio @anp-oai\n- #29473 Propagate safety buffering treatment metadata @fc-oai\n- #24092 [codex] Reject unlowered PowerShell AST regions @bookholt-oai\n- #29155 [codex] Expose service tier and reasoning effort in OTEL @daniel-oai\n- #29068 [codex] stylistic changes @rka-oai\n- #29518 Remove redundant Codex Apps manager flag @aibrahim-oai\n- #27946 [codex] Use input items for Responses Lite tools @rka-oai\n- #29528 Centralize Codex Apps client handling @aibrahim-oai\n- #29577 Handle additional tools in image URL validation @aibrahim-oai\n- #29575 Remove redundant Codex Apps cache guard @aibrahim-oai\n- #29583 Group Codex Apps client setup @aibrahim-oai\n- #29358 Allow codex sandbox to consume MCP sandbox state @jif-oai\n- #29599 Stop persisting bridged log ",
+    "changelog_url": null,
+    "created_at": "2026-07-08T02:24:55Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "codex__openai-codex__rust-v0.143.0",
+    "kind": "minor",
+    "name": "0.143.0",
+    "package": "codex",
+    "processing_started_at": "2026-07-08T02:34:06Z",
+    "published_at": "2026-07-08T01:31:10Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/openai/codex/releases/tag/rust-v0.143.0",
+    "repo": "openai/codex",
+    "source": "github_release",
+    "status": "done",
+    "tag": "rust-v0.143.0",
+    "version": "0.143.0",
+    "completed_at": "2026-07-08T02:43:08.000Z",
+    "post_path": "src/content/posts/codex-rust-v0-143-0.md",
+    "commit_sha": "dfe743400a30edcd75de2c8992696a350487eb24",
+    "pushed": true
   }
 ]
