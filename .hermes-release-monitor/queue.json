@@ -1714,5 +1714,30 @@
     "post_path": "src/content/posts/antigravity-cli-v1-1-0.md",
     "commit_sha": "3c48b02153e012732f75d21117d89c948f36ff40",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/zed-industries/zed/releases/351007748",
+    "body_excerpt": "This week's release includes llama.cpp as a new language model provider, a new `git.inline_blame.location` setting to control where current-line blame is shown (inline or status bar), and disabling format-on-save by default, alongside the move of LLM providers, external agents, and MCP servers into the settings editor, plus a bunch of bug fixes.\r\n\r\n## Features\r\n\r\n### AI\r\n\r\n- Agent: Added setting to exclude project rules files from commit message generation prompts (`agent.commit_message_include_project_rules`). ([#56867](https://github.com/zed-industries/zed/pull/56867); thanks [ilavisharma](https://github.com/ilavisharma))\r\n- Added llama.cpp as a language model provider. ([#59964](https://github.com/zed-industries/zed/pull/59964); thanks [hanouticelina](https://github.com/hanouticelina))\r\n- Agent: Changed the default behavior of queued messages for the Zed agent so that they get send at the end of the generation. The ability to steer them (i.e., send the message at the end of a turn boundary) is still possible to be toggled. ([#59310](https://github.com/zed-industries/zed/pull/59310))\r\n- Improved agent thread summary and title generation to respect compaction boundaries. ([#60141](https://github.com/zed-industries/zed/pull/60141))\r\n- Agent: Made label truncation of configuration options in the agent panel more robust against non-single-byte characters like emojis and others. ([#59898](https://github.com/zed-industries/zed/pull/59898); thanks [damonxue](https://github.com/damonxue))\r\n- Made `Esc` dismiss agent notifications. ([#60001](https://github.com/zed-industries/zed/pull/60001))\r\n- Agent: Remove \"New from summary\" menu item from agent panel dropdown. You can still @mention the thread in a new one, or run /compact. ([#60145](https://github.com/zed-industries/zed/pull/60145))\r\n- OpenAI-compatible: added support for `max` reasoning levels ([#59806](https://github.com/zed-industries/zed/pull/59806); thanks [Vlaaaaaaad](https://github.com/Vlaaaaaaad))\r\n- OpenCode: added support for `max` reasoning levels ([#59806](https://github.com/zed-industries/zed/pull/59806); thanks [Vlaaaaaaad](https://github.com/Vlaaaaaaad))\r\n\r\n### Git\r\n\r\n- Added a `git.inline_blame.location` setting to render current-line git blame in the status bar instead of inline. ([#59696](https://github.com/zed-industries/zed/pull/59696); thanks [Koshkaj](https://github.com/Koshkaj))\r\n- Git: Improved performance by not allowing multiple remote Git operation to start at the same time. ([#59874](https://github.com/zed-industries/zed/pull/59874); thanks [cppcoffee](https://github.com/cppcoffee))\r\n- Improved line number colors in diff hunks to match the version control colors. ([#59973](https://github.com/zed-industries/zed/pull/59973))\r\n- Improved solo diff controls by showing the relevant file staging action and hiding inactive fold toggles in split diffs. ([#59752](https://github.com/zed-industries/zed/pull/59752); thanks [chirivelli](https://github.com/chirivelli))\r\n- Improved solo diff view to show changed hunks by default with a toggle for viewing the full file. ([#59958](https://github.com/zed-industries/zed/pull/59958); thanks [chirivelli](https://github.com/chirivelli))\r\n\r\n### Languages\r\n\r\n- Go: Add support for highlighting builtin types and functions. ([#59780](https://github.com/zed-industries/zed/pull/59780); thanks\r\n  [sollniss](https://github.com/sollniss))\r\n- Improved semantic highlighting for Python constants when using the `ty` language server. ([#59811](https://github.com/zed-industries/zed/pull/59811); thanks [lingyaochu](https://github.com/lingyaochu))\r\n- Support dynamic registration of the `textDocument/semanticTokens` capability. ([#60015](https://github.com/zed-industries/zed/pull/60015); thanks [tatsudo](https://github.com/tatsudo))\r\n- Update bundled tsconfig.json and package.json schemas. ([#58948](https://github.com/zed-industries/zed/pull/58948); thanks [notpeter](https://github.com/notpeter))\r\n\r\n### Vim / Helix\r\n\r\n- Added Helix's `z c` ke",
+    "changelog_url": null,
+    "created_at": "2026-07-08T16:52:43Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "zed__zed-industries-zed__v1.10.0",
+    "kind": "minor",
+    "name": "v1.10.0",
+    "package": "zed",
+    "processing_started_at": "2026-07-08T17:06:17Z",
+    "published_at": "2026-07-08T16:12:33Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/zed-industries/zed/releases/tag/v1.10.0",
+    "repo": "zed-industries/zed",
+    "source": "github_release",
+    "status": "done",
+    "tag": "v1.10.0",
+    "version": "1.10.0",
+    "completed_at": "2026-07-08T17:10:12Z",
+    "post_path": "src/content/posts/zed-v1-10-0.md",
+    "commit_sha": "5fa2b10ce4a60a2379eea96fea2f923d26b81912",
+    "pushed": true
   }
 ]
