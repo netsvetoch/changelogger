@@ -1817,5 +1817,31 @@
     "post_path": "src/content/posts/openai-codex-rust-v0-144-0.md",
     "commit_sha": "70932666705726184d19b2569f4645387baba93d",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/webpro-nl/knip/releases/352009142",
+    "body_excerpt": "* ci: add path filters (#1871) (4249935adffe1b8eca9570fb325fa19cc8010584) - thanks @trueberryless!\n* Add CodeRabbit as gold sponsor (1da09fdc8f4d851f3cad30659200018bfb47a5e0)\n* Fix up docs a bit more (39125a7f473e006f61629781bff1ac4a050ca460)\n* Don't report ambient declaration files as unused (aed361c00a82829c2fc80a65a2f7af174316782e)\n* Register oclif command files as entries (3b4d58c9da83d93b6821a2b24f57b919ba886756)\n* Add electron-vite plugin (d92107ea504833b3ee7ad2b695e22d40528b24c3)\n* Add esbuild plugin (ef3b601d957546554de2cb1fbff859f5bdafb741)\n* Ignore more globally available binaries (829298129fdfd1b41a1f8dff5022b9fbbe25f454)\n* Resolve `#`-imports to source when node condition is unbuilt (resolve #1873) (f2713ed1e499ab286b86615d4b8ec34f711d1bd2)\n* Ignore gh as a globally available binary (a6f0772e5db03a8412a3ac036756779f22d1a27d)\n* Resolve Vitest benchmark files as entries (57429139f7e93f2a4bee35a53d450c4f45dea9ff)\n* Extract shared Vue auto-import machinery into plugins/_vue (73010753d432ae58eb12c7eec9c5723036009749)\n* Scope compiler extensions per workspace (5e6f82b963a83e5801484efbc01a4b6a9ce39ea3)\n* Resolve auto-imported components in the Vue SFC compiler (009aad8f9dab589898e5dba4c85fa41ea57c1a49)\n* Add plugins for the Vue auto-import ecosystem (f638c8302cdd26a63e477344a7cf44ef60af7788)\n* Enable Vue SFC compiler on unplugin-vue and @vitejs/plugin-vue (9396ab159919147ef81dad16e365e531b32b4b12)\n* Recognize vite-plugin-vue-meta-layouts (same layouts convention) (3ceee89228b0173eddc0466bf50e8181286ffebc)\n* Add vite-plugin-pages and unplugin-icons plugins (9bc17540bcf8eb142474ed84837c1e2cebb7fe73)\n* Add vite-plugin-pwa and @intlify/unplugin-vue-i18n plugins (45dea0a397ed754c34617ed18deef4dc6f0ec0d4)\n* Dog, food. (e1249ade2558d3801d85e2dc63349d884f3443d4)\n* Update query snapshot (a45941d2db381c04f8a38416533217ee84f77ca7)\n* Don't misread Nitro route types as Vue component auto-imports (43aecd5414eb63bec3637f37ffac0c62a71e7e74)\n* Read oxlint jsPlugins from vite-plus vite.config and .oxlintrc.json (589ffda4e3a7d0c0d772191ad6f8d6e60dd298cf)\n* Add vite-plus plugin for run.tasks and staged scripts (f041c191e4e10dd181ad212b71079e3e10bcf341)\n* Support @vite-pwa/nuxt PWA config in nuxt.config (8fa7b116690e37484798ad98eca002d26c0c80fe)\n* Add @vite-pwa/assets-generator plugin (4254f7d53a284a4ea4612f650ae03495bcb0d582)\n* Add @nuxtjs/i18n plugin (dfb9acbe5a08ebc85562f59a04e7f4bedb4925f1)\n* Read plugin entries from vite.config options and index.html (d533da8cc2b431d206eb7c55323ea51846eca0bb)\n* Fix false positives in VitePress, next-mdx and unplugin-vue-i18n plugins (b99702a76e26b1943a16517f1633de3a0713c196)\n* Respect optional peers in pnpm and Yarn packageExtensions (aab080bbd436494316df045011ab22cbebca06b4)\n* Detect babel plugins in the Storybook config (5dea975adf9b88971ad56434132282a099c7d58c)\n* Add shared AST helpers for imported calls and first property values (c84bb7a87a17f1921c12bb02bcfd43f905cae595)\n* Inline trivial resolveFromAST wrappers and normalize orval and sst (620079d1d07b69a69bbb67b6a6e68963b6c2fc21)\n* Extract inline resolveFromAST implementations to dedicated files (b5231c12f915428067d790187d2dd4c44e2559d4)\n* Normalize resolveFromAST files to a uniform contract (fc1ba0fb45aaf623de678a57bea3b5567ea04750)\n* chore: migrate to Astro 7 and Sätteri (#1875) (f256a5b276c3d69dd5081c591bbb183aacebf766) - thanks @trueberryless!\n* Show contributor count on docs homepage (6b8454a2841905ce7f08e1a23b54bc17a0854608)\n* Exclude gitignored package entry points (606e5d051b4f0620c776aa23352153b8253bd75b)\n* Add Tauri plugin (199180da79c71acc80865dc65ce89653a26d9579)\n* Add Laravel plugin (197453378f2b60e5143a30ec78b438f02b37c53b)\n* Add Quasar plugin (a220729074bfbb9e7d03ba329e89ad553c3a7799)",
+    "changelog_url": null,
+    "created_at": "2026-07-10T10:13:02Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "knip__webpro-nl-knip__knip@6.26.0",
+    "kind": "minor",
+    "name": "Release 6.26.0",
+    "package": "knip",
+    "processing_started_at": "2026-07-13T09:35:42Z",
+    "published_at": "2026-07-10T09:42:29Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/webpro-nl/knip/releases/tag/knip%406.26.0",
+    "repo": "webpro-nl/knip",
+    "retry_requested_at": "2026-07-13T00:00:00Z",
+    "source": "github_release",
+    "status": "done",
+    "tag": "knip@6.26.0",
+    "version": "6.26.0",
+    "completed_at": "2026-07-13T09:39:24+00:00",
+    "post_path": "src/content/posts/knip-6-26-0.md",
+    "commit_sha": "141a42eb617e1494f86b5a2e384591862f3329ce",
+    "pushed": true
   }
 ]
