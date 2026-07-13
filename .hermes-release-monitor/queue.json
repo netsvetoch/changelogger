@@ -1739,5 +1739,31 @@
     "post_path": "src/content/posts/zed-v1-10-0.md",
     "commit_sha": "5fa2b10ce4a60a2379eea96fea2f923d26b81912",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/gravity-ui/aikit/releases/351409779",
+    "body_excerpt": "## [2.10.0](https://github.com/gravity-ui/aikit/compare/v2.9.3...v2.10.0) (2026-07-09)\n\n\n### Features\n\n* **PromptInputWithSuggestions:** use wrapText on the Suggestions ([#205](https://github.com/gravity-ui/aikit/issues/205)) ([ae785cd](https://github.com/gravity-ui/aikit/commit/ae785cd6c6ccd8f2337de3a04525e661c4d89264))",
+    "changelog_url": null,
+    "created_at": "2026-07-09T09:25:09Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "@gravity-ui-aikit__gravity-ui-aikit__v2.10.0",
+    "kind": "minor",
+    "name": "v2.10.0",
+    "package": "@gravity-ui/aikit",
+    "processing_started_at": "2026-07-13T09:24:22Z",
+    "published_at": "2026-07-09T08:36:34Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/gravity-ui/aikit/releases/tag/v2.10.0",
+    "repo": "gravity-ui/aikit",
+    "retry_requested_at": "2026-07-13T00:00:00Z",
+    "source": "github_release",
+    "status": "done",
+    "tag": "v2.10.0",
+    "version": "2.10.0",
+    "completed_at": "2026-07-13T09:27:20.000Z",
+    "post_path": "src/content/posts/gravity-ui-aikit-v2-10-0.md",
+    "commit_sha": "1b9c6ebcff24e4687d39d6b6f077830088135b3d",
+    "pushed": true
   }
 ]
