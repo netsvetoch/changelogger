@@ -1843,5 +1843,31 @@
     "post_path": "src/content/posts/knip-6-26-0.md",
     "commit_sha": "141a42eb617e1494f86b5a2e384591862f3329ce",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/eslint/eslint/releases/352337805",
+    "body_excerpt": "## Features\n* [`cf2a9bf`](https://github.com/eslint/eslint/commit/cf2a9bf2d982642f760370c15f1196f4658f4e27) feat: add errorClassNames option to preserve-caught-error rule (#21032) (sethamus)\n* [`f8b873a`](https://github.com/eslint/eslint/commit/f8b873aae53610b80b5c1005606716e05ed3b91f) feat: max-nested-callbacks option for constructor callbacks (#21063) (fnx)\n* [`557fde8`](https://github.com/eslint/eslint/commit/557fde8bc633d26ea4fe287d4483f287e8e6080f) feat: support computed `Number.parseInt` member access in `radix` rule (#21041) (Pixel)\n* [`0b4a73b`](https://github.com/eslint/eslint/commit/0b4a73b65808f5a8fd192f15db2bf5e47002b9f7) feat: add suggestions to no-compare-neg-zero (#21034) (den$)\n* [`96cdd42`](https://github.com/eslint/eslint/commit/96cdd427db5f26c6403fba92b0f7ae4556c595ec) feat: report invalid signed numeric radix values in `radix` rule (#21030) (Pixel)\n\n## Bug Fixes\n* [`3e7bf15`](https://github.com/eslint/eslint/commit/3e7bf15e69e6d3a2c8832356bcc2e9903cc4eede) fix: apply `ignoreClassesWithImplements` to class expressions (#21069) (Pixel)\n* [`0d7d70c`](https://github.com/eslint/eslint/commit/0d7d70cf013ec5bf1e4f5a0fcf7128bdf059b2d4) fix: insert cause outside wrapping parens in preserve-caught-error (#21062) (Mahin Anowar)\n* [`75ec753`](https://github.com/eslint/eslint/commit/75ec753226010867270787b412f3dae412e421e6) fix: handle static template literals in `eqeqeq` rule (#21058) (Pixel)\n* [`b717a22`](https://github.com/eslint/eslint/commit/b717a22e2408389a2ad40af66543e46390669eb6) fix: prevent `eqeqeq` null option from reporting non-equality operators (#21057) (Pixel)\n* [`e35b05f`](https://github.com/eslint/eslint/commit/e35b05f1961dcd691611bd68b6ff8a87072d6f76) fix: avoid `no-invalid-regexp` false positive for shadowed RegExp (#21051) (Pixel)\n* [`a3172b6`](https://github.com/eslint/eslint/commit/a3172b69c7db63ea0321355543e3f527c7d8b76a) fix: avoid `no-control-regex` false positive for shadowed RegExp (#21050) (Pixel)\n* [`d1f637e`](https://github.com/eslint/eslint/commit/d1f637eca27e523d613991c6bea5b8726b810e4c) fix: parenthesize sequence expression operands in no-implicit-coercion (#21045) (spokodev)\n* [`8859baf`](https://github.com/eslint/eslint/commit/8859bafb018e2b23b5110d52e491b69b94ad890a) fix: avoid prefer-numeric-literals false positive for shadowed globals (#21047) (한국)\n* [`a9e5961`](https://github.com/eslint/eslint/commit/a9e5961050676ef29dba9649dfcd7233d21760c7) fix: use-isnan false positive on shadowed NaN/Number (#20958) (sethamus)\n* [`8a240a7`](https://github.com/eslint/eslint/commit/8a240a76108f30f2476e61a925e4d32d378cce5e) fix: avoid false positives in `radix` rule for spread arguments (#21044) (Pixel)\n\n## Documentation\n* [`c30d808`](https://github.com/eslint/eslint/commit/c30d80801ca561bdf65c6c3eba4ee57dced278cf) docs: Update README (GitHub Actions Bot)\n* [`5139800`](https://github.com/eslint/eslint/commit/5139800b23e77fdd1a76664e1b36f478942eae55) docs: document ESLint migration codemods in v9 and v10 guides (#20980) (Alex Bit)\n* [`04174cb`](https://github.com/eslint/eslint/commit/04174cbfaac1f9555400b5332d69056e6aab9cc6) docs: Update README (GitHub Actions Bot)\n* [`026e130`](https://github.com/eslint/eslint/commit/026e1304080512bcddfd2af3557fff86474ff949) docs: update semver policy for bug fixes (#21048) (Milos Djermanovic)\n* [`9d42fef`](https://github.com/eslint/eslint/commit/9d42fefb0e05ecd0b256c2ebed479fc868862f0c) docs: Update README (GitHub Actions Bot)\n* [`b230159`](https://github.com/eslint/eslint/commit/b23015955c8d6e6516076190730f538c86927f26) docs: Update README (GitHub Actions Bot)\n* [`0129972`](https://github.com/eslint/eslint/commit/0129972ba122e95bece6040fda44d20f6799246a) docs: correct `**/.js` glob to `**/*.js` in config files guide (#21036) (EduardF1)\n\n## Chores\n* [`9489379`](https://github.com/eslint/eslint/commit/948937986f2aa3cccb27a4c80694a85e5b0a5f64) chore: update dependency @eslint/eslintrc to ^3.3.6 (#21076) (renovate[bot])\n* [`81a4774`](https://github.com/eslint/eslint/",
+    "changelog_url": null,
+    "created_at": "2026-07-10T21:35:04Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "eslint__eslint-eslint__v10.7.0",
+    "kind": "minor",
+    "name": "v10.7.0",
+    "package": "eslint",
+    "processing_started_at": "2026-07-13T09:40:10Z",
+    "published_at": "2026-07-10T21:22:56Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/eslint/eslint/releases/tag/v10.7.0",
+    "repo": "eslint/eslint",
+    "retry_requested_at": "2026-07-13T00:00:00Z",
+    "source": "github_release",
+    "status": "done",
+    "tag": "v10.7.0",
+    "version": "10.7.0",
+    "completed_at": "2026-07-13T09:43:21.000Z",
+    "post_path": "src/content/posts/eslint-v10-7-0.md",
+    "commit_sha": "3a1931112cfc0ff7134f4da2d50f3257357be54a",
+    "pushed": true
   }
 ]
