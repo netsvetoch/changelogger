@@ -1765,5 +1765,31 @@
     "post_path": "src/content/posts/gravity-ui-aikit-v2-10-0.md",
     "commit_sha": "1b9c6ebcff24e4687d39d6b6f077830088135b3d",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/gravity-ui/aikit/releases/351514148",
+    "body_excerpt": "## [2.11.0](https://github.com/gravity-ui/aikit/compare/v2.10.0...v2.11.0) (2026-07-09)\n\n\n### Features\n\n* open markdown links in new tab ([#200](https://github.com/gravity-ui/aikit/issues/200)) ([ae2068c](https://github.com/gravity-ui/aikit/commit/ae2068c7c82b5e16f93e42ac50afdbe6d0abfabe))",
+    "changelog_url": null,
+    "created_at": "2026-07-09T12:31:09Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "@gravity-ui-aikit__gravity-ui-aikit__v2.11.0",
+    "kind": "minor",
+    "name": "v2.11.0",
+    "package": "@gravity-ui/aikit",
+    "processing_started_at": "2026-07-13T09:28:02Z",
+    "published_at": "2026-07-09T12:19:10Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/gravity-ui/aikit/releases/tag/v2.11.0",
+    "repo": "gravity-ui/aikit",
+    "retry_requested_at": "2026-07-13T00:00:00Z",
+    "source": "github_release",
+    "status": "done",
+    "tag": "v2.11.0",
+    "version": "2.11.0",
+    "completed_at": "2026-07-13T09:30:30Z",
+    "post_path": "src/content/posts/gravity-ui-aikit-v2-11-0.md",
+    "commit_sha": "a7181820505a1e5fe570cce71b9ef9d571f84e43",
+    "pushed": true
   }
 ]
