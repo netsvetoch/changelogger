@@ -2032,5 +2032,30 @@
     "post_path": "src/content/posts/oxlint-oxfmt-apps-v1-74-0.md",
     "commit_sha": "155ce49af1872205140d6a13262b066c056ccea5",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/gravity-ui/components/releases/353756320",
+    "body_excerpt": "## [4.23.0](https://github.com/gravity-ui/components/compare/v4.22.0...v4.23.0) (2026-07-13)\n\n\n### Features\n\n* **Gallery:** add inline view and controlled active item index ([#397](https://github.com/gravity-ui/components/issues/397)) ([2a04394](https://github.com/gravity-ui/components/commit/2a04394136c0f73f92f8ecaacab0a72d3d3b5a4a))\n* **TokenizedInput:** added prop size for tokenized input ([#398](https://github.com/gravity-ui/components/issues/398)) ([7dc8458](https://github.com/gravity-ui/components/commit/7dc84583210d5b8f3c928106297254b0e0cd8d6e))",
+    "changelog_url": null,
+    "created_at": "2026-07-14T12:23:47Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "@gravity-ui-components__gravity-ui-components__v4.23.0",
+    "kind": "minor",
+    "name": "v4.23.0",
+    "package": "@gravity-ui/components",
+    "processing_started_at": "2026-07-14T12:36:20Z",
+    "published_at": "2026-07-14T11:41:04Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/gravity-ui/components/releases/tag/v4.23.0",
+    "repo": "gravity-ui/components",
+    "source": "github_release",
+    "status": "done",
+    "tag": "v4.23.0",
+    "version": "4.23.0",
+    "completed_at": "2026-07-14T12:38:40.000Z",
+    "post_path": "src/content/posts/gravity-ui-components-v4-23-0.md",
+    "commit_sha": "8976ff4bbf63be4677293bc0cb300b401b8f1bc7",
+    "pushed": true
   }
 ]
