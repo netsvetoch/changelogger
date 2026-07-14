@@ -2007,5 +2007,30 @@
     "post_path": "src/content/posts/gravity-ui-uikit-v7-45-0.md",
     "commit_sha": "bcfa2e4edac39c31e7dad261ea918823fee321f1",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/oxc-project/oxc/releases/353636830",
+    "body_excerpt": "## Table of Contents\n\n- [Oxlint v1.74.0](#oxlint-v1.74.0)\n- [Oxfmt v0.59.0](#oxfmt-v0.59.0)\n\n## Oxlint v1.74.0\n### 🚀 Features\n\n- 0433a83 linter/eslint/no-inner-declarations: Add `namespaces` option (#24044) (Boshen)\n- 92f154a oxlint,oxfmt: Auto-discover `.mts` config files (#24357) (camc314)\n- 8c1d74b linter/import/no-duplicates: Add autofix logic (#24273) (Cole Ellison)\n\n### 🐛 Bug Fixes\n\n- ac7176d linter/import/no-duplicates: Avoid duplicate commas when merging imports (#24467) (camc314)\n- 261aa39 linter/import/no-duplicates: Preserve type modifiers when merging imports (#24466) (camc314)\n- dbd08b6 linter/unicorn/prefer-string-raw: Skip fix for `TSPropertySignature` keys (#24465) (camc314)\n- df67932 linter: Skip suppression validation with `--type-check-only` (#24462) (Stephen Zhou)\n- 0b086de linter/jest/prefer-lowercase-title: False positive when `lowercaseFirstCharacterOnly` is false (#24414) (Connor Shea)\n- 097cb95 linter: Allow `vite-plus/test` and `@effect as Vitest source (#24196) (Liang)\n- 8337835 linter: Error on `ignorePatterns` that cannot match files aoutside the config directory (#24341) (leaysgur)\n- 9ba30e5 linter/oxc/bad-replace-all-arg: Add note to enhance diagnostic (#24346) (camc314)\n- 2ce5a33 linter: Resolve `ignorePatterns` relative to the config dir (#24339) (leaysgur)\n- ab90eed linter/eslint/no-loop-func: Do not error on catch variables (#24316) (Chris Opperwall)\n- b67f0a6 linter/eslint/no-unused-vars: Count default parameter updates as usage (#24323) (camc314)\n- d193f8e linter: Detect Junie agent env vars (#24277) (Jeevan Mohan Pawar)\n- 2aecf60 linter/eslint/no-unreachable: Handle `break` in switch stmts correctly (#24260) (camc314)\n\n### ⚡ Performance\n\n- 2efa2f9 linter/react/jsx-handler-names: Simplify JSX handler name normalization (#24458) (camc314)\n- 9c4e24a linter/eslint/object-shorthand: Remove constructor regex (#24457) (camc314)\n- 7f80cac linter/vue/prop-name-casing: Precompile `ignoreProps` regex pattern (#24413) (connorshea)\n- 6272051 linter/typescript/no-require-imports: Compile allow patterns once (#24417) (connorshea)\n- fb1edf1 linter: Compute comment fix span only for directive comments (#24419) (connorshea)\n- 33805b9 linter/jsdoc/require-param: Compile checkTypesPattern regex once (#24420) (connorshea)\n- 8de6fca linter/jest/valid-title: Compile disallowedWords regex once (#24412) (Connor Shea)\n- 4a0d8dc linter/eslint/no-underscore-dangle: Avoid String clone per identifier (#24371) (Ian Macalinao)\n- f3ab04c linter/typescript/consistent-type-imports: Remove redundant Vec per violation (#24370) (Ian Macalinao)\n- 4d2d78d linter/typescript/prefer-ts-expect-error: Avoid String clone per comment (#24369) (Ian Macalinao)\n\n## Oxfmt v0.59.0\n### 🚀 Features\n\n- 3a7fe74 formatter_css: Update oxc-css-parser to 0.0.7 (#24434) (leaysgur)\n- 0173cd3 formatter_css: Format Less :extend and merge props (#24358) (leaysgur)\n- 92f154a oxlint,oxfmt: Auto-discover `.mts` config files (#24357) (camc314)\n- df250df formatter: Support `quoteProps` for TS enum and methods (#24309) (leaysgur)\n- a9a5cd6 formatter_core: Expose `SourceText::as_str()` (#24281) (leaysgur)\n\n### 🐛 Bug Fixes\n\n- 95262b9 formatter_css: Keep more value comments before comma (#24487) (leaysgur)\n- cd53d98 formatter_css: Keep value comments before comma (#24484) (leaysgur)\n- 27f57d8 formatter: Type alias comment idempotency (#24483) (leaysgur)\n- b7b82e0 formatter: Suppressed trailing semi (#24482) (leaysgur)\n- 162bddf formatter: Add required parens for conditional type in type parameter constraint (#24450) (leaysgur)\n- 2d22a91 formatter: Determine type cast target from span instead of lexical scan (#24447) (leaysgur)\n- 25306e9 formatter: Do not add extra parens with type cast comment (#24444) (leaysgur)\n- bd6edfe formatter: Break arrow signature that exactly fills the line when cond body may hug (#24440) (leaysgur)\n- a99ef41 formatter: Keep quotes on method signature named new (#24432) (leaysgur)\n- fcc28df formatter_css: Keep glued-braket-value tight (#",
+    "changelog_url": null,
+    "created_at": "2026-07-14T08:16:31Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "oxlint-oxfmt__oxc-project-oxc__apps_v1.74.0",
+    "kind": "minor",
+    "name": "oxlint v1.74.0 & oxfmt v0.59.0",
+    "package": "oxlint + oxfmt",
+    "processing_started_at": "2026-07-14T08:20:17Z",
+    "published_at": "2026-07-14T07:46:21Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/oxc-project/oxc/releases/tag/apps_v1.74.0",
+    "repo": "oxc-project/oxc",
+    "source": "github_release",
+    "status": "done",
+    "tag": "apps_v1.74.0",
+    "version": "1.74.0",
+    "completed_at": "2026-07-14T08:24:23.000Z",
+    "post_path": "src/content/posts/oxlint-oxfmt-apps-v1-74-0.md",
+    "commit_sha": "155ce49af1872205140d6a13262b066c056ccea5",
+    "pushed": true
   }
 ]
