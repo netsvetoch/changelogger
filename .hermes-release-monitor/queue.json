@@ -2057,5 +2057,30 @@
     "post_path": "src/content/posts/gravity-ui-components-v4-23-0.md",
     "commit_sha": "8976ff4bbf63be4677293bc0cb300b401b8f1bc7",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/anomalyco/opencode/releases/354044580",
+    "body_excerpt": "## Desktop\n\n### Improvements\n\n- Completed the Desktop v2 migration, including upgrade handling for the new layout and first-launch onboarding.\n- Added a setting to switch between the new and old Desktop layouts during the transition period.\n\n### Bugfixes\n\n- Fixed file views using the wrong background in the v2 layout.\n- Fixed connected project picker positioning when its anchor is still loading.\n- Kept permission auto-accept state separate for each server.\n- Fixed a project picker positioning crash.\n- Kept terminal tab rename focused while editing.\n- Enabled remote sessions to auto-accept permissions correctly.\n- Fixed terminal tabs stealing focus when they mount.\n- Loaded more timeline history at once to reduce repeated backfill while scrolling.\n- Resynced the timeline correctly after reconnecting.\n- Preserved the composer caret after request updates.\n- Reduced Home cold-load time substantially.\n- Preserved timeline bottom anchoring more reliably.\n- Clarified status indicator severity.\n",
+    "changelog_url": null,
+    "created_at": "2026-07-14T20:40:23Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "opencode__anomalyco-opencode__v1.18.0",
+    "kind": "minor",
+    "name": "v1.18.0",
+    "package": "opencode",
+    "processing_started_at": "2026-07-14T20:52:26Z",
+    "published_at": "2026-07-14T20:29:48Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/anomalyco/opencode/releases/tag/v1.18.0",
+    "repo": "anomalyco/opencode",
+    "source": "github_release",
+    "status": "done",
+    "tag": "v1.18.0",
+    "version": "1.18.0",
+    "completed_at": "2026-07-14T20:55:59.000Z",
+    "post_path": "src/content/posts/opencode-v1-18-0.md",
+    "commit_sha": "fb471cfcadc827da58374e0f167a5ecca8e83673",
+    "pushed": true
   }
 ]
