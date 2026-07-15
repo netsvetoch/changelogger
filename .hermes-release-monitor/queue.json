@@ -2107,5 +2107,30 @@
     "post_path": "src/content/posts/knip-6-27-0.md",
     "commit_sha": "4649f52e484fe250d4b2987340eec988f0da9626",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/gravity-ui/navigation/releases/354536554",
+    "body_excerpt": "## [6.3.0](https://github.com/gravity-ui/navigation/compare/v6.2.0...v6.3.0) (2026-07-15)\n\n\n### Features\n\n* improve agent docs ([#653](https://github.com/gravity-ui/navigation/issues/653)) ([f03fdfd](https://github.com/gravity-ui/navigation/commit/f03fdfd2e2d48918d23caa16e28c5d85b20b7fe2))",
+    "changelog_url": null,
+    "created_at": "2026-07-15T16:18:23Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "@gravity-ui-navigation__gravity-ui-navigation__v6.3.0",
+    "kind": "minor",
+    "name": "v6.3.0",
+    "package": "@gravity-ui/navigation",
+    "processing_started_at": "2026-07-15T16:24:46Z",
+    "published_at": "2026-07-15T15:29:53Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/gravity-ui/navigation/releases/tag/v6.3.0",
+    "repo": "gravity-ui/navigation",
+    "source": "github_release",
+    "status": "done",
+    "tag": "v6.3.0",
+    "version": "6.3.0",
+    "completed_at": "2026-07-15T16:27:42Z",
+    "post_path": "src/content/posts/gravity-ui-navigation-v6-3-0.md",
+    "commit_sha": "c79dd997e2bbf1668b1203d6efe206b616fb3ae8",
+    "pushed": true
   }
 ]
