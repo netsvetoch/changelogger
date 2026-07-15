@@ -2082,5 +2082,30 @@
     "post_path": "src/content/posts/opencode-v1-18-0.md",
     "commit_sha": "fb471cfcadc827da58374e0f167a5ecca8e83673",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/webpro-nl/knip/releases/354517764",
+    "body_excerpt": "* Add Temporal plugin (98191a04aad0572bead191b101bfecef75067b0c)\n* Handle -d alias for react-email dir argument (53d1fec3213db8d6a84dfa7a82050b122782e065)\n* Expand pnpm script references with forwarded arguments (33e9799df39450033061b9c4c07daf22f5d15721)\n* Treat path-shaped script tokens as file references, extend known global binaries (d9508c282ab81351beda4b2f859435b49f142c51)\n* Mark tsdown neverBundle dependencies as referenced (5fd863ba12e68842f91ab1a94e7e30d1e571da92)\n* Support TanStack Start in tanstack-router plugin (bd63cd8af88dac03a98aa17f1add322f7bdf4a94)\n* Mark vite ssr.external dependencies as referenced (91de938032062cb667bced0eadef9e67d1e20b1f)\n* Expand bun, npm, and yarn script references with forwarded arguments (b5a31767a83e2cec3fb20c3b146d94c0412a4fd6)\n* Add Latitude as sponsor (42676759cad5fb10ac96fd7c0457037e906f4b68)\n* Regenerate plugin list in docs (1d2cdffb4d4151f848c44e066eff43e9efbf44fe)\n* Support Vue 2 template auto-imports (close #1881) (2157f3913f77216d268b2255899b6fc58609f9bb)\n* Ignore block-commented stylesheet imports (resolve #1880, close #1882) (a627f53221547d5397d70722fcc2fd723889e579)\n* Support TypeScript 5.0 narrowing for ssr.external (989292f79b9d19028bfc7ba988b74ba691041a45)\n* Resolve local binaries from bun run (5e9a7f0286e2c2175bb299c514cc7b67a7cf24f1)\n* Support Vitest inline project config extensions (f682327f6181f44e3924715efa7404aa39e532f0)\n* Resolve package names from aliased node_modules paths (c273d5fbc1b0d3eaf27b38c3f31d3a2a4b6b184a)\n* Support Tailwind CSS URL imports (57a4770447cc4c8f9ea4ffb9171c0c92eed4f255)\n* Resolve unbuilt workspace package exports (close #1877) (1b0a2c0ee784db165c7f92fe10397a6cb513c1cf)\n* Skip unresolved imports of gitignored generated files (605c9049f73838beb1c6fee83c6a5421ae1a6d07)\n* Attribute imports of aliased packages to the declared dependency (d05e775c9a3a5676dc9eadcc1093f7d9983efd06)\n* Flag unresolvable imports of transitive peer deps as unlisted (resolve #1883) (18f0bff4ea683837f75ca744d3fbde52df49b297)\n* Don't count ambient module declarations in script files as imports (e52aecfd7c022cbe72b1c11dde3f4968579ac409)\n* Update rolldown snapshot (a63e92788239062682603a5727ede371db7845c8)\n* Remove obsolete workarounds from ecosystem tests (a521cf790d726c18e644e2e316cdc09eb654f607)\n* Handle snapshotSerializers in Vitest plugin (resolve #1884) (b597de951f6f0e897afdbbbb8a7d0c06c8d2437d)\n* Set the stage (c059c2be5803609924b852c2bf0cd90906a6a831)",
+    "changelog_url": null,
+    "created_at": "2026-07-15T15:15:58Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "knip__webpro-nl-knip__knip@6.27.0",
+    "kind": "minor",
+    "name": "Release 6.27.0",
+    "package": "knip",
+    "processing_started_at": "2026-07-15T15:23:45Z",
+    "published_at": "2026-07-15T14:59:05Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/webpro-nl/knip/releases/tag/knip%406.27.0",
+    "repo": "webpro-nl/knip",
+    "source": "github_release",
+    "status": "done",
+    "tag": "knip@6.27.0",
+    "version": "6.27.0",
+    "completed_at": "2026-07-15T15:27:47Z",
+    "post_path": "src/content/posts/knip-6-27-0.md",
+    "commit_sha": "4649f52e484fe250d4b2987340eec988f0da9626",
+    "pushed": true
   }
 ]
