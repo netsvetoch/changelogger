@@ -2163,5 +2163,30 @@
     "post_path": "src/content/posts/kimi-cli-1-49-0.md",
     "commit_sha": "af73c5e21efad1ee402ab5731a519c3739ac3c03",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/withastro/astro/releases/355067706",
+    "body_excerpt": "### Minor Changes\n\n-   [#17302](https://github.com/withastro/astro/pull/17302) [`5f4dc03`](https://github.com/withastro/astro/commit/5f4dc0356f2c2ecf98fa88a257908c9226fac9f1) Thanks [@astrobot-houston](https://github.com/astrobot-houston)! - Adds a new `deferRender` option to the `glob()` content loader\n\n    When set to `true`, renderable entries (such as Markdown) are not rendered during content sync. Instead, rendering is deferred until the entry is actually rendered in a page, using the same on-demand path that `.mdx` files already use.\n\n    This reduces memory usage during `astro build` for large collections whose rendered output is much larger than the source — for example, Markdown that uses heavy rehype plugins like `rehype-katex`. Such builds could previously run out of memory while storing the eagerly-rendered HTML for every entry.\n\n    ```js\n    // src/content.config.ts\n    import { defineCollection } from 'astro:content';\n    import { glob } from 'astro/loaders';\n\n    const docs = defineCollection({\n      loader: glob({ pattern: '**/*.md', base: 'src/content/docs', deferRender: true }),\n    });\n    ```\n\n    By default `deferRender` is `false`, preserving the existing behavior of rendering entries eagerly during sync so their rendered HTML can be cached across builds.\n\n-   [#17296](https://github.com/withastro/astro/pull/17296) [`30698a2`](https://github.com/withastro/astro/commit/30698a2ed525497cdc0fce16d25d1cde0c21473c) Thanks [@ematipico](https://github.com/ematipico)! - Adds a new experimental `collectionStorage` option for controlling how the content layer persists its data store\n\n    By default, Astro serializes the entire content layer data store to a single file (`.astro/data-store.json`). For very large content collections, this file can grow large enough to hit platform file-size limits.\n\n    Set `experimental.collectionStorage: 'chunked'` to instead split the data store across many smaller, content-addressed files inside a `.astro/data-store/` directory, described by a manifest:\n\n    ```js\n    // astro.config.mjs\n    import { defineConfig } from 'astro/config';\n\n    export default defineConfig({\n      experimental: {\n        collectionStorage: 'chunked',\n      },\n    });\n    ```\n\n    Because each part file is named by a hash of its contents, unchanged parts keep the same name across builds and are not rewritten, and identical parts are deduplicated. The default value is `'single-file'`, which preserves the current behavior.\n\n-   [#17214](https://github.com/withastro/astro/pull/17214) [`44c4989`](https://github.com/withastro/astro/commit/44c4989139e84951c6579db9975a659765cf2b6c) Thanks [@ematipico](https://github.com/ematipico)! - Adds support for the more specific CSP directives `script-src-elem`, `script-src-attr`, `style-src-elem`, and `style-src-attr` through a new `kind` option.\n\n    Previously, [`CSP`](https://docs.astro.build/en/reference/configuration-reference/#securitycsp) was only scoped to generic `script-src`/`style-src` directives. Now each source or hash can be scoped to a narrower directive — for example, to allow inline `style` attributes (such as those from `define:vars` or Shiki) without loosening the policy for your `<style>` and `<link>` elements.\n\n    #### Scoping sources and hashes in your config\n\n    Each entry in `resources` and `hashes` can be an object with a `kind` property. Depending on whether you use `scriptDirective` or `styleDirective`, `\"element\"` targets `script-src-elem` or `style-src-elem`, `\"attribute\"` targets `script-src-attr` or `style-src-attr`, and `\"default\"` (the same as a bare string or hash) targets `script-src` or `style-src`.\n\n    ```js\n    // astro.config.mjs\n    import { defineConfig } from 'astro/config';\n\n    export default defineConfig({\n      security: {\n        csp: {\n          scriptDirective: {\n            resources: [{ resource: 'https://cdn.example.com', kind: 'element' }],\n          },\n          styleDirective: {\n            resources: [{ resource",
+    "changelog_url": null,
+    "created_at": "2026-07-16T12:58:21Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "astro__withastro-astro__astro@7.1.0",
+    "kind": "minor",
+    "name": "astro@7.1.0",
+    "package": "astro",
+    "processing_started_at": "2026-07-16T13:12:36Z",
+    "published_at": "2026-07-16T12:17:14Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/withastro/astro/releases/tag/astro%407.1.0",
+    "repo": "withastro/astro",
+    "source": "github_release",
+    "status": "done",
+    "tag": "astro@7.1.0",
+    "version": "7.1.0",
+    "completed_at": "2026-07-16T13:16:02.000Z",
+    "post_path": "src/content/posts/astro-v7-1-0.md",
+    "commit_sha": "341c000634b2ee8a5e5fabff3a3f508d93f13559",
+    "pushed": true
   }
 ]
