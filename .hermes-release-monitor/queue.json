@@ -2213,5 +2213,32 @@
     "post_path": "src/content/posts/qwen-code-v0-20-0.md",
     "commit_sha": "a98d216770c8ea4541bf94ecea92bfb0dc2e60ea",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/NousResearch/hermes-agent/releases/356925384",
+    "body_excerpt": "# Hermes Agent v0.19.0 (v2026.7.20)\n\n\n**Release Date:** July 20, 2026\n**Since v0.18.0:** ~2,245 commits · ~1,065 merged PRs · ~2,465 files changed · ~300,000 insertions · ~36,000 deletions · **~3,300 issues closed** · **450+ community contributors**\n\n> **The Quicksilver Release.** Hermes is the messenger god, and this window we made him move like it. First-turn time-to-first-token dropped **~80% on every platform**, reasoning streams live by default, the desktop app got a ~20-PR speed overhaul (14× faster streaming markdown, virtualized diffs, snappy session switching), and the TUI renders markdown incrementally. Around that speed spine: you can now **manage your Nous subscription without leaving the terminal**, plug **Bitwarden and 1Password** straight into Hermes, let **smart approvals** judge flagged commands for you by default, **watch your subagents work live**, and trust that a finished response **survives a gateway crash** thanks to a durable delivery ledger. This release also rolls up everything from the v0.18.1 and v0.18.2 infrastructure patch tags — those windows are fully documented here.\n\n---\n\n## ✨ Highlights\n\n- **Hermes got dramatically faster — first token in a fraction of the time** — Cold-start \"Initializing agent...\" used to eat ~4.3 seconds before your first turn even reached the model; it's now ~0.9s, an ~80% cut that applies to the CLI, gateway, TUI, desktop, and cron alike. Round 2 attacked what you *see* while waiting: reasoning models now stream their thinking live by default (no more staring at a spinner for 30 seconds), and the response box paints per token instead of per line. If Hermes ever felt like it took a deep breath before answering, that breath is gone. ([#59332](https://github.com/NousResearch/hermes-agent/pull/59332), [#59389](https://github.com/NousResearch/hermes-agent/pull/59389) — @teknium1)\n\n- **The desktop app speed wave — 20+ targeted perf PRs** — Long replies used to cost 14× more CPU in the markdown splitter than they do now; giant diffs froze the review pane until we virtualized it; switching sessions thrashes layout no more. Streaming no longer re-renders the sidebar and every tool row per token, profile backends pre-warm on hover intent, and boot-hidden panes mount at idle instead of on the cold-start critical path. The net effect: the desktop app feels like a native app under load, even with huge transcripts and busy agents. ([#67154](https://github.com/NousResearch/hermes-agent/pull/67154), [#67818](https://github.com/NousResearch/hermes-agent/pull/67818), [#65898](https://github.com/NousResearch/hermes-agent/pull/65898), [#66033](https://github.com/NousResearch/hermes-agent/pull/66033), [#66747](https://github.com/NousResearch/hermes-agent/pull/66747), [#67742](https://github.com/NousResearch/hermes-agent/pull/67742) and more — @OutThisLife)\n\n- **Manage your Nous plan from the terminal — `/subscription` and `/topup`** — Changing your subscription used to mean a trip to the billing website. Now `/subscription` opens a full flow right in the TUI or classic CLI: see your plan and remaining allowance, preview exactly what an upgrade costs (\"Pay $46.30 & upgrade now\") or when a downgrade takes effect, and apply it — with scheduled-change banners and undo. The desktop app got a matching billing settings tab. Your wallet never has to leave the keyboard. ([#51639](https://github.com/NousResearch/hermes-agent/pull/51639), [#61054](https://github.com/NousResearch/hermes-agent/pull/61054), [#61067](https://github.com/NousResearch/hermes-agent/pull/61067) — @alt-glitch)\n\n- **Smart approvals are now the default** — When Hermes wants to run a flagged command, an LLM reviewer now assesses it independently instead of asking you to approve every single one — and each verdict covers only that exact command, so a later command matching the same pattern gets its own review. Combined with the new **user-defined deny rules** (which block commands even under yolo mode) and `/deny <reason>` (which te",
+    "changelog_url": null,
+    "created_at": "2026-07-20T19:25:18Z",
+    "existing_post_candidates": [
+      "src/content/posts/qwen-code-v0-19-0.md"
+    ],
+    "featured": false,
+    "id": "hermes-agent__NousResearch-hermes-agent__v2026.7.20",
+    "kind": "minor",
+    "name": "Hermes Agent v0.19.0 (2026.7.20) — The Quicksilver Release",
+    "package": "hermes-agent",
+    "processing_started_at": "2026-07-20T19:32:19Z",
+    "published_at": "2026-07-20T18:35:55Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/NousResearch/hermes-agent/releases/tag/v2026.7.20",
+    "repo": "NousResearch/hermes-agent",
+    "source": "github_release",
+    "status": "done",
+    "tag": "v2026.7.20",
+    "version": "0.19.0",
+    "completed_at": "2026-07-20T19:35:57.000Z",
+    "post_path": "src/content/posts/hermes-agent-v2026-7-20.md",
+    "commit_sha": "7d13bc3e8532ee8e3af3f8cfe72702cecc16e867",
+    "pushed": true
   }
 ]
