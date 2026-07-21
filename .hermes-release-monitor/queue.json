@@ -2265,5 +2265,30 @@
     "post_path": "src/content/posts/recharts-v3-10-0.md",
     "commit_sha": "d06b9dd8e6fba7853195f93182f8e8f90d9e4c1b",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/gravity-ui/aikit/releases/357197746",
+    "body_excerpt": "## [2.12.0](https://github.com/gravity-ui/aikit/compare/v2.11.0...v2.12.0) (2026-07-20)\n\n\n### Features\n\n* **SuggestionItem:** add a extra onclick callback ([#208](https://github.com/gravity-ui/aikit/issues/208)) ([d8173b5](https://github.com/gravity-ui/aikit/commit/d8173b52891a17dc912ff0e9721b1a612c3fa0fd))",
+    "changelog_url": null,
+    "created_at": "2026-07-21T08:51:11Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "@gravity-ui-aikit__gravity-ui-aikit__v2.12.0",
+    "kind": "minor",
+    "name": "v2.12.0",
+    "package": "@gravity-ui/aikit",
+    "processing_started_at": "2026-07-21T09:04:30Z",
+    "published_at": "2026-07-21T08:18:13Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/gravity-ui/aikit/releases/tag/v2.12.0",
+    "repo": "gravity-ui/aikit",
+    "source": "github_release",
+    "status": "done",
+    "tag": "v2.12.0",
+    "version": "2.12.0",
+    "completed_at": "2026-07-21T09:06:56.000Z",
+    "post_path": "src/content/posts/gravity-ui-aikit-v2-12-0.md",
+    "commit_sha": "9e3f28e8096f6c9237cd1b17ac119484a99a2ea0",
+    "pushed": true
   }
 ]
