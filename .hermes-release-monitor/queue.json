@@ -2315,5 +2315,30 @@
     "post_path": "src/content/posts/pi-v0-81-0.md",
     "commit_sha": "febeb1056e1b6e620049ad644828d8b217ccff7e",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/openai/codex/releases/357545274",
+    "body_excerpt": "## New Features\n\n- Added experimental paginated thread history with efficient resume, search, persisted names, sub-agent support, and memories. (#33364, #33907, #34085, #34229, #34386)\n- Expanded `/import` to migrate Cursor and Claude Code settings, MCP servers, plugins, sessions, commands, and project-scoped memories. (#31672, #33411, #33426, #33444)\n- Added experimental Amazon Bedrock login, custom endpoint and authentication support, and GPT-5.6 Sol as the default Bedrock model. (#31327, #33170, #33175, #32288, #33695)\n- Added audio inputs and tool outputs, including common local audio formats, and introduced streaming realtime V3 conversations. (#33261, #33856, #33932, #34080, #34385)\n- Stabilized the opt-in multi-agent V2 experience with configurable sub-agent models, reasoning levels, concurrency, restored roles, and improved agent navigation. (#33550, #33631, #33657, #33841, #34383)\n- Added secure, clickable inline visualization links in the terminal UI. (#33925, #34217, #34346)\n\n## Bug Fixes\n\n- Editing an earlier prompt or retrying a safety-buffered turn now creates a contextual branch, preserving the original conversation, attachments, and mention bindings. (#33201, #33207, #33211)\n- Improved terminal responsiveness for long conversations and streamed output through incremental Markdown rendering, fewer redraws, caching, and bounded command output. (#34045, #34049, #34216, #34223, #34359)\n- Prevented slow or conflicting MCP startup and authentication flows by enforcing startup timeouts, avoiding blocking OAuth discovery, serializing refreshes, and reusing tool catalogs safely. (#32229, #32781, #32825, #33184, #33297)\n- Improved Windows execution and sandbox reliability, including native exec-server sandboxing, network-proxy enforcement, hidden helper consoles, and correctly quoted hook commands. (#32849, #32857, #33926, #34423)\n- Fixed compact release-metadata parsing and macOS code-mode installation, with an in-process fallback when the external code-mode host is unavailable. (#31667, #31876, #31899)\n- Strengthened safety and approval handling with better forced-`rm` detection, consistent full-access confirmation, and preserved rejection reasons across tools. (#32989, #33464, #34400)\n\n## Documentation\n\n- Updated the bundled OpenAI Docs skill with current GPT-5.6 model resolution, prompting, and migration guidance across macOS, Linux, and Windows. (#31842, #33121)\n\n## Chores\n\n- Migrated bundled GPT-5.4 selections and internal uses to the corresponding GPT-5.6 Terra and Luna variants. (#33173)\n- Reduced startup and large-context overhead with concurrent skill/plugin discovery and more efficient remote compaction. (#31566, #33369, #33423, #34431)\n- Updated the packaged ripgrep binary to 15.2.0. (#34384)\n\n## Changelog\n\nFull Changelog: https://github.com/openai/codex/compare/rust-v0.144.0...rust-v0.145.0\n\n- #31667 fix: parse compact release metadata in installer @efrazer-oai\n- #31362 core: route realtime and memories through HTTP client factory @bolinfest\n- #31566 perf(skills): reuse walk inventory for host loading @jif-oai\n- #31576 Bound exec-server process event reordering @jif-oai\n- #31756 test(skills): assert symlinked metadata loading @jif-oai\n- #31581 Resolve selected capability roots without starting executors @jif-oai\n- #31789 Stop persisting RMCP service traces @jif-oai\n- #31792 Summarize streamed response item logs @jif-oai\n- #31791 Filter routine Hyper logs from SQLite @jif-oai\n- #31790 Reduce MCP tool-list trace volume @jif-oai\n- #31804 Stabilize the memories feature flag @jif-oai\n- #31803 fix(mcp): default Apps product SKU to codex @alecbarber-oai\n- #31745 code-mode: retain shared MCP types for deferred tools @sayan-oai\n- #31672 Import enabled plugins from known marketplaces @charlesgong-openai\n- #31652 fix(tui): hide empty reasoning summaries @fcoury-oai\n- #31767 Remove the network proxy config wrapper @jif-oai\n- #31481 fix: forward originator to Codex Apps MCP @raquel-openai\n- #31363 codex-api: route file u",
+    "changelog_url": null,
+    "created_at": "2026-07-21T19:11:35Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "codex__openai-codex__rust-v0.145.0",
+    "kind": "minor",
+    "name": "0.145.0",
+    "package": "codex",
+    "processing_started_at": "2026-07-21T19:21:38Z",
+    "published_at": "2026-07-21T18:21:04Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/openai/codex/releases/tag/rust-v0.145.0",
+    "repo": "openai/codex",
+    "source": "github_release",
+    "status": "done",
+    "tag": "rust-v0.145.0",
+    "version": "0.145.0",
+    "completed_at": "2026-07-21T19:25:11Z",
+    "post_path": "src/content/posts/openai-codex-rust-v0-145-0.md",
+    "commit_sha": "5265242ce8a120dfabde73c69302d51014f4019d",
+    "pushed": true
   }
 ]
