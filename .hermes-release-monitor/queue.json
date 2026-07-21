@@ -2290,5 +2290,30 @@
     "post_path": "src/content/posts/gravity-ui-aikit-v2-12-0.md",
     "commit_sha": "9e3f28e8096f6c9237cd1b17ac119484a99a2ea0",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/earendil-works/pi/releases/357369727",
+    "body_excerpt": "### New Features\n\n- **Local llama.cpp model management** — Connect to a llama.cpp router, search and download Hugging Face models, and explicitly load or unload models with live progress. See [llama.cpp](https://github.com/earendil-works/pi/blob/v0.81.0/packages/coding-agent/docs/llama-cpp.md).\n- **Full provider extensions** — Extensions can register complete pi-ai providers with authentication, model refresh, filtering, and custom streaming. See [Register New Provider](https://github.com/earendil-works/pi/blob/v0.81.0/packages/coding-agent/docs/custom-provider.md#register-new-provider).\n- **Qwen Token Plan providers** — Use the built-in international and China subscription providers with regional endpoints and API-key authentication. See [API Keys](https://github.com/earendil-works/pi/blob/v0.81.0/packages/coding-agent/docs/providers.md#api-keys).\n- **Expanded usage accounting** — Tool, compaction, and branch-summary usage is persisted and included in session totals. See [Compaction & Branch Summarization](https://github.com/earendil-works/pi/blob/v0.81.0/packages/coding-agent/docs/compaction.md).\n\n### Added\n\n- Added Qwen Token Plan and Qwen Token Plan China to built-in provider setup, default model resolution, and provider documentation ([#6858](https://github.com/earendil-works/pi/pull/6858) by [@QuintinShaw](https://github.com/QuintinShaw)).\n- Added the `get_available_thinking_levels` RPC command and `RpcClient.getAvailableThinkingLevels()` method ([#6865](https://github.com/earendil-works/pi/pull/6865) by [@cristinaponcela](https://github.com/cristinaponcela)).\n- Exported message and tool execution lifecycle event types from the package root ([#6772](https://github.com/earendil-works/pi/pull/6772) by [@davidbrai](https://github.com/davidbrai)).\n- Added built-in llama.cpp router support with `/login` connection setup and `/llama` Hugging Face model search and downloads, explicit loading, unloading, and live progress. See [llama.cpp](https://github.com/earendil-works/pi/blob/v0.81.0/packages/coding-agent/docs/llama-cpp.md).\n- Added extension registration for complete pi-ai providers, including native authentication, model refresh, filtering, and streaming behavior.\n- Added usage accounting for tools, compaction, and branch summaries in persisted sessions, footer totals, and session statistics ([#6671](https://github.com/earendil-works/pi/pull/6671) by [@davidbrai](https://github.com/davidbrai)).\n\n### Fixed\n\n- Updated the packaged `brace-expansion` dependency to 5.0.7 ([#6896](https://github.com/earendil-works/pi/pull/6896) by [@davidbrai](https://github.com/davidbrai)).\n- Fixed persisted remote model catalogs from overriding newer bundled catalogs after an upgrade.\n- Fixed inherited stored API-key credentials to apply their provider-scoped `env` values, including Amazon Bedrock profiles ([#6864](https://github.com/earendil-works/pi/pull/6864) by [@cristinaponcela](https://github.com/cristinaponcela)).\n- Fixed inherited OpenAI-compatible cross-provider replay to keep tool call IDs unique when multiple calls share a provider call ID ([#6854](https://github.com/earendil-works/pi/pull/6854) by [@cristinaponcela](https://github.com/cristinaponcela)).\n- Fixed inherited Kimi K3 thinking levels to expose low, high, and max, and normalized the `k2p7` alias to `kimi-for-coding`.\n- Fixed inherited OpenCode Go models routed through the OpenAI Responses API.\n- Fixed inherited `pi-ai` package metadata to avoid repeated consumer lockfile changes ([#6812](https://github.com/earendil-works/pi/pull/6812) by [@jmfederico](https://github.com/jmfederico)).\n- Fixed inherited terminal shutdown to clear the editor's inverted software cursor before restoring the hardware cursor ([#6790](https://github.com/earendil-works/pi/pull/6790) by [@dam9000](https://github.com/dam9000)).\n- Fixed inherited ANSI-aware text wrapping to recognize CRLF and CR line endings while preserving styles ([#6764](https://github.com/earendil-works/pi/pull/6764) by [@xz-dev]",
+    "changelog_url": null,
+    "created_at": "2026-07-21T14:01:43Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "pi__earendil-works-pi__v0.81.0",
+    "kind": "minor",
+    "name": "v0.81.0",
+    "package": "pi",
+    "processing_started_at": "2026-07-21T14:05:34Z",
+    "published_at": "2026-07-21T13:34:03Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/earendil-works/pi/releases/tag/v0.81.0",
+    "repo": "earendil-works/pi",
+    "source": "github_release",
+    "status": "done",
+    "tag": "v0.81.0",
+    "version": "0.81.0",
+    "completed_at": "2026-07-21T14:09:17+00:00",
+    "post_path": "src/content/posts/pi-v0-81-0.md",
+    "commit_sha": "febeb1056e1b6e620049ad644828d8b217ccff7e",
+    "pushed": true
   }
 ]
