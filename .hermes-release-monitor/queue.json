@@ -2395,5 +2395,30 @@
     "post_path": "src/content/posts/novita-cli-v0-3-0.md",
     "commit_sha": "69d19bd5cfbadd86f38583a82038ccc632c073d4",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/oxc-project/oxc/releases/357693599",
+    "body_excerpt": "## Table of Contents\n\n- [Oxlint v1.75.0](#oxlint-v1.75.0)\n- [Oxfmt v0.60.0](#oxfmt-v0.60.0)\n\n## Oxlint v1.75.0\n### 💥 BREAKING CHANGES\n\n- 54cc121 ast: [**BREAKING**] Split `MetaProperty` into `ImportMeta` and `NewTarget` (#24557) (camc314)\n\n### 🚀 Features\n\n- 7b045cd minfier: Drop last break from last switch case (#24673) (Armano)\n- dd18383 linter/node: Implement no-top-level-await rule (#24634) (Connor Shea)\n- 16a65f2 linter/react: Implement function-component-definition rule (#24471) (Cole Ellison)\n- 7f1f585 linter: Reuse `jest/padding-around-test-blocks` for `vitest/padding-around-test-blocks` (#24519) (Mikhail Baev)\n- 99978a8 linter/import/consistent-type-specifier-style: Support `prefer-top-level-if-only-type-imports` option (#24502) (camc314)\n\n### 🐛 Bug Fixes\n\n- e81b2ff oxlint,oxfmt: Report error for invalid glob patterns (#24744) (leaysgur)\n- 0184ad6 linter/unicorn/no-useless-undefined: Preserve valid parameter defaults (#24686) (camc314)\n- 8694167 linter/eslint/prefer-destructuring: Handle typed declarations (#24616) (camc314)\n- 477cf0f linter/eslint/no-throw-literal: Handle assigned errors (#24561) (Cole Ellison)\n- ac9200a linter: Detect React components from returned JSX (#24521) (camc314)\n- c0a6522 linter/eslint/no-useless-computed-key: Allow TS syntax in computed keys (#24524) (Cole Ellison)\n\n### ⚡ Performance\n\n- 346eed1 linter/unicorn/prefer-event-target: Only run on `Class` and `NewExpression` nodes (#24685) (Mikhail Baev)\n- 7be5cf0 oxlint/lsp: Only invoke lint on code actions when document is not opened (#24676) (Sysix)\n- d3f07a0 diagnostics: Box OxcDiagnosticInner to reduce binary size (#24665) (Boshen)\n- 90ae040 linter/reporter/stylish: Compute diagnostic Info once per diagnostic (#24525) (connorshea)\n\n### 📚 Documentation\n\n- e6f7174 linter/valid-expect: Fix correct example being identical to incorrect one (#24468) (mkan0141)\n\n## Oxfmt v0.60.0\n### 💥 BREAKING CHANGES\n\n- 54cc121 ast: [**BREAKING**] Split `MetaProperty` into `ImportMeta` and `NewTarget` (#24557) (camc314)\n\n### 🚀 Features\n\n- 3d22307 parser: Add `ParseOptions::enable_ident_hashes` (#24491) (Boshen)\n\n### 🐛 Bug Fixes\n\n- fd7cf5b formatter_css: Update oxc-css-parser to 0.0.9 (#24745) (leaysgur)\n- e81b2ff oxlint,oxfmt: Report error for invalid glob patterns (#24744) (leaysgur)\n- 164e70a formatter: Stabilize comment between tagged temaplte tag and quasi (#24738) (leaysgur)\n- c399367 formatter_css: Update oxc-css-parser to 0.0.8 (#24725) (leaysgur)\n- 6fe866a oxfmt: Keep tailwind classes glued to template expr with `preserveWhitespace` (#24609) (leaysgur)\n- 33e32d8 formatter_css: Use `line_suffix` for EOL line comment (#24580) (leaysgur)\n- 5f76998 formatter_graphql: Keep same line comments pending across intervening tokens (#24579) (leaysgur)",
+    "changelog_url": null,
+    "created_at": "2026-07-22T00:22:20Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "oxlint-oxfmt__oxc-project-oxc__apps_v1.75.0",
+    "kind": "minor",
+    "name": "oxlint v1.75.0 & oxfmt v0.60.0",
+    "package": "oxlint + oxfmt",
+    "processing_started_at": "2026-07-22T00:54:43Z",
+    "published_at": "2026-07-21T23:22:20Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/oxc-project/oxc/releases/tag/apps_v1.75.0",
+    "repo": "oxc-project/oxc",
+    "source": "github_release",
+    "status": "done",
+    "tag": "apps_v1.75.0",
+    "version": "1.75.0",
+    "completed_at": "2026-07-22T00:58:51Z",
+    "post_path": "src/content/posts/oxlint-oxfmt-apps-v1-75-0.md",
+    "commit_sha": "b3e74a9b588d93cd3138ec86dbe1417a47249513",
+    "pushed": true
   }
 ]
