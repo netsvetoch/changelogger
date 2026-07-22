@@ -2445,5 +2445,30 @@
     "post_path": "src/content/posts/knip-6-28-0.md",
     "commit_sha": "cc8dfeed6b76a5259d3ee754d2969b9bbae5bf1b",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/webpro-nl/knip/releases/357994242",
+    "body_excerpt": "* fix(glob): do not follow symbolic links in async glob (#1900) (b7d5ce2f545d91953a97733aa1567e8728b20644) - thanks @mogelbrod!\n* Add built-in compiler for tsrx (db05e0142a41fad2ad45d62ba5106e0d97c92b45)\n* Fix -u shortcut for --duration (932b9262af275d209923a5efab1b6f23067bb006)",
+    "changelog_url": null,
+    "created_at": "2026-07-22T12:45:08Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "knip__webpro-nl-knip__knip@6.29.0",
+    "kind": "minor",
+    "name": "Release 6.29.0",
+    "package": "knip",
+    "processing_started_at": "2026-07-22T12:56:52Z",
+    "published_at": "2026-07-22T12:10:48Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/webpro-nl/knip/releases/tag/knip%406.29.0",
+    "repo": "webpro-nl/knip",
+    "source": "github_release",
+    "status": "done",
+    "tag": "knip@6.29.0",
+    "version": "6.29.0",
+    "completed_at": "2026-07-22T12:59:00Z",
+    "post_path": "src/content/posts/knip-6-29-0.md",
+    "commit_sha": "1aa06fb32725421c9165013a00d5c3f01f4e5f42",
+    "pushed": true
   }
 ]
