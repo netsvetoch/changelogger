@@ -2470,5 +2470,30 @@
     "post_path": "src/content/posts/knip-6-29-0.md",
     "commit_sha": "1aa06fb32725421c9165013a00d5c3f01f4e5f42",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/gravity-ui/uikit/releases/358039003",
+    "body_excerpt": "## [7.47.0](https://github.com/gravity-ui/uikit/compare/v7.46.0...v7.47.0) (2026-07-22)\n\n\n### Features\n\n* readme refactoring ([#2705](https://github.com/gravity-ui/uikit/issues/2705)) ([09069a5](https://github.com/gravity-ui/uikit/commit/09069a5f12dd07ae1eacde80c2c2b61a5ccce719))\n\n\n### Bug Fixes\n\n* add `@types/react` to `peerDependencies` ([#2753](https://github.com/gravity-ui/uikit/issues/2753)) ([e5e5911](https://github.com/gravity-ui/uikit/commit/e5e59116fd1ac34ae4987a850065db5a6960884a))\n* **Select:** fix availability of error popover with placement inside ([#2760](https://github.com/gravity-ui/uikit/issues/2760)) ([573bbe6](https://github.com/gravity-ui/uikit/commit/573bbe6e909300b32335efa4de6ff6afeff5e5c8))\n* **Tabs:** correctly render custom components + migration guide ([#2757](https://github.com/gravity-ui/uikit/issues/2757)) ([4b2bc7d](https://github.com/gravity-ui/uikit/commit/4b2bc7d67bcc64601c82d54aa3e494bb819b8c5d))\n* **Tabs:** localize overflow label ([#2751](https://github.com/gravity-ui/uikit/issues/2751)) ([643b600](https://github.com/gravity-ui/uikit/commit/643b6006bb9c56a7ec740062d61d01467fe9738a))",
+    "changelog_url": null,
+    "created_at": "2026-07-22T13:47:25Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "@gravity-ui-uikit__gravity-ui-uikit__v7.47.0",
+    "kind": "minor",
+    "name": "v7.47.0",
+    "package": "@gravity-ui/uikit",
+    "processing_started_at": "2026-07-22T13:57:53Z",
+    "published_at": "2026-07-22T13:15:53Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/gravity-ui/uikit/releases/tag/v7.47.0",
+    "repo": "gravity-ui/uikit",
+    "source": "github_release",
+    "status": "done",
+    "tag": "v7.47.0",
+    "version": "7.47.0",
+    "completed_at": "2026-07-22T14:00:49.000Z",
+    "post_path": "src/content/posts/gravity-ui-uikit-v7-47-0.md",
+    "commit_sha": "c799d8477d37a8590fee3774d6f7ccaea77dda44",
+    "pushed": true
   }
 ]
