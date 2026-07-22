@@ -2420,5 +2420,30 @@
     "post_path": "src/content/posts/oxlint-oxfmt-apps-v1-75-0.md",
     "commit_sha": "b3e74a9b588d93cd3138ec86dbe1417a47249513",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/webpro-nl/knip/releases/357879085",
+    "body_excerpt": "* Update oxc-resolver (resolve #1889) (1444f6aaf04d42ad07ee0b88da4dfae0e116043a)\n* Keep entry-exported members public (resolve #1890) (94967c13a589a7e83408b1495c31323ac126fcab)\n* Don't un-ignore sibling paths on unrelated gitignore negations (resolve #1891) (5c026ba50c1e89804fc5094a52dc4c4c37d92bc2)\n* Memoize the gitignore shadowed-pattern check (a5fa3b0ebb7f84c107dba1c1ca9a9b73995f668f)\n* Ignore nested files under a gitignore dir/* pattern (404a53e3e49fa7c1f51b60bcb30ea50450f75aab)\n* Track types referenced by JSDoc imports (resolve #1888) (6ae48aadbe03952690c8608e6df42bd039cf6624)\n* Update oxc-parser (02ca17a72c3f0afa7df32297d2dd2f5463ac6e00)\n* feat: markdownlint-cli2 (#1887) (323b96f55b38b53f5e4648d72fecd968fae35147) - thanks @Zamiell!\n* Update rolldown snapshot (009e509dee6a5013fd3937abb4ec81684601b023)\n* Resolve $GITHUB_ACTION_PATH in GHA composite actions (ead489f066733f701acfe5b81eac0a6c813fb5c5)\n* Don't report `node:` specifiers as unlisted dependencies (1a7114f0a159fe82328041e11fc61c5c1730cc01)\n* Discover tsdown CLI entries (0d47a45bfc518a7bf73a4b4878aeab236d6f9791)\n* Discover Convex function modules (e01f21c44773186e7ad74e7badf9fc81b82edfb5)\n* Ignore common system binaries (cd003065fda5422550a412bba07ebbb1f9bae126)\n* Add OpenClaw plugin (73a2d7dd45f65ea312fde38cb4fa4f5a4fc34bf2)\n* Discover Tailwind CLI input stylesheet (resolve #1551) (9ae5feed922ecb7e8c436545e9b45125bd73b457)\n* Discover Angular global stylesheets from angular.json (fb9e0488f6f21284714d0651fcf1dd2de02d425a)\n* Hint when project patterns exclude a compiled extension (74de516d3d73839536fc2a43c2c0ec38a6299631)\n* Ignore common global binaries (a99a206015fe414a4de12016cc62499910afaf6f)\n* Run multiple preprocessors in sequence (844358367e9d1939bbf47f8dcb97d810741f56c1)\n* fix(nuxt): resolve nuxt module paths (#1896) (3c8594f5ffc641b00575b6d7455990db1277ac75) - thanks @danielroe!\n* Report unused re-exports when ignoreExportsUsedInFile is set (#1895) (a113a5f4eedc81ef56b00a3e488cc94febefede5) - thanks @mlm20!\n* Pass -w to pnpm add in sentry ecosystem test (ea8c8ac6fe9519f00ca6a61131b345f5de521704)\n* Update sentry snapshot (b75768d544d9f869ebce8f8c6dd8490f3db87023)\n* Record all traversed dirs in glob cache (resolve #1897) (81be1d436eae15518df764cbcb443899e11a9569)\n* Invalidate glob cache when .gitignore changes (baff301f2dceda97bf8bf73809d811cc44c72c8c)\n* Improve Nuxt and Nitro plugin resolution (86ffab7bcdd095631d6b0b17254e8acd6b5022bc)\n* fix: don't treat [-]-c[heck] as config flag for prettier (#1902) (b7266ee8240a9b8686e91a44a4706d3605d094c4) - thanks @davidkna-sap!\n* Use Entra ID to publish VS Code extension (4236253482f884d92cfde2ccf85c7fb9aca17f7e)\n* Remove obsolete trust policy exclusions (630d5f9835f4303ec9aa7d090ad40a177808c4fb)\n* Update dependencies (810147b5aa21bb57ad103fd19ba92844e42cd84c)\n* Migrate from typescript/native-preview to typescript (140a25a577a64273a7a77f2ff2c8f224118ac298)",
+    "changelog_url": null,
+    "created_at": "2026-07-22T09:39:05Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "knip__webpro-nl-knip__knip@6.28.0",
+    "kind": "minor",
+    "name": "Release 6.28.0",
+    "package": "knip",
+    "processing_started_at": "2026-07-22T09:40:49Z",
+    "published_at": "2026-07-22T08:47:43Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/webpro-nl/knip/releases/tag/knip%406.28.0",
+    "repo": "webpro-nl/knip",
+    "source": "github_release",
+    "status": "done",
+    "tag": "knip@6.28.0",
+    "version": "6.28.0",
+    "completed_at": "2026-07-22T09:44:28Z",
+    "post_path": "src/content/posts/knip-6-28-0.md",
+    "commit_sha": "cc8dfeed6b76a5259d3ee754d2969b9bbae5bf1b",
+    "pushed": true
   }
 ]
