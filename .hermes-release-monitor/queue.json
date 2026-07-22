@@ -2340,5 +2340,32 @@
     "post_path": "src/content/posts/openai-codex-rust-v0-145-0.md",
     "commit_sha": "5265242ce8a120dfabde73c69302d51014f4019d",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/novitalabs/novita-cli/contents/CHANGELOG.md?ref=main",
+    "body_excerpt": "## [0.2.0] - 2026-03-24\n\n### Added\n\n#### Image Editing (9 new commands)\n- `novita image img2img` - Image-to-image generation with prompt guidance (async)\n- `novita image inpainting` - Inpaint masked regions of an image (async)\n- `novita image replace-bg` - Replace image background with AI-generated scene (async)\n- `novita image reimagine` - Reimagine/restyle an image (sync)\n- `novita image cleanup` - Erase/clean up masked region of an image (sync)\n- `novita image outpainting` - Extend image beyond its borders (sync)\n- `novita image remove-text` - Remove text from an image (sync)\n- `novita image to-prompt` - Generate a text description from an image (sync)\n- `novita image merge-face` - Merge a face onto another image (sync)\n\n#### Files API (5 new commands)\n- `novita files upload` - Upload JSONL files for batch processing\n- `novita files list` - List uploaded files\n- `novita files get` - Get file details\n- `novita files delete` - Delete an uploaded file\n- `novita files content` - Retrieve file content\n\n#### Audio (2 new commands)\n- `novita audio glm-tts` - GLM text-to-speech with 7 voice options (binary PCM/WAV output)\n- `novita audio voice-clone` - Clone a voice from audio via MiniMax\n\n#### Billing (2 new commands)\n- `novita account usage-billing` - Query usage-based billing details\n- `novita account fixed-billing` - Query fixed-term billing details\n\n#### GPU & Infrastructure (6 new commands)\n- `novita gpu restart` - Restart a GPU instance\n- `novita gpu clusters` - List available data center clusters\n- `novita storage list` - List network storage volumes\n- `novita storage create` - Create a network storage volume\n- `novita storage delete` - Delete a network storage volume\n- `novita template edit` - Edit an existing GPU template\n\n### Changed\n- Version bumped to 0.2.0\n- Repository URL updated to `github.com/novitalabs/novita-cli`\n\n### Tests\n- Unit tests: 34 passed (was 32)\n- E2E tests: 61 passed (was 45), all real API calls, zero mocks\n- Total: 95 passed, 100% pass rate\n- New E2E test coverage for: files lifecycle, image editing (to-prompt, reimagine, remove-text), billing APIs, GPU clusters, storage listing, template edit lifecycle, GLM TTS",
+    "changelog_url": "https://github.com/novitalabs/novita-cli/blob/main/CHANGELOG.md",
+    "created_at": "2026-07-22T00:22:14Z",
+    "existing_post_candidates": [
+      "src/content/posts/nub-v0-2-0.md"
+    ],
+    "featured": false,
+    "id": "novita-cli__novitalabs-novita-cli__changelog-v0.2.0",
+    "kind": "minor",
+    "name": "[0.2.0] - 2026-03-24",
+    "package": "novita-cli",
+    "processing_started_at": "2026-07-22T00:22:42Z",
+    "published_at": null,
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/novitalabs/novita-cli/blob/main/CHANGELOG.md#020---2026-03-24",
+    "repo": "novitalabs/novita-cli",
+    "source": "changelog",
+    "status": "done",
+    "tag": "changelog-v0.2.0",
+    "version": "0.2.0",
+    "completed_at": "2026-07-22T00:26:40Z",
+    "post_path": "src/content/posts/novita-cli-v0-2-0.md",
+    "commit_sha": "bf879525f593bc4006a36e124d0098f27fb46ce9",
+    "pushed": true
   }
 ]
