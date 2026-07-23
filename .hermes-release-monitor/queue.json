@@ -2520,5 +2520,30 @@
     "post_path": "src/content/posts/nub-v0-5-0.md",
     "commit_sha": "4c4347bf5720e129a10b3886cf907a0567b578db",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/zed-industries/zed/releases/358370016",
+    "body_excerpt": "This week's release includes Staged and Unstaged grouping in the Git Panel, multi-select in the File Finder and Text Finder, and row filtering in CSV previews.\r\n\r\n## Shipped by the Zed Guild 🛡️\r\n\r\n- Improved branch filtering with all, local, and remote options in the branch picker. ([#60857](https://github.com/zed-industries/zed/pull/60857); thanks [chirivelli](https://github.com/chirivelli))\r\n- Settings UI: Improved support for window widths below 900 px. ([#60786](https://github.com/zed-industries/zed/pull/60786); thanks [feitreim](https://github.com/feitreim))\r\n- Improved semantic token highlighting to distinguish function parameters from local variables. ([#60949](https://github.com/zed-industries/zed/pull/60949); thanks [lingyaochu](https://github.com/lingyaochu))\r\n- Fixed workspace diagnostics being cleared when closing a buffer. ([#59875](https://github.com/zed-industries/zed/pull/59875); thanks [lingyaochu](https://github.com/lingyaochu))\r\n- Git: Fixed the GPG signing passphrase prompt appearing on every commit when `gpg-agent` had the passphrase cached or the key was unprotected. ([#61265](https://github.com/zed-industries/zed/pull/61265); thanks [RemcoSmitsDev](https://github.com/RemcoSmitsDev))\r\n- Fixed toolchain selection being ignored when Pyright or Basedpyright settings were configured without specifying a Python interpreter path. ([#59990](https://github.com/zed-industries/zed/pull/59990); thanks [lingyaochu](https://github.com/lingyaochu))\r\n- Fixed window management controls being grayed out and unavailable. ([#60620](https://github.com/zed-industries/zed/pull/60620); thanks [RemcoSmitsDev](https://github.com/RemcoSmitsDev))\r\n- Agent Panel: Fixed sticky `awaiting confirmation` content covering the entire panel. ([#60992](https://github.com/zed-industries/zed/pull/60992); thanks [RemcoSmitsDev](https://github.com/RemcoSmitsDev))\r\n- Editor: Fixed rendering issues with selections over inlay hints. ([#60912](https://github.com/zed-industries/zed/pull/60912); thanks [feitreim](https://github.com/feitreim))\r\n- Fixed inconsistent syntax highlighting for destructured parameters with default values. ([#60767](https://github.com/zed-industries/zed/pull/60767); thanks [feeiyu](https://github.com/feeiyu))\r\n- Fixed double-click text selection and tab bar flicker in Markdown previews. ([#60817](https://github.com/zed-industries/zed/pull/60817); thanks [feeiyu](https://github.com/feeiyu))\r\n- Fixed Python virtual environments not being restored automatically when reopening a workspace. ([#60030](https://github.com/zed-industries/zed/pull/60030); thanks [lingyaochu](https://github.com/lingyaochu))\r\n- Fixed ignored files remaining in project search results after excluded-file search was disabled in nested Git directories. ([#60772](https://github.com/zed-industries/zed/pull/60772); thanks [vitallium](https://github.com/vitallium))\r\n\r\n---\r\n\r\n*Learn about the [Zed Guild](https://zed.dev/community/zed-guild).*\r\n\r\n## Features\r\n\r\n### AI\r\n\r\n- Enabled ACP elicitations by default, allowing ACP agents to collect structured user input. ([#60749](https://github.com/zed-industries/zed/pull/60749))\r\n- Added support for adaptive thinking in custom Anthropic models using the `\"mode\": { \"type\": \"adaptive\" }` configuration. ([#57207](https://github.com/zed-industries/zed/pull/57207); thanks [zerx-lab](https://github.com/zerx-lab))\r\n- Added the `supports_fast_mode` setting for enabling fast mode on custom Anthropic models. ([#58225](https://github.com/zed-industries/zed/pull/58225); thanks [Moeblack](https://github.com/Moeblack))\r\n- Added GPT 5.6 Luna, GPT 5.6 Terra, GPT 5.6 Sol, and Grok 4.5 to OpenCode Zen. ([#60852](https://github.com/zed-industries/zed/pull/60852); thanks [Vlaaaaaaad](https://github.com/Vlaaaaaaad))\r\n- Added GPT-5.6 Sol, Terra, and Luna models to the Amazon Bedrock provider via the `bedrock-mantle` endpoint. ([#61008](https://github.com/zed-industries/zed/pull/61008); thanks [IbrahimKhan12](https://github.com/IbrahimKhan12))",
+    "changelog_url": null,
+    "created_at": "2026-07-23T01:09:30Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "zed__zed-industries-zed__v1.12.0",
+    "kind": "minor",
+    "name": "v1.12.0",
+    "package": "zed",
+    "processing_started_at": "2026-07-23T01:15:02Z",
+    "published_at": "2026-07-23T00:16:36Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/zed-industries/zed/releases/tag/v1.12.0",
+    "repo": "zed-industries/zed",
+    "source": "github_release",
+    "status": "done",
+    "tag": "v1.12.0",
+    "version": "1.12.0",
+    "completed_at": "2026-07-23T01:18:45Z",
+    "post_path": "src/content/posts/zed-v1-12-0.md",
+    "commit_sha": "9828caa33b3d41b0e6065d5996a585dfb14679dd",
+    "pushed": true
   }
 ]
