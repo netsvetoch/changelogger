@@ -2495,5 +2495,30 @@
     "post_path": "src/content/posts/gravity-ui-uikit-v7-47-0.md",
     "commit_sha": "c799d8477d37a8590fee3774d6f7ccaea77dda44",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/nubjs/nub/releases/358380272",
+    "body_excerpt": "Nub 0.5.0 ships `nub init` — a TypeScript-first project scaffold — alongside a batch of package-manager correctness fixes and faster Node installs.\n\n## nub init\n\nOne command scaffolds a minimal TypeScript project that runs and typechecks immediately:\n\n```sh\nnub init\nnub index.ts\n```\n\nIt writes five files, initializes git, and runs the install:\n\n```\nmy-app/\n├── package.json\n├── tsconfig.json\n├── index.ts\n├── README.md\n├── .gitignore\n├── nub.lock\n├── node_modules/\n└── .git/\n```\n\n- **TypeScript 7 by default.** The scaffold pins `typescript@^7` — the native compiler — alongside `@types/node@^26` and `@nubjs/types`. Nub transpiles at run time, so `tsc` exists purely to typecheck (`noEmit`) and the project has zero runtime dependencies.\n- **Node types without `\"dom\"`.** `lib` stays `[\"es2024\"]`; the globals Nub polyfills (`Worker`, …) are typed by `@nubjs/types`, so `window` and `document` never leak into a Node project.\n- **Real `.ts` imports.** `verbatimModuleSyntax` and `allowImportingTsExtensions`: import specifiers say `./thing.ts` and resolve exactly as Node and Nub do.\n- **Strict from the first file.** `strict` plus `noUncheckedIndexedAccess` and `exactOptionalPropertyTypes`, `nodenext` resolution, `es2024` target.\n\n<details>\n<summary>The generated <code>tsconfig.json</code></summary>\n\n```json\n{\n  \"compilerOptions\": {\n    \"module\": \"nodenext\",\n    \"moduleResolution\": \"nodenext\",\n    \"target\": \"es2024\",\n    \"lib\": [\"es2024\"],\n    \"types\": [\"node\", \"@nubjs/types\"],\n    \"moduleDetection\": \"force\",\n    \"allowImportingTsExtensions\": true,\n    \"verbatimModuleSyntax\": true,\n    \"isolatedModules\": true,\n    \"noUncheckedSideEffectImports\": true,\n    \"resolveJsonModule\": true,\n    \"esModuleInterop\": true,\n    \"skipLibCheck\": true,\n    \"strict\": true,\n    \"noUncheckedIndexedAccess\": true,\n    \"exactOptionalPropertyTypes\": true,\n    \"noEmit\": true\n  }\n}\n```\n\n</details>\n\nIn a terminal, init asks three questions — name, TypeScript or JavaScript, git — each with a sensible default; `-y` skips them, non-interactive environments auto-default, and existing files are never overwritten without `--force`.\n\nFull details in the [docs](https://nubjs.com/docs/init). ([#499](https://github.com/nubjs/nub/pull/499), [#526](https://github.com/nubjs/nub/pull/526))\n\n## nub create\n\n`nub create <template>` resolves the ecosystem's `create-*` convention (`vue` → `create-vue`) and runs the scaffolder. As of this release the scaffolder can tell Nub is calling — [#529](https://github.com/nubjs/nub/pull/529) exports the `npm_config_user_agent` these tools read — so scaffolders with Nub detection respond with Nub commands. Working today:\n\n```sh\nnub create vue my-app\nnub create vite my-app\nnub create nuxt my-app\n```\n\n```console\n$ nub create vue my-app --default\n\n└  Done. Now run:\n\n   cd my-app\n   nub install\n   nub run dev\n```\n\nDetection PRs are open across the ecosystem — track them to see your framework land:\n\n- [vercel/next.js#95331](https://github.com/vercel/next.js/pull/95331) — create-next-app\n- [honojs/create-hono#124](https://github.com/honojs/create-hono/pull/124) — create-hono\n- [t3-oss/create-t3-app#2237](https://github.com/t3-oss/create-t3-app/pull/2237) — create-t3-app\n- [payloadcms/payload#17163](https://github.com/payloadcms/payload/pull/17163) — create-payload-app\n- [strapi/strapi#26864](https://github.com/strapi/strapi/pull/26864) — create-strapi-app\n- [medusajs/medusa#15898](https://github.com/medusajs/medusa/pull/15898) — create-medusa-app\n- [QwikDev/qwik#8786](https://github.com/QwikDev/qwik/pull/8786) — create-qwik\n- [unjs/std-env#197](https://github.com/unjs/std-env/pull/197) — std-env runtime detection\n\nAlready merged upstream: [create-vue](https://github.com/vuejs/create-vue/pull/1066), [Nuxt](https://github.com/nuxt/cli/pull/1360), [solid-cli](https://github.com/solidjs-community/solid-cli/pull/77), [react-router](https://github.com/remix-run/react-router/pull/15276), [create-cloudflare](https://github.com/cloudflare/workers-sdk/pull/14499)",
+    "changelog_url": null,
+    "created_at": "2026-07-23T00:07:17Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "nub__nubjs-nub__v0.5.0",
+    "kind": "minor",
+    "name": "v0.5.0",
+    "package": "nub",
+    "processing_started_at": "2026-07-23T00:14:02Z",
+    "published_at": "2026-07-22T23:40:49Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/nubjs/nub/releases/tag/v0.5.0",
+    "repo": "nubjs/nub",
+    "source": "github_release",
+    "status": "done",
+    "tag": "v0.5.0",
+    "version": "0.5.0",
+    "completed_at": "2026-07-23T00:17:50Z",
+    "post_path": "src/content/posts/nub-v0-5-0.md",
+    "commit_sha": "4c4347bf5720e129a10b3886cf907a0567b578db",
+    "pushed": true
   }
 ]
