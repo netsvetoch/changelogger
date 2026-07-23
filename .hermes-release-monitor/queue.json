@@ -2545,5 +2545,30 @@
     "post_path": "src/content/posts/zed-v1-12-0.md",
     "commit_sha": "9828caa33b3d41b0e6065d5996a585dfb14679dd",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/gravity-ui/icons/releases/358596826",
+    "body_excerpt": "## [2.21.0](https://github.com/gravity-ui/icons/compare/v2.20.0...v2.21.0) (2026-07-23)\n\n\n### Features\n\n* sync icons ([#101](https://github.com/gravity-ui/icons/issues/101)) ([f347de3](https://github.com/gravity-ui/icons/commit/f347de32d0be8dbfbf602b4d65667d808f8b1b0c))",
+    "changelog_url": null,
+    "created_at": "2026-07-23T10:27:22Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "@gravity-ui-icons__gravity-ui-icons__v2.21.0",
+    "kind": "minor",
+    "name": "v2.21.0",
+    "package": "@gravity-ui/icons",
+    "processing_started_at": "2026-07-23T10:31:10Z",
+    "published_at": "2026-07-23T10:08:39Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/gravity-ui/icons/releases/tag/v2.21.0",
+    "repo": "gravity-ui/icons",
+    "source": "github_release",
+    "status": "done",
+    "tag": "v2.21.0",
+    "version": "2.21.0",
+    "completed_at": "2026-07-23T10:33:42Z",
+    "post_path": "src/content/posts/gravity-ui-icons-v2-21-0.md",
+    "commit_sha": "3389f5916a6cb53f02d473a0c01dd48dda2cd808",
+    "pushed": true
   }
 ]
