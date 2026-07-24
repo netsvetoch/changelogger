@@ -2595,5 +2595,30 @@
     "post_path": "src/content/posts/pi-v0-82-0.md",
     "commit_sha": "48116bfbb3840828cacd0f354e60aa9818d1bee3",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/QwenLM/qwen-code/releases/359326847",
+    "body_excerpt": "<!-- qwen-release-notes:v1 -->\n\n## Highlights\n\n_See the complete change list below._\n\n## Breaking Changes\n\nNo known breaking changes.\n\n## Complete Change List\n\n### Features\n\n- feat(web-shell): add workspace selector button with add/switch dropdown in composer toolbar ([#7390](https://github.com/QwenLM/qwen-code/pull/7390)) by @water-in-stone\n- feat(web-shell): show subagent sessions in detail panel ([#7380](https://github.com/QwenLM/qwen-code/pull/7380)) by @ytahdn\n- feat(web-shell): add rendered file previews ([#7467](https://github.com/QwenLM/qwen-code/pull/7467)) by @ytahdn\n- feat(core): add memory recall delivery telemetry ([#7393](https://github.com/QwenLM/qwen-code/pull/7393)) by @ZijianZhang989\n- feat(core): keep completed background agents resident ([#7426](https://github.com/QwenLM/qwen-code/pull/7426)) by @DragonnZhang\n- feat(serve): support forced MCP reconnects ([#7488](https://github.com/QwenLM/qwen-code/pull/7488)) by @BZ-D\n- feat(prompts): allow overriding core identity via QWEN_SYSTEM_IDENTITY_MD ([#7478](https://github.com/QwenLM/qwen-code/pull/7478)) by @zjgzx1988\n- feat(autofix): stop a PR that fails to push for N rounds in a row ([#7482](https://github.com/QwenLM/qwen-code/pull/7482)) by @wenshao\n- feat(core): restore background agent roster ([#7459](https://github.com/QwenLM/qwen-code/pull/7459)) by @DragonnZhang\n- feat(cli): support custom skill directories via settings ([#7395](https://github.com/QwenLM/qwen-code/pull/7395)) by @qwen-code-dev-bot\n- feat(cli): preserve semantic text when copying VP selections ([#7286](https://github.com/QwenLM/qwen-code/pull/7286)) by @chiga0\n- feat(web-shell): add selective Shadow DOM isolation ([#7551](https://github.com/QwenLM/qwen-code/pull/7551)) by @ytahdn\n- feat(web-shell): add renderChatHeader slot for custom session header ([#7553](https://github.com/QwenLM/qwen-code/pull/7553)) by @yuanyuanAli\n- feat(serve): add workspace-level generation ([#7552](https://github.com/QwenLM/qwen-code/pull/7552)) by @ytahdn\n- feat(serve): persist workspace channel configuration ([#7514](https://github.com/QwenLM/qwen-code/pull/7514)) by @qqqys\n- feat(core): propagate trusted daemon invocation context ([#7279](https://github.com/QwenLM/qwen-code/pull/7279)) by @callmeYe\n- feat(cli): post the review body bilingually when the PR description is Chinese ([#7564](https://github.com/QwenLM/qwen-code/pull/7564)) by @wenshao\n- feat(autofix): auto-rerun a check that died on infrastructure, once ([#7562](https://github.com/QwenLM/qwen-code/pull/7562)) by @wenshao\n- feat(core): Align GenAI telemetry with ARMS ([#7536](https://github.com/QwenLM/qwen-code/pull/7536)) by @doudouOUC\n- feat(web-shell): add workspace agent management ([#7572](https://github.com/QwenLM/qwen-code/pull/7572)) by @ytahdn\n- feat(autofix): update a stale base when the gate rejects a behind-main fix ([#7595](https://github.com/QwenLM/qwen-code/pull/7595)) by @wenshao\n- feat(sdk-java): Add daemon transport ([#7463](https://github.com/QwenLM/qwen-code/pull/7463)) by @doudouOUC\n- feat(autofix): auto-update a PR red only from a stale, since-fixed base ([#7554](https://github.com/QwenLM/qwen-code/pull/7554)) by @wenshao\n- feat(autofix): auto-recover a PR parked on a stale base ([#7602](https://github.com/QwenLM/qwen-code/pull/7602)) by @wenshao\n- feat(core): add Goal v3 state protocol ([#7517](https://github.com/QwenLM/qwen-code/pull/7517)) by @qqqys\n- feat(daemon): add explicit channel delivery ([#7388](https://github.com/QwenLM/qwen-code/pull/7388)) by @BenGuanRan\n- feat(serve): scope channel lifecycle to workspace runtimes ([#7577](https://github.com/QwenLM/qwen-code/pull/7577)) by @qqqys\n- feat(cli): add usage statistics environment override ([#7579](https://github.com/QwenLM/qwen-code/pull/7579)) by @tanzhenxin\n- feat(core): emit OAuth login URL as a single OSC 8 hyperlink ([#7255](https://github.com/QwenLM/qwen-code/pull/7255)) by @chinesepowered\n- feat(web-shell): add git mode selector for new session creation ([#7471](",
+    "changelog_url": null,
+    "created_at": "2026-07-24T14:22:51Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "qwen-code__QwenLM-qwen-code__v0.21.0",
+    "kind": "minor",
+    "name": "Release v0.21.0",
+    "package": "qwen-code",
+    "processing_started_at": "2026-07-24T14:33:32Z",
+    "published_at": "2026-07-24T13:32:48Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.21.0",
+    "repo": "QwenLM/qwen-code",
+    "source": "github_release",
+    "status": "done",
+    "tag": "v0.21.0",
+    "version": "0.21.0",
+    "completed_at": "2026-07-24T14:36:16Z",
+    "post_path": "src/content/posts/qwen-code-v0-21-0.md",
+    "commit_sha": "4770fcb70d2d588027612a357b599726f3e495f8",
+    "pushed": true
   }
 ]
