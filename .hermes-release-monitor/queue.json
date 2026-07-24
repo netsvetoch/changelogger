@@ -2570,5 +2570,30 @@
     "post_path": "src/content/posts/gravity-ui-icons-v2-21-0.md",
     "commit_sha": "3389f5916a6cb53f02d473a0c01dd48dda2cd808",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/earendil-works/pi/releases/359107721",
+    "body_excerpt": "### New Features\n\n- **Constrained tool sampling** — Tools can prefer or require strict JSON Schema sampling or use OpenAI Lark/regex grammars, with model capability metadata preventing unsupported requests. See [Constrained Sampling for Tools](https://github.com/earendil-works/pi/blob/v0.82.0/packages/ai/README.md#constrained-sampling-for-tools).\n- **OpenRouter and Kimi Code sign-in** — Use `/login` to authorize OpenRouter or a Kimi Code subscription without manually configuring API keys. See [OpenRouter](https://github.com/earendil-works/pi/blob/v0.82.0/packages/coding-agent/docs/providers.md#openrouter).\n- **Session-aware, streaming bash integrations** — Bash tools receive current session/model metadata, while direct RPC bash commands stream correlated output. See [Bash Tool Session Environment](https://github.com/earendil-works/pi/blob/v0.82.0/packages/coding-agent/docs/environment-variables.md#bash-tool-session-environment) and [RPC bash events](https://github.com/earendil-works/pi/blob/v0.82.0/packages/coding-agent/docs/rpc.md#bash_execution_update).\n\n### Added\n\n- Added inherited `Tool.constrainedSampling` with strict JSON Schema (`prefer`/`require`) and OpenAI Lark/regex grammar variants across OpenAI, Anthropic, Amazon Bedrock, Google Gemini, and Mistral. See [Constrained Sampling for Tools](https://github.com/earendil-works/pi/blob/v0.82.0/packages/ai/README.md#constrained-sampling-for-tools).\n- Added inherited `supportsGrammarTools` and `supportsStrictTools` compatibility flags, expanded `supportsStrictMode` coverage, and generated model capability metadata to gate constrained sampling.\n- Added inherited Kimi Code subscription OAuth login for the Kimi For Coding provider, including device authorization and automatic token refresh ([#6935](https://github.com/earendil-works/pi/pull/6935) by [@zaycruz](https://github.com/zaycruz)).\n- Added inherited OpenRouter OAuth PKCE login through `/login`, minting a user-controlled API key. See [OpenRouter](https://github.com/earendil-works/pi/blob/v0.82.0/packages/coding-agent/docs/providers.md#openrouter) ([#6927](https://github.com/earendil-works/pi/pull/6927) by [@rsaryev](https://github.com/rsaryev)).\n- Exposed `PI_SESSION_ID`, `PI_SESSION_FILE`, `PI_PROVIDER`, `PI_MODEL`, and `PI_REASONING_LEVEL` to commands run by built-in and factory-created bash tools. See [Bash Tool Session Environment](https://github.com/earendil-works/pi/blob/v0.82.0/packages/coding-agent/docs/environment-variables.md#bash-tool-session-environment).\n- Added streaming `bash_execution_update` events for direct RPC bash commands, correlated with request IDs. See [RPC bash events](https://github.com/earendil-works/pi/blob/v0.82.0/packages/coding-agent/docs/rpc.md#bash_execution_update) ([#6971](https://github.com/earendil-works/pi/pull/6971) by [@ananthakumaran](https://github.com/ananthakumaran)).\n\n### Changed\n\n- Changed inherited generated model catalogs to expose only provider-verified reasoning effort levels from models.dev ([#6928](https://github.com/earendil-works/pi/pull/6928) by [@davidbrai](https://github.com/davidbrai)).\n\n### Fixed\n\n- Fixed inherited DNS lookup failures such as `getaddrinfo`, `ENOTFOUND`, and `EAI_AGAIN` to trigger automatic assistant retries ([#6946](https://github.com/earendil-works/pi/pull/6946) by [@christianklotz](https://github.com/christianklotz)).\n- Fixed inherited OpenRouter Anthropic cache breakpoints to advance through tool results and enabled cache control for `~anthropic/*-latest` aliases ([#6941](https://github.com/earendil-works/pi/pull/6941) by [@mteam88](https://github.com/mteam88)).\n- Fixed inherited OpenAI Codex WebSocket sessions to retry once without a missing previous-response continuation after `previous_response_not_found` errors ([#6955](https://github.com/earendil-works/pi/pull/6955) by [@davidbrai](https://github.com/davidbrai)).\n- Fixed TUI debug and crash logs to respect custom agent directories instead of always writing under `~/.pi/agent` ([#6958](htt",
+    "changelog_url": null,
+    "created_at": "2026-07-24T07:08:30Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "pi__earendil-works-pi__v0.82.0",
+    "kind": "minor",
+    "name": "v0.82.0",
+    "package": "pi",
+    "processing_started_at": "2026-07-24T07:17:27Z",
+    "published_at": "2026-07-24T06:12:16Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/earendil-works/pi/releases/tag/v0.82.0",
+    "repo": "earendil-works/pi",
+    "source": "github_release",
+    "status": "done",
+    "tag": "v0.82.0",
+    "version": "0.82.0",
+    "completed_at": "2026-07-24T07:20:48.000Z",
+    "post_path": "src/content/posts/pi-v0-82-0.md",
+    "commit_sha": "48116bfbb3840828cacd0f354e60aa9818d1bee3",
+    "pushed": true
   }
 ]
