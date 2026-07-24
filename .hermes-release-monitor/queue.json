@@ -2620,5 +2620,30 @@
     "post_path": "src/content/posts/qwen-code-v0-21-0.md",
     "commit_sha": "4770fcb70d2d588027612a357b599726f3e495f8",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/gravity-ui/aikit/releases/359379782",
+    "body_excerpt": "## [2.13.0](https://github.com/gravity-ui/aikit/compare/v2.12.0...v2.13.0) (2026-07-24)\n\n\n### Features\n\n* **getFunctionCallDoneUpdate:** add able pass agruments from function_call ([#210](https://github.com/gravity-ui/aikit/issues/210)) ([d7a8bf0](https://github.com/gravity-ui/aikit/commit/d7a8bf09614361e2d8951b75493a45b2d41edfeb))\n* **suggestions:** pass suggestion context on click ([#212](https://github.com/gravity-ui/aikit/issues/212)) ([e263a87](https://github.com/gravity-ui/aikit/commit/e263a87fc64f33d5961868e9ae7af30a4c011c6f))",
+    "changelog_url": null,
+    "created_at": "2026-07-24T15:24:12Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "@gravity-ui-aikit__gravity-ui-aikit__v2.13.0",
+    "kind": "minor",
+    "name": "v2.13.0",
+    "package": "@gravity-ui/aikit",
+    "processing_started_at": "2026-07-24T15:34:33Z",
+    "published_at": "2026-07-24T15:07:26Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/gravity-ui/aikit/releases/tag/v2.13.0",
+    "repo": "gravity-ui/aikit",
+    "source": "github_release",
+    "status": "done",
+    "tag": "v2.13.0",
+    "version": "2.13.0",
+    "completed_at": "2026-07-24T15:37:52Z",
+    "post_path": "src/content/posts/gravity-ui-aikit-v2-13-0.md",
+    "commit_sha": "cae93c9016c2f449a7a19f24709abc2d7fd70e06",
+    "pushed": true
   }
 ]
