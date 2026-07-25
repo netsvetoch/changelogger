@@ -2670,5 +2670,32 @@
     "post_path": "src/content/posts/eslint-v10-8-0.md",
     "commit_sha": "60e772140b3ea20d31747c56a57e06842d2e0023",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/nubjs/nub/releases/359862516",
+    "body_excerpt": "Nub 0.6.0 runs every `package.json` script body through a POSIX shell on all three platforms, makes the 24-hour install trust floor fail closed, and adds a canary release channel.\n\n> [!IMPORTANT]\n> Two changes affect existing projects on upgrade.\n>\n> **Windows script bodies now run under a POSIX shell instead of `cmd.exe`.** A script written in cmd syntax — `set NODE_ENV=production && node build.js`, `rd /s /q dist`, `%VAR%` — no longer works. Rewrite it in POSIX syntax (which then works on every platform), or opt back out with `script-shell=cmd` in `.npmrc` or `--script-shell cmd`.\n>\n> **The `minimumReleaseAge` cooling window now fails closed.** When every version satisfying a range was published less than 24 hours ago, the install errors instead of falling back to the lowest satisfying version. Set `minimumReleaseAgeStrict=false` in `.npmrc` to restore the previous fallback.\n>\n> The first install after upgrading also re-links `node_modules` once and rebuilds native addons once, because the install caches are now keyed on the Node engine. Nothing is re-downloaded.\n\n## Script bodies run through a POSIX shell\n\nOne script body now behaves the same on macOS, Linux, and Windows — `&&`, pipes, `$(…)`, `${PORT:-3000}`, and globs included. macOS and Linux use the system `/bin/sh`. Windows has no POSIX shell, so Nub ships busybox next to its binary and uses it by default in place of `cmd.exe`; this adds about 700 KB to the Windows artifacts only.\n\nExtra arguments are now escaped for the target shell and spliced onto the unescaped script body, matching how npm does it, so a multi-word argument reaches the script as a single token while the body's own expansions still run. ([#559](https://github.com/nubjs/nub/pull/559), closes [#399](https://github.com/nubjs/nub/issues/399))\n\n## The install trust floor fails closed\n\nNub pins both halves of the release-age floor at its own tier: a 24-hour window, and a hard failure when no version in range is old enough. The documented posture was already a hard gate; the implementation now matches it. Explicit user configuration still overrides both — the values are defaults, not policy. ([#544](https://github.com/nubjs/nub/pull/544))\n\n## Canary channel\n\nEvery code push to `main` now publishes a full 8-platform build under a rolling `canary` release and the npm `canary` dist-tag.\n\n```sh\ncurl -fsSL https://nubjs.com/install.sh | bash -s canary   # macOS, Linux\nnpm install -g --ignore-scripts=false @nubjs/nub@canary\n```\n\nA script install switches channels in place with `nub upgrade --canary`; `nub upgrade --stable` returns to the latest stable release. On a canary build, a plain `nub upgrade` stays on canary. ([#551](https://github.com/nubjs/nub/pull/551), [#557](https://github.com/nubjs/nub/pull/557), [#558](https://github.com/nubjs/nub/pull/558))\n\n## Interactive update picker\n\n`nub update -i` replaces the pre-selected multiselect with a per-row keep-or-update table. Pressing enter with nothing selected now updates nothing rather than everything, and `-i --latest` folds into the same picker. Non-interactive `nub update` is unchanged. Minor-version rows in `nub outdated` moved from cyan to yellow. ([#512](https://github.com/nubjs/nub/pull/512), closes [#483](https://github.com/nubjs/nub/issues/483))\n\n## Package manager fixes\n\n| Fix | PR |\n| --- | --- |\n| Install caches — global virtual store, side-effects cache, freshness and delta gates — are keyed on the project's Node engine, so switching Node versions no longer reuses artifacts built for another one. Dependency build scripts in a workspace member now anchor to the workspace root, matching npm and pnpm. | [#530](https://github.com/nubjs/nub/pull/530), [#537](https://github.com/nubjs/nub/pull/537), [#538](https://github.com/nubjs/nub/pull/538), [#542](https://github.com/nubjs/nub/pull/542), [#548](https://github.com/nubjs/nub/pull/548) |\n| `nub approve-builds` lists and approves dependencies installed from a local source, which install warned about but ",
+    "changelog_url": null,
+    "created_at": "2026-07-25T22:24:14Z",
+    "existing_post_candidates": [
+      "src/content/posts/eslint-v10-6-0.md"
+    ],
+    "featured": false,
+    "id": "nub__nubjs-nub__v0.6.0",
+    "kind": "minor",
+    "name": "v0.6.0",
+    "package": "nub",
+    "processing_started_at": "2026-07-25T22:35:57Z",
+    "published_at": "2026-07-25T21:23:51Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/nubjs/nub/releases/tag/v0.6.0",
+    "repo": "nubjs/nub",
+    "source": "github_release",
+    "status": "done",
+    "tag": "v0.6.0",
+    "version": "0.6.0",
+    "completed_at": "2026-07-25T22:38:51Z",
+    "post_path": "src/content/posts/nub-v0-6-0.md",
+    "commit_sha": "866659e1d00130c0058ff23419a9a3935b2a01ef",
+    "pushed": true
   }
 ]
