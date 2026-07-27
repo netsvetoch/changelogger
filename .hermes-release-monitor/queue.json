@@ -2722,5 +2722,30 @@
     "post_path": "src/content/posts/gravity-ui-aikit-v2-14-0.md",
     "commit_sha": "85ce1199ff87184f2f9dc5a67aa3efb23bebbb6f",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/gravity-ui/markdown-editor/releases/360384697",
+    "body_excerpt": "## [15.45.0](https://github.com/gravity-ui/markdown-editor/compare/markdown-editor-v15.44.0...markdown-editor-v15.45.0) (2026-07-24)\n\n\n### Features\n\n* **ImgSize:** add ability to override relative image URLs ([#1186](https://github.com/gravity-ui/markdown-editor/issues/1186)) ([fa6ca63](https://github.com/gravity-ui/markdown-editor/commit/fa6ca637672e0ecd61b4d19e1a8b3a31f59b1537))",
+    "changelog_url": null,
+    "created_at": "2026-07-27T12:39:02Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "@gravity-ui-markdown-editor__gravity-ui-markdown-editor__markdown-editor-v15.45.0",
+    "kind": "minor",
+    "name": "markdown-editor: v15.45.0",
+    "package": "@gravity-ui/markdown-editor",
+    "processing_started_at": "2026-07-27T12:52:28Z",
+    "published_at": "2026-07-27T11:38:47Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/gravity-ui/markdown-editor/releases/tag/markdown-editor-v15.45.0",
+    "repo": "gravity-ui/markdown-editor",
+    "source": "github_release",
+    "status": "done",
+    "tag": "markdown-editor-v15.45.0",
+    "version": "15.45.0",
+    "completed_at": "2026-07-27T12:55:18.000Z",
+    "post_path": "src/content/posts/gravity-ui-markdown-editor-v15-45-0.md",
+    "commit_sha": "fbd3d5582e0ed7fedc7de0bc5c97df77aa8f69cb",
+    "pushed": true
   }
 ]
