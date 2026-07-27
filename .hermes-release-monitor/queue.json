@@ -2747,5 +2747,30 @@
     "post_path": "src/content/posts/gravity-ui-markdown-editor-v15-45-0.md",
     "commit_sha": "fbd3d5582e0ed7fedc7de0bc5c97df77aa8f69cb",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/oxc-project/oxc/releases/360545165",
+    "body_excerpt": "## Table of Contents\n\n- [Oxlint v1.76.0](#oxlint-v1.76.0)\n- [Oxfmt v0.61.0](#oxfmt-v0.61.0)\n\n## Oxlint v1.76.0\n### 🚀 Features\n\n- 8d31dfa linter: Verify eslint/no-restricted-globals config schema (#24598) (vigneshwar)\n- 7069621 linter: Verify jest/vitest prefer-lowercase-title config schema (#24724) (Bartok)\n- 016cf2a linter/oxc: Add bad-match-all-arg rule (#24900) (camc314)\n- cdc941e linter/n: Implement `exports-style` rule (#24087) (Mikhail Baev)\n- 1ad6f6c linter/eslint: Implement `id-denylist` rule (#24632) (Mikhail Baev)\n- 678bbb5 linter/typescript-eslint: Implement suggestion for `class-literal-property-style` rule (#24766) (Mikhail Baev)\n\n### 🐛 Bug Fixes\n\n- a5f3a0e linter: Mark missing suggestions as pending (#24956) (Mikhail Baev)\n- a065946 oxlint: Absolutize explicit CLI paths even with --no-ignore (#24646) (Bez Sahara)\n- 17688bb linter/jsx-a11y/interactive-supports-focus: Match eslint behavior for custom components (#24780) (Cole Ellison)\n- 0aef19e linter/typescript/no-confusing-non-null-assertion: Report `in` and `instanceof` (#24825) (Mikhail Baev)\n- 361dce9 linter: Unicorn/no-array-reverse and no-array-sort replacements should be suggestions (#24848) (klem)\n- 9213560 config: Preserve defineConfig field JSDoc (#24326) (周星星同学)\n- 334d884 linter/node/no-top-level-await: Clarify diagnostic (#24803) (camc314)\n- b9fc6af linter/eslint/func-names: Ignore overloads (#24801) (camc314)\n- e80574f estree: Handle empty spans serializing `ImportMeta` and `NewTarget` (#24775) (overlookmotel)\n\n### ⚡ Performance\n\n- e9de5a1 linter/jest-vitest/no-test-return-statement: Only run on return statements (#24167) (Cam McHenry)\n- aea459d linter/eslint/func-style: Rewrite rule to not iterate over all nodes (#24156) (Cam McHenry)\n- fb4398c linter/eslint/no-new-func: Only run on new and call expressions (#24166) (Cam McHenry)\n- c75dc60 linter: Avoid `Vec` allocations via `bound_names` (#24959) (connorshea)\n- 9f9f39d linter/eslint/no-const-assign: Avoid `Vec` allocation per `const` declarator (#24953) (connorshea)\n- 10a621e linter/typescript/adjacent-overload-signatures: Avoid collecting vec in some cases (#24874) (connorshea)\n- ed167e1 linter/node/exports-style: Iterate once over global references (#24877) (connorshea)\n- 69908fe linter: Avoid allocations in jest/no-deprecated-functions (#24866) (Connor Shea)\n- a3585d7 linter: Speed up jest/vitest prefer-each (#24872) (Connor Shea)\n- 62fe640 linter/eslint/prefer-rest-params: Run once per file (#24873) (Connor Shea)\n- 7a7aa54 linter/eslint/no-this-before-super: Skip files without classes (#24869) (Connor Shea)\n- 4ad0c94 linter/plugins: Faster copying comments to JS allocator (#24858) (overlookmotel)\n- 4c25b91 linter/plugins: Test booleans with explicit `=== false` (#24830) (overlookmotel)\n- b7add00 linter/plugins: Remove check in loop in `getDisableDirectives` (#24833) (overlookmotel)\n\n### 📚 Documentation\n\n- 3ff2e0e linter: Clarify config extends types (#24936) (Boshen)\n\n## Oxfmt v0.61.0\n### 🚀 Features\n\n- eabfe01 oxfmt/lsp: Support `oxc.fmt.disableNestedConfig` (#24965) (leaysgur)\n- 2357a10 formatter_yaml: Implement YAML formatter (#24534) (leaysgur)\n\n### 🐛 Bug Fixes\n\n- 761a882 formatter_css: Keep leading `+` in An+B to enable idempotency check (#24973) (leaysgur)\n- e037709 formatter: Stop preserving indent for embedded template exprs (#24972) (leaysgur)\n- ae1a39b formatter_css: Align wrapped selector-arg indent (#24971) (leaysgur)\n- 143fd1f formatter: Align quoted `new` signature (#24883) (leaysgur)\n- 07ff12f formatter_yaml: Fix indent, blank, and spacing issues (#24837) (leaysgur)\n- d076b40 formatter: Check calee chain is_simple (#24871) (leaysgur)\n- fb34196 formatter_css: Keep non-ASCII strings with quotes (#24870) (leaysgur)\n- 9213560 config: Preserve defineConfig field JSDoc (#24326) (周星星同学)\n- 31783e9 formatter_css: Print nested SCSS map with consistent indent (#24789) (leaysgur)\n- 8eb9eca formatter/jsdoc: Respect `singleQuote` option in `@import` (#24787) (leaysgur)\n- 6f05ac4 formatter: Fix t",
+    "changelog_url": null,
+    "created_at": "2026-07-27T16:48:07Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "oxlint-oxfmt__oxc-project-oxc__apps_v1.76.0",
+    "kind": "minor",
+    "name": "oxlint v1.76.0 & oxfmt v0.61.0",
+    "package": "oxlint + oxfmt",
+    "processing_started_at": "2026-07-27T16:53:31Z",
+    "published_at": "2026-07-27T15:59:01Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/oxc-project/oxc/releases/tag/apps_v1.76.0",
+    "repo": "oxc-project/oxc",
+    "source": "github_release",
+    "status": "done",
+    "tag": "apps_v1.76.0",
+    "version": "1.76.0",
+    "completed_at": "2026-07-27T16:57:10Z",
+    "post_path": "src/content/posts/oxlint-oxfmt-apps-v1-76-0.md",
+    "commit_sha": "66c5dd8a1b9b1aaf32c8821217d674768656169b",
+    "pushed": true
   }
 ]
