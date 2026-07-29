@@ -2772,5 +2772,30 @@
     "post_path": "src/content/posts/oxlint-oxfmt-apps-v1-76-0.md",
     "commit_sha": "66c5dd8a1b9b1aaf32c8821217d674768656169b",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/openai/codex/releases/361463950",
+    "body_excerpt": "## New Features\n\n- Name new sessions with `/new` or `/clear`, pin important threads, and switch between side conversations without closing them. (#34605, #34840, #35011)\n- Support Agent Plugins manifests, workspace plugin publishing, and additional plugin marketplaces for Amazon Bedrock and Claude Code. (#35105, #35254, #34931, #34979)\n- Fork threads with paginated history, including temporary forks that do not appear in thread listings. (#35220, #35251)\n- Connect app-server to remote Code Mode hosts over WebSocket. (#35078, #35098)\n- Enable standalone web search for compatible custom model providers. (#34846)\n- Discover executor-provided skills and securely read their associated resources, including explicitly selected skills. (#35184, #35198)\n\n## Bug Fixes\n\n- Honor configured proxies across authentication, plugin downloads, MCP authorization, remote execution, WebSockets, redirects, and LM Studio connections. (#34479, #34509, #34655, #34678, #35023, #35056, #35239)\n- Keep MCP connections and Apps tools current when authentication or configuration changes, reconnecting closed servers without restarting healthy connections. (#34952, #34957, #35028, #35144, #35146, #35151)\n- Preserve submitted messages, final responses, failed-turn errors, imported timestamps, and approval settings across interruptions, replay, imports, and forks. (#34839, #34777, #35524, #34989, #34664)\n- Improve terminal responsiveness and rendering, including nonblocking interrupts, keyboard handling, narrow layouts, hyperlinks, and refreshed mention results. (#35000, #35021, #34775, #34778, #35365, #35375)\n- Fix Windows navigation keys, reliably terminate sandboxed process trees, and preserve proxy settings during security reviews. (#34625, #34624, #35036)\n- Retain more available skills under tight context budgets and warn when skill catalogs must be truncated. (#34732, #34738, #34997)\n\n## Documentation\n\n- Document shared HTTP-client usage, proxy-aware connection pooling, and safe outbound request handling. (#34669)\n- Clarify Windows drive-letter canonicalization for `PathUri` values. (#34667)\n\n## Chores\n\n- Publish release artifacts, channel metadata, and installer aliases through OpenAI-hosted release infrastructure, with GitHub fallback. (#34505, #34508, #34729, #34910)\n- Sign and notarize bundled macOS helper executables before packaging. (#35264)\n- Reduce app-server serialization overhead and unnecessary request-building allocations. (#34761, #34766, #34825)\n- Add enterprise-plan recognition and administrator controls for in-app updates. (#35238, #35537)\n\n## Changelog\n\nFull Changelog: https://github.com/openai/codex/compare/rust-v0.145.0...rust-v0.146.0\n\n- #34447 Add a route-aware HTTP client pool @copyberry\n- #34449 Make external session detection limits configurable @copyberry\n- #34451 Attribute external agent imports by provider @copyberry\n- #34463 Support alpha hotfix release versions @copyberry\n- #34469 Preserve thread settings for goal-first and forked threads @copyberry\n- #34476 Separate HTTP execution from request logging @copyberry\n- #34478 Honor `CARGO_HTTP_CAINFO` in managed proxy environments @copyberry\n- #34479 Re-resolve system proxy routes across redirects @copyberry\n- #34481 Add route-aware redirect test coverage @copyberry\n- #34483 Expand route-aware proxy redirect coverage @copyberry\n- #34490 Route backend requests through the HTTP client factory @copyberry\n- #34491 Route cloud environment discovery through the HTTP client pool @copyberry\n- #34495 Honor system proxy settings in the daemon updater @copyberry\n- #34497 Preserve custom arg0 for sandboxed exec-server processes @copyberry\n- #34505 Mirror Rust release artifacts to Cloudflare R2 @copyberry\n- #34506 Respect system proxies during plugin startup sync @copyberry\n- #34508 Publish release metadata to R2 channels @copyberry\n- #34509 Honor system proxy settings for remote plugins @copyberry\n- #34514 Add an optional releases.openai.com installer source @copyberry\n- #34516 Allow `numer`",
+    "changelog_url": null,
+    "created_at": "2026-07-29T05:30:57Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "codex__openai-codex__rust-v0.146.0",
+    "kind": "minor",
+    "name": "0.146.0",
+    "package": "codex",
+    "processing_started_at": "2026-07-29T05:31:26Z",
+    "published_at": "2026-07-29T01:42:51Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/openai/codex/releases/tag/rust-v0.146.0",
+    "repo": "openai/codex",
+    "source": "github_release",
+    "status": "done",
+    "tag": "rust-v0.146.0",
+    "version": "0.146.0",
+    "completed_at": "2026-07-29T05:35:13.000Z",
+    "post_path": "src/content/posts/openai-codex-rust-v0-146-0.md",
+    "commit_sha": "c3e3c2d0225e65c438ba9c43b945236cf207673a",
+    "pushed": true
   }
 ]
