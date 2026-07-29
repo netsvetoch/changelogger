@@ -2849,5 +2849,30 @@
     "post_path": "src/content/posts/dpdm-v4-3-0.md",
     "commit_sha": "84e409962d2894fc12fbcadbc520a5ed0f42374c",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/gravity-ui/navigation/releases/361686080",
+    "body_excerpt": "## [6.4.0](https://github.com/gravity-ui/navigation/compare/v6.3.1...v6.4.0) (2026-07-29)\n\n\n### Features\n\n* **AllPagesPanel:** added tooltip for the pin icon ([#658](https://github.com/gravity-ui/navigation/issues/658)) ([893d9b2](https://github.com/gravity-ui/navigation/commit/893d9b2551a1aac2d2bc539cb27ab505502c081f))",
+    "changelog_url": null,
+    "created_at": "2026-07-29T11:54:40Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "@gravity-ui-navigation__gravity-ui-navigation__v6.4.0",
+    "kind": "minor",
+    "name": "v6.4.0",
+    "package": "@gravity-ui/navigation",
+    "processing_started_at": "2026-07-29T11:58:02Z",
+    "published_at": "2026-07-29T11:04:14Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/gravity-ui/navigation/releases/tag/v6.4.0",
+    "repo": "gravity-ui/navigation",
+    "source": "github_release",
+    "status": "done",
+    "tag": "v6.4.0",
+    "version": "6.4.0",
+    "completed_at": "2026-07-29T12:00:19Z",
+    "post_path": "src/content/posts/gravity-ui-navigation-v6-4-0.md",
+    "commit_sha": "6c3f6338283565556a01244c4fa076c2b5b505bf",
+    "pushed": true
   }
 ]
