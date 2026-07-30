@@ -3056,5 +3056,29 @@
     "post_path": "src/content/posts/rxjs-v7-7-0.md",
     "commit_sha": "9d3c630e84e958c144f5434c3c65f9e3bd2656a6",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/ReactiveX/rxjs/contents/packages/rxjs/CHANGELOG.md?ref=master",
+    "body_excerpt": "# [7.8.0](https://github.com/reactivex/rxjs/compare/7.7.0...7.8.0) (2022-12-15)\n\n### Features\n\n- **buffer:** `closingNotifier` now supports any `ObservableInput` ([#7073](https://github.com/reactivex/rxjs/issues/7073)) ([61b877a](https://github.com/reactivex/rxjs/commit/61b877a50c2557196a45e12622305c5a84fc3f0a))\n- **delayWhen:** `delayWhen`'s `delayDurationSelector` now supports any `ObservableInput` ([#7049](https://github.com/reactivex/rxjs/issues/7049)) ([dfd95db](https://github.com/reactivex/rxjs/commit/dfd95db952a6772d35d11bdd1974f2c4b4d68b25))\n- **sequenceEqual:** `compareTo` now supports any `ObservableInput` ([#7102](https://github.com/reactivex/rxjs/issues/7102)) ([d501961](https://github.com/reactivex/rxjs/commit/d50196187710c7a0cad50703b2071fc3f2cabd3c))\n- **share:** `ShareConfig` factory properties now supports any `ObservableInput` ([#7093](https://github.com/reactivex/rxjs/issues/7093)) ([cc3995a](https://github.com/reactivex/rxjs/commit/cc3995a6f6baf9456ec11f749fe89bf61b9e2d62))\n- **skipUntil:** `notifier` now supports any `ObservableInput` ([#7091](https://github.com/reactivex/rxjs/issues/7091)) ([60d6c40](https://github.com/reactivex/rxjs/commit/60d6c40fb484903286feca2bbfa9fcb2cde720e2))\n- **window:** `windowBoundaries` now supports any `ObservableInput` ([#7088](https://github.com/reactivex/rxjs/issues/7088)) ([8c4347c](https://github.com/reactivex/rxjs/commit/8c4347c48f2432d7399c911d329fa74e0d6c6e8d))",
+    "changelog_url": "https://github.com/ReactiveX/rxjs/blob/master/packages/rxjs/CHANGELOG.md",
+    "created_at": "2026-07-30T04:24:39Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "rxjs__ReactiveX-rxjs__7.8.0",
+    "kind": "minor",
+    "name": "[7.8.0](https://github.com/reactivex/rxjs/compare/7.7.0...7.8.0) (2022-12-15)",
+    "package": "rxjs",
+    "published_at": "2022-12-15T00:00:00Z",
+    "reason": "manual-last-major-all-boundaries",
+    "release_url": "https://github.com/reactivex/rxjs/compare/7.7.0...7.8.0",
+    "repo": "ReactiveX/rxjs",
+    "source": "changelog",
+    "status": "done",
+    "tag": "7.8.0",
+    "version": "7.8.0",
+    "completed_at": "2026-07-30T06:40:47Z",
+    "post_path": "src/content/posts/rxjs-v7-8-0.md",
+    "commit_sha": "d54d1c637a2918b60a15428afcefa423cb9b3eb7",
+    "pushed": true
   }
 ]
