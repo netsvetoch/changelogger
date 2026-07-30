@@ -2899,5 +2899,32 @@
     "status": "done",
     "tag": "v0.83.0",
     "version": "0.83.0"
+  },
+  {
+    "api_url": "https://api.github.com/repos/ReactiveX/rxjs/contents/packages/rxjs/CHANGELOG.md?ref=master",
+    "body_excerpt": "# [7.0.0](https://github.com/reactivex/rxjs/compare/7.0.0-rc.3...7.0.0) (2021-04-29)\n\n### Bug Fixes\n\n- VS code will now properly auto-import operators, et al ([#6276](https://github.com/reactivex/rxjs/issues/6276)) ([f43c728](https://github.com/reactivex/rxjs/commit/f43c72815f9ebe5ee3a8ed11513be0f541c9517d)), closes [#6067](https://github.com/reactivex/rxjs/issues/6067)\n- **AjaxResponse:** add stricter `type` (`AjaxResponseType`) ([#6279](https://github.com/reactivex/rxjs/issues/6279)) ([839e192](https://github.com/reactivex/rxjs/commit/839e192b7d826d833d7ce941be97c3735bd19c0a))",
+    "changelog_url": "https://github.com/ReactiveX/rxjs/blob/master/packages/rxjs/CHANGELOG.md",
+    "created_at": "2026-07-30T04:24:39Z",
+    "existing_post_candidates": [
+      "src/content/posts/astro-v7-0-0.md"
+    ],
+    "featured": true,
+    "id": "rxjs__ReactiveX-rxjs__7.0.0",
+    "kind": "major",
+    "name": "[7.0.0](https://github.com/reactivex/rxjs/compare/7.0.0-rc.3...7.0.0) (2021-04-29)",
+    "package": "rxjs",
+    "processing_started_at": "2026-07-30T04:30:15Z",
+    "published_at": "2021-04-29T00:00:00Z",
+    "reason": "manual-last-major-all-boundaries",
+    "release_url": "https://github.com/reactivex/rxjs/compare/7.0.0-rc.3...7.0.0",
+    "repo": "ReactiveX/rxjs",
+    "source": "changelog",
+    "status": "done",
+    "tag": "7.0.0",
+    "version": "7.0.0",
+    "completed_at": "2026-07-30T04:34:24Z",
+    "post_path": "src/content/posts/rxjs-v7-0-0.md",
+    "commit_sha": "da9b492fc06de8e264ebcc4e08001ad3749edc31",
+    "pushed": true
   }
 ]
