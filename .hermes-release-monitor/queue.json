@@ -2950,5 +2950,32 @@
     "post_path": "src/content/posts/rxjs-v7-2-0.md",
     "commit_sha": "cc348caff6611dbfcdd66a3f9c695d23948614e7",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/ReactiveX/rxjs/contents/packages/rxjs/CHANGELOG.md?ref=master",
+    "body_excerpt": "# [7.3.0](https://github.com/reactivex/rxjs/compare/7.2.0...7.3.0) (2021-07-28)\n\n### Bug Fixes\n\n- Expose `Connectable`, the return type of `connectable` ([#6531](https://github.com/reactivex/rxjs/issues/6531)) ([69f5bfa](https://github.com/reactivex/rxjs/commit/69f5bfae0eb2880a3d5cfb34db3a182182b325de)), closes [#6529](https://github.com/reactivex/rxjs/issues/6529)\n- **AsyncSubject:** properly emits values during reentrant subscriptions ([#6522](https://github.com/reactivex/rxjs/issues/6522)) ([dd8bdf3](https://github.com/reactivex/rxjs/commit/dd8bdf3b18b596155b66029ef16ebabf989360c5)), closes [#6520](https://github.com/reactivex/rxjs/issues/6520)\n\n### Features\n\n- **retry:** Now supports configurable delay as a named argument ([#6421](https://github.com/reactivex/rxjs/issues/6421)) ([5f69795](https://github.com/reactivex/rxjs/commit/5f69795f4be035499cf223bf9a3d7352c4975291))\n- **tap:** Now supports subscribe, unsubscribe, and finalize handlers ([#6527](https://github.com/reactivex/rxjs/issues/6527)) ([eb26cbc](https://github.com/reactivex/rxjs/commit/eb26cbc4488c9953cdde565b598b1dbdeeeee9ea))",
+    "changelog_url": "https://github.com/ReactiveX/rxjs/blob/master/packages/rxjs/CHANGELOG.md",
+    "created_at": "2026-07-30T04:24:39Z",
+    "existing_post_candidates": [
+      "src/content/posts/kilocode-v7-3-0.md"
+    ],
+    "featured": false,
+    "id": "rxjs__ReactiveX-rxjs__7.3.0",
+    "kind": "minor",
+    "name": "[7.3.0](https://github.com/reactivex/rxjs/compare/7.2.0...7.3.0) (2021-07-28)",
+    "package": "rxjs",
+    "processing_started_at": "2026-07-30T05:18:16Z",
+    "published_at": "2021-07-28T00:00:00Z",
+    "reason": "manual-last-major-all-boundaries",
+    "release_url": "https://github.com/reactivex/rxjs/compare/7.2.0...7.3.0",
+    "repo": "ReactiveX/rxjs",
+    "source": "changelog",
+    "status": "done",
+    "tag": "7.3.0",
+    "version": "7.3.0",
+    "completed_at": "2026-07-30T05:20:44Z",
+    "post_path": "src/content/posts/rxjs-v7-3-0.md",
+    "commit_sha": "e760ef14ca96ec5d9b206e5dce5e46a6367f3f8a",
+    "pushed": true
   }
 ]
