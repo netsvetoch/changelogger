@@ -2926,5 +2926,29 @@
     "post_path": "src/content/posts/rxjs-v7-0-0.md",
     "commit_sha": "da9b492fc06de8e264ebcc4e08001ad3749edc31",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/ReactiveX/rxjs/contents/packages/rxjs/CHANGELOG.md?ref=master",
+    "body_excerpt": "# [7.2.0](https://github.com/reactivex/rxjs/compare/7.1.0...7.2.0) (2021-07-05)\n\n### Bug Fixes\n\n- **debounceTime:** unschedule dangling task on unsubscribe before complete ([#6464](https://github.com/reactivex/rxjs/issues/6464)) ([7ab0a4c](https://github.com/reactivex/rxjs/commit/7ab0a4c649b1b54e763a726c4ffdc183b0b45b23))\n- **fromEvent:** Types now properly infer when resultSelector is provided ([#6447](https://github.com/reactivex/rxjs/issues/6447)) ([39b9d81](https://github.com/reactivex/rxjs/commit/39b9d818ef6ea033dc8e53800e3a220d56c76b4a))\n\n### Features\n\n- Operators are all exported at the top level, from \"rxjs\". From here on out, we encourage top-level imports with RxJS. Importing from `rxjs/operators` will be deprecated soon. ([#6488](https://github.com/reactivex/rxjs/issues/6488)) ([512adc2](https://github.com/reactivex/rxjs/commit/512adc25f350660113275d8277d16b7f3eec1d49)), closes [#6242](https://github.com/reactivex/rxjs/issues/6242)",
+    "changelog_url": "https://github.com/ReactiveX/rxjs/blob/master/packages/rxjs/CHANGELOG.md",
+    "created_at": "2026-07-30T04:24:39Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "rxjs__ReactiveX-rxjs__7.2.0",
+    "kind": "minor",
+    "name": "[7.2.0](https://github.com/reactivex/rxjs/compare/7.1.0...7.2.0) (2021-07-05)",
+    "package": "rxjs",
+    "published_at": "2021-07-05T00:00:00Z",
+    "reason": "manual-last-major-all-boundaries",
+    "release_url": "https://github.com/reactivex/rxjs/compare/7.1.0...7.2.0",
+    "repo": "ReactiveX/rxjs",
+    "source": "changelog",
+    "status": "done",
+    "tag": "7.2.0",
+    "version": "7.2.0",
+    "completed_at": "2026-07-30T05:04:27Z",
+    "post_path": "src/content/posts/rxjs-v7-2-0.md",
+    "commit_sha": "cc348caff6611dbfcdd66a3f9c695d23948614e7",
+    "pushed": true
   }
 ]
