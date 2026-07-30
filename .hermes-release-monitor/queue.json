@@ -3002,5 +3002,32 @@
     "post_path": "src/content/posts/rxjs-v7-5-0.md",
     "commit_sha": "d88fe88cb2fe336edc3090700a2d56290782e533",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/ReactiveX/rxjs/contents/packages/rxjs/CHANGELOG.md?ref=master",
+    "body_excerpt": "# [7.6.0](https://github.com/reactivex/rxjs/compare/7.5.7...7.6.0) (2022-12-03)\n\n### Bug Fixes\n\n- **schedulers:** no longer cause TypeScript build failures when Node types aren't included ([c1a07b7](https://github.com/reactivex/rxjs/commit/c1a07b71ac050ab36b371ff7f18dc9a924fffc9f))\n- **types:** Improved subscribe and tap type overloads ([#6718](https://github.com/reactivex/rxjs/issues/6718)) ([af1a9f4](https://github.com/reactivex/rxjs/commit/af1a9f446a860883abaa36ace21345dc923e7e53)), closes [#6717](https://github.com/reactivex/rxjs/issues/6717)\n\n### Features\n\n- **onErrorResumeNextWith:** renamed `onErrorResumeNext` and exported from the top level. (`onErrorResumeNext` operator is stil available, but deprecated) ([#6755](https://github.com/reactivex/rxjs/issues/6755)) ([51e3b2c](https://github.com/reactivex/rxjs/commit/51e3b2c8ec28b5d30bca4c63ad69ce6942c2cdcc))",
+    "changelog_url": "https://github.com/ReactiveX/rxjs/blob/master/packages/rxjs/CHANGELOG.md",
+    "created_at": "2026-07-30T04:24:39Z",
+    "existing_post_candidates": [
+      "src/content/posts/react-use-v17-6-0.md"
+    ],
+    "featured": false,
+    "id": "rxjs__ReactiveX-rxjs__7.6.0",
+    "kind": "minor",
+    "name": "[7.6.0](https://github.com/reactivex/rxjs/compare/7.5.7...7.6.0) (2022-12-03)",
+    "package": "rxjs",
+    "processing_started_at": "2026-07-30T06:06:17Z",
+    "published_at": "2022-12-03T00:00:00Z",
+    "reason": "manual-last-major-all-boundaries",
+    "release_url": "https://github.com/reactivex/rxjs/compare/7.5.7...7.6.0",
+    "repo": "ReactiveX/rxjs",
+    "source": "changelog",
+    "status": "done",
+    "tag": "7.6.0",
+    "version": "7.6.0",
+    "completed_at": "2026-07-30T06:08:33Z",
+    "post_path": "src/content/posts/rxjs-v7-6-0.md",
+    "commit_sha": "545a77ffdcf58b2d961bbf62c382417c10cdb8ed",
+    "pushed": true
   }
 ]
