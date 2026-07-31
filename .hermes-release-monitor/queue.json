@@ -3154,5 +3154,30 @@
     "post_path": "src/content/posts/knip-6-30-0.md",
     "commit_sha": "11f568adb4a0c22e15892aac82fa3a6afdf83ee5",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/webpro-nl/knip/releases/363135317",
+    "body_excerpt": "* feat: Add basic support for Marko 6 and 5 (#1914) (c6b151642701f9b4864ddb5ea8e40580623f59d1) - thanks @caseycarroll!\n* Use Array.from in Marko compiler (5aadf47a22bdfd43bb8ad4082768e07fe37fc5ca)\n* Update release-it and fix release script flags (6fa9c269c65c0923965924226a5ccf0778842967)\n* Downgrade @types/vscode to match extension engines range (6d8e9bf5200cf982d0bc801469c4e2be5627e5b8)",
+    "changelog_url": null,
+    "created_at": "2026-07-31T15:34:58Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "knip__webpro-nl-knip__knip@6.31.0",
+    "kind": "minor",
+    "name": "Release 6.31.0",
+    "package": "knip",
+    "processing_started_at": "2026-07-31T15:43:44Z",
+    "published_at": "2026-07-31T14:42:01Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/webpro-nl/knip/releases/tag/knip%406.31.0",
+    "repo": "webpro-nl/knip",
+    "source": "github_release",
+    "status": "done",
+    "tag": "knip@6.31.0",
+    "version": "6.31.0",
+    "completed_at": "2026-07-31T15:46:37Z",
+    "post_path": "src/content/posts/knip-6-31-0.md",
+    "commit_sha": "1655b6a47e91952bc2f97aa2b57ee13997522ff7",
+    "pushed": true
   }
 ]
