@@ -3105,5 +3105,29 @@
     "post_path": "src/content/posts/vite-v8-2-0.md",
     "commit_sha": "5c36d81e51413cecc116690df8a58416418204af",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/cline/cline/releases/362842844",
+    "body_excerpt": "## What's in 4.1.0\n\n4.1.0 converts the stable extension to a **combined A/B package**: one VSIX containing both the current (legacy) extension and the new SDK-based extension, plus a small loader that activates exactly one per window, controlled by a staged remote rollout.\n\n**For nearly everyone, nothing changes** — the loader activates the same extension you were running in 4.0.12. A small percentage of users (starting at 1%) are gradually opted into the new SDK-based extension, which will become the default for everyone as the rollout completes.\n\n### Details\n\n- The rollout is staged and remotely controlled; assignments apply on window reload, never mid-session.\n- If the new extension fails to activate for any reason, the loader automatically falls back to the current extension in the same window — no user action needed.\n- Settings, credentials, and preferences are shared: nothing is migrated or lost when a machine switches between the two.\n- Tasks created on the new extension aren't visible while on the old one (they return if re-promoted).\n\nLegacy bundle: `legacy-extension` @ 3fdc186f1 (4.0.12 + free-model button wording).\nNext bundle: `main` @ 0746ea72bf6.\nRollout machinery: apps/vscode-rollout (see its README for design + runbook).\n",
+    "changelog_url": null,
+    "created_at": "2026-07-31T04:13:51Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "cline__cline-cline__v4.1.0",
+    "kind": "minor",
+    "name": "v4.1.0",
+    "package": "cline",
+    "published_at": "2026-07-31T04:00:52Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/cline/cline/releases/tag/v4.1.0",
+    "repo": "cline/cline",
+    "source": "github_release",
+    "status": "done",
+    "tag": "v4.1.0",
+    "version": "4.1.0",
+    "completed_at": "2026-07-31T04:28:25Z",
+    "post_path": "src/content/posts/cline-v4-1-0.md",
+    "commit_sha": "f68f2909ac5ac0a7e626c01bf4e23f2772f66214",
+    "pushed": true
   }
 ]
