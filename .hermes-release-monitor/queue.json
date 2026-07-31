@@ -3129,5 +3129,30 @@
     "post_path": "src/content/posts/cline-v4-1-0.md",
     "commit_sha": "f68f2909ac5ac0a7e626c01bf4e23f2772f66214",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/webpro-nl/knip/releases/362917951",
+    "body_excerpt": "* docs: migrate to Starlight Blog plugin (#1854) (c89e3e3c9) - thanks @trueberryless!\r\n* Include workspace dependencies in scoped runs (resolve #1901) (a75309eda)\r\n* Simplify workspace assembly (b3ac16411)\r\n* Document export declaration safety (ef98a7682)\r\n* Read object jsPlugin specifiers from Vite+ config (#1879) (3ea6a92d4) - thanks @matchai!\r\n* Compile gitignore negations once (6884cdb20)\r\n* Cache Node test script detection (d970f67d8)\r\n* Track only enabled workspace plugins (67d48268a)\r\n* Skip unsupported Vite config command (545bb2d36)\r\n* Add SARIF reporter (ce11cf5d4)\r\n* Track catalog refs in pnpm dlx scripts (resolve #1885, close #1886) (102189a1a)\r\n* Report unresolved catalog references (b2b86c3e5)\r\n* Track catalog references across scoped runs (resolve #1905) (f0365bae0)\r\n* Track script catalog references across scoped runs (9b3ab3778)\r\n* Remove tsc from ignoreBinaries (a0a283040)\r\n* fix: detect dynamic imports in Svelte component templates (#1908) (aa303fb04) - thanks @firatciftci!\r\n* fix(remark): support all types of dependency names (#1911) (3441bea3a) - thanks @voxpelli!\r\n* Update sanity snapshot (d04aa04e5)\r\n* feat(stryker): add ts extensions (#1910) (cfc50886e) - thanks @christopher-buss!\r\n* Adopt @e18e/eslint-plugin (adf2511ab)\r\n* Remove Workleap from sponsors (d4f6af9ff)\r\n* Update dependencies (3f61542f6)\r\n* Add ES2023 array types to TypeScript 5 CI (360a47157)\r\n* Update sentry snapshot (7defc1853)\r\n* Analyze published type dependencies (resolve #1909) (#1912) (87d713e52)\r\n* Update TanStack and Code Forge logos (39ed8c82b)\r\n* Track assets referenced from SCSS URLs (resolve #1916) (cbe13bf87)\r\n* Consume only the default export of inline dynamic import loaders (resolve #1915) (b90a299e2)\r\n* Update ecosystem snapshots (3f6cdee15)\r\n* Update dependencies (6cdb3a6ac)",
+    "changelog_url": null,
+    "created_at": "2026-07-31T08:20:52Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "knip__webpro-nl-knip__knip@6.30.0",
+    "kind": "minor",
+    "name": "Release 6.30.0",
+    "package": "knip",
+    "processing_started_at": "2026-07-31T08:26:38Z",
+    "published_at": "2026-07-31T07:46:25Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/webpro-nl/knip/releases/tag/knip%406.30.0",
+    "repo": "webpro-nl/knip",
+    "source": "github_release",
+    "status": "done",
+    "tag": "knip@6.30.0",
+    "version": "6.30.0",
+    "completed_at": "2026-07-31T08:29:33Z",
+    "post_path": "src/content/posts/knip-6-30-0.md",
+    "commit_sha": "11f568adb4a0c22e15892aac82fa3a6afdf83ee5",
+    "pushed": true
   }
 ]
