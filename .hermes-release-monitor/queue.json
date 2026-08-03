@@ -3229,5 +3229,31 @@
     "post_path": "src/content/posts/gravity-ui-aikit-v2-15-0.md",
     "commit_sha": "a9b6359cc9d8cc42bf50f14b21306134db63370c",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/NousResearch/hermes-agent/releases/364368160",
+    "body_excerpt": "# Hermes Agent v0.20.0 (v2026.8.3)\n\n\n**Release Date:** August 3, 2026\n**Since v0.19.0:** ~3,650 commits · ~1,400 merged PRs · ~5,200 files changed · ~559,000 insertions · ~405,000 deletions · **~1,200 issues closed** · 650+ contributors\n\n> **The Herald Release.** Hermes is the herald of the gods, and this release makes him one in earnest: he **speaks** (real-time conversational voice with streaming TTS, barge-in, on-device wake words, and hands-free control across the CLI, desktop, and every audio-capable gateway platform), he **carries word to other agents** (A2A v1.0), he **announces events to your systems** (signed outbound webhooks), and he **cites his sources** (grounded research with verifiable citations and fact-checking). Around that spine: the desktop app became a platform (artifacts with live preview, a plugin SDK, quick-entry from anywhere, multiple windows), the CLI got a wave of power commands (`!` shell mode, `/init`, `/diff`, `/context`, `/focus`), compression got smarter and gentler, and the tools themselves now recover from their own failures instead of making the model guess. This release rolls up everything from the v0.19.1 infrastructure patch tag — that window is fully documented here.\n\n---\n\n## ✨ Highlights\n\n- **Talk to Hermes — streaming, conversational voice with barge-in** — Voice mode used to mean: speak, wait for the whole reply to generate, then listen to one long audio file. Now Hermes speaks clause-by-clause as the response streams, you can interrupt it mid-sentence by just talking (it stops, listens, and the model is told you cut in), and busy-aware silence detection means it doesn't talk over you. This works in CLI voice mode, on the desktop, and through gateway adapters. Talking to Hermes finally feels like a conversation, not a voicemail exchange. ([#69511](https://github.com/NousResearch/hermes-agent/pull/69511), [#73862](https://github.com/NousResearch/hermes-agent/pull/73862), [#74223](https://github.com/NousResearch/hermes-agent/pull/74223), [#74000](https://github.com/NousResearch/hermes-agent/pull/74000), [#69602](https://github.com/NousResearch/hermes-agent/pull/69602) — @teknium1, @OutThisLife)\n\n- **Wake words and hands-free control** — Say your own open-vocabulary wake phrase (\"hey Hermes\", or anything you pick) and Hermes starts listening — detection runs on-device, so no audio leaves your machine while it waits. Multi-profile voice routing means different wake words can reach different profiles, and saying \"stop\" ends the voice chat on every surface without touching the keyboard. Your terminal is now something you can talk to from across the room. ([#70509](https://github.com/NousResearch/hermes-agent/pull/70509), [#73106](https://github.com/NousResearch/hermes-agent/pull/73106), [#73933](https://github.com/NousResearch/hermes-agent/pull/73933) — @teknium1)\n\n- **Voice on every platform** — Send a voice note to Hermes on WhatsApp, Feishu, DingTalk, LINE, QQ, Photon, or Weixin and it's transcribed and answered; auto-TTS replies are delivered platform-aware (opus where platforms want opus, captions attached correctly). STT is now fully configurable — its own `hermes tools` category, GUI toggles, dashboard dropdowns, unified language resolution so transcripts stop coming back in the wrong language, and OpenAI's gpt-transcribe support. One unified spoken-text preprocessor cleans markdown, code, and URLs out of speech across all TTS providers. ([#73515](https://github.com/NousResearch/hermes-agent/pull/73515), [#73508](https://github.com/NousResearch/hermes-agent/pull/73508), [#73910](https://github.com/NousResearch/hermes-agent/pull/73910), [#73513](https://github.com/NousResearch/hermes-agent/pull/73513), [#73067](https://github.com/NousResearch/hermes-agent/pull/73067) — @teknium1)\n\n- **Research you can trust — grounded citations with fact-checking** — The new `grounded-citations` skill makes Hermes produce research where every claim is backed by a verifiable source: quotes are matched ",
+    "changelog_url": null,
+    "created_at": "2026-08-03T16:58:59Z",
+    "existing_post_candidates": [
+      "src/content/posts/qwen-code-v0-20-0.md"
+    ],
+    "featured": false,
+    "id": "hermes-agent__NousResearch-hermes-agent__v2026.8.3",
+    "kind": "minor",
+    "name": "Hermes Agent v0.20.0 (2026.8.3)",
+    "package": "hermes-agent",
+    "published_at": "2026-08-03T16:57:52Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/NousResearch/hermes-agent/releases/tag/v2026.8.3",
+    "repo": "NousResearch/hermes-agent",
+    "source": "github_release",
+    "status": "done",
+    "tag": "v2026.8.3",
+    "version": "0.20.0",
+    "completed_at": "2026-08-03T17:08:17Z",
+    "post_path": "src/content/posts/hermes-agent-v2026-8-3.md",
+    "commit_sha": "3483042c78d30f4cd2a491efe23badd93db50487",
+    "pushed": true
   }
 ]
