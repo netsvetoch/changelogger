@@ -3179,5 +3179,30 @@
     "post_path": "src/content/posts/knip-6-31-0.md",
     "commit_sha": "1655b6a47e91952bc2f97aa2b57ee13997522ff7",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/oxc-project/oxc/releases/364187915",
+    "body_excerpt": "## Table of Contents\n\n- [Oxlint v1.77.0](#oxlint-v1.77.0)\n- [Oxfmt v0.62.0](#oxfmt-v0.62.0)\n\n## Oxlint v1.77.0\n### 💥 BREAKING CHANGES\n\n- 4120da0 semantic: [**BREAKING**] Return borrowed JSDoc so the parse cache works (#25186) (Connor Shea)\n- 067da8c ast: [**BREAKING**] Store single parameter in `TSIndexSignature::parameter` (#25154) (camc314)\n- 1bdedd1 ast: [**BREAKING**] Introduce `ExportDeclaration`, `ExportFromDeclaration` (#25095) (camc314)\n- c917f20 ast: [**BREAKING**] Introduce `ArrowFunctionBody` enum (#24987) (camc314)\n\n### 🚀 Features\n\n- 0b9f83c linter/oxc/bad-char-at-comparison: Expand coverage (#25001) (Mikhail Baev)\n- 1fb3d70 oxlint: Show file:line:col in github format annotation messages (#25020) (Faris Tristan Fabian)\n\n### 🐛 Bug Fixes\n\n- a64b65d linter/unicorn/new-for-builtins: Detect parenthesized member expression object (#25249) (tanakalucky)\n- 9d4592c linter: Reject duplicate JS plugin names (#25243) (camc314)\n- 3213e7a linter: Ignore unsigned shifts in prefer-math-trunc (#25240) (camc314)\n- 06579da linter/eslint/prefer-promise-reject-errors: Handle ambient error variables (#25238) (camc314)\n- 6a7cd90 linter/oxc/no-async-await: Bound token lookup (#25222) (camc314)\n- d8e390a linter/oxc/bad-bitwise-operator: Bound token lookups (#25220) (camc314)\n- 351a777 linter/import/no-duplicates: Bound token lookup (#25219) (camc314)\n- 4f70fb6 linter/import/consistent-type-specifier-style: Bound token lookup (#25218) (camc314)\n- b89113c linter/eslint/yoda: Bound token lookup (#25202) (camc314)\n- 7c7cda7 linter/oxc/no-map-spread: Avoid recursive declaration traversal (#25200) (camc314)\n- 99efb30 linter/eslint/prefer-promise-reject-errors: Move category to `pedantic` (#25201) (camc314)\n- 8edad2a linter/eslint/require-await: Bound token lookup (#25199) (camc314)\n- 5aaec85 linter/eslint/prefer-template: Bound token lookup (#25197) (camc314)\n- 0ea1af4 linter/unicorn/new-for-builtins: Align Date() diagnostic message with upstream (#25166) (tanakalucky)\n- f6c8575 linter/eslint/prefer-object-spread: Bound token lookup (#25195) (camc314)\n- 20f68e7 oxlint,oxfmt: Respect `.gitignore` for walk targets and explicit paths (#25133) (leaysgur)\n- b83993b linter/eslint/prefer-const: Bound token lookup (#25194) (camc314)\n- aeabf63 linter/eslint/object-shorthand: Bound token lookups (#25193) (camc314)\n- 48f302c linter/eslint/no-var: Bound token lookup (#25192) (camc314)\n- 1f595de linter/eslint/no-unused-vars: Bound token lookups (#25191) (camc314)\n- e52f4c4 linter/eslint/no-unexpected-multiline: Use bounded token lookup (#25190) (camc314)\n- ca80338 linter/eslint/eqeqeq: Use bounded token lookup (#25189) (camc314)\n- df91684 linter: Make the remaining token lookups comment-aware (#25182) (connorshea)\n- 2401bb8 linter/eslint/prefer-const: Skip Svelte and Vue files (#25148) (Pitiș Radu)\n- b870897 linter: Don't match tokens inside comments when locating spans (#25181) (connorshea)\n- b474da1 linter/typescript/consistent-type-imports: Make token lookups comment-aware (#25180) (connorshea)\n- 81f82db linter: Don't insert an ASI semicolon into an unbraced statement body (#25160) (Vladexy88x)\n- 31333be linter/no-magic-array-flat-depth: Scan for `(` by byte offset instead of character count (#25130) (connorshea)\n- 56e9c83 linter: Index source text by byte offset instead of char count (#25131) (connorshea)\n- 5c0fa61 linter/eslint/no-warning-comments: Unify config structs and remove manual options docs (#25151) (Mikhail Baev)\n- a922355 docs: Incorrect quotations in `role_supports_aria_props.rs` (#25077) (Maximilian Franzke)\n- e8c4c05 linter/eslint/no-unreachable-loop: Handle caught errors correctly (#25071) (camc314)\n- 2b02711 oxlint: Correct --warn flag help text (#25059) (Faris Tristan Fabian)\n- 97f084f linter/eslint/no-control-regex: Allow null escape (#25070) (camc314)\n\n### ⚡ Performance\n\n- 224c21a linter/vue/no-side-effects-in-computed-properties: Borrow property names in the mutation walk (#25212) (connorshea)\n- d36e9c9 linter/unicorn/prefer-export-f",
+    "changelog_url": null,
+    "created_at": "2026-08-03T12:50:32Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "oxlint-oxfmt__oxc-project-oxc__apps_v1.77.0",
+    "kind": "minor",
+    "name": "oxlint v1.77.0 & oxfmt v0.62.0",
+    "package": "oxlint + oxfmt",
+    "processing_started_at": "2026-08-03T13:02:22Z",
+    "published_at": "2026-08-03T12:07:50Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/oxc-project/oxc/releases/tag/apps_v1.77.0",
+    "repo": "oxc-project/oxc",
+    "source": "github_release",
+    "status": "done",
+    "tag": "apps_v1.77.0",
+    "version": "1.77.0",
+    "completed_at": "2026-08-03T13:05:21Z",
+    "post_path": "src/content/posts/oxlint-oxfmt-apps-v1-77-0.md",
+    "commit_sha": "a6d22f1a7c9cdd678e11d4d8fde0c164f1012a8a",
+    "pushed": true
   }
 ]
