@@ -3280,5 +3280,32 @@
     "post_path": "src/content/posts/next-v16-3-0.md",
     "commit_sha": "07c4fe12fd2f51fdbb71f8a26eb05ec22784b40f",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/openchamber/openchamber/releases/364543237",
+    "body_excerpt": "## [1.18.0] - 2026-08-04\n\n- **Walkthrough:** a new guided walkthrough reorders a diff into a sequence of stops — the model groups related changes, explains what each one does, and orders them so each builds on the last. Start one from the Changes and pull-request views for uncommitted work, a branch against its base, or a pull request; nothing runs on its own. Walkthroughs are written in your interface language by default, and the panel can generate one in any other supported language.\n- **Mobile/Tablet:** reworked the tablet and foldable layout around the phone's navigation — a persistent resizable sessions sidebar on the left, the workspace (Changes, Files, Terminal, Notes, MCP) as a resizable right sidebar, and app pages like settings and instances shown as centered dialogs. An open diff, edited file, or attached terminal now survives rotation.\n- **Providers:** custom OpenAI-compatible providers can now be added and edited from Settings, including their endpoint, models, credentials, headers, and configuration scope (thanks to @makeittech).\n- Performance: fixed Bun dependency chunking so the web app no longer downloads a single 18.5 MB vendor bundle at startup; heavy syntax highlighting, screenshot, diagram, editor, and image-conversion libraries now load only when needed (thanks to @makeittech).\n- Performance: expanding projects with many worktrees no longer repeatedly reloads their session data.\n- UI/Localization: added German interface translations and German documentation (thanks to @SGD-DEV).\n- Mobile/Android: pairing QR codes can now be scanned on devices without Google Play Services; the camera closes as soon as a code is recognized, followed by a connection-in-progress screen.\n- Mobile/Android: left and right drawer swipes can now start farther from the screen edge, outside Android's system Back gesture area.\n- Sessions: launching OpenChamber from a directory other than your project (for example your home folder) no longer produces repeated \"not a git repository\" errors that could stop sessions and projects from loading (thanks to @makeittech).\n- Sidebar: a worktree shared by more than one project no longer appears twice (thanks to @makeittech).\n- Sidebar: session titles no longer clip at the ends of their rows.\n- Git/Diff: opening a changed file now jumps its header directly to the top, and live updates refresh only files that actually changed while preserving the current review position. Saves from the built-in file editor update the diff too.\n- Terminal: opening a terminal no longer waits for the terminal view to finish loading, and startup output is retained if it arrives before the view appears (thanks to @makeittech).\n- Chat/Tools: Bash output now applies terminal control characters and strips ANSI formatting, preventing progress output and rewritten lines from appearing as raw escape sequences (thanks to @catan271).\n- Chat: queued messages now retry after a temporary send failure or an interrupted turn instead of remaining stuck until another session update.\n- Chat: prompts sent through the private relay no longer produce duplicate replies when the connection drops after OpenCode accepted the message, and a queued message already being sent is no longer included in another send.\n- Settings/Skills: repository-local `.agents/skills` now appear for the active project (thanks to @makeittech).\n- Settings/Skills: renaming a skill now preserves its instructions and supporting files; only skills in locations OpenChamber can safely rename show the action (thanks to @makeittech).\n- Sessions: sessions in a newly created worktree now appear without restarting or refreshing the app.\n- Agents/CLI: creating a session in a new worktree no longer reports a timeout while the worktree continues to be created in the background.\n- Sessions: archiving and unarchiving now stays scoped to the current instance and workspace (thanks to @alexandrereyes).\n- Usage: added DeepSeek quota tracking (thanks to @airtaxi).\n- Usage: Kimi for Cod",
+    "changelog_url": null,
+    "created_at": "2026-08-04T00:12:47Z",
+    "existing_post_candidates": [
+      "src/content/posts/opencode-v1-18-0.md"
+    ],
+    "featured": false,
+    "id": "openchamber__openchamber-openchamber__v1.18.0",
+    "kind": "minor",
+    "name": "OpenChamber v1.18.0",
+    "package": "openchamber",
+    "processing_started_at": "2026-08-04T00:19:37Z",
+    "published_at": "2026-08-03T23:33:40Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/openchamber/openchamber/releases/tag/v1.18.0",
+    "repo": "openchamber/openchamber",
+    "source": "github_release",
+    "status": "done",
+    "tag": "v1.18.0",
+    "version": "1.18.0",
+    "completed_at": "2026-08-04T00:22:32Z",
+    "post_path": "src/content/posts/openchamber-v1-18-0.md",
+    "commit_sha": "6de4ab5fced5e2454b7ccd859ec429cd87d34c2c",
+    "pushed": true
   }
 ]
