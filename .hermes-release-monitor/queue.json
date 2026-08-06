@@ -3451,5 +3451,30 @@
     "post_path": "src/content/posts/base-ui-v1-7-0.md",
     "commit_sha": "d40f25531af877e295ab2e4504264763eff66a0a",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/webpro-nl/knip/releases/365980972",
+    "body_excerpt": "* fix: attribute wildcard subpath-import aliases as dependency usage (#1918) (4890a2ad5317b9e3f0ab844631ad0f0592802c3e) - thanks @jsmecham!\n* Add Borp plugin (5eb9ad4cfb2ccb7770eac49f6109459d30590211)\n* Add tsd plugin (bd4ae7041f3fc6aef27b027644f80daefc432aca)\n* Resolve Rollup --config argument as plugin configuration (8111f97981406f4327d5e6a655c13308a9dc4426)\n* Resolve babel-jest configFile from Jest transform options (24794ccecb80fdaecfe4d46a26faff46c30d9015)\n* Add pre-commit plugin (ac726b0918cb931a6d538797e342484812a6752e)\n* Thread script words through resolvers to preserve quoting (89f9ada6ca81229bf8f7293439998acc5f87d457)\n* Resolve entries from Mocha script arguments (353f860f8e32f05f7c87dc5501071befc0e5a293)\n* Detect Node test runner through c8 (fa44be722aa35c6e8b441cd8cd0f4cf644027c22)\n* Update dependencies (non-major) (#1922) (6b1e6f3cbb1749776e3798f46eb2b99cd95ed56a) - thanks @renovate[bot]!\n* fix(playwright): match config files with .cjs, .cts and .mts extensions (#1919) (1c1073a1817fdb3bcd3dc00eda2b1d858e444156) - thanks @davidpavlovschi!\n* Restart VS Code language server process (resolve #1923) (d48eac5a2447567a33e835ce3e1648bf3f4ffb2b)\n* Classify built-ins from module specifiers (resolve #1925) (3528c5d0f808b7b2155f69a1f98493ee0e3e06c1)\n* Don't turn absolute-path script tokens into entries (resolve #1928) (e5608e77b434145c8dd5c2c2872bfb90ae622ce7)\n* Update sponsors data (025884bb53eede041732723197ac0415a1a50f71)\n* Update dependencies (d2c0a07c09cea70ab2cae5f97d12da272a6e43e6)",
+    "changelog_url": null,
+    "created_at": "2026-08-06T04:55:02Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "knip__webpro-nl-knip__knip@6.32.0",
+    "kind": "minor",
+    "name": "Release 6.32.0",
+    "package": "knip",
+    "processing_started_at": "2026-08-06T05:09:50Z",
+    "published_at": "2026-08-06T04:49:25Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/webpro-nl/knip/releases/tag/knip%406.32.0",
+    "repo": "webpro-nl/knip",
+    "source": "github_release",
+    "status": "done",
+    "tag": "knip@6.32.0",
+    "version": "6.32.0",
+    "completed_at": "2026-08-06T05:13:10Z",
+    "post_path": "src/content/posts/knip-6-32-0.md",
+    "commit_sha": "910646c41864aa00452658a72f0d5830b9d2cef6",
+    "pushed": true
   }
 ]
