@@ -3502,5 +3502,30 @@
     "post_path": "src/content/posts/astro-v7-2-0.md",
     "commit_sha": "ae3f2cea739374aee4469c68d7e6581689a2b4c0",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/openai/codex/releases/366471016",
+    "body_excerpt": "## New Features\n- Install portable Agent Plugins and search across local, personal, workspace, and remote plugin catalogs. (#36544, #36409, #36919, #36796)\n- Organize conversations into persistent, manually ordered sections and browse long transcripts incrementally. (#35722, #36007, #36380, #36948, #36950)\n- Enable automatically reviewed approvals with the new `--approve-for-me` CLI flag. (#36373)\n- Import Cursor-managed skills and synchronize changes to imported Claude and Cursor conversations without creating duplicates. (#36361, #36356, #35623)\n- Support the opt-in MCP 2026-07-28 protocol, including paginated discovery, multi-round requests, and non-blocking server startup. (#35724, #35725, #35590, #35742)\n- Enable cached web search and remote conversation compaction for Amazon Bedrock. (#36938, #36981)\n\n## Bug Fixes\n- Redact secrets and complete bearer tokens from displayed commands and replayed conversation history. (#36893, #36908)\n- Prevent lost or stalled terminal input when focus returns, MCP servers initialize, or Ghostty handles keyboard shortcuts. (#35649, #35957, #36834)\n- Correct rendering and cursor positioning for Japanese characters, emoji, hyperlinks, and text near viewport boundaries. (#35960, #35962, #37166)\n- Properly interrupt Windows background processes and handle Windows filesystem paths consistently. (#35655, #35851, #37129)\n- Require explicit trust for unfamiliar local projects and enforce managed authentication restrictions before credentials are used. (#36960, #37132)\n- Harden plugin isolation and deny network access when policy updates fail. (#37027, #36967, #36037)\n\n## Documentation\n- Improve the bundled OpenAI documentation skill with targeted official-source lookup and clearer guidance for Codex, model selection, and API workflows. (#36014)\n\n## Chores\n- Upgrade the MCP SDK to 3.0.0, Ratatui to 0.30.2, and V8 to 150.4.0. (#36001, #35959, #35831)\n- Secure macOS release notarization using Azure Key Vault instead of exporting private signing keys. (#37154)\n- Remove the deprecated `codex exec --full-auto` flag; use `--sandbox workspace-write` instead. (#36054)\n- Stop publishing redundant Linux bundle archives; use the standard `codex-package-<target>` release archives. (#36342)\n\n## Changelog\n\nFull Changelog: https://github.com/openai/codex/compare/rust-v0.146.0...rust-v0.147.0\n\n- #35590 Expose cached MCP tools before server startup @copyberry\n- #35594 Recommend longer waits in the v2 wait_agent schema @copyberry\n- #35595 Allow alpha hotfix versions in R2 releases @copyberry\n- #35597 Add metrics for extension-rendered skill catalogs @copyberry\n- #35607 Record metrics for empty skill catalogs @copyberry\n- #35608 Support model-owned token budget defaults @copyberry\n- #35621 Skip restored token usage replay for exec resumes @copyberry\n- #35623 Parse Claude and Cursor session records separately @copyberry\n- #35642 Make OpenTelemetry provider shutdown idempotent @copyberry\n- #35644 Preserve thread metadata when rollout files are missing @copyberry\n- #35649 Preserve TUI input when terminal focus returns @copyberry\n- #35652 Enable network policy callbacks for remote exec @copyberry\n- #35653 Test developer instruction inheritance for multi-agent workers @copyberry\n- #35655 Terminate Windows non-TTY processes on interrupt @copyberry\n- #35656 Preserve multi-agent settings across config representations @copyberry\n- #35661 Place host skills before permission instructions @copyberry\n- #35663 Evaluate character matching over skill routing metadata @copyberry\n- #35665 Fix the async watcher test harness on Windows @copyberry\n- #35668 Expose the network proxy spec constructor @copyberry\n- #35670 Raise the Windows exec yield floor to 10 seconds @copyberry\n- #35671 Route curated plugins by authentication mode @copyberry\n- #35675 Prepare MCP and plugin recommendations concurrently @copyberry\n- #35678 Preserve paginated thread metadata across resumes @copyberry\n- #35685 Load cloud-managed profiles for `codex sandbox` @co",
+    "changelog_url": null,
+    "created_at": "2026-08-07T02:38:14Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "codex__openai-codex__rust-v0.147.0",
+    "kind": "minor",
+    "name": "0.147.0",
+    "package": "codex",
+    "processing_started_at": "2026-08-07T02:41:25Z",
+    "published_at": "2026-08-07T01:41:49Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/openai/codex/releases/tag/rust-v0.147.0",
+    "repo": "openai/codex",
+    "source": "github_release",
+    "status": "done",
+    "tag": "rust-v0.147.0",
+    "version": "0.147.0",
+    "completed_at": "2026-08-07T02:44:41Z",
+    "post_path": "src/content/posts/openai-codex-rust-v0-147-0.md",
+    "commit_sha": "6badff0793a8c44cad2f1274bdb230e811ccf0e4",
+    "pushed": true
   }
 ]
