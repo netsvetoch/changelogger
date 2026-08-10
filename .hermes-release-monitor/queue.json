@@ -3527,5 +3527,30 @@
     "post_path": "src/content/posts/openai-codex-rust-v0-147-0.md",
     "commit_sha": "6badff0793a8c44cad2f1274bdb230e811ccf0e4",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/oxc-project/oxc/releases/367842101",
+    "body_excerpt": "## Table of Contents\r\n\r\n- [Oxlint v1.78.0](#oxlint-v1.78.0)\r\n- [Oxfmt v0.63.0](#oxfmt-v0.63.0)\r\n\r\n## Oxlint v1.78.0\r\n\r\n### 🚀 Features\r\n\r\n- ccb8fe8 linter/jsdoc: Implement `no-blank-blocks` rule (#25207) (Mikhail Baev)\r\n- d4a897c linter/eslint: Implement `one-var` rule (#24470) (Cole Ellison)\r\n- 5ab9340 linter/jsx-a11y/anchor-has-content: Add options to match eslint (#24571) (Cole Ellison)\r\n\r\n### 🐛 Bug Fixes\r\n\r\n- b746e00 linter/eslint/no-implicit-coercion: Preserve template coercion whitespace (#25470) (camc314)\r\n- a92c541 linter: Preserve source text for JS plugin ignore fixes (#25280) (Norcleeh)\r\n- 675c840 linter/eslint/prefer-promise-reject-errors: Handle parenthesized calls (#25378) (camc314)\r\n- 1703739 linter/unicorn/new-for-builtins: Ignore optional chains (#25411) (tanakalucky)\r\n- 95ece63 linter/unicorn/prefer-code-point: Downgrade the auto-fix to dangerous (#25412) (leemr)\r\n- c451a0e linter/vitest: Validate `consistent-test-filename` regex patterns (#25408) (Mikhail Baev)\r\n- 937825c react_compiler: Disable exhaustive memo validation by default (#25417) (Boshen)\r\n- f0f7dae linter/eslint/no-unused-vars: Report invalid regex options (#25380) (Cameron)\r\n- 44e73fd linter/unicorn/prefer-array-flat: Fix `concat.apply` suggestions (#25373) (Cameron)\r\n- 6846a9a linter/react/rules-of-hooks: Detect constructor callbacks (#25377) (camc314)\r\n- b247a9d linter/unicorn/new-for-builtins: Support `Float16Array` (#25382) (tanakalucky)\r\n- 19109cd linter/unicorn/error-message: Support `SuppressedError` messages (#25375) (camc314)\r\n- 9c13f5e linter: Assert token lookup invariants (#25368) (camc314)\r\n- bc35f83 linter/eslint/no-unused-vars: Bound catch parameter lookup (#25367) (camc314)\r\n- c159fb9 linter/unicorn/switch-case-braces: Bound token lookup (#25363) (camc314)\r\n- 03b2eb2 linter/unicorn/no-static-only-class: Bound token lookup (#25361) (camc314)\r\n- 0afc59e linter/unicorn/empty-brace-spaces: Bound token lookup (#25353) (camc314)\r\n- 2963d98 linter/eslint/no-unreachable-loop: Do not report loops whose body has a finally block (#25335) (Todor Andonov)\r\n- 589e5fb linter/eslint/no-param-reassign: Validate `ignorePropertyModificationsForRegex` property (#25346) (Mikhail Baev)\r\n- aae5d8b linter/eslint/no-throw-literal: False positive on variable declared without initializer (#25275) (cjnoname)\r\n- 6b1c479 oxlint: Normalize customized rule names (#25316) (camc314)\r\n- d494eb5 linter/unicorn/consistent-existence-index-check: Bound token lookup (#25325) (camc314)\r\n- 4266037 linter/typescript/prefer-namespace-keyword: Bound token lookup (#25322) (camc314)\r\n- 4745b4e linter/typescript/no-namespace: Bound token lookup (#25321) (camc314)\r\n- 648a481 linter/eslint/one-var: Avoid joining exported declarations (#25314) (camc314)\r\n- 9573937 linter/typescript: Validate `ban-ts-comment` description_format (#25320) (Mikhail Baev)\r\n- ebf7d18 linter/typescript/consistent-type-definitions: Bound token lookup (#25281) (camc314)\r\n- 1501ccf linter/typescript/consistent-generic-constructors: Bound token lookup (#25258) (camc314)\r\n\r\n### ⚡ Performance\r\n\r\n- 8f784f3 linter: Reduce rule config dispatch size (#25461) (Boshen)\r\n- 2de4ec2 linter: Reduce visitor code size (#25441) (Boshen)\r\n- 6fb7f47 linter/unicorn/prefer-export-from: Narrow `ExportFromDeclaration` lookup (#25381) (camc314)\r\n- e3f6263 linter/unicorn/prefer-default-parameters: Avoid reference allocation  (#25379) (camc314)\r\n- d863473 linter/vue/max-props: Narrow AST dispatch (#25372) (camc314)\r\n- 273d867 linter: Avoid diagnostic sorting after applying fixes (#25079) (Sysix)\r\n- 4ec9189 oxlint/lsp: Avoid second lock for getting/removing unused directives (#25350) (Sysix)\r\n- 6c0d01b oxlint/lsp: Preallocate fix-content vec (#25351) (Sysix)\r\n- 3a94055 linter: Avoid per-call heap allocations in jest and unicorn helpers (#25210) (Connor Shea)\r\n- 4abff11 linter: Avoid redundant message work in the agent reporter (#25315) (Connor Shea)\r\n- 6bb5421 linter: Hoist `current_dir` out of the stylish reporter loop (#25313) (C",
+    "changelog_url": null,
+    "created_at": "2026-08-10T11:15:57Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "oxlint-oxfmt__oxc-project-oxc__apps_v1.78.0",
+    "kind": "minor",
+    "name": "oxlint v1.78.0 & oxfmt v0.63.0",
+    "package": "oxlint + oxfmt",
+    "processing_started_at": "2026-08-10T11:18:45Z",
+    "published_at": "2026-08-10T10:46:10Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/oxc-project/oxc/releases/tag/apps_v1.78.0",
+    "repo": "oxc-project/oxc",
+    "source": "github_release",
+    "status": "done",
+    "tag": "apps_v1.78.0",
+    "version": "1.78.0",
+    "completed_at": "2026-08-10T11:22:02Z",
+    "post_path": "src/content/posts/oxlint-oxfmt-apps-v1-78-0.md",
+    "commit_sha": "1bb8a46add68f2a271e64c45fc28d8e384bc29cd",
+    "pushed": true
   }
 ]
