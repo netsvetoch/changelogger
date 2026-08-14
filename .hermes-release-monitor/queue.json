@@ -3765,9 +3765,13 @@
     "release_url": "https://github.com/getpaseo/paseo/releases/tag/v0.2.0",
     "repo": "getpaseo/paseo",
     "source": "github_release",
-    "status": "pending",
+    "status": "done",
     "tag": "v0.2.0",
-    "version": "0.2.0"
+    "version": "0.2.0",
+    "completed_at": "2026-08-14T22:39:49Z",
+    "post_path": "src/content/posts/paseo-v0-2-0.md",
+    "commit_sha": "93370dc29794e7cb2b45a9f5bb454db663cf1371",
+    "pushed": true
   },
   {
     "api_url": "https://api.github.com/repos/getpaseo/paseo/releases/367158968",
