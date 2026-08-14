@@ -3875,5 +3875,29 @@
     "post_path": "src/content/posts/openhands-v1-12-0.md",
     "commit_sha": "0d3f32ca4a2e1e4e1ec2daf5c8d964394f337aa6",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/OpenHands/OpenHands/releases/369624211",
+    "body_excerpt": "## 1.13.0 (2026-08-13)\n\n<!-- Release notes generated using configuration in .github/release.yml at main -->\n\n## What's Changed\n### Features\n* feat(conversations): add client-side conversation archive by @FraterCCCLXIII in https://github.com/OpenHands/OpenHands/pull/16100\n* feat(chat): add inline markdown artifact previews by @FraterCCCLXIII in https://github.com/OpenHands/OpenHands/pull/16185\n* feat: add ready-for-dev issue readiness gate with type-specific criteria by @all-hands-bot in https://github.com/OpenHands/OpenHands/pull/16449\n* feat: context window usage meter, usage drawer, and manual compaction by @georgeglarson in https://github.com/OpenHands/OpenHands/pull/16311\n### Bug Fixes\n* fix: add postinstall message showing how to start agent-canvas by @all-hands-bot in https://github.com/OpenHands/OpenHands/pull/16338\n* fix: configure agent-server telemetry in Canvas launchers by @malhotra5 in https://github.com/OpenHands/OpenHands/pull/16348\n* fix: make overflow menus usable on touch devices by @FraterCCCLXIII in https://github.com/OpenHands/OpenHands/pull/16101\n* fix: make sidebar \"Load more\" discover folders, not folder contents by @FraterCCCLXIII in https://github.com/OpenHands/OpenHands/pull/16179\n* fix: disable chat input drag-resize when not bottom-anchored (OHE-3062) by @tofarr in https://github.com/OpenHands/OpenHands/pull/16479\n* fix(automations): surface non-MCP-installable integrations instead of silently dropping them by @lokesh75-kank in https://github.com/OpenHands/OpenHands/pull/16324\n* fix: resolve flaky ProgressEvent unhandled rejection in CI by @neubig in https://github.com/OpenHands/OpenHands/pull/16504\n* fix: spawn launcher services without implicit shell by @lufen in https://github.com/OpenHands/OpenHands/pull/16093\n* fix: stop truncating the Basic LLM provider list at 100 entries by @opensource-joe in https://github.com/OpenHands/OpenHands/pull/16453\n* fix(context-meter): draw the ring track from the foreground, not a border token by @georgeglarson in https://github.com/OpenHands/OpenHands/pull/16534\n* fix: drain pending MSW callbacks before jsdom teardown to stop ProgressEvent ReferenceError by @neubig in https://github.com/OpenHands/OpenHands/pull/16558\n### Maintenance\n* chore(deps): bump @microlink/react-json-view from 1.31.20 to 1.31.25 by @dependabot[bot] in https://github.com/OpenHands/OpenHands/pull/16472\n* chore(deps-dev): bump @eslint/eslintrc from 3.3.1 to 3.3.6 by @dependabot[bot] in https://github.com/OpenHands/OpenHands/pull/16469\n* chore(deps-dev): bump the testing group with 2 updates by @dependabot[bot] in https://github.com/OpenHands/OpenHands/pull/16466\n* chore(deps-dev): bump the react group with 2 updates by @dependabot[bot] in https://github.com/OpenHands/OpenHands/pull/16464\n* ci(deps): bump docker/login-action from 4.5.2 to 4.6.0 in the actions group by @dependabot[bot] in https://github.com/OpenHands/OpenHands/pull/16461\n* chore(deps): bump zustand from 5.0.12 to 5.0.14 by @dependabot[bot] in https://github.com/OpenHands/OpenHands/pull/16470\n* chore(deps): bump i18next-http-backend from 4.0.0 to 4.0.1 in the i18next group by @dependabot[bot] in https://github.com/OpenHands/OpenHands/pull/16463\n* chore(deps-dev): bump lint-staged from 16.4.0 to 17.3.0 by @dependabot[bot] in https://github.com/OpenHands/OpenHands/pull/16471\n* chore(deps-dev): bump the eslint group across 1 directory with 6 updates by @dependabot[bot] in https://github.com/OpenHands/OpenHands/pull/16467\n* refactor: replace positional createConversation params with an options object (#1587) by @Lothnic in https://github.com/OpenHands/OpenHands/pull/16500\n* chore: enforce typed @openhands/typescript-client for agent-server API calls (no ad-hoc fetch) by @neubig in https://github.com/OpenHands/OpenHands/pull/16508\n* chore: bump SDK deps (software-agent-sdk 1.42.1, automation 1.7.1, typescript-client 1.38.0) by @neubig in https://github.com/OpenHands/OpenHands/pull/16554\n\n## New Contributors\n* @Lothnic made their fi",
+    "changelog_url": null,
+    "created_at": "2026-08-14T22:50:07Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "openhands__OpenHands-OpenHands__v1.13.0",
+    "kind": "minor",
+    "name": "v1.13.0",
+    "package": "openhands",
+    "published_at": "2026-08-13T01:57:00Z",
+    "reason": "manual-backfill-openhands-v1.10+",
+    "release_url": "https://github.com/OpenHands/OpenHands/releases/tag/v1.13.0",
+    "repo": "OpenHands/OpenHands",
+    "source": "github_release",
+    "status": "done",
+    "tag": "v1.13.0",
+    "version": "1.13.0",
+    "completed_at": "2026-08-14T23:03:47Z",
+    "post_path": "src/content/posts/openhands-v1-13-0.md",
+    "commit_sha": "914ab2f808d3bb49db33952032800b8e2f4f58c9",
+    "pushed": true
   }
 ]
