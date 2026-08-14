@@ -3822,5 +3822,31 @@
     "post_path": "src/content/posts/openhands-v1-10-0.md",
     "commit_sha": "094458dd7a57fb2cb68958de6cee5bac8c002bae",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/OpenHands/OpenHands/releases/366925866",
+    "body_excerpt": "## 1.11.0 (2026-08-07)\n\n<!-- Release notes generated using configuration in .github/release.yml at main -->\n\n## What's Changed\n### Features\n* feat: show per-run LLM cost in the Activity Log and exports by @hieptl in https://github.com/OpenHands/OpenHands/pull/16351\n* feat: reorder Customize navigation by @DevinVinson in https://github.com/OpenHands/OpenHands/pull/16358\n* feat(settings): polish Agent Canvas version update UI by @FraterCCCLXIII in https://github.com/OpenHands/OpenHands/pull/16343\n* feat(home): keep Automations pane visible when empty by @neubig in https://github.com/OpenHands/OpenHands/pull/16372\n* feat: add a typed agent action for launching local or Cloud child conversations by @hieptl in https://github.com/OpenHands/OpenHands/pull/16380\n* feat: add automation tag filter and recognition by @hieptl in https://github.com/OpenHands/OpenHands/pull/16388\n* feat(conversations): add tag chips, overflow, and hovercard labels by @FraterCCCLXIII in https://github.com/OpenHands/OpenHands/pull/16346\n### Bug Fixes\n* fix: ship multi-size app icons for Windows and macOS by @hieptl in https://github.com/OpenHands/OpenHands/pull/16352\n* fix: rename desktop app to OpenHands Agent Canvas by @hieptl in https://github.com/OpenHands/OpenHands/pull/16353\n* fix(metrics): fetch runtime conversation directly instead of removed cloud-proxy by @tofarr in https://github.com/OpenHands/OpenHands/pull/16392\n\n## New Contributors\n* @DevinVinson made their first contribution in https://github.com/OpenHands/OpenHands/pull/16358\n\n**Full Changelog**: https://github.com/OpenHands/OpenHands/compare/v1.10.0...v1.11.0\n\n---\nThis PR was generated with [Release Please](https://github.com/googleapis/release-please). See [documentation](https://github.com/googleapis/release-please#release-please).\n<!-- AGENT_CANVAS_DOCKER_START -->",
+    "changelog_url": null,
+    "created_at": "2026-08-14T22:50:07Z",
+    "existing_post_candidates": [
+      "src/content/posts/gravity-ui-graph-v1-11-0.md"
+    ],
+    "featured": false,
+    "id": "openhands__OpenHands-OpenHands__v1.11.0",
+    "kind": "minor",
+    "name": "v1.11.0",
+    "package": "openhands",
+    "published_at": "2026-08-07T18:01:46Z",
+    "reason": "manual-backfill-openhands-v1.10+",
+    "release_url": "https://github.com/OpenHands/OpenHands/releases/tag/v1.11.0",
+    "repo": "OpenHands/OpenHands",
+    "source": "github_release",
+    "status": "done",
+    "tag": "v1.11.0",
+    "version": "1.11.0",
+    "completed_at": "2026-08-14T22:57:11Z",
+    "post_path": "src/content/posts/openhands-v1-11-0.md",
+    "commit_sha": "e35be7ddf9bb0d7374ecd3b10de6b9f7e1844ce1",
+    "pushed": true
   }
 ]
