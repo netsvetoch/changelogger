@@ -3796,5 +3796,31 @@
     "post_path": "src/content/posts/paseo-v0-3-0.md",
     "commit_sha": "dea993bc4ed5c4176678263f92caed5962267cf3",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/OpenHands/OpenHands/releases/365644892",
+    "body_excerpt": "## 1.10.0 (2026-08-05)\n\n<!-- Release notes generated using configuration in .github/release.yml at main -->\n\n## What's Changed\n### Features\n* feat: set Canvas default model to GLM 5.2 by @juanmichelini in https://github.com/OpenHands/OpenHands/pull/16146\n* feat: activity log export by @ShashwatXD in https://github.com/OpenHands/OpenHands/pull/16234\n* feat: ship the featured automations landing dashboard by @hieptl in https://github.com/OpenHands/OpenHands/pull/16266\n* feat(skills): filter the skills page with a faceted rail by @sleeyax in https://github.com/OpenHands/OpenHands/pull/16124\n* feat: add manifest-driven sub-pages to the automation interface by @hieptl in https://github.com/OpenHands/OpenHands/pull/16303\n### Bug Fixes\n* fix: derive automation timeout cap from deployment by @neubig in https://github.com/OpenHands/OpenHands/pull/16233\n* fix(backends): pin backend identity on sidebar conversation links by @rishavnaskar in https://github.com/OpenHands/OpenHands/pull/16243\n* fix: use IPv4 loopback for local proxy targets by @wangmeiwen in https://github.com/OpenHands/OpenHands/pull/16290\n* fix: resolve npm audit vulnerabilities by @hieptl in https://github.com/OpenHands/OpenHands/pull/16264\n* fix: preserve MCP credentials during Canvas mutations by @neubig in https://github.com/OpenHands/OpenHands/pull/16144\n### Maintenance\n* chore: ignore all of /.tmp/, not three of its subdirectories by @georgeglarson in https://github.com/OpenHands/OpenHands/pull/16272\n* chore(deps-dev): bump eslint-import-resolver-typescript from 4.4.4 to 4.4.5 by @dependabot[bot] in https://github.com/OpenHands/OpenHands/pull/16256\n* chore(deps): bump the react group across 1 directory with 3 updates by @dependabot[bot] in https://github.com/OpenHands/OpenHands/pull/16250\n* chore(deps): bump the tanstack group with 2 updates by @dependabot[bot] in https://github.com/OpenHands/OpenHands/pull/16248\n* chore(deps): bump the tailwind group across 1 directory with 4 updates by @dependabot[bot] in https://github.com/OpenHands/OpenHands/pull/16247\n* chore(deps-dev): bump @types/node from 25.6.0 to 26.1.2 in the types group across 1 directory by @dependabot[bot] in https://github.com/OpenHands/OpenHands/pull/16255\n* chore(deps-dev): bump the testing group across 1 directory with 6 updates by @dependabot[bot] in https://github.com/OpenHands/OpenHands/pull/16252\n* ci(deps): bump the actions group with 3 updates by @dependabot[bot] in https://github.com/OpenHands/OpenHands/pull/16246\n* chore(deps): bump monaco-editor from 0.55.1 to 0.56.0 in the monaco group across 1 directory by @dependabot[bot] in https://github.com/OpenHands/OpenHands/pull/16254\n* chore(deps): bump the i18next group across 1 directory with 3 updates by @dependabot[bot] in https://github.com/OpenHands/OpenHands/pull/16249\n* chore: bump @openhands/extensions to 0.16.0 by @hieptl in https://github.com/OpenHands/OpenHands/pull/16321\n* ci: require frontend screenshot/video and checked human-tested box by @all-hands-bot in https://github.com/OpenHands/OpenHands/pull/16325\n* chore: bump agent-server 1.40.1 and automation 1.6.0 by @hieptl in https://github.com/OpenHands/OpenHands/pull/16334\n\n## New Contributors\n* @ShashwatXD made their first contribution in https://github.com/OpenHands/OpenHands/pull/16234\n* @rishavnaskar made their first contribution in https://github.com/OpenHands/OpenHands/pull/16243\n* @wangmeiwen made their first contribution in https://github.com/OpenHands/OpenHands/pull/16290\n* @sleeyax made their first contribution in https://github.com/OpenHands/OpenHands/pull/16124\n\n**Full Changelog**: https://github.com/OpenHands/OpenHands/compare/v1.9.0...v1.10.0\n\n---\nThis PR was generated with [Release Please](https://github.com/googleapis/release-please). See [documentation](https://github.com/googleapis/release-please#release-please).\n<!-- AGENT_CANVAS_DOCKER_START -->",
+    "changelog_url": null,
+    "created_at": "2026-08-14T22:50:07Z",
+    "existing_post_candidates": [
+      "src/content/posts/zed-v1-10-0.md"
+    ],
+    "featured": false,
+    "id": "openhands__OpenHands-OpenHands__v1.10.0",
+    "kind": "minor",
+    "name": "v1.10.0",
+    "package": "openhands",
+    "published_at": "2026-08-05T15:54:34Z",
+    "reason": "manual-backfill-openhands-v1.10+",
+    "release_url": "https://github.com/OpenHands/OpenHands/releases/tag/v1.10.0",
+    "repo": "OpenHands/OpenHands",
+    "source": "github_release",
+    "status": "done",
+    "tag": "v1.10.0",
+    "version": "1.10.0",
+    "completed_at": "2026-08-14T22:53:21Z",
+    "post_path": "src/content/posts/openhands-v1-10-0.md",
+    "commit_sha": "094458dd7a57fb2cb68958de6cee5bac8c002bae",
+    "pushed": true
   }
 ]
