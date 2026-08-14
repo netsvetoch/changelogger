@@ -3552,5 +3552,32 @@
     "post_path": "src/content/posts/oxlint-oxfmt-apps-v1-78-0.md",
     "commit_sha": "1bb8a46add68f2a271e64c45fc28d8e384bc29cd",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/typograf/typograf/releases/370814378",
+    "body_excerpt": "Добавлена поддержка немецкой локали в правиле `common/nbsp/afterShortWordByList`.",
+    "changelog_url": null,
+    "created_at": "2026-08-14T21:44:32Z",
+    "existing_post_candidates": [
+      "src/content/posts/rxjs-v7-8-0.md"
+    ],
+    "featured": false,
+    "id": "typograf__typograf-typograf__v7.8.0",
+    "kind": "minor",
+    "name": "v7.8.0",
+    "package": "typograf",
+    "processing_started_at": "2026-08-14T21:58:54Z",
+    "published_at": "2026-08-14T20:44:10Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/typograf/typograf/releases/tag/v7.8.0",
+    "repo": "typograf/typograf",
+    "source": "github_release",
+    "status": "done",
+    "tag": "v7.8.0",
+    "version": "7.8.0",
+    "completed_at": "2026-08-14T22:01:20Z",
+    "post_path": "src/content/posts/typograf-v7-8-0.md",
+    "commit_sha": "4b04b7f0b637a3207a05c9fa3cdaa2c36443a933",
+    "pushed": true
   }
 ]
