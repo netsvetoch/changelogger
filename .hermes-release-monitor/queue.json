@@ -3933,5 +3933,34 @@
     "post_path": "src/content/posts/openhands-v1-13-0.md",
     "commit_sha": "914ab2f808d3bb49db33952032800b8e2f4f58c9",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/kahme247/ompweb/releases/369957703",
+    "body_excerpt": "## Changes\n\n• feat: expose OMP retry settings and let the composer controls wrap\n• feat: adopt OMP RPC abort_and_prompt — Interrupt & reply in the composer\n• feat: adopt OMP's RPC host-URI bridge (set_host_uri_schemes / host_uri_request)\n• feat: adopt OMP RPC abort_retry in the retry banner\n• feat: adopt OMP RPC cycle_model / cycle_thinking_level via keyboard shortcuts\n• feat: adopt OMP RPC queue delivery modes (set_steering_mode / set_follow_up_mode)\n• feat: adopt OMP RPC runtime session-mode controls\n• feat: adopt OMP's RPC host-tool bridge (set_host_tools / host_tool_call)\n• fix: eager Prism grammar registration to stop Turbopack chunk race\n• feat: expose OMP's externalThinking setting (v17.2.14+)\n• fix: render toast descriptions as a div, not a p\n• refactor: shared session/error route helpers and markdown code renderer\n• fix: visual polish — AA contrast, tokens, spacing, mobile layout\n• fix: live-agent session bugs, leaks, and streaming smoothness\n• refactor: shared type guards, task-result parsing, and session parse cache\n• fix: case-insensitive prefix match and worktree path comparison on Windows\n• chore: ignore pi subagent scratch dir and VSCode settings\n• refactor: replace self-updater with update notifications and terminal commands\n\n## Upgrade\n\n```bash\nnpm install -g @kahme247/ompweb@0.3.0\n```\n\n**Full changelog:** https://github.com/kahme247/ompweb/compare/v0.2.9...v0.3.0\n",
+    "changelog_url": null,
+    "created_at": "2026-08-15T19:06:15Z",
+    "existing_post_candidates": [
+      "src/content/posts/novita-cli-v0-3-0.md",
+      "src/content/posts/nub-v0-3-0.md",
+      "src/content/posts/paseo-v0-3-0.md",
+      "src/content/posts/servo-v0-3-0.md"
+    ],
+    "featured": false,
+    "id": "ompweb__kahme247-ompweb__v0.3.0",
+    "kind": "minor",
+    "name": "v0.3.0",
+    "package": "ompweb",
+    "published_at": "2026-08-13T13:57:45Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/kahme247/ompweb/releases/tag/v0.3.0",
+    "repo": "kahme247/ompweb",
+    "source": "github_release",
+    "status": "done",
+    "tag": "v0.3.0",
+    "version": "0.3.0",
+    "post_path": "src/content/posts/ompweb-v0-3-0.md",
+    "commit_sha": "20ea53c39e0601f65b314630cd430a633155cedb",
+    "pushed": true,
+    "completed_at": "2026-08-15T19:09:37Z"
   }
 ]
