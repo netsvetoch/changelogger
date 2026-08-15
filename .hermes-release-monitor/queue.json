@@ -3638,9 +3638,13 @@
     "release_url": "https://github.com/gravity-ui/markdown-editor/releases/tag/markdown-editor-v15.46.0",
     "repo": "gravity-ui/markdown-editor",
     "source": "github_release",
-    "status": "failed",
+    "status": "done",
     "tag": "markdown-editor-v15.46.0",
-    "version": "15.46.0"
+    "version": "15.46.0",
+    "completed_at": "2026-08-15T01:22:10Z",
+    "post_path": "src/content/posts/gravity-ui-markdown-editor-v15-46-0.md",
+    "commit_sha": "50381b6ef43e756180242faf4894db7a68c0172c",
+    "pushed": true
   },
   {
     "api_url": "https://api.github.com/repos/gravity-ui/aikit/releases/368563857",
