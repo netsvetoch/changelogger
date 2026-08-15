@@ -3962,5 +3962,30 @@
     "commit_sha": "20ea53c39e0601f65b314630cd430a633155cedb",
     "pushed": true,
     "completed_at": "2026-08-15T19:09:37Z"
+  },
+  {
+    "api_url": "https://api.github.com/repos/razzant/ouroboros/releases/371134789",
+    "body_excerpt": "# Ouroboros v6.102.0\n\n## Download\n\nChoose your platform below. You do not need to clone the repository or install Python or uv.\n\n- **macOS 12+ on Apple silicon (.dmg):** [Ouroboros-6.102.0.dmg](https://github.com/razzant/ouroboros/releases/download/v6.102.0/Ouroboros-6.102.0.dmg)\n- **Windows x64 (.zip):** [Ouroboros-6.102.0-windows-x64.zip](https://github.com/razzant/ouroboros/releases/download/v6.102.0/Ouroboros-6.102.0-windows-x64.zip)\n- **Debian, Ubuntu, or Astra Linux x86_64 (.deb):** [ouroboros_6.102.0_amd64.deb](https://github.com/razzant/ouroboros/releases/download/v6.102.0/ouroboros_6.102.0_amd64.deb)\n- **Fedora or RHEL x86_64 (.rpm):** [ouroboros-6.102.0-1.x86_64.rpm](https://github.com/razzant/ouroboros/releases/download/v6.102.0/ouroboros-6.102.0-1.x86_64.rpm)\n- **RED OS 8 x86_64 (.rpm):** [ouroboros-6.102.0-1.red80.x86_64.rpm](https://github.com/razzant/ouroboros/releases/download/v6.102.0/ouroboros-6.102.0-1.red80.x86_64.rpm)\n- **Other Linux x86_64 (AppImage):** [Ouroboros-6.102.0-linux-x86_64.AppImage](https://github.com/razzant/ouroboros/releases/download/v6.102.0/Ouroboros-6.102.0-linux-x86_64.AppImage)\n- **Linux x86_64 archive (.tar.gz):** [Ouroboros-6.102.0-linux-x86_64.tar.gz](https://github.com/razzant/ouroboros/releases/download/v6.102.0/Ouroboros-6.102.0-linux-x86_64.tar.gz)\n\nFiles named `SHA256SUMS`, `release-evidence.json`, `release-smoke-*.json`, and `sbom-*.cdx.json` are verification evidence, not additional installers.\n\n## What's new\n\nfeat: the owner gets real mid-task controls, and the context engine is redesigned — a five-stream synthesis. \"Wrap up\" turns owner cancellation into finalization with custody: the worker gets one bounded finalize episode to synthesize an honest LLM-written summary of what was actually done, anchored to when the control is DELIVERED to the model (not when the button is pressed, so a long blocking tool call no longer eats the window), with an outer 10-minute honesty cap from the owner's request, an immediate-custody path for `grace_sec<=0`, a zero-paid-turn forced fallback when the control arrives already expired, and a durable drain stamp whose persistence failure is retried once and then disclosed as a typed forensic event instead of silently widening the budget; every terminal seam (expiry, handoff, salvage) lands as a typed receipt rendered in the UI, and the summary is preserved — never clobbered — by the salvage path. Beside it, the \"Hurry up\" control asks a running task to converge without killing it, delivered through the owner mailbox invisibly to chat history. Context handling is redesigned around a typed ContextFit deficit/reclaim contract instead of ad-hoc compaction thresholds. Skill payloads become editable through delegated harness sessions with snapshot custody. The web UI gains delegation and review cards, harness login cards, and a task-control dropdown — all user-facing strings English per the product language policy. Delegation-first economics are reasserted: the system prompt now frames delegation as the default for ANY substantial work (research and documents included, `web_search` reserved for point lookups on harness children), the first nanny reminder fires at round 3, nanny notes ride typed checkpoints instead of spamming owner chat as progress warnings, and a planning swarm whose scout is cancelled exits as scout-unavailable instead of running a paid reviewer panel over a dead wave. Claudexor login custody is fixed so a login-owned daemon survives its session.\n\n## Release proof\n\nThis release was built from [`ca75d909d7f3`](https://github.com/razzant/ouroboros/commit/ca75d909d7f39456f174c761fe4c46e8d800e3fa).\nThe release workflow passed the full test matrix, UI and Docker smoke tests, skill smoke tests, and packaged artifact smoke tests before publication.\n\n- `SHA256SUMS` covers every installable platform artifact, its SBOM, and its smoke receipt.\n- `release-evidence.json` binds the tag, commit, workflow run, artifact hashes, SBOMs, and smoke rec",
+    "changelog_url": null,
+    "created_at": "2026-08-15T19:27:20Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "ouroboros__razzant-ouroboros__v6.102.0",
+    "kind": "minor",
+    "name": "v6.102.0",
+    "package": "ouroboros",
+    "processing_started_at": "2026-08-15T19:37:25Z",
+    "published_at": "2026-08-15T19:14:00Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/razzant/ouroboros/releases/tag/v6.102.0",
+    "repo": "razzant/ouroboros",
+    "source": "github_release",
+    "status": "done",
+    "tag": "v6.102.0",
+    "version": "6.102.0",
+    "post_path": "src/content/posts/ouroboros-v6-102-0.md",
+    "commit_sha": "1f3c789d1a3de4f512b649c6834124bb0ae152ba",
+    "pushed": true,
+    "completed_at": "2026-08-15T19:41:41Z"
   }
 ]
