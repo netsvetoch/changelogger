@@ -3480,9 +3480,13 @@
     "release_url": "https://github.com/nubjs/nub/releases/tag/v0.7.0",
     "repo": "nubjs/nub",
     "source": "github_release",
-    "status": "failed",
+    "status": "done",
     "tag": "v0.7.0",
-    "version": "0.7.0"
+    "version": "0.7.0",
+    "completed_at": "2026-08-15T00:54:14Z",
+    "post_path": "src/content/posts/nub-v0-7-0.md",
+    "commit_sha": "97864ac5b438d509d8d37808cc9ea1cb80260d6b",
+    "pushed": true
   },
   {
     "api_url": "https://api.github.com/repos/webpro-nl/knip/releases/365980972",
