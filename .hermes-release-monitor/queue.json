@@ -2963,7 +2963,6 @@
     "body_excerpt": "# [7.1.0](https://github.com/reactivex/rxjs/compare/7.0.1...7.1.0) (2021-05-21)\n\n### Bug Fixes\n\n- returned operator functions from multicast operators `share`, `publish`, `publishReplay` are now referentially transparent. Meaning if you take the result of calling `publishReplay(3)` and pass it to more than one observable's `pipe` method, it will behave the same in each case, rather than having a cumulative effect, which was a regression introduced sometime in version 6. If you required this broken behavior, there is a workaround posted [here](https://github.com/ReactiveX/rxjs/pull/6410#issuecomment-846087374) ([#6410](https://github.com/reactivex/rxjs/issues/6410)) ([e2f2e51](https://github.com/reactivex/rxjs/commit/e2f2e516514bdeb76229e69c639f10f21bccafad)), closes [/github.com/ReactiveX/rxjs/pull/6410#issuecomment-846087374](https://github.com//github.com/ReactiveX/rxjs/pull/6410/issues/issuecomment-846087374) [#5411](https://github.com/reactivex/rxjs/issues/5411)\n\n### Features\n\n- All subjects now have an `observed` property. This will allow users to check whether a subject has current subscribers without us allowing access to the `observers` array, which is going to be made private in future versions. ([#6405](https://github.com/reactivex/rxjs/issues/6405)) ([f47425d](https://github.com/reactivex/rxjs/commit/f47425d349475231c0f3542bb6ecef16a63e933a))\n- **groupBy:** Support named arguments, support ObservableInputs for duration selector ([#5679](https://github.com/reactivex/rxjs/issues/5679)) ([7a99397](https://github.com/reactivex/rxjs/commit/7a9939773802c4f7948c6d868a8f75facdea9f37))\n- **share:** use another observable to control resets ([#6169](https://github.com/reactivex/rxjs/issues/6169)) ([12c3716](https://github.com/reactivex/rxjs/commit/12c3716cecbf01f353c980488bf18845177b37b6))",
     "changelog_url": "https://github.com/ReactiveX/rxjs/blob/master/packages/rxjs/CHANGELOG.md",
     "created_at": "2026-07-30T04:24:39Z",
-    "error": "Worker exited with code 1 before marking item done",
     "existing_post_candidates": [
       "src/content/posts/astro-v7-1-0.md"
     ],
@@ -2978,9 +2977,13 @@
     "release_url": "https://github.com/reactivex/rxjs/compare/7.0.1...7.1.0",
     "repo": "ReactiveX/rxjs",
     "source": "changelog",
-    "status": "failed",
+    "status": "done",
     "tag": "7.1.0",
-    "version": "7.1.0"
+    "version": "7.1.0",
+    "completed_at": "2026-08-15T00:19:30Z",
+    "post_path": "src/content/posts/rxjs-v7-1-0.md",
+    "commit_sha": "862b71b951e173d9112a9deae0bdcf0951216d76",
+    "pushed": true
   },
   {
     "api_url": "https://api.github.com/repos/ReactiveX/rxjs/contents/packages/rxjs/CHANGELOG.md?ref=master",
