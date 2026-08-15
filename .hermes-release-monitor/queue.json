@@ -3716,9 +3716,13 @@
     "release_url": "https://github.com/zed-industries/zed/releases/tag/v1.15.0",
     "repo": "zed-industries/zed",
     "source": "github_release",
-    "status": "failed",
+    "status": "done",
     "tag": "v1.15.0",
-    "version": "1.15.0"
+    "version": "1.15.0",
+    "completed_at": "2026-08-15T02:09:26Z",
+    "post_path": "src/content/posts/zed-v1-15-0.md",
+    "commit_sha": "3acde8701b07db48bb252e79e9d343805cf2e5b7",
+    "pushed": true
   },
   {
     "api_url": "https://api.github.com/repos/typograf/typograf/releases/370814378",
