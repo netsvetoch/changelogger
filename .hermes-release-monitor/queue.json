@@ -4142,5 +4142,33 @@
     "post_path": "src/content/posts/recharts-v2-7-0.md",
     "commit_sha": "16cfb81e33c12e2c01816523b7305ee102ca1e4d",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/recharts/recharts/releases/118668974",
+    "body_excerpt": "## What's Changed\r\n\r\nMinor changes - mostly focused on resolving errors from https://github.com/recharts/recharts/issues/3615\r\n\r\n### Feat\r\n* `Pie`: default tabIndex and accept it as prop by @akamfoad in https://github.com/recharts/recharts/pull/3700\r\n* `Sankey`: add prop to control sankey sorting by @daformat in https://github.com/recharts/recharts/pull/3690\r\n* [a11y] `Brush`: Add basic keyboard accessibility support for the Brush component by @julianna-langston in https://github.com/recharts/recharts/pull/3633\r\n* `RadialBarChart`: support className prop by @victorgare in https://github.com/recharts/recharts/pull/3654\r\n\r\n### Fix\r\n  - defaultProps errros on function components in newer versions of react - fixes https://github.com/recharts/recharts/issues/3615\r\n  - TS: Add value type to legend Formatter event by @daryl-sf in https://github.com/recharts/recharts/pull/3668\r\n  - Switch useLayoutEffect to useEffect in Rectangle for SSR by @sieroaoj in https://github.com/recharts/recharts/pull/3657\r\n\r\n### Refactor\r\n  - refactor function components to use default params, revert Tooltip to class based component - resolves console errors about defaultProps\r\n\r\n### Docs \r\n  - Some storybook example additions/changes \r\n\r\n## New Contributors\r\n* @victorgare made their first contribution in https://github.com/recharts/recharts/pull/3654\r\n* @gcallaghan-nd made their first contribution in https://github.com/recharts/recharts/pull/3662\r\n* @sieroaoj made their first contribution in https://github.com/recharts/recharts/pull/3657\r\n* @daryl-sf made their first contribution in https://github.com/recharts/recharts/pull/3668\r\n* @daformat made their first contribution in https://github.com/recharts/recharts/pull/3690\r\n\r\n**Full Changelog**: https://github.com/recharts/recharts/compare/v2.7.2...v2.8.0",
+    "changelog_url": null,
+    "created_at": "2026-08-17T17:23:07Z",
+    "existing_post_candidates": [
+      "src/content/posts/gravity-ui-aikit-v2-8-0.md"
+    ],
+    "featured": false,
+    "id": "recharts__recharts-recharts__v2.8.0",
+    "kind": "minor",
+    "name": "v2.8.0",
+    "package": "recharts",
+    "processing_started_at": "2026-08-22T14:46:49Z",
+    "published_at": "2023-08-25T06:36:37Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/recharts/recharts/releases/tag/v2.8.0",
+    "repo": "recharts/recharts",
+    "source": "github_release",
+    "status": "done",
+    "tag": "v2.8.0",
+    "version": "2.8.0",
+    "post_path": "src/content/posts/recharts-v2-8-0.md",
+    "commit_sha": "62cc9e2ddc2c1c52714def5c136df380c8570875",
+    "completed_at": "2026-08-22T14:49:52Z",
+    "pushed": true,
+    "error": null
   }
 ]
