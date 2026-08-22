@@ -4705,5 +4705,32 @@
     "completed_at": "2026-08-22T20:21:00.000Z",
     "pushed": true,
     "error": null
+  },
+  {
+    "api_url": "https://api.github.com/repos/gravity-ui/aikit/releases/373191657",
+    "body_excerpt": "## [2.19.0](https://github.com/gravity-ui/aikit/compare/v2.18.0...v2.19.0) (2026-08-19)\n\n\n### Features\n\n* **ChatContainer:** fit the chat to the on-screen keyboard on mobile ([#230](https://github.com/gravity-ui/aikit/issues/230)) ([048bc81](https://github.com/gravity-ui/aikit/commit/048bc8120ff4b9bd4808f59e6c92160ee1598d95))",
+    "changelog_url": null,
+    "created_at": "2026-08-19T16:56:18Z",
+    "existing_post_candidates": [
+      "src/content/posts/gravity-ui-icons-v2-19-0.md"
+    ],
+    "featured": false,
+    "id": "@gravity-ui-aikit__gravity-ui-aikit__v2.19.0",
+    "kind": "minor",
+    "name": "v2.19.0",
+    "package": "@gravity-ui/aikit",
+    "processing_started_at": "2026-08-22T20:34:58Z",
+    "published_at": "2026-08-19T16:20:58Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/gravity-ui/aikit/releases/tag/v2.19.0",
+    "repo": "gravity-ui/aikit",
+    "source": "github_release",
+    "status": "done",
+    "tag": "v2.19.0",
+    "version": "2.19.0",
+    "completed_at": "2026-08-22T20:36:30.000Z",
+    "post_path": "src/content/posts/gravity-ui-aikit-v2-19-0.md",
+    "commit_sha": "6a7892c2547ab986e0279797cf823b6135d198bd",
+    "pushed": true
   }
 ]
