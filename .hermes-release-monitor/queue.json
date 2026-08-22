@@ -4198,5 +4198,32 @@
     "post_path": "src/content/posts/recharts-v2-9-0.md",
     "commit_sha": "d869d610e2b01800906d8384b0ede86d79199ec8",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/recharts/recharts/releases/140720881",
+    "body_excerpt": "## What's Changed\r\n\r\nBug fixes and a few small new features.\r\n\r\nReleasing 2.12.0 to create a \"clean slate\" as contributors are discussing next moves for recharts. \r\n\r\nWe will try to focus on upgrades, architectural changes, and long-pending breaking changes so we can release a recharts v3. This will not be a large major version, or one hard to upgrade to, but rather a major version bump to prevent us from breaking people with library upgrades, large refactors, etc. Feature parity should hold. Thanks!\r\n\r\n## Features \r\n* `Bar`: Accept a callback function for `minPointSize` so it can be determined by data by @ckifer  in https://github.com/recharts/recharts/pull/4099 closes https://github.com/recharts/recharts/issues/2819\r\n* `Accessibility`: Enable screen reader support with accessibilityLayer and default tooltip by @julianna-langston in https://github.com/recharts/recharts/pull/4077\r\n\r\n## Fix \r\n- `Bar`: `activeBar` should not be true by default, fixes a breaking change from 2.9.0 by @ckifer in https://github.com/recharts/recharts/pull/4139 - fixes https://github.com/recharts/recharts/issues/4103 and https://github.com/recharts/recharts/issues/4101\r\n- `Scatter`: fix non-unique key errors by @imagineLife in https://github.com/recharts/recharts/pull/4087 - fixes https://github.com/recharts/recharts/issues/4151 and https://github.com/recharts/recharts/issues/4060\r\n- `Pie`: fix non-unique key errors by @imagineLife in https://github.com/recharts/recharts/pull/4106\r\n-  `Tooltip`: fix bug that caused throttled tooltip to stay active when moving mouse quickly by @HHongSeungWoo in https://github.com/recharts/recharts/pull/4100 fixes https://github.com/recharts/recharts/issues/4093\r\n\r\n## Chore\r\n* Cleanup, tests, and refactoring work. Thanks @PavelVanecek \r\n* Upgrade react smooth, remove `translateStyle`, remove prop-types as a peerDep\r\n  * **NOTE**: animations will no longer have browser prefixes on them. Browsers have good support for this (https://caniuse.com/?search=transforms)\r\n* Upgrade dev dependencies\r\n  * Upgrade TypeScript to 4.9.5 (no definition changes from upgrade) \r\n\r\n\r\n## Storybook\r\n* New storybook stories and doc updates\r\n\r\n## New Contributors\r\n* @TRFielder made their first contribution in https://github.com/recharts/recharts/pull/4088\r\n\r\n**Full Changelog**: https://github.com/recharts/recharts/compare/v2.11...v2.12.0",
+    "changelog_url": null,
+    "created_at": "2026-08-17T17:23:07Z",
+    "existing_post_candidates": [
+      "src/content/posts/gravity-ui-aikit-v2-12-0.md"
+    ],
+    "featured": false,
+    "id": "recharts__recharts-recharts__v2.12.0",
+    "kind": "minor",
+    "name": "v2.12.0",
+    "package": "recharts",
+    "processing_started_at": "2026-08-22T15:18:50Z",
+    "published_at": "2024-02-09T01:01:45Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/recharts/recharts/releases/tag/v2.12.0",
+    "repo": "recharts/recharts",
+    "source": "github_release",
+    "status": "done",
+    "tag": "v2.12.0",
+    "version": "2.12.0",
+    "pushed": true,
+    "post_path": "src/content/posts/recharts-v2-12-0.md",
+    "commit_sha": "6e66d1c16374a8cdfa08ed99d564eba0e94a49eb",
+    "completed_at": "2026-08-22T15:21:52Z"
   }
 ]
