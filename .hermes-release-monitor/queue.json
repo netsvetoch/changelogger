@@ -4135,10 +4135,10 @@
     "release_url": "https://github.com/recharts/recharts/releases/tag/v2.7.0",
     "repo": "recharts/recharts",
     "source": "github_release",
-    "status": "done",
+    "status": "skipped_existing",
     "tag": "v2.7.0",
     "version": "2.7.0",
-    "completed_at": "2026-08-22T14:18:15Z",
+    "completed_at": "2026-08-22T14:32:26Z",
     "post_path": "src/content/posts/recharts-v2-7-0.md",
     "commit_sha": "16cfb81e33c12e2c01816523b7305ee102ca1e4d",
     "pushed": true
