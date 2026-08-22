@@ -4431,5 +4431,30 @@
     "commit_sha": "70b20d32f5697f14119870d273872be196f11ae4",
     "completed_at": "2026-08-22T17:27:00.000Z",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/recharts/recharts/releases/264586838",
+    "body_excerpt": "## What's Changed\r\nMostly fixes and performance improvements this release but check out the deprecation of `Pie` `active/inactiveShape` in favor of aligning with the `shape` prop of other chart elements.\r\n\r\n### Feat\r\n\r\n\r\n* `Pie`: add `shape` to align custom Pie sector shapes to other Recharts components by @ckifer in https://github.com/recharts/recharts/pull/6482\r\n  * This change deprecates `activeShape` and `inactiveShape`. Please use the `isActive` prop passed from the callback to `shape` to create active Pie sectors.\r\n  * Note: forgot to include the current Sector index, will add in 3.5.1\r\n*  `Stacked Charts`: implement `reverseStackOrder` prop in v3 - fixes a regression between recharts 2 and 3 by @j-shimizu111 in https://github.com/recharts/recharts/pull/6644\r\n* `Typescript/Dot`: export `ActiveDotProps` and `DotItemDotProps` types by @simaks in https://github.com/recharts/recharts/pull/6657\r\n\r\n### Fix\r\n\r\n* Performance Improvements! https://recharts.github.io/en-US/guide/performance/\r\n  * * Optimize `SetTooltipEntrySettings` to break infinite rendering loop by @PavelVanecek in https://github.com/recharts/recharts/pull/6616 \r\n  * Various performance improvements by @PavelVanecek in https://github.com/recharts/recharts/pull/6634\r\n  * Some more performance improvements by @PavelVanecek in https://github.com/recharts/recharts/pull/6654\r\n* `Line`: fix animation when interrupted with non-data related changes by @PavelVanecek in https://github.com/recharts/recharts/pull/6641\r\n* `Line/Area`: fix active dot appearing outside graph by @cameronm-orion in https://github.com/recharts/recharts/pull/6612\r\n* `Legend`: a `Legend` with a `portal` no longer adjusts the margin of the chart (which left an empty space) by @ckifer in https://github.com/recharts/recharts/pull/6609\r\n* `ErrorBar`: remove duplicate key warning when error range has same values  by @bas0N in https://github.com/recharts/recharts/pull/6660\r\n* `PolarAngleAxis`: prevent overlapping \"0\" and \"360\" ticks by @PavelVanecek in https://github.com/recharts/recharts/pull/6611\r\n* `Typescript/Area`: add specific type to `Area.label` instead of `any` by @PavelVanecek in https://github.com/recharts/recharts/pull/6621\r\n* `General`: disable immutable check in production, removes console warnings by @tngwoerleij in https://github.com/recharts/recharts/pull/6619\r\n\r\n### Docs\r\n\r\n* Add guide for performant charts by @PavelVanecek in https://github.com/recharts/recharts/pull/6659\r\n  * https://recharts.github.io/en-US/guide/performance/ please follow the guide for best results\r\n* @PavelVanecek fixed and updated a lot of our documentation on both the storybook and website 📖 🚀 \r\n\r\n## New Contributors (thanks everyone!)\r\n* @Parth10P made their first contribution in https://github.com/recharts/recharts/pull/6623\r\n* @j-shimizu111 made their first contribution in https://github.com/recharts/recharts/pull/6644\r\n* @tngwoerleij made their first contribution in https://github.com/recharts/recharts/pull/6619\r\n* @bas0N made their first contribution in https://github.com/recharts/recharts/pull/6660\r\n* @cameronm-orion made their first contribution in https://github.com/recharts/recharts/pull/6612\r\n* @simaks made their first contribution in https://github.com/recharts/recharts/pull/6657\r\n\r\n**Full Changelog**: https://github.com/recharts/recharts/compare/v3.4.1...v3.4.2",
+    "changelog_url": null,
+    "created_at": "2026-08-17T17:23:07Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "recharts__recharts-recharts__v3.5.0",
+    "kind": "minor",
+    "name": "v3.5.0",
+    "package": "recharts",
+    "processing_started_at": "2026-08-22T17:41:53Z",
+    "published_at": "2025-11-23T05:45:44Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/recharts/recharts/releases/tag/v3.5.0",
+    "repo": "recharts/recharts",
+    "source": "github_release",
+    "status": "done",
+    "tag": "v3.5.0",
+    "version": "3.5.0",
+    "completed_at": "2026-08-22T17:46:00Z",
+    "post_path": "src/content/posts/recharts-v3-5-0.md",
+    "commit_sha": "51be05d6d62e51e14cfdf0a014482c935941d632",
+    "pushed": true
   }
 ]
