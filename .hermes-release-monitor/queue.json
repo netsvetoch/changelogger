@@ -4555,5 +4555,30 @@
     "post_path": "src/content/posts/openhands-v1-14-0.md",
     "commit_sha": "525ab2c474033855342166eb3f472459e7d0c585",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/gravity-ui/aikit/releases/372379483",
+    "body_excerpt": "## [2.17.0](https://github.com/gravity-ui/aikit/compare/v2.16.0...v2.17.0) (2026-08-18)\n\n\n### Features\n\n* **ChatContainer:** add mobile adaptivity for chat components ([#226](https://github.com/gravity-ui/aikit/issues/226)) ([b9c7201](https://github.com/gravity-ui/aikit/commit/b9c7201fa84f15785f7af42ac84795c95efb53c2))\n* **ChatContainer:** add mobile mode support ([#224](https://github.com/gravity-ui/aikit/issues/224)) ([6763051](https://github.com/gravity-ui/aikit/commit/67630510a7a6b82419fda25f218aea31d8274d40))\n* **mdx:** add nonce for csp  ([#227](https://github.com/gravity-ui/aikit/issues/227)) ([c840f6d](https://github.com/gravity-ui/aikit/commit/c840f6d4fdaee01216c9897439b3b757e0431ef0))",
+    "changelog_url": null,
+    "created_at": "2026-08-18T14:03:30Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "@gravity-ui-aikit__gravity-ui-aikit__v2.17.0",
+    "kind": "minor",
+    "name": "v2.17.0",
+    "package": "@gravity-ui/aikit",
+    "processing_started_at": "2026-08-22T18:59:56Z",
+    "published_at": "2026-08-18T13:43:49Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/gravity-ui/aikit/releases/tag/v2.17.0",
+    "repo": "gravity-ui/aikit",
+    "source": "github_release",
+    "status": "done",
+    "tag": "v2.17.0",
+    "version": "2.17.0",
+    "completed_at": "2026-08-22T19:04:00Z",
+    "post_path": "src/content/posts/gravity-ui-aikit-v2-17-0.md",
+    "commit_sha": "47dfbedbb4d15b401a276dbd64acb0b0aff60a79",
+    "pushed": true
   }
 ]
