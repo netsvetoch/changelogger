@@ -4506,5 +4506,29 @@
     "post_path": "src/content/posts/recharts-v3-7-0.md",
     "commit_sha": "0f1efe9b2def411094d8a997a43353ff589d6d06",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/recharts/recharts/releases/292958536",
+    "body_excerpt": "## What's Changed\r\n\r\nWe added generics to our `data` and `dataKey` props and now you can have your charts validated by TypeScript. See the full guide here: https://recharts.github.io/en-US/guide/typescript/\r\n\r\nWe are releasing new helper functions and hooks that will allow you to precisely target mouse interactions, and convert coordinates. See the guide here: https://recharts.github.io/en-US/guide/coordinateSystems/\r\n\r\nAnd new functions and hooks:\r\n\r\n[getRelativeCoordinate](https://recharts.github.io/en-US/api/getRelativeCoordinate/) - converts mouse events to pixel positions\r\n\r\nConvert Data → Pixels:\r\n\r\n[useXAxisScale](https://recharts.github.io/en-US/api/useXAxisScale) - returns a function to convert X data values to pixel positions\r\n[useYAxisScale](https://recharts.github.io/en-US/api/useYAxisScale) - returns a function to convert Y data values to pixel positions\r\n[useCartesianScale](https://recharts.github.io/en-US/api/useCartesianScale) - convenience hook for converting both at once\r\n\r\nPixels → Data:\r\n\r\n[useXAxisInverseScale](https://recharts.github.io/en-US/api/useXAxisInverseScale) - returns a function to convert pixel X to the closest data value\r\n[useYAxisInverseScale](https://recharts.github.io/en-US/api/useYAxisInverseScale) - returns a function to convert pixel Y to the closest data value\r\n[useXAxisInverseTickSnapScale](https://recharts.github.io/en-US/api/useXAxisInverseTickSnapScale) - returns a function to convert pixel X to the closest axis tick\r\n[useYAxisInverseTickSnapScale](https://recharts.github.io/en-US/api/useYAxisInverseTickSnapScale) - returns a function to convert pixel Y to the closest axis tick\r\n\r\nAccessing Ticks:\r\n\r\n[useXAxisTicks](https://recharts.github.io/en-US/api/useXAxisTicks) - returns the calculated ticks of an X-axis\r\n[useYAxisTicks](https://recharts.github.io/en-US/api/useYAxisTicks) - returns the calculated ticks of a Y-axis\r\n\r\n### Feat\r\n\r\n* `Hooks`: New hooks (see above) by @PavelVanecek in https://github.com/recharts/recharts/pull/6960\r\n* `Annotations`: export `getRelativeCoordinate` helper function by @PavelVanecek in https://github.com/recharts/recharts/pull/6942\r\n* `Legend`: Add label style prop in Legend by @devoldemar in https://github.com/recharts/recharts/pull/7012\r\n* `XAxis/YAxis`: **new** `niceTIcks` prop - specify `'none' | 'auto' | 'equidistant' | 'nice'` for different behaviors  by @MaxGhenis in https://github.com/recharts/recharts/pull/7009\r\n* `General`: Add event throttling controls to chart props by @PavelVanecek in https://github.com/recharts/recharts/pull/6924\r\n\r\n### Fix\r\n* `Pie`: fix: enable tooltip synchronization for PieChart by @VIDHITTS in https://github.com/recharts/recharts/pull/6989\r\n* `Pie`: fix: sync pie tooltip/legend color with per-sector fill by @2YH02 in https://github.com/recharts/recharts/pull/6977\r\n* `Bar`: Fix activeBar highlighting with missing/null data by @Copilot in https://github.com/recharts/recharts/pull/7001\r\n* `Bar`: Support Bar CSS transitions by @PavelVanecek in https://github.com/recharts/recharts/pull/6920\r\n* `XAxis/YAxis`: respect user-provided textAnchor prop on XAxis/YAxis by @pierreeurope in https://github.com/recharts/recharts/pull/7028\r\n* `Tooltip`: Close tooltip on blur by @gVguy in https://github.com/recharts/recharts/pull/6958\r\n* `General`: fix error when `onMouseEnter/Leave={undefined}` by @SvetlanaVesna in https://github.com/recharts/recharts/pull/6969\r\n* `Animation`: [animations] auto disable primitives animations based on user system preferences by @cloud-walker in https://github.com/recharts/recharts/pull/6956\r\n* `Animation/Line`: fix: prevent animated line flicker with round/square strokeLinecap by @roy7 in https://github.com/recharts/recharts/pull/7022\r\n* `Performance`: filter zero-dimension rectangles early by @MendyLanda in https://github.com/recharts/recharts/pull/6800\r\n* Bump minimum @reduxjs/toolkit to 1.9.0 by @Copilot in https://github.com/recharts/recharts/pull/6934\r\n\r\n### Types\r\n\r\n* `Bar`: Add generics to Bar by @",
+    "changelog_url": null,
+    "created_at": "2026-08-17T17:23:07Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "recharts__recharts-recharts__v3.8.0",
+    "kind": "minor",
+    "name": "v3.8.0",
+    "package": "recharts",
+    "published_at": "2026-03-06T21:47:42Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/recharts/recharts/releases/tag/v3.8.0",
+    "repo": "recharts/recharts",
+    "source": "github_release",
+    "status": "done",
+    "tag": "v3.8.0",
+    "version": "3.8.0",
+    "post_path": "src/content/posts/recharts-v3-8-0.md",
+    "commit_sha": "e19c49c914aa78459216efd923f8767fbdd967c7",
+    "completed_at": "2026-08-22T18:33:00Z",
+    "pushed": true
   }
 ]
