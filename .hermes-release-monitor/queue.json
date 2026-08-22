@@ -4757,5 +4757,32 @@
     "post_path": "src/content/posts/oh-my-pi-v17-4-0.md",
     "commit_sha": "ac23c80654f19c621b0d6a39db835b38efec0fb9",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/oven-sh/bun/releases/373437831",
+    "body_excerpt": "\r\n\r\nTo install Bun v1.4\r\n```bash\r\ncurl -fsSL https://bun.com/install | bash\r\n# or you can use npm\r\n# npm install -g bun\r\n```\r\n\r\nWindows:\r\n```bash\r\npowershell -c \"irm bun.com/install.ps1|iex\"\r\n```\r\n\r\nTo upgrade to Bun v1.4.0:\r\n```bash\r\nbun upgrade\r\n```\r\n\r\nRead the [blog post](https://bun.com/1.4):\r\n<a href=\"https://bun.com/1.4\">\r\n<img width=\"1672\" height=\"941\" alt=\"image (1)\" src=\"https://github.com/user-attachments/assets/e8b3c370-7725-47c0-99cd-76faa8c869a3\" />\r\n</a>\r\n\r\n\r\n\r\n### Thank you\r\n\r\nBun is free, open source, and MIT-licensed. We receive a lot of contributions from the community, and we'd like to thank everyone who fixed a bug or contributed since Bun v1.3.\r\n\r\n- [@190n](https://github.com/190n)\r\n- [@alanstott](https://github.com/alanstott)\r\n- [@alii](https://github.com/alii)\r\n- [@alinalihassan](https://github.com/alinalihassan)\r\n- [@amdad121](https://github.com/amdad121)\r\n- [@ant-kurt](https://github.com/ant-kurt)\r\n- [@anthonybaldwin](https://github.com/anthonybaldwin)\r\n- [@avarayr](https://github.com/avarayr)\r\n- [@baboon-king](https://github.com/baboon-king)\r\n- [@billywhizz](https://github.com/billywhizz)\r\n- [@bmwalters](https://github.com/bmwalters)\r\n- [@Boshen](https://github.com/Boshen)\r\n- [@braden-w](https://github.com/braden-w)\r\n- [@c-stoeckl](https://github.com/c-stoeckl)\r\n- [@carlsmedstad](https://github.com/carlsmedstad)\r\n- [@chrislloyd](https://github.com/chrislloyd)\r\n- [@cirospaciari](https://github.com/cirospaciari)\r\n- [@coleleavitt](https://github.com/coleleavitt)\r\n- [@connerlphillippi](https://github.com/connerlphillippi)\r\n- [@crishoj](https://github.com/crishoj)\r\n- [@csvlad](https://github.com/csvlad)\r\n- [@d4mr](https://github.com/d4mr)\r\n- [@darwin808](https://github.com/darwin808)\r\n- [@ddmoney420](https://github.com/ddmoney420)\r\n- [@dioro](https://github.com/dioro)\r\n- [@djs5008](https://github.com/djs5008)\r\n- [@dylan-conway](https://github.com/dylan-conway)\r\n- [@Elfayer](https://github.com/Elfayer)\r\n- [@emwadde](https://github.com/emwadde)\r\n- [@eroderust](https://github.com/eroderust)\r\n- [@fraidev](https://github.com/fraidev)\r\n- [@franklinfollis](https://github.com/franklinfollis)\r\n- [@gameroman](https://github.com/gameroman)\r\n- [@gaowhen](https://github.com/gaowhen)\r\n- [@halil-pan](https://github.com/halil-pan)\r\n- [@hamidrezahanafi](https://github.com/hamidrezahanafi)\r\n- [@HK-SHAO](https://github.com/HK-SHAO)\r\n- [@Hona](https://github.com/Hona)\r\n- [@hoXyy](https://github.com/hoXyy)\r\n- [@ig-ant](https://github.com/ig-ant)\r\n- [@igorkofman](https://github.com/igorkofman)\r\n- [@jackkleeman](https://github.com/jackkleeman)\r\n- [@Jarred-Sumner](https://github.com/Jarred-Sumner)\r\n- [@jsparkdev](https://github.com/jsparkdev)\r\n- [@kirillmarkelov](https://github.com/kirillmarkelov)\r\n- [@kjanat](https://github.com/kjanat)\r\n- [@km-anthropic](https://github.com/km-anthropic)\r\n- [@kylekz](https://github.com/kylekz)\r\n- [@ldkhang1201](https://github.com/ldkhang1201)\r\n- [@Lillious](https://github.com/Lillious)\r\n- [@lydiahallie](https://github.com/lydiahallie)\r\n- [@makuko](https://github.com/makuko)\r\n- [@mariusz4044](https://github.com/mariusz4044)\r\n- [@markovejnovic](https://github.com/markovejnovic)\r\n- [@martinamps](https://github.com/martinamps)\r\n- [@mattermoran](https://github.com/mattermoran)\r\n- [@MiniGod](https://github.com/MiniGod)\r\n- [@mippbipp](https://github.com/mippbipp)\r\n- [@mmitchellg5](https://github.com/mmitchellg5)\r\n- [@nathanosoares](https://github.com/nathanosoares)\r\n- [@nektro](https://github.com/nektro)\r\n- [@nfreya](https://github.com/nfreya)\r\n- [@NicoCevallos](https://github.com/NicoCevallos)\r\n- [@nkxxll](https://github.com/nkxxll)\r\n- [@ocodista](https://github.com/ocodista)\r\n- [@paperclover](https://github.com/paperclover)\r\n- [@pfgithub](https://github.com/pfgithub)\r\n- [@prekucki](https://github.com/prekucki)\r\n- [@rekram1-node](https://github.com/rekram1-node)\r\n- [@remorses](https://github.com/remorses)\r\n- [@RiskyMH](https://github.com/RiskyMH)\r\n- [@robjtede](https://github.com/robjtede)\r\n- [@RyanGst",
+    "changelog_url": null,
+    "created_at": "2026-08-20T14:46:54Z",
+    "existing_post_candidates": [
+      "src/content/posts/elysia-1-4-0.md"
+    ],
+    "featured": false,
+    "id": "bun__oven-sh-bun__bun-v1.4.0",
+    "kind": "minor",
+    "name": "Bun v1.4",
+    "package": "bun",
+    "processing_started_at": "2026-08-22T21:22:59Z",
+    "published_at": "2026-08-20T14:07:21Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/oven-sh/bun/releases/tag/bun-v1.4.0",
+    "repo": "oven-sh/bun",
+    "source": "github_release",
+    "status": "done",
+    "tag": "bun-v1.4.0",
+    "version": "1.4.0",
+    "completed_at": "2026-08-22T21:32:05Z",
+    "post_path": "src/content/posts/bun-v1-4-0.md",
+    "commit_sha": "fd07f6ddc8ea7be3753d35def4a748b69b8f4ef0",
+    "pushed": true
   }
 ]
