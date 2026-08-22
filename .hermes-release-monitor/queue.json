@@ -4406,5 +4406,30 @@
     "commit_sha": "666385d048d068267e17fcaf63fdcee78162536f",
     "post_path": "src/content/posts/recharts-v3-3-0.md",
     "completed_at": "2026-08-22T17:11:00.000Z"
+  },
+  {
+    "api_url": "https://api.github.com/repos/recharts/recharts/releases/261015139",
+    "body_excerpt": "## What's Changed\r\n\r\nAdded z-index support across most recharts surfaces + a few other features, lots of fixes, and some doc updates 🚀 \r\n\r\n### Feat\r\n\r\n* Z Index! - You can now add a z index to many chart components to order the position of recharts elements as you wish, mimicking CSS z-index. Big shout out to @PavelVanecek in https://github.com/recharts/recharts/pull/6479 \r\n  * See the guide page - https://recharts.github.io/en-US/guide/zIndex/\r\n* `Line`: add `shape` property to allow for custom shape implementations by @tarik02 in https://github.com/recharts/recharts/pull/6512\r\n* `Stacked Bar`: improved stacked bar animations\r\n* `Sankey`: support for left-aligned Sankey nodes via the `align` prop by @dbnl-renaud in https://github.com/recharts/recharts/pull/6568\r\n* `Sankey`: support for top-aligned Sankey nodes via the `verticalAlign` prop by @dbnl-kat https://github.com/recharts/recharts/pull/6576\r\n* `Label`: allow overwriting the `textAnchor` prop by @PavelVanecek in https://github.com/recharts/recharts/pull/6547\r\n\r\n### Fix\r\n\r\n* `Stacked Bar / Brush`: fix bug in stacked bar charts with a brush where the brush would remove elements from the wrong side of the chart by @37108 in https://github.com/recharts/recharts/pull/6481\r\n* `Area`: fix regression in Area event handlers where the events were not firing correctly by @PavelVanecek in https://github.com/recharts/recharts/pull/6507\r\n* `Funnel`: fix Funnel margin calculations by @PavelVanecek in https://github.com/recharts/recharts/pull/6453\r\n* `Funnel`: fix label position issues from previous release by @PavelVanecek in https://github.com/recharts/recharts/pull/6473\r\n* `Label/Text`: correct `Label` and `Text` types to only what they can actually render by @PavelVanecek in https://github.com/recharts/recharts/pull/6467\r\n* `Misc`: inline a few es-toolkit functions that were causing build errors by @daiboom in https://github.com/recharts/recharts/pull/6543\r\n* `Misc`: remove circular dependency import that had potential to cause runtime errors by @ckifer in https://github.com/recharts/recharts/pull/6581\r\n\r\n\r\n### Chore\r\n\r\n- Finished adding strict null checks and enabled `strictNulls` in TSConfig for good 🚀 \r\n  - by @PavelVanecek in https://github.com/recharts/recharts/pull/6497\r\n\r\n### Docs\r\n\r\nLots of changes in recharts.github.io\r\n\r\n- Switch code editor to codemirror by @PavelVanecek in https://github.com/recharts/recharts/pull/6531\r\n- Added/removed missing/stale properties where applicable from storybook and website\r\n- Few layout/visual changes and fixes on the website\r\n- Much more\r\n\r\n\r\n## New Contributors\r\n* @37108 made their first contribution in https://github.com/recharts/recharts/pull/6481\r\n* @tarik02 made their first contribution in https://github.com/recharts/recharts/pull/6512\r\n* @dbnl-renaud made their first contribution in https://github.com/recharts/recharts/pull/6568\r\n* @coderabbitai[bot] made their first contribution in https://github.com/recharts/recharts/pull/6538\r\n* @dbnl-kat made their first contribution in https://github.com/recharts/recharts/pull/6576\r\n\r\n**Full Changelog**: https://github.com/recharts/recharts/compare/v3.3.0...v3.4.0",
+    "changelog_url": null,
+    "created_at": "2026-08-17T17:23:07Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "recharts__recharts-recharts__v3.4.0",
+    "kind": "minor",
+    "name": "v3.4.0",
+    "package": "recharts",
+    "processing_started_at": "2026-08-22T17:25:52Z",
+    "published_at": "2025-11-10T07:02:04Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/recharts/recharts/releases/tag/v3.4.0",
+    "repo": "recharts/recharts",
+    "source": "github_release",
+    "status": "done",
+    "tag": "v3.4.0",
+    "version": "3.4.0",
+    "post_path": "src/content/posts/recharts-v3-4-0.md",
+    "commit_sha": "70b20d32f5697f14119870d273872be196f11ae4",
+    "completed_at": "2026-08-22T17:27:00.000Z",
+    "pushed": true
   }
 ]
