@@ -4089,5 +4089,30 @@
     "post_path": "src/content/posts/recharts-v2-5-0.md",
     "commit_sha": "696df4d3d8683386cd93df2f1130158e438445f6",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/recharts/recharts/releases/102256632",
+    "body_excerpt": "## What's Changed\r\nStorybook documentation updates as well as our first accessibility feature thanks to @julianna-langston and some refactoring to function components!\r\n\r\n### Feat\r\n* [a11y] Keyboard navigation support for categorical charts by @julianna-langston in https://github.com/recharts/recharts/pull/3546\r\n  * See docs [here](https://release--63da8268a0da9970db6992aa.chromatic.com/?path=/docs/api-accessibility--docs)  \r\n\r\n### Fix\r\n* Update type for `equidistantPreserveStart` axis interval by @frontier159 in https://github.com/recharts/recharts/pull/3511\r\n* Stop focusing on tooltip when displayed - use event listeners instead by @ArkaFred in https://github.com/recharts/recharts/pull/3515\r\n\r\n### Docs\r\n- lots of storybook changes - [go check it out](https://release--63da8268a0da9970db6992aa.chromatic.com/)!\r\n   - Getting close to parity with existing docs on recharts.org\r\n   - Added accessibility add-on\r\n   - Added accessibility docs to go with the keyboard navigation support\r\n   - Storybook 7 stable\r\n   - Much more!\r\n\r\n### Refactor\r\n* refactor: `Curve` to function component by @akamfoad in https://github.com/recharts/recharts/pull/3477\r\n* refactor: `PolarGrid` to function component by @akamfoad in https://github.com/recharts/recharts/pull/3471\r\n* refactor: `Cross` to component function by @akamfoad in https://github.com/recharts/recharts/pull/3475\r\n* refactor: tooltip to function component by @ckifer in https://github.com/recharts/recharts/pull/3336\r\n* fix: defaultProps of tooltip, fix viewBox by @ckifer in https://github.com/recharts/recharts/pull/3554\r\n* refactor: `Text` to function component by @akamfoad in https://github.com/recharts/recharts/pull/3463\r\n\r\n## New Contributors\r\n* @akamfoad made their first contribution in https://github.com/recharts/recharts/pull/3466\r\n* @nicholasgcoles made their first contribution in https://github.com/recharts/recharts/pull/3467\r\n* @linhuiw made their first contribution in https://github.com/recharts/recharts/pull/3508\r\n* @frontier159 made their first contribution in https://github.com/recharts/recharts/pull/3511\r\n* @ArkaFred made their first contribution in https://github.com/recharts/recharts/pull/3515\r\n* @julianna-langston made their first contribution in https://github.com/recharts/recharts/pull/3540\r\n\r\n**Full Changelog**: https://github.com/recharts/recharts/compare/v2.5.0...v2.6.0",
+    "changelog_url": null,
+    "created_at": "2026-08-17T17:23:07Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "recharts__recharts-recharts__v2.6.0",
+    "kind": "minor",
+    "name": "v2.6.0",
+    "package": "recharts",
+    "processing_started_at": "2026-08-22T13:58:48Z",
+    "published_at": "2023-05-08T21:50:21Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/recharts/recharts/releases/tag/v2.6.0",
+    "repo": "recharts/recharts",
+    "source": "github_release",
+    "status": "done",
+    "tag": "v2.6.0",
+    "version": "2.6.0",
+    "completed_at": "2026-08-22T14:01:42Z",
+    "post_path": "src/content/posts/recharts-v2-6-0.md",
+    "commit_sha": "4cb90028de9715033be9a598d91ef53be976071f",
+    "pushed": true
   }
 ]
