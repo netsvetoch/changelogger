@@ -4732,5 +4732,30 @@
     "post_path": "src/content/posts/gravity-ui-aikit-v2-19-0.md",
     "commit_sha": "6a7892c2547ab986e0279797cf823b6135d198bd",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/can1357/oh-my-pi/releases/373531032",
+    "body_excerpt": "## @oh-my-pi/pi-agent-core\n\n### Breaking Changes\n\n- Replaced global token counting functions (`countTokens`, `countTokensConservatively`, `setTokenizerModel`, and `estimateTokens`) with model-scoped, immutable `Tokenizer` instances (`agent.tokenizer`). Use `tokenizer.countTokens(text, mode?)`, `tokenizer.countMessage(message)`, or `tokenizer.countMessages(messages)`.\n- Updated context management functions (`findCutPoint`, `prepareBranchEntries`, `collectShakeRegions`, `pruneToolOutputs`, `pruneSupersededToolResults`, and `trimRemoteCompactionInputToContextWindow`) to require an explicit `Tokenizer` instance.\n\n### Added\n\n- Added `Tokenizer.checkTokenBudget(text, budget)` to efficiently verify if text fits within a token limit using fast byte-bound checks before falling back to full tokenization.\n- Added provider-anchored transcript token estimation (`findTranscriptUsageAnchor`, `isTranscriptUsageAnchor`, `estimateTranscriptTokens`) to calculate transcript token counts incrementally from the latest reported assistant turn usage.\n- Added `remotePreserveReusable()` to check whether a previous remote compaction payload remains reusable with the active model.\n\n### Changed\n\n- Expanded native tokenizer support across catalog models, adding exact embedded token counting for Claude, Qwen 3.5+, DeepSeek V3/V4/R1, Kimi K2/K3, and GLM-5+ models. `Tokenizer` now constructs from a resolved catalog `Model`.\n- `createCompactionSummaryMessage` takes an options object after `(summary, tokensBefore, timestamp)`; `CompactionSummaryMessage` gained optional `method` and `tokensAfter` display metadata.\n\n## @oh-my-pi/pi-ai\n\n### Added\n\n- Added model metadata fields (`context_length`, `max_output_tokens`, `input_modalities`, etc.) to auth gateway model listing responses\n\n### Fixed\n\n- Fixed tool-argument repair applying lossy transformations (such as stringifying objects or stripping unrecognized keys) when validating union schemas (`anyOf`/`oneOf`), preventing corrupted tool call and subagent payloads\n- Fixed 400 errors when communicating with local OpenAI-compatible inference servers that reject `chat_template_kwargs.reasoning_effort` by improving reasoning effort parameter fallback and compatibility handling\n- Fixed DeepSeek-family models on hosts like Fireworks losing reasoning whenever tools were offered: a redundant `tool_choice: \"auto\"` is now omitted so the provider keeps thinking enabled; forced and `\"none\"` selectors still take priority ([#1207](https://github.com/can1357/oh-my-pi/issues/1207))\n\n## @oh-my-pi/pi-catalog\n\n### Added\n\n- Models now include an optional `tokenizer` family field across bundled, discovered, and custom models (supporting Claude, Qwen, DeepSeek, Kimi, and GLM families), with support for explicit overrides in model configuration.\n- Added long-context cost tiers (`cost.longContext`) to subscription Codex GPT-5.6 models (Sol, Terra, Luna) matching first-party API pricing above 272K input tokens.\n\n### Changed\n\n- Bundled model metadata is prebuilt during generation, reducing catalog startup work.\n\n### Fixed\n\n- Fixed tool-call turn failures for `opencode-go/muse-spark-1.2` and related variants by ensuring API transport pins apply to live discovery and automatically inferring response routes for gateway-first OpenCode models ([#8957](https://github.com/can1357/oh-my-pi/issues/8957)).\n\n## @oh-my-pi/pi-coding-agent\n\n### Added\n\n- `/cleanse` (and `omp cleanse`) — run the checker/repair loop in-session, with a live status board of running checkers, repair subagents, and token/cost totals.\n- `omp ps` — interactive monitor for daemon-supervised background processes.\n- Composer layouts — `composer.shape` picks the editor frame (rounded box, Claude Code rules, upstream-pi rules, borderless), with live previews in `/settings` and the setup wizard.\n- Context line — `statusLine.contextLine` gauge (`percentage`, `annotated`, `embedded`) showing context usage and compaction boundaries.\n- Backgroundable Python — `eval` cells can run async and ",
+    "changelog_url": null,
+    "created_at": "2026-08-20T07:33:15Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "oh-my-pi__can1357-oh-my-pi__v17.4.0",
+    "kind": "minor",
+    "name": "v17.4.0",
+    "package": "oh-my-pi",
+    "processing_started_at": "2026-08-22T21:06:59Z",
+    "published_at": "2026-08-20T06:37:51Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/can1357/oh-my-pi/releases/tag/v17.4.0",
+    "repo": "can1357/oh-my-pi",
+    "source": "github_release",
+    "status": "done",
+    "tag": "v17.4.0",
+    "version": "17.4.0",
+    "completed_at": "2026-08-22T21:09:00Z",
+    "post_path": "src/content/posts/oh-my-pi-v17-4-0.md",
+    "commit_sha": "ac23c80654f19c621b0d6a39db835b38efec0fb9",
+    "pushed": true
   }
 ]
