@@ -4630,5 +4630,29 @@
     "post_path": "src/content/posts/oxlint-oxfmt-apps-v1-79-0.md",
     "commit_sha": "2a96519c6fe9e62dd2bfdcfcc2a45ac9ce8365b8",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/openai/codex/releases/372686337",
+    "body_excerpt": "## New Features\n\n- Export complete TUI conversations to Markdown with `/export`, either to the clipboard or a new file. (#37358)\n- Fork sessions with `codex exec fork`, and archive or restore sessions from the TUI resume picker. (#37367, #37369, #37371)\n- Draft prompts while the TUI initializes, with resume and fork progress shown during startup. (#38642, #38788)\n- View estimated thread credits or cost in `/status`, status lines, and terminal titles for eligible workspaces. (#38281, #38282)\n- Use Amazon Bedrock Runtime as a built-in provider with AWS profile, region, and GPT-5.6 routing support. (#38470)\n- Hooks can now run commands asynchronously and invoke MCP tools. (#37533, #38705)\n\n## Bug Fixes\n\n- Model switches and settings updates no longer leave stale instructions behind or change an active turn midstream. (#37260, #38785)\n- Resumed sessions now restore their persisted working directory and approval policy, with more accurate transcript previews. (#37198, #37368, #38605)\n- Turns reconnect through temporary provider outages, and MCP servers recover after OAuth reauthentication without restarting Codex. (#37337, #37485, #38418)\n- TUI startup no longer lets buffered terminal input activate prompts accidentally, and onboarding appears when authentication is missing. (#38641, #38643, #38644)\n- Composer and transcript rendering now handle CRLF pastes, wrapped whitespace, and long URLs correctly. (#37709, #38380, #38704)\n- Sandbox restrictions now fail closed for denied or unreadable paths across Linux and Windows. (#37875, #38026, #38416, #38660)\n\n## Documentation\n\n- The bundled skill-creator guide is more focused, and validation now rejects unfinished TODO placeholders. (#38384)\n\n## Changelog\n\nFull Changelog: https://github.com/openai/codex/compare/rust-v0.147.0...rust-v0.148.0\n\n- #37190 Interrupt cyber model turns after one Guardian denial @copyberry\n- #37191 Preserve legacy semantics during rollout migration @copyberry\n- #37198 Prefer persisted cwd when reading local threads @copyberry\n- #37199 Track thread archive analytics @copyberry\n- #37204 Add durable user-message queue dispatch @copyberry\n- #37206 Add a unified image budget @copyberry\n- #37210 Fetch remote installed plugins across all scopes @copyberry\n- #37211 Harden network proxy MITM authorization @copyberry\n- #37248 Cover remote MCP discovery timeout cleanup @copyberry\n- #37252 Allow agent roles on full-history forks @copyberry\n- #37260 Fix first-turn model switching and rollback @copyberry\n- #37261 Start cached MCP servers lazily for subagents @copyberry\n- #37267 Support plugin roots in the host skill loader @copyberry\n- #37273 Reuse MCP handlers across sampling steps @copyberry\n- #37279 Avoid cloning immutable metadata on tool search cache hits @copyberry\n- #37335 Fully repaint inline viewports after history overlap @copyberry\n- #37336 Use step environments for extension turn input @copyberry\n- #37337 Recover MCP servers after OAuth reauthentication @copyberry\n- #37338 Honor the configured ChatGPT origin in connector install URLs @copyberry\n- #37339 Reload app-server telemetry after account changes @copyberry\n- #37340 Consolidate deferred environment provisioning APIs @copyberry\n- #37341 Support content references for inline visualizations @copyberry\n- #37342 Preserve foreign cwd URIs for turn-input contributors @copyberry\n- #37343 Stage Bazel app-server test binaries in `TEST_TMPDIR` @copyberry\n- #37344 Fix subagent MCP startup status settling @copyberry\n- #37345 Send model routing hints to the Codex backend @copyberry\n- #37347 Track context windows per agent @copyberry\n- #37348 Add rollout migration tooling and background migration @copyberry\n- #37349 Mount a minimal `/dev` in full-filesystem Bubblewrap sandboxes @copyberry\n- #37350 Allow `ThreadManager` to customize thread ID generation @copyberry\n- #37352 Configure the default code-mode exec yield timeout @copyberry\n- #37354 Retry busy app-server test executable spawns @copyberry\n- #37356 Support agent ide",
+    "changelog_url": null,
+    "created_at": "2026-08-18T23:21:57Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "codex__openai-codex__rust-v0.148.0",
+    "kind": "minor",
+    "name": "0.148.0",
+    "package": "codex",
+    "published_at": "2026-08-18T22:26:03Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/openai/codex/releases/tag/rust-v0.148.0",
+    "repo": "openai/codex",
+    "source": "github_release",
+    "status": "done",
+    "tag": "rust-v0.148.0",
+    "version": "0.148.0",
+    "completed_at": "2026-08-22T19:51:12Z",
+    "post_path": "src/content/posts/openai-codex-rust-v0-148-0.md",
+    "commit_sha": "d2ce4c0186e1898ef25ca114a3d1fd2e7f8318d3",
+    "pushed": true
   }
 ]
