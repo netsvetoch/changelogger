@@ -4012,5 +4012,30 @@
     "commit_sha": "b2827cb1a881eac74249952a634ab4a61962cfcf",
     "pushed": true,
     "completed_at": "2026-08-17T12:59:59Z"
+  },
+  {
+    "api_url": "https://api.github.com/repos/recharts/recharts/releases/88665486",
+    "body_excerpt": "## What's Changed\r\n\r\nFor the full list of changes between v2.2.0 and v2.3.0 please see the [v2.3.0-alpha.0](https://github.com/recharts/recharts/releases/tag/v2.3.0-alpha.0) and the [v2.3.0-alpha.1](https://github.com/recharts/recharts/releases/tag/v2.3.0-alpha.1) release notes.\r\n\r\n### fix\r\n\r\n* fix: patch d3 libraries with victory-vendor to fix security vulnerability, failing test by @ckifer in https://github.com/recharts/recharts/pull/3167 \r\n  *   __SECURITY VULNERABILITY FIX 🎉__:  used `victory-vendor` to replace esm only versions of `d3` with `cjs` compatible versions from victory. We will introduce a breaking change in 3.0 to move back to `esm` only d3 libraries. - closes #3012 \r\n* ~memoize responsive container functions and fix bug using previous values in `setState` - https://github.com/recharts/recharts/commit/3214d1405d13d5ddcd3931d870634bcb80a52b22~ - reverted in 2.3.1\r\n\r\n### refactor\r\n\r\n* ReactUtils – find by type – refactor using generic by @marcalexiei in https://github.com/recharts/recharts/pull/3152\r\n\r\n### chore\r\n\r\n* chore: add npm publish action by @ckifer in https://github.com/recharts/recharts/pull/3166\r\n\r\n### jest migration\r\n* fix: migrate area chart test to typescript by @Yilun-Sun in https://github.com/recharts/recharts/pull/3151\r\n* Jest Migration: util/DataUtils (#3134) by @marcalexiei in https://github.com/recharts/recharts/pull/3147\r\n* Jest Migration: Cell by @nikolasrieble in https://github.com/recharts/recharts/pull/3150\r\n* test(JestMigration): convert FunnelChart (closes #3127) by @marcalexiei in https://github.com/recharts/recharts/pull/3153\r\n* Jest Migration: ChartUtils  by @nikolasrieble in https://github.com/recharts/recharts/pull/3148\r\n* JestMigration: Label and LabelList  by @nikolasrieble in https://github.com/recharts/recharts/pull/3154\r\n* test(JestMigration): convert ResponsiveContainer by @marcalexiei in https://github.com/recharts/recharts/pull/3157\r\n* LineChart.spec jest migration by @turculaurentiu91 in https://github.com/recharts/recharts/pull/3141\r\n* fix: area chart test migration follow up by @Yilun-Sun in https://github.com/recharts/recharts/pull/3161\r\n* fix: area chart test part3 by @Yilun-Sun in https://github.com/recharts/recharts/pull/3163\r\n* test: add jest coverage, differentiate jest and karma envs to fix errors by @ckifer in https://github.com/recharts/recharts/pull/3164\r\n\r\n\r\n## New Contributors\r\n* @Yilun-Sun made their first contribution in https://github.com/recharts/recharts/pull/3151\r\n\r\n**Full Changelog**:\r\n *  [v2.3.0-alpha.1...v2.3.0 ](https://github.com/recharts/recharts/compare/v2.3.0-alpha.1...v2.3.0) \r\n * [v2.2.0...v2.3.0](https://github.com/recharts/recharts/compare/v2.2.0...v2.3.0)",
+    "changelog_url": null,
+    "created_at": "2026-08-17T17:23:07Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "recharts__recharts-recharts__v2.3.0",
+    "kind": "minor",
+    "name": "v2.3.0",
+    "package": "recharts",
+    "processing_started_at": "2026-08-22T13:20:40Z",
+    "published_at": "2023-01-12T01:39:32Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/recharts/recharts/releases/tag/v2.3.0",
+    "repo": "recharts/recharts",
+    "source": "github_release",
+    "status": "done",
+    "tag": "v2.3.0",
+    "version": "2.3.0",
+    "post_path": "src/content/posts/recharts-v2-3-0.md",
+    "commit_sha": "f291b2db2e8e2c9139e69b498223a268e152b124",
+    "completed_at": "2026-08-22T13:23:31.562992Z",
+    "pushed": true
   }
 ]
