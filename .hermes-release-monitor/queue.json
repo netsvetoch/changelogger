@@ -4279,5 +4279,32 @@
     "post_path": "src/content/posts/recharts-v2-14-0.md",
     "commit_sha": "f5c6dce9adda66f066e198bb59faf1b295f61370",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/recharts/recharts/releases/190513905",
+    "body_excerpt": "## What's Changed\r\n\r\nFinal 2.x React 19 support\r\n\r\n**!!! You still need to override your `react-is` version to match `react`/`react-dom` for React 19 to work with recharts !!! - see [thread here](https://github.com/recharts/recharts/issues/4558#issuecomment-2132375528)** - this limitation will be alleviated in recharts 3.0\r\n\r\n## Feat\r\n\r\nAdd React 19 to peerDependencies - closes https://github.com/recharts/recharts/issues/4558\r\n\r\n## Fix\r\n\r\n- `Bar`: fix Bar mouse event types regression - closes https://github.com/recharts/recharts/issues/5308\r\n- Remove React19 deprecated `ReactText` type\r\n\r\n\r\n**Full Changelog**: https://github.com/recharts/recharts/compare/v2.14.1...v2.15.0",
+    "changelog_url": null,
+    "created_at": "2026-08-17T17:23:07Z",
+    "existing_post_candidates": [
+      "src/content/posts/gravity-ui-aikit-v2-15-0.md"
+    ],
+    "featured": false,
+    "id": "recharts__recharts-recharts__v2.15.0",
+    "kind": "minor",
+    "name": "v2.15.0",
+    "package": "recharts",
+    "processing_started_at": "2026-08-22T16:06:51Z",
+    "published_at": "2024-12-12T20:03:40Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/recharts/recharts/releases/tag/v2.15.0",
+    "repo": "recharts/recharts",
+    "source": "github_release",
+    "status": "done",
+    "tag": "v2.15.0",
+    "version": "2.15.0",
+    "completed_at": "2026-08-22T16:09:46Z",
+    "post_path": "src/content/posts/recharts-v2-15-0.md",
+    "commit_sha": "b4cc4c7ebaab3f1a984858f14bb9dcca73486502",
+    "pushed": true
   }
 ]
