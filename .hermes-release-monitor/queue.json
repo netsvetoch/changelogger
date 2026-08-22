@@ -4834,5 +4834,30 @@
     "post_path": "/home/hermes/projects/changelogger/src/content/posts/openai-codex-rust-v0-149-0.md",
     "commit_sha": "61f6e76c8d60daa1a0998e349d5dc9847f1ebf3c",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/openchamber/openchamber/releases/375062756",
+    "body_excerpt": "## [1.20.0] - 2026-08-23\n\n- **Session: /btw side questions.** Type `/btw` followed by your question to ask something off-topic in a temporary session forked from the current conversation, so it inherits the full context but leaves the chat itself untouched. The answer streams into a panel above the composer, which talks to that session while the panel is open; you can collapse it to a slim header bar, keep it as a full session, or discard it. The temporary session stays out of the sidebar and session lists until you keep it (thanks to @jaygupta17).\n- **Chat sessions:** start chats without choosing a project. They live in their own Chats section, rather than inheriting a project's repository and worktree context.\n- **Desktop/Remote instances:** adding an SSH connection now starts from the hosts in your SSH config instead of a blank command field. Ports, install method and passwords moved behind Advanced settings, and each connection shows Connected, Connecting, or Needs attention with the failure text and a button that resolves it.\n- Desktop/Remote instances: connecting to a remote machine now works when bun, OpenChamber or the opencode CLI live in your home directory rather than on the system path. Installing no longer fails with a permission error, and a missing opencode CLI is now reported before the connection starts instead of as a stack trace.\n- Desktop/Remote instances: a managed remote server can now also be published to the remote machine's own network, so other devices there reach it without the SSH tunnel. It requires a UI password, and stays private to the tunnel otherwise.\n- Desktop/Remote instances: disconnecting from a connection set to not keep the server running now actually stops that remote server.\n- Skills catalog: browse curated GitHub skill collections in a card-based catalog with cross-source search, skill counts, stars, recent updates, and links back to each skill's repository.\n- Diff: the context-panel diff can now show every change on the current branch against its base branch. OpenChamber detects the base when Git knows it, or lets you choose one once when it does not.\n- Dictation: speech is now transcribed after you stop recording. The composer shows a live waveform and timer, and long recordings split at pauses instead of cutting words.\n- Settings: the project selector on Providers, Agents, MCP, Commands and Skills now only changes what those pages show. It used to switch the whole app, so opening another project's configuration moved your chat, session list and file tree with it.\n- Settings/Projects: a project can now pin a thinking level next to its model, for models that offer levels. Both sit in one Defaults for new chats group, laid out like the Sessions defaults.\n- Settings/General: changing the default model, variant or agent no longer repoints an open chat that already carries a model you picked for it. Chats following the default still switch immediately.\n- Settings/Providers: the provider you select no longer jumps to a different one on its own. Changing the chat's model or agent, and background provider refreshes, used to move the settings selection with them.\n- Settings/Integrations: the experimental page now only lists integrations that can be installed; unavailable and Coming soon entries were removed.\n- Chat: file paths in messages now open from the session's project, even if you last browsed files in another project (thanks to @tomzx).\n- Chat: app links such as `spotify://` now ask for confirmation before opening another app. You can trust an app link type on one device and manage trusted links in Settings.\n- Files/Desktop: files opened from outside the workspace remain readable after their temporary access expires instead of failing until you reopen them (thanks to @pascalandr).\n- Diff: creating an inline comment now opens the chat and focuses the composer for your follow-up.\n- Chat: in the expanded composer, Enter now starts a new line and Cmd/Ctrl+Enter sends, so a long prompt is ",
+    "changelog_url": null,
+    "created_at": "2026-08-22T23:39:25Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "openchamber__openchamber-openchamber__v1.20.0",
+    "kind": "minor",
+    "name": "OpenChamber v1.20.0",
+    "package": "openchamber",
+    "processing_started_at": "2026-08-22T23:40:02Z",
+    "published_at": "2026-08-22T23:14:29Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/openchamber/openchamber/releases/tag/v1.20.0",
+    "repo": "openchamber/openchamber",
+    "source": "github_release",
+    "status": "done",
+    "tag": "v1.20.0",
+    "version": "1.20.0",
+    "completed_at": "2026-08-22T23:44:00Z",
+    "post_path": "src/content/posts/openchamber-v1-20-0.md",
+    "commit_sha": "698faa4045cea643a1e73cdea46b1e85bf9fee85",
+    "pushed": true
   }
 ]
