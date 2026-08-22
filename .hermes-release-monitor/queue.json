@@ -4481,5 +4481,30 @@
     "post_path": "src/content/posts/recharts-v3-6-0.md",
     "commit_sha": "d396698797860162fb9644481616e99907d497d5",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/recharts/recharts/releases/278786474",
+    "body_excerpt": "## What's Changed\r\n\r\n📢 **`Cell` is now deprecated** and will be removed in the next major version. Please migrate all `Cell` usage to use the `shape` prop of respective chart elements. ‼️ \r\n\r\n### Feat\r\n\r\n#### New Hooks\r\n\r\n* `useIsTooltipActive`: returns if the tooltip is active  by @PavelVanecek in https://github.com/recharts/recharts/pull/6880\r\n* `useActiveTooltipCoordinate`: returns current tooltip coordinate by @PavelVanecek in https://github.com/recharts/recharts/pull/6880\r\n\r\n#### Other\r\n\r\n* `Tooltip`: allow `offset` prop to accept Coordinate object by @bigsaigon333 in https://github.com/recharts/recharts/pull/6868\r\n`X/YAxis` add new axis type: \"auto\" by @PavelVanecek in https://github.com/recharts/recharts/pull/6823\r\n  * sets the type to \"category\" for categorical axes, and \"number\" for numeric axis. \r\n* `X/YAxis`: replace `tick: any` with explicit type by @PavelVanecek in https://github.com/recharts/recharts/pull/6911\r\n* `Bar/TypeScript`: add `BarShapeProps` type to fix `Bar.shape` type by @PavelVanecek in https://github.com/recharts/recharts/pull/6900\r\n* `TypeScript`: add missing useful type exports for `content`, `shape` functions, etc. @PavelVanecek in https://github.com/recharts/recharts/pull/6852\r\n\r\n\r\n### Fix\r\n\r\n* `BarChart`: fix `stackOffset=sign` for charts with 3 or more positive values in one series by @PavelVanecek in https://github.com/recharts/recharts/pull/6807\r\n* `BarStack`: fix circular dependency when building with vite by @jkr2255 in https://github.com/recharts/recharts/pull/6777\r\n* `BarStack`: fix `BarStack` `clipPath` in charts with `stackOffset=sign` by @PavelVanecek in https://github.com/recharts/recharts/pull/6806\r\n* `BarStack`: apply bar stack radius to active bars by @PavelVanecek in https://github.com/recharts/recharts/pull/6906\r\n\r\n\r\n### Chore\r\n\r\n* Enabled `strict` tsconfig  by @PavelVanecek in https://github.com/recharts/recharts/pull/6842\r\n\r\n### Docs\r\n\r\nWe've started auto-generating our docs for the most part so you should see large improvements in accuracy of the docs between the code, the website, and the storybook. Huge shoutout to @PavelVanecek 🚀 \r\n\r\n* Dark mode 🕶️  by @cloud-walker in https://github.com/recharts/recharts/pull/6828\r\n  * Thanks @cloud-walker \r\n* Recharts devtools has been added to all website examples for easier issue debugging\r\n\r\n## New Contributors\r\n* @jkr2255 made their first contribution in https://github.com/recharts/recharts/pull/6777\r\n* @cloud-walker made their first contribution in https://github.com/recharts/recharts/pull/6824\r\n* @bigsaigon333 made their first contribution in https://github.com/recharts/recharts/pull/6868\r\n* @huangkevin-apr made their first contribution in https://github.com/recharts/recharts/pull/6872\r\n\r\n**Full Changelog**: https://github.com/recharts/recharts/compare/v3.6.0...v3.7.0",
+    "changelog_url": null,
+    "created_at": "2026-08-17T17:23:07Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "recharts__recharts-recharts__v3.7.0",
+    "kind": "minor",
+    "name": "v3.7.0",
+    "package": "recharts",
+    "processing_started_at": "2026-08-22T18:13:53Z",
+    "published_at": "2026-01-21T21:05:13Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/recharts/recharts/releases/tag/v3.7.0",
+    "repo": "recharts/recharts",
+    "source": "github_release",
+    "status": "done",
+    "tag": "v3.7.0",
+    "version": "3.7.0",
+    "completed_at": "2026-08-22T18:16:53Z",
+    "post_path": "src/content/posts/recharts-v3-7-0.md",
+    "commit_sha": "0f1efe9b2def411094d8a997a43353ff589d6d06",
+    "pushed": true
   }
 ]
