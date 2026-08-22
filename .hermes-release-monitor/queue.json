@@ -4809,5 +4809,30 @@
     "post_path": "src/content/posts/gravity-ui-components-v4-24-0.md",
     "commit_sha": "708c3a87b187a92d3471986ba855554242161e5a",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/openai/codex/releases/374028976",
+    "body_excerpt": "## New Features\n\n- Added an interactive `codex agents` dashboard for searching, starting, opening, renaming, and stopping tasks, with configurable shortcuts. (#39094, #39112, #39114, #39142)\n- Added `/cd`, `/pwd`, and `/cwd` commands for managing the working directory in TUI sessions. (#38894)\n- Added `codex queue` for sending messages to existing local or remote sessions. (#39092)\n- Expanded Vim editing with character replacement and more change motions such as `cw`, `c$`, and `cc`. (#39661)\n- `codex doctor` now diagnoses endpoint protection, network/proxy failures, desktop app state, and update connectivity. (#38827, #38918, #39060, #39074)\n- SDK users can now pass exact CLI config overrides and select `max` or `ultra` reasoning effort. (#38817, #39662)\n\n## Bug Fixes\n\n- Queued messages now wake idle sessions reliably, resolve duplicate session names more usefully, and preserve pasted or deferred command semantics. (#39034, #39385, #39604)\n- Resumed and forked threads now restore their active permission profile instead of silently falling back to current defaults. (#39153)\n- Fixed duplicate sub-agent activity and tightened TUI routing for sub-agent notifications and approvals. (#39049, #39088)\n- Realtime WebRTC sideband connections now reconnect after unexpected transport loss without dropping pending output. (#39257)\n- Inline TUI history now remains available in Windows Terminal scrollback. (#39619)\n- Inactive TUI thread replay buffers are now bounded to prevent excessive retained streamed output. (#39081)\n\n## Documentation\n\n- Clarified that external contributions should go through issues and design discussion rather than pull requests. (#39089)\n- Documented DNS exfiltration risks and trust limitations for secure devcontainers. (#39283)\n\n## Changelog\n\nFull Changelog: https://github.com/openai/codex/compare/rust-v0.148.0...rust-v0.149.0\n\n- #38817 Add raw config overrides to the TypeScript SDK @copyberry\n- #38819 Support metadata staging for reserved thread IDs @copyberry\n- #38822 Avoid cloning TUI history span content @copyberry\n- #38823 Avoid allocating per character when decorating hyperlinks @copyberry\n- #38827 Add endpoint protection checks to `codex doctor` @copyberry\n- #38830 Isolate external editor buffers from sandbox-writable paths @copyberry\n- #38837 Share editor keymaps across TUI composer components @copyberry\n- #38840 Identify Mac mini hosts in remote control handshakes @copyberry\n- #38893 Restore thread timestamp maxima independently @copyberry\n- #38894 Add working-directory commands to the TUI @copyberry\n- #38899 Move requirements policy ownership to execpolicy @copyberry\n- #38902 Honor per-environment shell variable policies @copyberry\n- #38907 Edit queued messages with Vim history-up @copyberry\n- #38913 Stop rendering columns after filling their area @copyberry\n- #38916 Honor legacy `:project_roots` permission entries @copyberry\n- #38918 Improve `codex doctor` network diagnostics @copyberry\n- #38919 Reject obsolete app-server permission profile fields @copyberry\n- #38921 Compact successful command activity in the TUI @copyberry\n- #38940 Add experimental app-server project APIs @copyberry\n- #38941 Prevent Noise auth tokens from reaching child processes @copyberry\n- #38942 Enforce environment-specific command policies @copyberry\n- #38947 Stop loading legacy managed config on Windows @copyberry\n- #38978 Add a configurable skill catalog token budget @copyberry\n- #38980 Bound Guardian v2 parent compaction context @copyberry\n- #38987 Include images in Guardian v2 transcripts @copyberry\n- #38990 Source Guardian v2 defaults from the model catalog @copyberry\n- #38993 Evaluate recent and character-routed skill selection @copyberry\n- #38994 Remove the workspace settings gate for apps and plugins @copyberry\n- #38997 Retry transient Guardian sampling failures @copyberry\n- #39001 Ignore stale Guardian tool risk scores @copyberry\n- #39005 Disable Guardian V2 for managed automatic reviewers @copyberry\n- #39006 Emit API-key t",
+    "changelog_url": null,
+    "created_at": "2026-08-20T22:01:30Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "codex__openai-codex__rust-v0.149.0",
+    "kind": "minor",
+    "name": "0.149.0",
+    "package": "codex",
+    "processing_started_at": "2026-08-22T21:54:00Z",
+    "published_at": "2026-08-20T21:04:55Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/openai/codex/releases/tag/rust-v0.149.0",
+    "repo": "openai/codex",
+    "source": "github_release",
+    "status": "done",
+    "tag": "rust-v0.149.0",
+    "version": "0.149.0",
+    "completed_at": "2026-08-22T21:56:40.000Z",
+    "post_path": "/home/hermes/projects/changelogger/src/content/posts/openai-codex-rust-v0-149-0.md",
+    "commit_sha": "61f6e76c8d60daa1a0998e349d5dc9847f1ebf3c",
+    "pushed": true
   }
 ]
