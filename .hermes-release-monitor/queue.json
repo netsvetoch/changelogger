@@ -4225,5 +4225,32 @@
     "post_path": "src/content/posts/recharts-v2-12-0.md",
     "commit_sha": "6e66d1c16374a8cdfa08ed99d564eba0e94a49eb",
     "completed_at": "2026-08-22T15:21:52Z"
+  },
+  {
+    "api_url": "https://api.github.com/repos/recharts/recharts/releases/179428522",
+    "body_excerpt": "## What's Changed\r\n\r\nReact 19 compat, fix annoying defaultProps warnings, bug fixes\r\n\r\n### Feat\r\n\r\n* React 19 compatibility - see https://github.com/recharts/recharts/issues/4558\r\n  * `peerDependencies` still cannot be updated until 3.0 release, but for now R19 beta/RC releases can be used with Recharts under the following conditions:\r\n    * Your `react-is` version matches your `react` and `react-dom` versions: use your package manager's `override` functionality to match your `react-is` version to your react version or else recharts elements will not show - see https://github.com/recharts/recharts/issues/4558#issuecomment-2135604065\r\n\r\n\r\n* `CartesianGrid`: add support for `ry` prop to curve the corner of the grid background - progress on https://github.com/recharts/recharts/issues/3062\r\n\r\n\r\n### Fix\r\n\r\n* `General`: Fix `defaultProps` usage in function components, removes warnings on all affected components - see https://github.com/recharts/recharts/issues/3615\r\n* `ReferenceLine`: fix accidental removal of type annotation by @zackliscio in https://github.com/recharts/recharts/pull/4610\r\n* `Line/Area`: fix issue where `clipDot` would not take effect if it was the only property in `dotProps`  @ckifer in https://github.com/recharts/recharts/pull/4674\r\n* `Tooltip`: fix issue where tooltip would not show in certain cases if `data` was set on the graphical item by @HHongSeungWoo in https://github.com/recharts/recharts/pull/4718\r\n* `X/YAxis`: use correct, adapted event types by @ckifer in https://github.com/recharts/recharts/pull/4967\r\n* `Tooltip`: `defaultIndex` out of range error by @ckifer in https://github.com/recharts/recharts/pull/5054\r\n* `Pie`: fix duplicate key error @ckifer in https://github.com/recharts/recharts/pull/4958\r\n* `Text`: fix duplicate key error by @ckifer in https://github.com/recharts/recharts/pull/5088 closes https://github.com/recharts/recharts/issues/5072\r\n\r\n### Typescript\r\n\r\n* JSDoc comments will now be preserved in TypeScript definitions by @mxdvl in https://github.com/recharts/recharts/pull/5071\r\n\r\n## New Contributors\r\n* @zackliscio made their first contribution in https://github.com/recharts/recharts/pull/4610\r\n\r\n**Full Changelog**: https://github.com/recharts/recharts/compare/v2.12.7...v2.13.0",
+    "changelog_url": null,
+    "created_at": "2026-08-17T17:23:07Z",
+    "existing_post_candidates": [
+      "src/content/posts/gravity-ui-aikit-v2-13-0.md"
+    ],
+    "featured": false,
+    "id": "recharts__recharts-recharts__v2.13.0",
+    "kind": "minor",
+    "name": "v2.13.0",
+    "package": "recharts",
+    "processing_started_at": "2026-08-22T15:34:50Z",
+    "published_at": "2024-10-10T21:32:46Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/recharts/recharts/releases/tag/v2.13.0",
+    "repo": "recharts/recharts",
+    "source": "github_release",
+    "status": "done",
+    "tag": "v2.13.0",
+    "version": "2.13.0",
+    "completed_at": "2026-08-22T15:37:00Z",
+    "post_path": "src/content/posts/recharts-v2-13-0.md",
+    "commit_sha": "6e07650efd07e95ffef3b54309513bb3a3fcae34",
+    "pushed": true
   }
 ]
