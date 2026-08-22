@@ -4679,5 +4679,31 @@
     "post_path": "src/content/posts/openchamber-v1-19-0.md",
     "commit_sha": "b73bb86683b0d268bc7834474cde2774455a38f7",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/gravity-ui/aikit/releases/373142108",
+    "body_excerpt": "## [2.18.0](https://github.com/gravity-ui/aikit/compare/v2.17.0...v2.18.0) (2026-08-19)\n\n\n### Features\n\n* **History,Header:** use bottom sheet in mobile mode ([#229](https://github.com/gravity-ui/aikit/issues/229)) ([348ee8f](https://github.com/gravity-ui/aikit/commit/348ee8f23e65e137e4b7a4299fbdc3ab76bea9d9))\n\n\n### Bug Fixes\n\n* dismiss action tooltips and support history date format ([#228](https://github.com/gravity-ui/aikit/issues/228)) ([26d1035](https://github.com/gravity-ui/aikit/commit/26d103565b7f7e563a634812a57bb511a6e63e1b))",
+    "changelog_url": null,
+    "created_at": "2026-08-19T15:54:13Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "@gravity-ui-aikit__gravity-ui-aikit__v2.18.0",
+    "kind": "minor",
+    "name": "v2.18.0",
+    "package": "@gravity-ui/aikit",
+    "processing_started_at": "2026-08-22T20:19:58Z",
+    "published_at": "2026-08-19T15:02:48Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/gravity-ui/aikit/releases/tag/v2.18.0",
+    "repo": "gravity-ui/aikit",
+    "source": "github_release",
+    "status": "done",
+    "tag": "v2.18.0",
+    "version": "2.18.0",
+    "post_path": "src/content/posts/gravity-ui-aikit-v2-18-0.md",
+    "commit_sha": "de87094f1ddf3cdaf202accc832a69f120807951",
+    "completed_at": "2026-08-22T20:21:00.000Z",
+    "pushed": true,
+    "error": null
   }
 ]
