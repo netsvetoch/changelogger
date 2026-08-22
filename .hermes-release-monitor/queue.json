@@ -4114,5 +4114,33 @@
     "post_path": "src/content/posts/recharts-v2-6-0.md",
     "commit_sha": "4cb90028de9715033be9a598d91ef53be976071f",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/recharts/recharts/releases/108673515",
+    "body_excerpt": "## What's Changed\r\nStorybook updates, a few new features, bug fixes.\r\n\r\n**Note:** This release may cause more reports of [this defaultProps warning](https://github.com/recharts/recharts/issues/3615) - we are aware of this and trying to come up with a feasible solution.\r\n\r\n### Feat\r\n* Allow adding initial dimensions to ResponsiveContainer by @akamfoad in https://github.com/recharts/recharts/pull/3596\r\n* Extend clip path configuration with `clipDot` prop by @tylerben @ckifer in https://github.com/recharts/recharts/pull/3602\r\n* Support \"bumpX\" and \"bumpY\" curve types by @jacknevitt in https://github.com/recharts/recharts/pull/3617\r\n\r\n### Fix\r\n* Account for `angle` prop on XAxis visibility calculation by @bernardobelchior in https://github.com/recharts/recharts/pull/3576\r\n* Propagate className to CartesianAxis by @mitrotasios in https://github.com/recharts/recharts/pull/3592\r\n* Add SVGProps to PieLabel type by @timbonicus in https://github.com/recharts/recharts/pull/3594\r\n* Export default tooltip and legend content components by @oschwede in https://github.com/recharts/recharts/pull/3604\r\n* Fix error bars not working in stacked bar charts by @ckifer in https://github.com/recharts/recharts/pull/3612\r\n* Remove role=\"img\" attribute from bar to prevent accessibility issues by using incorrect role by @rhuangabrielsantos in https://github.com/recharts/recharts/pull/3614\r\n\r\n### Docs\r\n- lots of storybook changes - [go check it out](https://release--63da8268a0da9970db6992aa.chromatic.com/)!\r\n\r\n### Refactor\r\n\r\n* refactor: `Dot` to function component by @akamfoad in https://github.com/recharts/recharts/pull/3478\r\n* refactor: `Polygon` to function component by @akamfoad in https://github.com/recharts/recharts/pull/3479\r\n* refactor: `Reactangle` to function component by @akamfoad in https://github.com/recharts/recharts/pull/3480\r\n* refactor: `Sector` to function component by @akamfoad in https://github.com/recharts/recharts/pull/3481\r\n* refactor: `Trapezoid` to function component by @akamfoad in https://github.com/recharts/recharts/pull/3482\r\n* refactor: change `Symbols` to functional component by @Yilun-Sun in https://github.com/recharts/recharts/pull/3485\r\n* refactor: `DefaultTooltipContent` to be functional component by @akamfoad in https://github.com/recharts/recharts/pull/3618\r\n\r\n## New Contributors\r\n* @CoffeeGeek101 made their first contribution in https://github.com/recharts/recharts/pull/3561\r\n* @bernardobelchior made their first contribution in https://github.com/recharts/recharts/pull/3576\r\n* @mitrotasios made their first contribution in https://github.com/recharts/recharts/pull/3592\r\n* @timbonicus made their first contribution in https://github.com/recharts/recharts/pull/3594\r\n* @oschwede made their first contribution in https://github.com/recharts/recharts/pull/3604\r\n* @rhuangabrielsantos made their first contribution in https://github.com/recharts/recharts/pull/3614\r\n* @jacknevitt made their first contribution in https://github.com/recharts/recharts/pull/3617\r\n\r\n**Full Changelog**: https://github.com/recharts/recharts/compare/v2.6.2...v2.7.0",
+    "changelog_url": null,
+    "created_at": "2026-08-17T17:23:07Z",
+    "existing_post_candidates": [
+      "src/content/posts/gravity-ui-aikit-v2-7-0.md",
+      "src/content/posts/gravity-ui-date-utils-v2-7-0.md"
+    ],
+    "featured": false,
+    "id": "recharts__recharts-recharts__v2.7.0",
+    "kind": "minor",
+    "name": "v2.7.0",
+    "package": "recharts",
+    "processing_started_at": "2026-08-22T14:14:49Z",
+    "published_at": "2023-06-15T06:01:10Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/recharts/recharts/releases/tag/v2.7.0",
+    "repo": "recharts/recharts",
+    "source": "github_release",
+    "status": "done",
+    "tag": "v2.7.0",
+    "version": "2.7.0",
+    "completed_at": "2026-08-22T14:18:15Z",
+    "post_path": "src/content/posts/recharts-v2-7-0.md",
+    "commit_sha": "16cfb81e33c12e2c01816523b7305ee102ca1e4d",
+    "pushed": true
   }
 ]
