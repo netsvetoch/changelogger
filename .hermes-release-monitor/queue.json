@@ -4170,5 +4170,33 @@
     "completed_at": "2026-08-22T14:49:52Z",
     "pushed": true,
     "error": null
+  },
+  {
+    "api_url": "https://api.github.com/repos/recharts/recharts/releases/125118121",
+    "body_excerpt": "## What's Changed\r\n\r\nQuite a lot this minor release! We sent out a cry for help and many answered - thank you so much for that 🙌🏼\r\n\r\nThis release aims at internal maintainability, long lingering bugs, and needed improvements. Highlights include equidistant tick improvements, an active bar feature, and an ~85k/~9kb (gzipped) bundle size reduction 🚀 \r\n\r\n### Feat\r\n* `Bar`: Implement activeBar for Bar component by @andrewangelle in https://github.com/recharts/recharts/pull/3756\r\n* `CartesianGrid`: add `syncWithticks`, `horizonalValues`, and `verticalValues` props to allow more grid line customization by @morozovkirill in https://github.com/recharts/recharts/pull/3746 solves https://github.com/recharts/recharts/issues/2153\r\n* `CartesianAxis`: Improve interval option 'equidistantPreserveStart' by @nikolasrieble in https://github.com/recharts/recharts/pull/3768\r\n* `CartesianAxis`: Throw an invariant when axisIds do not match between chart and axis components by @ckifer \r\n* `Brush`: add onDragEnd event to Brush component by @simkesd in https://github.com/recharts/recharts/pull/3774\r\n\r\n\r\n### Fix\r\n\r\n* Active Shape improvements\r\n  * `Funnel`: activeShape should work with Tooltip by @andrewangelle in https://github.com/recharts/recharts/pull/3772\r\n  * `Scatter`: activeShape should work with Tooltip by @andrewangelle in https://github.com/recharts/recharts/pull/3839\r\n  * `Pie`: activeShape should work with Tooltip by @andrewangelle in https://github.com/recharts/recharts/pull/3818\r\n  * `RadialBar`: activeShape should work with Tooltip by @andrewangelle in https://github.com/recharts/recharts/pull/3803\r\n* `CartesianGrid`: Remove offset attribute from lines by @branberry in https://github.com/recharts/recharts/pull/3854 solves https://github.com/recharts/recharts/issues/3810\r\n* `ResponsiveContainer`: style prop is now passed down correctly  by @d-gottlieb in https://github.com/recharts/recharts/pull/3726\r\n* `Legend`: \"Functions are not valid as a React child\" error in <Legend/> when a function is passed as the payload #3749 by @chris-mcdonald-dev in https://github.com/recharts/recharts/pull/3750\r\n* `Tooltip`: Fix tooltip position when container uses transform scale by @MateuszTrN in https://github.com/recharts/recharts/pull/3748\r\n* `Tooltip`: Tooltip does not include data from all charts when a separate dataset is passed to chart prop data and specified on Line/Area/etc prop data  by @andrewangelle in https://github.com/recharts/recharts/pull/3733 fixes https://github.com/recharts/recharts/issues/3669\r\n\r\n### Refactor\r\n\r\nImpossible to mention all of the great refactoring done this release thanks to @PavelVanecek (33 PRs in one month!!) and others! Notable improvements include (non-breaking) type safety enhancements and source code file size reductions, and unit test improvements that will help reduce regressions.\r\n\r\n### Chore\r\n* Upgrade react-smooth to 2.0.5 - potentially fixes https://github.com/recharts/recharts/issues/1135 (edit: this was already fixed)\r\n* Add performance testing tool by @PavelVanecek in https://github.com/recharts/recharts/pull/3829\r\n* remove reduceCSSCalc by @HHongSeungWoo in https://github.com/recharts/recharts/pull/3820\r\n\r\n### Storybook\r\n* Add storybook-addon-performance by @PavelVanecek in https://github.com/recharts/recharts/pull/3826\r\n* many storybook improvements and fixes\r\n\r\n## 🚀 New Contributors (!!) 🚀 \r\n* @d-gottlieb made their first contribution in https://github.com/recharts/recharts/pull/3726\r\n* @andrewangelle made their first contribution in https://github.com/recharts/recharts/pull/3733\r\n* @wanisramdani made their first contribution in https://github.com/recharts/recharts/pull/3751\r\n* @MateuszTrN made their first contribution in https://github.com/recharts/recharts/pull/3748\r\n* @chris-mcdonald-dev made their first contribution in https://github.com/recharts/recharts/pull/3750\r\n* @PavelVanecek made their first contribution in https://github.com/recharts/recharts/pull/3759\r\n* @simkesd made their first contrib",
+    "changelog_url": null,
+    "created_at": "2026-08-17T17:23:07Z",
+    "existing_post_candidates": [
+      "src/content/posts/deno-v2-9-0.md",
+      "src/content/posts/gravity-ui-aikit-v2-9-0.md"
+    ],
+    "featured": false,
+    "id": "recharts__recharts-recharts__v2.9.0",
+    "kind": "minor",
+    "name": "v2.9.0",
+    "package": "recharts",
+    "processing_started_at": "2026-08-22T15:02:50Z",
+    "published_at": "2023-10-15T06:22:56Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/recharts/recharts/releases/tag/v2.9.0",
+    "repo": "recharts/recharts",
+    "source": "github_release",
+    "status": "done",
+    "tag": "v2.9.0",
+    "version": "2.9.0",
+    "completed_at": "2026-08-22T15:08:00Z",
+    "post_path": "src/content/posts/recharts-v2-9-0.md",
+    "commit_sha": "d869d610e2b01800906d8384b0ede86d79199ec8",
+    "pushed": true
   }
 ]
