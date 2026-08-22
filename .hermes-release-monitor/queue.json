@@ -4037,5 +4037,32 @@
     "commit_sha": "f291b2db2e8e2c9139e69b498223a268e152b124",
     "completed_at": "2026-08-22T13:23:31.562992Z",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/recharts/recharts/releases/91915254",
+    "body_excerpt": "This release marks the completion of recharts Milestone to migrate to Jest and React Testing Library. Thanks to all involved!\r\n\r\nCheck out the new storybook we're working on [here](https://master--63da8268a0da9970db6992aa.chromatic.com/)\r\n\r\n## What's Changed\r\n\r\nTrying to squish some bugs 🐛 \r\n\r\n### feat\r\n\r\n* feat: Short-circuiting axis map creation with specified domain to improve performance by @bennettdams in https://github.com/recharts/recharts/pull/3293\r\n\r\n### fix\r\n\r\n* ResponsiveContainer – memoize responsive container by @marcalexiei in https://github.com/recharts/recharts/pull/3169\r\n* ResponsiveContainer - debounce updating early by @GreenGremlin in https://github.com/recharts/recharts/pull/3175 - fixes #3029\r\n* Treemap -  Non boolean attribute z error by @proke03 in https://github.com/recharts/recharts/pull/3228 - fixes #2952\r\n* ErrorBar - overflowing chart area by @Yilun-Sun in https://github.com/recharts/recharts/pull/3300 - fixes #2978 \r\n* Bar - default `y` and `height` values correctly for `null` data points  by @ckifer in https://github.com/recharts/recharts/pull/3346 - fixes #3344\r\n* fix: remove axis domain default prop and calculate it dynamically by @lukask-proxora in https://github.com/recharts/recharts/pull/3328 - fixes #2593\r\n* fix:  functions are no longer spread onto SVG elements if an SVG attribute name conflcits with a recharts prop by @ckifer in https://github.com/recharts/recharts/pull/3327 - fixes #3310\r\n\r\n\r\n#### type fixes\r\n\r\n* Area - remove `points` from SVGProps by @Yilun-Sun in https://github.com/recharts/recharts/pull/3182\r\n* Radar - remove `points` attribute from SVGProps  by @ckifer in https://github.com/recharts/recharts/pull/3265\r\n* refactor(Label & LabelList): refine types and disable react/no-array-index-key to avoid warnings by @marcalexiei in https://github.com/recharts/recharts/pull/3270\r\n\r\n### refactor \r\n\r\n* ReferenceArea, ReferenceLine: added default values in params by @aushwin in https://github.com/recharts/recharts/pull/3283\r\n* Bar- align code style by using destructuring for XAxis by @proke03 in https://github.com/recharts/recharts/pull/3349\r\n* fix: typos by @Yilun-Sun in https://github.com/recharts/recharts/pull/3309\r\n\r\n## New Contributors\r\n* @akib22 made their first contribution in https://github.com/recharts/recharts/pull/3179\r\n* @proke03 made their first contribution in https://github.com/recharts/recharts/pull/3199\r\n* @james2hey made their first contribution in https://github.com/recharts/recharts/pull/3229\r\n* @nanguer made their first contribution in https://github.com/recharts/recharts/pull/3254\r\n* @aushwin made their first contribution in https://github.com/recharts/recharts/pull/3283\r\n* @bennettdams made their first contribution in https://github.com/recharts/recharts/pull/3293\r\n\r\n**Full Changelog**: https://github.com/recharts/recharts/compare/v2.3.2...v2.4.0",
+    "changelog_url": null,
+    "created_at": "2026-08-17T17:23:07Z",
+    "existing_post_candidates": [
+      "src/content/posts/material-web-v2-4-0.md"
+    ],
+    "featured": false,
+    "id": "recharts__recharts-recharts__v2.4.0",
+    "kind": "minor",
+    "name": "v2.4.0",
+    "package": "recharts",
+    "processing_started_at": "2026-08-22T13:26:48Z",
+    "published_at": "2023-02-09T16:29:33Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/recharts/recharts/releases/tag/v2.4.0",
+    "repo": "recharts/recharts",
+    "source": "github_release",
+    "status": "done",
+    "tag": "v2.4.0",
+    "version": "2.4.0",
+    "completed_at": "2026-08-22T13:27:25Z",
+    "post_path": "src/content/posts/recharts-v2-4-0.md",
+    "commit_sha": "fd9032f0206a40f6a669eba962da3e357f340ffa",
+    "pushed": true
   }
 ]
