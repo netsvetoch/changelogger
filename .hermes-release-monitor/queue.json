@@ -4456,5 +4456,30 @@
     "post_path": "src/content/posts/recharts-v3-5-0.md",
     "commit_sha": "51be05d6d62e51e14cfdf0a014482c935941d632",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/recharts/recharts/releases/270286751",
+    "body_excerpt": "## What's Changed\r\n\r\n3.6 🚀 - check out [`BarStack`](https://recharts.github.io/en-US/guide/roundedBars/) and [ranged stacked bars](https://recharts.github.io/en-US/examples/RangedStackedBarChart/) 📊 \r\n\r\n### Feat\r\n\r\n* `BarStack`: new component `BarStack` by @PavelVanecek in https://github.com/recharts/recharts/pull/6746\r\n  * allows configuring settings for the whole stack of bars such as `radius`\r\n* `Bar`: enable ranged stacked bars by @PavelVanecek in https://github.com/recharts/recharts/pull/6722\r\n* `Pie/Typescript`: Export `PieSectorShapeProps` type for `shape` function by @ramanverse in https://github.com/recharts/recharts/pull/6706\r\n`XAxis/YAxis`: Implement 'equidistantPreserveEnd' interval option for XAxis and YAxis (#6642) by @Om-Mishra09 in https://github.com/recharts/recharts/pull/6661\r\n* `Tooltip`: Add `graphicalItemId` to tooltip payload object by @PavelVanecek in https://github.com/recharts/recharts/pull/6765\r\n* `TypeScript`: Export `TooltipIndex`, `BarRectangleItem`, `TreemapNode`, `DataKey`, `AxisInterval` from public API by @Copilot in https://github.com/recharts/recharts/pull/6676\r\n\r\n### Fix\r\n\r\n* `Scatter`: fix bug where Tooltip payload data was duplicated or contained unrelated items when using multiple `Scatter` elements in one `ScatterChart` by @PavelVanecek in https://github.com/recharts/recharts/pull/6773\r\n* `Label/LabelList: `Fix crash when `Label` is passed as content to `LabelList` by @Harikrushn9118 in https://github.com/recharts/recharts/pull/6732\r\n* `General`: Round numbers before putting them to DOM by @PavelVanecek in https://github.com/recharts/recharts/pull/6707\r\n* `General`: Store refs instead of IDs to unblock shadow DOM usecases by @PavelVanecek in https://github.com/recharts/recharts/pull/6753\r\n\r\n### Chore\r\n\r\n* `CartesianAxis`: Deprecate `CartesianAxis` @PavelVanecek in https://github.com/recharts/recharts/pull/6774\r\n* Bump to Node 24\r\n* Lots of `undefined` checks for progress towards TS `strict` mode\r\n\r\n### Docs\r\n\r\n- Docs should be improving on the daily - comments in code + storybook + the website should all be coming closer to in sync thanks to @PavelVanecek pretty much writing his own documentation generator 🤖 🚀 \r\n\r\n## New Contributors\r\n* @Om-Mishra09 made their first contribution in https://github.com/recharts/recharts/pull/6661\r\n* @taro-yanagiya made their first contribution in https://github.com/recharts/recharts/pull/6708\r\n* @ramanverse made their first contribution in https://github.com/recharts/recharts/pull/6706\r\n* @Advikkhandelwal made their first contribution in https://github.com/recharts/recharts/pull/6714\r\n* @Harikrushn9118 made their first contribution in https://github.com/recharts/recharts/pull/6732\r\n* @milanchahar made their first contribution in https://github.com/recharts/recharts/pull/6739\r\n\r\n**Full Changelog**: https://github.com/recharts/recharts/compare/v3.5.1...v3.6.0",
+    "changelog_url": null,
+    "created_at": "2026-08-17T17:23:07Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "recharts__recharts-recharts__v3.6.0",
+    "kind": "minor",
+    "name": "v3.6.0",
+    "package": "recharts",
+    "processing_started_at": "2026-08-22T17:57:53Z",
+    "published_at": "2025-12-15T06:43:25Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/recharts/recharts/releases/tag/v3.6.0",
+    "repo": "recharts/recharts",
+    "source": "github_release",
+    "status": "done",
+    "tag": "v3.6.0",
+    "version": "3.6.0",
+    "completed_at": "2026-08-22T18:00:10Z",
+    "post_path": "src/content/posts/recharts-v3-6-0.md",
+    "commit_sha": "d396698797860162fb9644481616e99907d497d5",
+    "pushed": true
   }
 ]
