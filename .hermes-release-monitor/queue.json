@@ -4382,5 +4382,29 @@
     "post_path": "src/content/posts/recharts-v3-2-0.md",
     "commit_sha": "275099b04c1b7b82b686cc643016e2c52d0cf90a",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/recharts/recharts/releases/255218596",
+    "body_excerpt": "## What's Changed\r\n\r\n### Feat\r\n\r\n* `ResponsiveContainer` is now built-in to all charts by @PavelVanecek in https://github.com/recharts/recharts/pull/6388\r\n  * add the `responsive` prop to any chart along with a height and width as if you were using `ResponsiveContainer`. One less component to wrap things with. `ResponsiveContainer` will continue to work for the life of 3.x\r\n\r\n```tsx\r\n<BarChart data={data} responsive height={300} width=\"100%\">\r\n  ....\r\n</BarChart>\r\n```\r\n\r\n\r\n### Fix \r\n\r\n\r\n* `YAxis`: Only use the YAxis `width=\"auto\"` oscillation detection if the difference is > 1 pixel by @PavelVanecek in https://github.com/recharts/recharts/pull/6450\r\n* `ResponsiveContainer`: only shrinks in the dimensions where it needs to shrink by @PavelVanecek in https://github.com/recharts/recharts/pull/6367\r\n* `Treemap`: fix animation stutters in Treemap by @PavelVanecek in https://github.com/recharts/recharts/pull/6326\r\n* `Sankey`: fix unique key error by @daiboom in https://github.com/recharts/recharts/pull/6352\r\n\r\n\r\n## Website changes - https://recharts.github.io/ \r\n\r\n* Recharts website is now inlined in recharts/www as opposed to https://github.com/recharts/recharts.org\r\n* NEW recharts website URL at https://recharts.github.io/ \r\n\r\nUnfortunately the current contributors and admins do not own recharts.org and the renewal of the domain remains up in the air. To remove that uncertainty we have deployed the website at our github pages URL instead.\r\n\r\n## New Contributors\r\n* @kristiandueholm made their first contribution in https://github.com/recharts/recharts/pull/6344\r\n* @daiboom made their first contribution in https://github.com/recharts/recharts/pull/6352\r\n* @vmizg made their first contribution in https://github.com/recharts/recharts/pull/6387\r\n\r\n**Full Changelog**: https://github.com/recharts/recharts/compare/v3.2.1...v3.3.0",
+    "changelog_url": null,
+    "created_at": "2026-08-17T17:23:07Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "recharts__recharts-recharts__v3.3.0",
+    "kind": "minor",
+    "name": "v3.3.0",
+    "package": "recharts",
+    "published_at": "2025-10-17T05:54:42Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/recharts/recharts/releases/tag/v3.3.0",
+    "repo": "recharts/recharts",
+    "source": "github_release",
+    "status": "done",
+    "tag": "v3.3.0",
+    "version": "3.3.0",
+    "pushed": true,
+    "commit_sha": "666385d048d068267e17fcaf63fdcee78162536f",
+    "post_path": "src/content/posts/recharts-v3-3-0.md",
+    "completed_at": "2026-08-22T17:11:00.000Z"
   }
 ]
