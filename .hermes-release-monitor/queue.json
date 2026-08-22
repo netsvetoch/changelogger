@@ -4252,5 +4252,32 @@
     "post_path": "src/content/posts/recharts-v2-13-0.md",
     "commit_sha": "6e07650efd07e95ffef3b54309513bb3a3fcae34",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/recharts/recharts/releases/188569844",
+    "body_excerpt": "## What's Changed\r\n\r\nSmall release to get new top level chart events out there. Still working on 3.x, a little slower right now because of the holidays.\r\n\r\n## Feat\r\n\r\n* `Area`/`Line`/`Bar`/`Scatter`/`Pie`/`Radar`/`RadialBar`/`Funnel` Chart components: add support for top level `onContextMenu` and `onDoubleClick` events #5254 by @abarreau in https://github.com/recharts/recharts/pull/5255\r\n\r\n## Fix\r\n\r\n#### Typescript fixes\r\n\r\n* `LabelList`: `dataKey` prop for LabelList should accept any object by @ckifer in https://github.com/recharts/recharts/pull/5252\r\n* `Pie`: `PieSectorDataItem.payload` should be an object rather than an array by @BTOdell in https://github.com/recharts/recharts/pull/5263\r\n\r\n## New Contributors\r\n* @abarreau made their first contribution in https://github.com/recharts/recharts/pull/5255\r\n* @BTOdell made their first contribution in https://github.com/recharts/recharts/pull/5263\r\n\r\n**Full Changelog**: https://github.com/recharts/recharts/compare/v2.13.3...v2.14.0",
+    "changelog_url": null,
+    "created_at": "2026-08-17T17:23:07Z",
+    "existing_post_candidates": [
+      "src/content/posts/gravity-ui-aikit-v2-14-0.md"
+    ],
+    "featured": false,
+    "id": "recharts__recharts-recharts__v2.14.0",
+    "kind": "minor",
+    "name": "v2.14.0",
+    "package": "recharts",
+    "processing_started_at": "2026-08-22T15:50:50Z",
+    "published_at": "2024-12-02T20:43:28Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/recharts/recharts/releases/tag/v2.14.0",
+    "repo": "recharts/recharts",
+    "source": "github_release",
+    "status": "done",
+    "tag": "v2.14.0",
+    "version": "2.14.0",
+    "completed_at": "2026-08-22T15:51:28Z",
+    "post_path": "src/content/posts/recharts-v2-14-0.md",
+    "commit_sha": "f5c6dce9adda66f066e198bb59faf1b295f61370",
+    "pushed": true
   }
 ]
