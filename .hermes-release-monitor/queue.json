@@ -4530,5 +4530,30 @@
     "commit_sha": "e19c49c914aa78459216efd923f8767fbdd967c7",
     "completed_at": "2026-08-22T18:33:00Z",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/OpenHands/OpenHands/releases/371966965",
+    "body_excerpt": "## 1.14.0 (2026-08-17)\n\n<!-- Release notes generated using configuration in .github/release.yml at main -->\n\n## What's Changed\n### Features\n* feat(canvas): present structured error outcomes by @neubig in https://github.com/OpenHands/OpenHands/pull/16231\n* feat: add LLM pre-flight validation to prevent saving misconfigured profiles by @neubig in https://github.com/OpenHands/OpenHands/pull/16417\n* feat(automations): add a Git Sync page by @VascoSch92 in https://github.com/OpenHands/OpenHands/pull/16521\n* feat: set Canvas default model to Kimi K3 and tag it free by @juanmichelini in https://github.com/OpenHands/OpenHands/pull/16657\n### Bug Fixes\n* fix(onboarding): preselect OpenHands LLM provider after picking OpenHands agent by @juanmichelini in https://github.com/OpenHands/OpenHands/pull/16531\n* fix: preserve backend scope in conversation links by @neubig in https://github.com/OpenHands/OpenHands/pull/16091\n* fix(dev): stop baking absolute VITE_BACKEND_BASE_URL in npm run dev by @neubig in https://github.com/OpenHands/OpenHands/pull/16605\n* fix(automations): set local responder URL from browser origin by @adbcodes in https://github.com/OpenHands/OpenHands/pull/16332\n* fix: show full workspace file tree in Files tab on cloud backends (OHE-3053) by @lilagrc in https://github.com/OpenHands/OpenHands/pull/16344\n### Documentation\n* docs(agents): add a repository map clarifying what belongs where by @smolpaws in https://github.com/OpenHands/OpenHands/pull/16612\n### Maintenance\n* ci: remove broken QA Changes workflow by @neubig in https://github.com/OpenHands/OpenHands/pull/16549\n* ci: re-run PR description check when new commits are pushed by @VascoSch92 in https://github.com/OpenHands/OpenHands/pull/16607\n* chore: remove unreachable frontend modules and their tests by @VascoSch92 in https://github.com/OpenHands/OpenHands/pull/16606\n* ci: run PR description check on draft PRs by @neubig in https://github.com/OpenHands/OpenHands/pull/16547\n* test: capture Docker E2E container logs by @neubig in https://github.com/OpenHands/OpenHands/pull/16660\n\n## New Contributors\n* @adbcodes made their first contribution in https://github.com/OpenHands/OpenHands/pull/16332\n\n**Full Changelog**: https://github.com/OpenHands/OpenHands/compare/v1.13.0...v1.14.0\n\n---\nThis PR was generated with [Release Please](https://github.com/googleapis/release-please). See [documentation](https://github.com/googleapis/release-please#release-please).\n<!-- AGENT_CANVAS_DOCKER_START -->",
+    "changelog_url": null,
+    "created_at": "2026-08-17T22:33:40Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "openhands__OpenHands-OpenHands__v1.14.0",
+    "kind": "minor",
+    "name": "v1.14.0",
+    "package": "openhands",
+    "processing_started_at": "2026-08-22T18:43:56Z",
+    "published_at": "2026-08-17T21:41:36Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/OpenHands/OpenHands/releases/tag/v1.14.0",
+    "repo": "OpenHands/OpenHands",
+    "source": "github_release",
+    "status": "done",
+    "tag": "v1.14.0",
+    "version": "1.14.0",
+    "completed_at": "2026-08-22T18:50:00.000Z",
+    "post_path": "src/content/posts/openhands-v1-14-0.md",
+    "commit_sha": "525ab2c474033855342166eb3f472459e7d0c585",
+    "pushed": true
   }
 ]
