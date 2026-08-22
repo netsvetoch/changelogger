@@ -4218,13 +4218,13 @@
     "release_url": "https://github.com/recharts/recharts/releases/tag/v2.12.0",
     "repo": "recharts/recharts",
     "source": "github_release",
-    "status": "done",
+    "status": "skipped_existing",
     "tag": "v2.12.0",
     "version": "2.12.0",
     "pushed": true,
     "post_path": "src/content/posts/recharts-v2-12-0.md",
     "commit_sha": "6e66d1c16374a8cdfa08ed99d564eba0e94a49eb",
-    "completed_at": "2026-08-22T15:21:52Z"
+    "completed_at": "2026-08-22T20:52:06Z"
   },
   {
     "api_url": "https://api.github.com/repos/recharts/recharts/releases/179428522",
