@@ -4306,5 +4306,30 @@
     "post_path": "src/content/posts/recharts-v2-15-0.md",
     "commit_sha": "b4cc4c7ebaab3f1a984858f14bb9dcca73486502",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/recharts/recharts/releases/226958902",
+    "body_excerpt": "## 🚀 Recharts 3 is here! \r\n\r\nHuge shoutout to @PavelVanecek who wrote 95% of the code for this major version release. We re-wrote recharts state management, wrote some 3500 unit tests, fixed a bunch of bugs, and added a few well-requested features.\r\n\r\nThe intent with 3.0 is that it is now a better/easier place for the community to contribute to. Looking forward to what the future of recharts looks like in 3.x and beyond!\r\n\r\n[**More details and the 3.0 migration guide**](https://github.com/recharts/recharts/wiki/3.0-migration-guide)\r\n\r\n### BREAKING CHANGES\r\n\r\nPlease see https://github.com/recharts/recharts/wiki/3.0-migration-guide#breaking-code-changes\r\n\r\ntldr; \r\n* `CategoricalChartState` (which was access to recharts internal state) no longer exists in event handlers or `Customized`, etc.\r\n* `<Customized />` no longer receives recharts state/props\r\n*  Removal of internal props that were always supposed to only be internal to recharts\r\n* Remove previously deprecated props\r\n* ...see full list linked above\r\n\r\n### New Features\r\n\r\n* [Custom Components](http://github.com/recharts/recharts/wiki/3.0-migration-guide#custom-components) - you can now render any react component in the recharts tree structure (but it must still be renderable within an SVG). Previously this was controlled and filtered by recharts\r\n* [Tooltip Portals](https://github.com/recharts/recharts/wiki/3.0-migration-guide#tooltip-portal) - you can now use portals to position your tooltip data anywhere you'd like, including outside of your chart\r\n* Legend Portals - similar to the above, you can now use portals to position your Legend anywhere you'd like, including outside of your chart\r\n* [Accessible by default](https://github.com/recharts/recharts/wiki/3.0-migration-guide#accessibility-by-default) - `accessibilityLayer` is now on on all polar and cartesian charts by default. Tab into the chart and use the arrow keys to navigate.\r\n* [Polar charts now support multiple axes](https://github.com/recharts/recharts/wiki/3.0-migration-guide#multiple-axes-in-polar-charts) (similar to cartesian charts)\r\n* Tooltip: You can now select which axis your Tooltip belongs to [using `axisId`](https://github.com/recharts/recharts/wiki/3.0-migration-guide#multiple-axes-and-tooltip)\r\n* `YAxis`: [auto width calculation for YAxes ](https://github.com/recharts/recharts/wiki/3.0-migration-guide#auto-width-y-axis)- set `width=\"auto\"`\r\n* `X/YAxis`: Add `symlog` d3 scale type\r\n\r\n### Bug fixes and improvements\r\n\r\nThis release fixes some long standing issues in recharts, the easiest way to determine all of them is to take a look at the recharts 3.0 [project board](https://github.com/orgs/recharts/projects/2/views/1)\r\n\r\n* Animation improvements\r\n* Typescript improvements\r\n* Accessibility fixes/improvements\r\n* `Pie`: no more border around pie sectors on click, etc.\r\n* `CartesianGrid`: background now renders below the grid lines instead of above\r\n* and more!\r\n\r\nOur [3.0 storybook ](https://63da8268a0da9970db6992aa-zwbccjhbxb.chromatic.com/) has a lot of updated examples!\r\n\r\n",
+    "changelog_url": null,
+    "created_at": "2026-08-17T17:23:07Z",
+    "existing_post_candidates": [],
+    "featured": true,
+    "id": "recharts__recharts-recharts__v3.0.0",
+    "kind": "major",
+    "name": "v3.0.0",
+    "package": "recharts",
+    "processing_started_at": "2026-08-22T16:22:51Z",
+    "published_at": "2025-06-23T05:48:05Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/recharts/recharts/releases/tag/v3.0.0",
+    "repo": "recharts/recharts",
+    "source": "github_release",
+    "status": "done",
+    "tag": "v3.0.0",
+    "version": "3.0.0",
+    "completed_at": "2026-08-22T16:23:51.000Z",
+    "post_path": "src/content/posts/recharts-v3-0-0.md",
+    "commit_sha": "99cd83b7c989ed652fa892c2b6907ff55b0ae951",
+    "pushed": true
   }
 ]
