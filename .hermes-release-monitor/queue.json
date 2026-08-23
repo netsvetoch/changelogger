@@ -4859,5 +4859,32 @@
     "post_path": "src/content/posts/openchamber-v1-20-0.md",
     "commit_sha": "698faa4045cea643a1e73cdea46b1e85bf9fee85",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/getpaseo/paseo/releases/375223266",
+    "body_excerpt": "## 0.5.0 - 2026-08-23\n\n### Added\n\n- Added experimental trusted local plugins ([#3222](https://github.com/getpaseo/paseo/pull/3222), [#3446](https://github.com/getpaseo/paseo/pull/3446), [#3465](https://github.com/getpaseo/paseo/pull/3465))\n- Added plugin-contributed application themes to Settings → Appearance ([#3602](https://github.com/getpaseo/paseo/pull/3602) by @ragokan)\n- Added a user-directed Side panel with independent tabs ([#3287](https://github.com/getpaseo/paseo/pull/3287), [#3605](https://github.com/getpaseo/paseo/pull/3605))\n- Added browser-style New tabs with an anchored pane-local chooser ([#3715](https://github.com/getpaseo/paseo/pull/3715), [#3735](https://github.com/getpaseo/paseo/pull/3735))\n- Added active-turn steering for Claude, Codex, and OpenCode ([#3394](https://github.com/getpaseo/paseo/pull/3394), [#3580](https://github.com/getpaseo/paseo/pull/3580) by @mcowger)\n- Added workspace labels for sidebar organization and filtering ([#3510](https://github.com/getpaseo/paseo/pull/3510) by @cleiter)\n- Added live workspace change counts above active agent composers ([#3682](https://github.com/getpaseo/paseo/pull/3682))\n- Added workspace panel, tab, and pane actions to the Command Center ([#3685](https://github.com/getpaseo/paseo/pull/3685))\n- Added `paseo project` to create, list, rename, and delete projects from the terminal ([#3460](https://github.com/getpaseo/paseo/pull/3460))\n- Added `paseo reload` to apply runtime-safe `config.json` changes without restarting the daemon ([#3365](https://github.com/getpaseo/paseo/pull/3365))\n- Added Paseo skill management to Host → Agents, including remote hosts ([#3451](https://github.com/getpaseo/paseo/pull/3451))\n- Added project filtering to the sidebar display menu ([#3563](https://github.com/getpaseo/paseo/pull/3563) by @cleiter)\n- Added optional branch and project names on workspace rows ([#3445](https://github.com/getpaseo/paseo/pull/3445))\n- Added drag-and-drop reordering for pinned workspaces ([#3341](https://github.com/getpaseo/paseo/pull/3341))\n- Added one-click agent profile creation from the model chooser ([#3533](https://github.com/getpaseo/paseo/pull/3533))\n- Added Android Studio to Open in editor ([#3531](https://github.com/getpaseo/paseo/pull/3531), [#3614](https://github.com/getpaseo/paseo/pull/3614) by @caikovsky)\n- Added MiniMax Code to the one-click ACP provider catalog ([#3457](https://github.com/getpaseo/paseo/pull/3457) by @hetaoBackend)\n- Added Nix syntax highlighting ([#3110](https://github.com/getpaseo/paseo/pull/3110) by @Strainy)\n- Added Svelte syntax highlighting ([#3487](https://github.com/getpaseo/paseo/pull/3487), [#3534](https://github.com/getpaseo/paseo/pull/3534) by @fiorelorenzo)\n- Added guided Hub setup that connects a daemon and deploys a compatible starter workflow ([#3651](https://github.com/getpaseo/paseo/pull/3651), [#3657](https://github.com/getpaseo/paseo/pull/3657), [#3677](https://github.com/getpaseo/paseo/pull/3677))\n\n### Improved\n\n- Restored cached projects, workspaces, agents, and timelines immediately while hosts reconnect ([#3259](https://github.com/getpaseo/paseo/pull/3259), [#3329](https://github.com/getpaseo/paseo/pull/3329))\n- Reduced workspace-switch stalls on desktop and Android with long chats ([#3447](https://github.com/getpaseo/paseo/pull/3447), [#3610](https://github.com/getpaseo/paseo/pull/3610))\n- Kept composer typing within the frame budget on web and desktop ([#3450](https://github.com/getpaseo/paseo/pull/3450))\n- Kept large diffs responsive while expanding, scrolling, and commenting ([#3422](https://github.com/getpaseo/paseo/pull/3422))\n- Kept large read-only source previews responsive with bounded rendering ([#3665](https://github.com/getpaseo/paseo/pull/3665))\n- Removed complete-transcript disk rewrites from long-running agent timelines ([#3647](https://github.com/getpaseo/paseo/pull/3647))\n- Added outcome summaries and failure-first grouping to pull request checks ([#3483](https://github.com/getpaseo/pas",
+    "changelog_url": null,
+    "created_at": "2026-08-23T14:07:43Z",
+    "existing_post_candidates": [
+      "src/content/posts/nub-v0-5-0.md"
+    ],
+    "featured": false,
+    "id": "paseo__getpaseo-paseo__v0.5.0",
+    "kind": "minor",
+    "name": "Paseo v0.5.0",
+    "package": "paseo",
+    "processing_started_at": "2026-08-23T14:11:26Z",
+    "published_at": "2026-08-23T13:44:19Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/getpaseo/paseo/releases/tag/v0.5.0",
+    "repo": "getpaseo/paseo",
+    "source": "github_release",
+    "status": "done",
+    "tag": "v0.5.0",
+    "version": "0.5.0",
+    "completed_at": "2026-08-23T14:14:30.000Z",
+    "post_path": "src/content/posts/paseo-v0-5-0.md",
+    "commit_sha": "fc4fa7d473d05504dcb00e534c34583738d72eac",
+    "pushed": true
   }
 ]
