@@ -4961,5 +4961,29 @@
     "post_path": "src/content/posts/qwen-code-v0-22-0.md",
     "commit_sha": "b38ddb5e70b4d4d5d3f5672c2c0dc1f8a6382c43",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/oxc-project/oxc/releases/375725677",
+    "body_excerpt": "## Table of Contents\n\n- [Oxlint v1.80.0](#oxlint-v1.80.0)\n- [Oxfmt v0.65.0](#oxfmt-v0.65.0)\n\n## Oxlint v1.80.0\n### 🚀 Features\n\n- 70c3e35 linter/typescript/no-confusing-non-null-assertion: Implement suggestion (#26012) (Mikhail Baev)\n\n### 🐛 Bug Fixes\n\n- 17ae11c linter/oxc/double-comparisons: Handle grouped logical expressions (#26044) (camc314)\n- 8a353a7 linter/eslint/no-control-regex: Refine help message text (#25996) (Rahul Mishra)\n- 8a9bdbd estree: Include decorators in `FormalParameterRest ` spans (#26021) (camc314)\n- 8d94cd1 linter/eslint/no-useless-rename: Preserve type modifiers (#26020) (Cameron)\n- 2cde1f6 rust: Address nightly deprecations (#25998) (Boshen)\n- 51d36d7 linter/vue: Resolve `vue` imports via shared import helpers (#25903) (Connor Shea)\n- 83a68d2 linter/react/no-react-children: Resolve `react` imports by symbol (#25901) (Connor Shea)\n- 124e196 linter: Resolve globals by reference, not by name (#25905) (Connor Shea)\n- a701bcc linter: Remove invalid React compiler doc links (#25900) (Boshen)\n\n### 📚 Documentation\n\n- 9b7e153 linter: Set `version` to 1.79.0 for rules shipped in 1.79.0 (#25902) (connorshea)\n\n## Oxfmt v0.65.0\n### 🐛 Bug Fixes\n\n- bf37dd5 formatter: Preserve class decorators before export when the statement is suppressed (#26034) (leaysgur)",
+    "changelog_url": null,
+    "created_at": "2026-08-24T13:54:39Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "oxlint-oxfmt__oxc-project-oxc__apps_v1.80.0",
+    "kind": "minor",
+    "name": "oxlint v1.80.0 & oxfmt v0.65.0",
+    "package": "oxlint + oxfmt",
+    "published_at": "2026-08-24T13:39:23Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/oxc-project/oxc/releases/tag/apps_v1.80.0",
+    "repo": "oxc-project/oxc",
+    "source": "github_release",
+    "status": "done",
+    "tag": "apps_v1.80.0",
+    "version": "1.80.0",
+    "completed_at": "2026-08-24T14:05:33Z",
+    "post_path": "src/content/posts/oxlint-oxfmt-apps-v1-80-0.md",
+    "commit_sha": "3cb2e07b379ee89887511782e3d193bde0f1380a",
+    "pushed": true
   }
 ]
