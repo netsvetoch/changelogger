@@ -4911,5 +4911,30 @@
     "post_path": "src/content/posts/oh-my-pi-v18-0-0.md",
     "commit_sha": "7a0447f9017983e2fcea2952d1989c2cf0a703b9",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/razzant/ouroboros/releases/374714435",
+    "body_excerpt": "# Ouroboros v6.109.0\n\n## Download\n\nChoose your platform below. You do not need to clone the repository or install Python or uv.\n\n- **macOS 12+ on Apple silicon (.dmg):** [Ouroboros-6.109.0.dmg](https://github.com/razzant/ouroboros/releases/download/v6.109.0/Ouroboros-6.109.0.dmg)\n- **Windows x64 (.zip):** [Ouroboros-6.109.0-windows-x64.zip](https://github.com/razzant/ouroboros/releases/download/v6.109.0/Ouroboros-6.109.0-windows-x64.zip)\n- **Debian, Ubuntu, or Astra Linux x86_64 (.deb):** [ouroboros_6.109.0_amd64.deb](https://github.com/razzant/ouroboros/releases/download/v6.109.0/ouroboros_6.109.0_amd64.deb)\n- **Fedora or RHEL x86_64 (.rpm):** [ouroboros-6.109.0-1.x86_64.rpm](https://github.com/razzant/ouroboros/releases/download/v6.109.0/ouroboros-6.109.0-1.x86_64.rpm)\n- **RED OS 8 x86_64 (.rpm):** [ouroboros-6.109.0-1.red80.x86_64.rpm](https://github.com/razzant/ouroboros/releases/download/v6.109.0/ouroboros-6.109.0-1.red80.x86_64.rpm)\n- **Other Linux x86_64 (AppImage):** [Ouroboros-6.109.0-linux-x86_64.AppImage](https://github.com/razzant/ouroboros/releases/download/v6.109.0/Ouroboros-6.109.0-linux-x86_64.AppImage)\n- **Linux x86_64 archive (.tar.gz):** [Ouroboros-6.109.0-linux-x86_64.tar.gz](https://github.com/razzant/ouroboros/releases/download/v6.109.0/Ouroboros-6.109.0-linux-x86_64.tar.gz)\n\nFiles named `SHA256SUMS`, `release-evidence.json`, `release-smoke-*.json`, and `sbom-*.cdx.json` are verification evidence, not additional installers.\n\n## What's new\n\nfeat: live task cost and ready-on-open agent accounts. Running root-task heartbeats now project the existing physical-attempt ledger into one non-final subtree total, so compact Chat and Activity cards advance live without a second timer, endpoint, or client-side sum while preserving reserved, unresolved, and unmetered disclosure (PR #288). Opening Agents now wakes only an already-provisioned stale Claudexor home through the existing owner-action endpoint after a side-effect-free status read; background polling, first-time installs, foreign homes, and repair states remain untouched (PR #289). Fail-closed staged-binary review fixtures now inject exact Git tree-read errors instead of assuming loose object storage, removing the macOS stable-CI race without changing production behavior.\n\n## Release proof\n\nThis release was built from [`e0f38f88924a`](https://github.com/razzant/ouroboros/commit/e0f38f88924a6cc425fd9af2439d8d1b186ee55d).\nThe release workflow passed the full test matrix, UI and Docker smoke tests, skill smoke tests, and packaged artifact smoke tests before publication.\n\n- `SHA256SUMS` covers every installable platform artifact, its SBOM, and its smoke receipt.\n- `release-evidence.json` binds the tag, commit, workflow run, artifact hashes, SBOMs, and smoke receipts.\n- Each installable platform artifact has GitHub build provenance and a CycloneDX SBOM attestation.\n- Verify build provenance with `gh attestation verify <file> --repo razzant/ouroboros --signer-workflow razzant/ouroboros/.github/workflows/ci.yml --source-digest e0f38f88924a6cc425fd9af2439d8d1b186ee55d --source-ref refs/tags/v6.109.0`.\n- Verify the CycloneDX attestation with `gh attestation verify <file> --repo razzant/ouroboros --signer-workflow razzant/ouroboros/.github/workflows/ci.yml --source-digest e0f38f88924a6cc425fd9af2439d8d1b186ee55d --source-ref refs/tags/v6.109.0 --predicate-type https://cyclonedx.org/bom`.\n\n[Compare v6.108.1...v6.109.0](https://github.com/razzant/ouroboros/compare/v6.108.1...v6.109.0)\n",
+    "changelog_url": null,
+    "created_at": "2026-08-24T02:05:05Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "ouroboros__razzant-ouroboros__v6.109.0",
+    "kind": "minor",
+    "name": "v6.109.0",
+    "package": "ouroboros",
+    "processing_started_at": "2026-08-24T02:29:50Z",
+    "published_at": "2026-08-21T23:01:20Z",
+    "reason": "recovered-after-xai-402-outage",
+    "release_url": "https://github.com/razzant/ouroboros/releases/tag/v6.109.0",
+    "repo": "razzant/ouroboros",
+    "source": "github_release",
+    "status": "done",
+    "tag": "v6.109.0",
+    "version": "6.109.0",
+    "completed_at": "2026-08-24T02:32:38Z",
+    "post_path": "src/content/posts/ouroboros-v6-109-0.md",
+    "commit_sha": "e364b8622e7ddca57313f0286795bc99df5aef9e",
+    "pushed": true
   }
 ]
