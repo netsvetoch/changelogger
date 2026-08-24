@@ -4886,5 +4886,30 @@
     "post_path": "src/content/posts/paseo-v0-5-0.md",
     "commit_sha": "fc4fa7d473d05504dcb00e534c34583738d72eac",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/can1357/oh-my-pi/releases/374905856",
+    "body_excerpt": "## @oh-my-pi/pi-agent-core\n\n### Fixed\n\n- Fixed Anthropic Claude tool calls containing provider-visible private-use icon glyphs by reversibly tokenizing glyphs at the wire boundary and rejecting model-invented or unresolved glyph tokens before execution.\n- Fixed agent identity confusion after session handoffs by clarifying context framing and ensuring successor instances seamlessly resume existing execution plans.\n\n## @oh-my-pi/pi-ai\n\n### Added\n\n- Added reversible private-use glyph tokenization for Claude-compatible provider requests, including prompt notices, streamed response decoding, and safe handling of unresolved model-authored glyph tokens.\n\n### Fixed\n\n- Fixed completed Anthropic turns remaining busy when the provider sent `message_stop` but kept the SSE connection open, which stranded tool execution and queued steering until timeout.\n\n## @oh-my-pi/pi-catalog\n\n### Added\n\n- Added model capability metadata for reversible private-use glyph tokenization on Claude-compatible models, so provider request handling can apply the compatibility layer without inferring from transport details.\n\n## @oh-my-pi/pi-coding-agent\n\n### Added\n\n- Added the `omp render` command to replay session threads and benchmark transcript pipeline performance.\n- Added configurable typo detection (`Ctrl+.` suggestions), Tab word completion, and opt-in autocorrect to the macOS prompt editor.\n- Added a live benchmark dashboard to `omp bench` with real-time performance estimates, p50/p95 statistics, distinct input/output throughput metrics, cost tracking, mixed challenge suites by default, and a `--prefill-bytes` option for synthetic prefill benchmarks.\n- Added the `/shake thinking` command to strip model reasoning blocks from session history.\n- Added icon support and usage-frequency ranking to slash-command autocomplete suggestions.\n- Enhanced the edit tool to support `＋`-prefixed line insertions, unified diff formats, bare selection replacements, and robust recovery for common syntax variations and ambiguous match spans.\n- Startup composer now renders immediately using cached session and theme data, allowing typing before session initialization finishes without dropping keystrokes.\n- Added the `tui.resizeScrollback` setting (default `append`) controlling how a settled width resize refreshes pane scrollback when the terminal repaints in place (tmux/screen/Zellij panes, in-place direct terminals). Multiplexers rewrap old output naively on width changes, leaving history hard-broken at the old width; `append` re-emits the transcript at the new width below it (one fresh copy per settled resize), `rebuild` clears pane history first so it holds exactly one current-width copy (needs a host that honors ED3, like tmux; erases pre-session scrollback), and `preserve` keeps the old-width history untouched with zero growth ([#8193](https://github.com/can1357/oh-my-pi/issues/8193)).\n\n### Changed\n\n- Session history rewinds (via `Esc-Esc` or `/tree`) now truncate transcript tails in place instead of clearing and replaying the entire terminal scrollback.\n- Switched the fallback edit mode to `sloppy` for models lacking hashline support.\n- macOS spelling checks now run in the background to avoid blocking editor rendering and keystroke responsiveness.\n- Word completions accepted via Tab now insert a trailing space when not immediately followed by whitespace or punctuation.\n- Increased default visible autocomplete dropdown rows to 10 and added the `autocompleteMaxVisible` configuration setting.\n- Slash-command descriptions in the autocomplete popup now truncate to two lines instead of wrapping indefinitely.\n\n### Fixed\n\n- Fixed streaming code blocks not rendering syntax highlighting live until completion.\n- Fixed an issue where interrupting Claude during reasoning would replay partial thinking blocks on subsequent turns and cause API rejection errors.\n- Fixed session resume performance by avoiding redundant edit-matching execution across historical transcripts.\n- Fixed image requ",
+    "changelog_url": null,
+    "created_at": "2026-08-24T02:05:05Z",
+    "existing_post_candidates": [],
+    "featured": true,
+    "id": "oh-my-pi__can1357-oh-my-pi__v18.0.0",
+    "kind": "major",
+    "name": "v18.0.0",
+    "package": "oh-my-pi",
+    "processing_started_at": "2026-08-24T02:13:50Z",
+    "published_at": "2026-08-22T11:00:46Z",
+    "reason": "recovered-after-xai-402-outage",
+    "release_url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.0.0",
+    "repo": "can1357/oh-my-pi",
+    "source": "github_release",
+    "status": "done",
+    "tag": "v18.0.0",
+    "version": "18.0.0",
+    "completed_at": "2026-08-24T02:16:00Z",
+    "post_path": "src/content/posts/oh-my-pi-v18-0-0.md",
+    "commit_sha": "7a0447f9017983e2fcea2952d1989c2cf0a703b9",
+    "pushed": true
   }
 ]
