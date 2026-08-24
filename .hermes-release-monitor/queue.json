@@ -4936,5 +4936,30 @@
     "post_path": "src/content/posts/ouroboros-v6-109-0.md",
     "commit_sha": "e364b8622e7ddca57313f0286795bc99df5aef9e",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/QwenLM/qwen-code/releases/374958310",
+    "body_excerpt": "<!-- qwen-release-notes:v2 -->\n\n## Highlights\n\n- Web Shell prevents out-of-memory crashes by bounding transcript retention and trimming oversized replays. ([#9303](https://github.com/QwenLM/qwen-code/pull/9303))\n- Review loops now explain instability by citing specific files with recurring findings or non-shrinking comment volumes. ([#9461](https://github.com/QwenLM/qwen-code/pull/9461))\n- Autofix now audits PR approach for simplicity instead of stopping automation immediately upon a growth-budget breach. ([#9262](https://github.com/QwenLM/qwen-code/pull/9262))\n- Web Shell keeps conversation turns expanded while background shells run, collapsing them only after completion. ([#9632](https://github.com/QwenLM/qwen-code/pull/9632))\n- Created GitHub PRs are now bound to originating sessions with a searchable list and sidebar badge. ([#9543](https://github.com/QwenLM/qwen-code/pull/9543))\n- Non-blocking slash commands now include eleven built-ins like /theme and /tools for immediate execution during streaming. ([#9495](https://github.com/QwenLM/qwen-code/pull/9495))\n\n## Breaking Changes\n\nNo known breaking changes.\n\n## Web Shell Experience\n\nImproves Web Shell stability, UI responsiveness, streaming performance, and conversation handling during active sessions.\n\n- Web Shell now bounds daemon transcript retention and trims oversized replays to prevent renderer out-of-memory crashes. ([#9303](https://github.com/QwenLM/qwen-code/pull/9303))\n- Web Shell now keeps conversation turns expanded while their background shells are running, collapsing them only after completion. ([#9632](https://github.com/QwenLM/qwen-code/pull/9632))\n- Fixes web-shell UI so subagent prompts scroll correctly and parallel-agent groups collapse immediately upon completion. ([#9640](https://github.com/QwenLM/qwen-code/pull/9640))\n- Adds a hover tooltip to the create-group icon in Web Shell to clarify its function for mouse users. ([#9400](https://github.com/QwenLM/qwen-code/pull/9400))\n- Updates the conversation loading indicator to use the daemon's hasActivePrompt state, ensuring it remains visible during long tool calls even when streaming is idle. ([#9631](https://github.com/QwenLM/qwen-code/pull/9631))\n- Prevents the Web Shell tool-approval dialog from stealing keyboard focus when it appears while the user is actively typing in an editable element. ([#9609](https://github.com/QwenLM/qwen-code/pull/9609))\n- Optimizes Web Shell streaming performance by reducing main-thread work and reloading oversized transcripts after 15 seconds of inactivity. ([#9672](https://github.com/QwenLM/qwen-code/pull/9672))\n- Routes ordinary Web Shell messages based on session activity rather than Goal status to improve turn handling and insertion logic. ([#9667](https://github.com/QwenLM/qwen-code/pull/9667))\n\n## Review & Autofix Logic\n\nEnhances review loop explanations, Autofix auditing, convergence observations, and PR detection to reduce noise and improve automation reliability.\n\n- Review loops now explain why they are not settling by citing specific files with recurring findings or comment volumes that are not shrinking. ([#9461](https://github.com/QwenLM/qwen-code/pull/9461))\n- Autofix now audits the PR approach for simplicity and minimal change instead of stopping automation immediately upon a growth-budget breach. ([#9262](https://github.com/QwenLM/qwen-code/pull/9262))\n- Fixed autofix busy-PR detection to include pending workflow runs, preventing duplicate dispatches caused by GitHub status reporting delays. ([#9662](https://github.com/QwenLM/qwen-code/pull/9662))\n- Adds machine-readable convergence observation codes like root-cause-triage and batch-fixes to enable automated review actions. ([#9623](https://github.com/QwenLM/qwen-code/pull/9623))\n- Assigns review agents a dedicated subagent type with only six required tools to reduce token usage and improve performance. ([#9678](https://github.com/QwenLM/qwen-code/pull/9678))\n- Adjusts review body trimming priority to preserve ",
+    "changelog_url": null,
+    "created_at": "2026-08-24T02:05:05Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "qwen-code__QwenLM-qwen-code__v0.22.0",
+    "kind": "minor",
+    "name": "Release v0.22.0",
+    "package": "qwen-code",
+    "processing_started_at": "2026-08-24T02:45:51Z",
+    "published_at": "2026-08-22T14:58:36Z",
+    "reason": "recovered-after-xai-402-outage",
+    "release_url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.22.0",
+    "repo": "QwenLM/qwen-code",
+    "source": "github_release",
+    "status": "done",
+    "tag": "v0.22.0",
+    "version": "0.22.0",
+    "completed_at": "2026-08-24T02:48:00Z",
+    "post_path": "src/content/posts/qwen-code-v0-22-0.md",
+    "commit_sha": "b38ddb5e70b4d4d5d3f5672c2c0dc1f8a6382c43",
+    "pushed": true
   }
 ]
