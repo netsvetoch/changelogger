@@ -5010,5 +5010,33 @@
     "post_path": "src/content/posts/gravity-ui-icons-v2-22-0.md",
     "commit_sha": "9d5e363f1b4224db75631ad0eeba49de0a56f022",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/getpaseo/paseo/releases/376450711",
+    "body_excerpt": "## 0.6.0 - 2026-08-25\n\n### Changed\n\n- Restored the dedicated Explorer sidebar with Files and Changes by default, replacing the empty user-directed Side panel introduced in 0.5.0 ([#3826](https://github.com/getpaseo/paseo/pull/3826))\n- Changed content opened to the side to use an ordinary closable workspace pane instead of the Explorer sidebar ([#3826](https://github.com/getpaseo/paseo/pull/3826))\n- Restored the resizable combined Explorer dock on tablets ([#3826](https://github.com/getpaseo/paseo/pull/3826))\n\n### Added\n\n- Added per-action settings for opening files, changes, subagents, and pull requests in the main panel or on the side ([#3826](https://github.com/getpaseo/paseo/pull/3826))\n- Added New tab and drag support for compatible files, diffs, agents, terminals, pull requests, and plugin panels in Explorer ([#3826](https://github.com/getpaseo/paseo/pull/3826))\n- Added standalone Diff tabs while keeping an optional persisted inline-diff mode in Changes ([#3826](https://github.com/getpaseo/paseo/pull/3826))\n- Added custom Windows and Linux window controls ([#3826](https://github.com/getpaseo/paseo/pull/3826))\n\n### Fixed\n\n- Fixed OpenCode turns failing when the first event-stream connection stalls during startup ([#3814](https://github.com/getpaseo/paseo/pull/3814))\n- Fixed OpenCode prompts starting before the provider reports a ready connection ([#3821](https://github.com/getpaseo/paseo/pull/3821))\n",
+    "changelog_url": null,
+    "created_at": "2026-08-25T14:43:15Z",
+    "existing_post_candidates": [
+      "src/content/posts/eslint-v10-6-0.md",
+      "src/content/posts/nub-v0-6-0.md"
+    ],
+    "featured": false,
+    "id": "paseo__getpaseo-paseo__v0.6.0",
+    "kind": "minor",
+    "name": "Paseo v0.6.0",
+    "package": "paseo",
+    "processing_started_at": "2026-08-25T14:51:58Z",
+    "published_at": "2026-08-25T14:01:19Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/getpaseo/paseo/releases/tag/v0.6.0",
+    "repo": "getpaseo/paseo",
+    "source": "github_release",
+    "status": "done",
+    "tag": "v0.6.0",
+    "version": "0.6.0",
+    "completed_at": "2026-08-25T15:05:00Z",
+    "post_path": "src/content/posts/paseo-v0-6-0.md",
+    "commit_sha": "79f3c8ffcfa2a547e3b16eb4103e2e335a0a184f",
+    "pushed": true
   }
 ]
