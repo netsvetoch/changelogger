@@ -4985,5 +4985,30 @@
     "post_path": "src/content/posts/oxlint-oxfmt-apps-v1-80-0.md",
     "commit_sha": "3cb2e07b379ee89887511782e3d193bde0f1380a",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/gravity-ui/icons/releases/376348474",
+    "body_excerpt": "## [2.22.0](https://github.com/gravity-ui/icons/compare/v2.21.0...v2.22.0) (2026-08-19)\n\n\n### Features\n\n* add icon categories to metadata.json ([#104](https://github.com/gravity-ui/icons/issues/104)) ([0445c6f](https://github.com/gravity-ui/icons/commit/0445c6f7bd6869187a3fbda4661ae44fa0af79b0))",
+    "changelog_url": null,
+    "created_at": "2026-08-25T11:36:05Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "@gravity-ui-icons__gravity-ui-icons__v2.22.0",
+    "kind": "minor",
+    "name": "v2.22.0",
+    "package": "@gravity-ui/icons",
+    "processing_started_at": "2026-08-25T11:49:54Z",
+    "published_at": "2026-08-25T11:22:38Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/gravity-ui/icons/releases/tag/v2.22.0",
+    "repo": "gravity-ui/icons",
+    "source": "github_release",
+    "status": "done",
+    "tag": "v2.22.0",
+    "version": "2.22.0",
+    "completed_at": "2026-08-25T11:52:43Z",
+    "post_path": "src/content/posts/gravity-ui-icons-v2-22-0.md",
+    "commit_sha": "9d5e363f1b4224db75631ad0eeba49de0a56f022",
+    "pushed": true
   }
 ]
