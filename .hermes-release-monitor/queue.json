@@ -5065,5 +5065,32 @@
     "post_path": "src/content/posts/kilocode-v7-5-0.md",
     "commit_sha": "9de06ebcb043de594f62db20d18cb8b5f8af89d3",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/gravity-ui/aikit/releases/377209831",
+    "body_excerpt": "## [2.20.0](https://github.com/gravity-ui/aikit/compare/v2.19.2...v2.20.0) (2026-08-26)\n\n\n### Features\n\n* mobile adaptive metrics and floating header mode ([#240](https://github.com/gravity-ui/aikit/issues/240)) ([daa920b](https://github.com/gravity-ui/aikit/commit/daa920b9a7b6078016480a10316bc8aff1d7a353))",
+    "changelog_url": null,
+    "created_at": "2026-08-26T15:31:36Z",
+    "existing_post_candidates": [
+      "src/content/posts/gravity-ui-icons-v2-20-0.md"
+    ],
+    "featured": false,
+    "id": "@gravity-ui-aikit__gravity-ui-aikit__v2.20.0",
+    "kind": "minor",
+    "name": "v2.20.0",
+    "package": "@gravity-ui/aikit",
+    "processing_started_at": "2026-08-26T15:40:59Z",
+    "published_at": "2026-08-26T14:30:13Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/gravity-ui/aikit/releases/tag/v2.20.0",
+    "repo": "gravity-ui/aikit",
+    "source": "github_release",
+    "status": "done",
+    "tag": "v2.20.0",
+    "version": "2.20.0",
+    "completed_at": "2026-08-26T15:43:30Z",
+    "post_path": "src/content/posts/gravity-ui-aikit-v2-20-0.md",
+    "commit_sha": "9290ebf296a41d61a31ddfdbb09d8cddd322052a",
+    "pushed": true
   }
 ]
