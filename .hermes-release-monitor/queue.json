@@ -5092,5 +5092,30 @@
     "post_path": "src/content/posts/gravity-ui-aikit-v2-20-0.md",
     "commit_sha": "9290ebf296a41d61a31ddfdbb09d8cddd322052a",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/openai/codex/releases/377374683",
+    "body_excerpt": "## New Features\n\n- Reference other Codex tasks with `@` mentions, and ask agents to read, create, or message tasks from the terminal. (#40308, #40315)\n- `/copy` now offers a picker for full responses, individual code blocks, and blockquotes. (#39997)\n- Unnamed terminal tasks receive descriptive titles automatically, and `/rename` suggests an editable title based on the conversation. (#40492, #40495)\n- Markdown links appear as clickable labels in supported terminals, with visible URLs retained elsewhere. (#40471)\n- Bind shortcuts to cycle permission modes, and use `.` in Vim mode to repeat your last edit. (#39873, #40521)\n- New `Interrupt` hooks can run commands or MCP handlers when an active top-level turn is interrupted. (#40511)\n\n## Bug Fixes\n\n- Untrusted projects no longer supply project-level `AGENTS.md` instructions, and managed deny-read rules remain enforced after permission changes. (#39837, #40004)\n- Improved credential redaction in app-server diagnostics, including provider, authentication refresh, and attestation fields. (#39993)\n- Fixed remote MCP bearer-token lookup and required-server startup while preserving compatibility with older executors. (#39926, #39952, #39979)\n- Fixed elevated Windows sandbox setup and launch aliases under Unicode user paths. (#39971, #40570)\n- Prevented Unix shutdown hangs caused by detached processes retaining a terminal or full terminal output buffers. (#40460)\n- Fixed conversation compaction and multi-agent compatibility for Amazon Bedrock models. (#39804, #39825)\n\n## Changelog\n\nFull Changelog: https://github.com/openai/codex/compare/rust-v0.149.0...rust-v0.150.0\n\n- #39667 Trace MCP runtime refresh coordination @copyberry\n- #39691 Make Guardian v2 parent compaction reuse configurable @copyberry\n- #39700 Fail closed on unsafe config and sed parsing @copyberry\n- #39702 Wait for turn completion events in multi-agent resume tests @copyberry\n- #39703 Move the global scope check into the code-mode runtime @copyberry\n- #39706 Harden Seatbelt writable root path binding @copyberry\n- #39707 Remove redundant code mode image helper test @copyberry\n- #39709 Log TUI app event variants without their payloads @copyberry\n- #39712 Reduce unified exec output buffer allocations @copyberry\n- #39717 Pass CI workflow inputs through environment variables @copyberry\n- #39719 Stop persisting checkout credentials in V8 workflows @copyberry\n- #39720 Expose managed policy for browser settings imports @copyberry\n- #39722 Track multi-agent v2 spawn calls in analytics @copyberry\n- #39726 Box the WebSocket dial future @copyberry\n- #39731 Avoid rollout reads for configured TUI sessions @copyberry\n- #39736 Remove private executor directory creation @copyberry\n- #39738 Honor Guardian runtime settings from model defaults @copyberry\n- #39741 Use model-specific auto-review outcome instructions @copyberry\n- #39744 Skip postprocessing for short composer input @copyberry\n- #39746 Refresh resumed thread capability roots from executors @copyberry\n- #39749 Require filesystem backends to implement directory walks @copyberry\n- #39752 Expose uncompiled permission profile selection @copyberry\n- #39755 Add managed developer instructions to requirements @copyberry\n- #39756 Cache shell snapshots in the exec server @copyberry\n- #39757 Standardize shell execution on unified exec @copyberry\n- #39761 Add app-server MCP event streaming @copyberry\n- #39765 Include suggestion IDs in plugin install metadata @copyberry\n- #39770 Refresh bundled model definitions @copyberry\n- #39772 Standardize shell execution on unified exec @copyberry\n- #39776 Verify Codex app signatures before launch or install @copyberry\n- #39777 Retry transient registry failures during initial exec connection @copyberry\n- #39779 Make tool-result telemetry limits configurable @copyberry\n- #39782 Support standalone named function call outputs @copyberry\n- #39784 Classify rollout migration failures @copyberry\n- #39785 Support turn cost telemetry for custom model providers @cop",
+    "changelog_url": null,
+    "created_at": "2026-08-26T19:39:53Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "codex__openai-codex__rust-v0.150.0",
+    "kind": "minor",
+    "name": "0.150.0",
+    "package": "codex",
+    "processing_started_at": "2026-08-26T19:42:04Z",
+    "published_at": "2026-08-26T19:37:28Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/openai/codex/releases/tag/rust-v0.150.0",
+    "repo": "openai/codex",
+    "source": "github_release",
+    "status": "done",
+    "tag": "rust-v0.150.0",
+    "version": "0.150.0",
+    "completed_at": "2026-08-26T19:45:40.000Z",
+    "post_path": "src/content/posts/openai-codex-rust-v0-150-0.md",
+    "commit_sha": "b3de4e62e9c687b1675058b981341563f6e6ef62",
+    "pushed": true
   }
 ]
