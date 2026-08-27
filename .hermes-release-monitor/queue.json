@@ -5142,5 +5142,32 @@
   "post_path": "src/content/posts/openchamber-v1-21-0.md",
   "commit_sha": "bfeec64",
   "pushed": true
+ },
+ {
+  "api_url": "https://api.github.com/repos/OpenHands/OpenHands/releases/378032404",
+  "body_excerpt": "## 1.16.0 (2026-08-27)\n\n<!-- Release notes generated using configuration in .github/release.yml at main -->\n\n## What's Changed\n### Features\n* feat(settings): select supported LLM providers by @keeltrace in https://github.com/OpenHands/OpenHands/pull/16772\n* feat: add linux desktop installer build (CI + deb maintainer fix) by @georgeglarson in https://github.com/OpenHands/OpenHands/pull/16656\n* feat(automations): show a run's live phase by @aartem1 in https://github.com/OpenHands/OpenHands/pull/16740\n* feat(settings): expose the LLM-switching toggle in Agent settings by @georgeglarson in https://github.com/OpenHands/OpenHands/pull/16441\n* feat(skills): replace the all-on skill catalog with an explicit allow-list by @VascoSch92 in https://github.com/OpenHands/OpenHands/pull/16860\n* feat: link chat file paths to the Files drawer by @ShashwatXD in https://github.com/OpenHands/OpenHands/pull/16181\n* feat: pin a favorite sidebar page as the home route by @hieptl in https://github.com/OpenHands/OpenHands/pull/16868\n* feat: skip onboarding when a user-added Local backend has a usable LLM by @VascoSch92 in https://github.com/OpenHands/OpenHands/pull/16931\n* feat: fix default and free models by @neubig in https://github.com/OpenHands/OpenHands/pull/16922\n* feat: land the Canvas Extensions frontend (load pages, sidebar, customize) by @hieptl in https://github.com/OpenHands/OpenHands/pull/16895\n### Bug Fixes\n* fix: render the VSCode button on self-hosted (local) backends by @harish-chandramowli in https://github.com/OpenHands/OpenHands/pull/16106\n* fix: correlate local conversation telemetry with Canvas identity by @neubig in https://github.com/OpenHands/OpenHands/pull/16796\n* fix(ci): ignore fenced headings in readiness checks by @ump45nose in https://github.com/OpenHands/OpenHands/pull/16595\n* fix: forward disabled_skills into agent_context so backend excludes them by @jdlake in https://github.com/OpenHands/OpenHands/pull/16812\n* fix(ci): prevent issue readiness workflow from failing on not-ready issues by @KHARSHAVARDHAN-eng in https://github.com/OpenHands/OpenHands/pull/16514\n* fix(ci): use reproduction steps for ready-for-dev checks by @neubig in https://github.com/OpenHands/OpenHands/pull/16828\n* fix(acp): surface a 'credentials configured' banner state on Docker/cloud (#15643) by @georgeglarson in https://github.com/OpenHands/OpenHands/pull/16145\n* fix(ci): edit the mock-LLM E2E PR comment in place by @VascoSch92 in https://github.com/OpenHands/OpenHands/pull/16591\n* fix(providers): follow next_page_id so cloud picks surface past the default page size by @georgeglarson in https://github.com/OpenHands/OpenHands/pull/16758\n* fix(ci): refresh readiness comment when label is added by @neubig in https://github.com/OpenHands/OpenHands/pull/16830\n* fix(desktop): ship the bundled Node's npm on Windows by @Telov in https://github.com/OpenHands/OpenHands/pull/16381\n* fix(agent-canvas): scope baked working_dir to the default-local backend by @enyst in https://github.com/OpenHands/OpenHands/pull/16759\n* fix: clean up dev:extra-backend agent-server on SIGHUP by @georgeglarson in https://github.com/OpenHands/OpenHands/pull/16280\n* fix: clean up dev:minimal services on SIGHUP by @georgeglarson in https://github.com/OpenHands/OpenHands/pull/16279\n* fix: hide API key for OpenHands provider on cloud by @tofarr in https://github.com/OpenHands/OpenHands/pull/16863\n* fix(home): remember local workspace mode selection by @tofarr in https://github.com/OpenHands/OpenHands/pull/16881\n* fix: bound automation run-history fan-out and pause sidebar polling by @hieptl in https://github.com/OpenHands/OpenHands/pull/16867\n* fix: validate api key before advancing backend connection step by @JatinJain703 in https://github.com/OpenHands/OpenHands/pull/16840\n* fix: rename conversation title on cloud backends by @jpelletier1 in https://github.com/OpenHands/OpenHands/pull/16966\n### Documentation\n* docs: fix broken reference to new-conversation-button.tsx in AGENTS.md (",
+  "changelog_url": null,
+  "created_at": "2026-08-27T18:25:15Z",
+  "existing_post_candidates": [
+   "src/content/posts/openchamber-v1-16-0.md"
+  ],
+  "featured": false,
+  "id": "openhands__OpenHands-OpenHands__v1.16.0",
+  "kind": "minor",
+  "name": "v1.16.0",
+  "package": "openhands",
+  "processing_started_at": "2026-08-27T18:30:00Z",
+  "published_at": "2026-08-27T18:19:22Z",
+  "reason": "hourly-new-major-minor",
+  "release_url": "https://github.com/OpenHands/OpenHands/releases/tag/v1.16.0",
+  "repo": "OpenHands/OpenHands",
+  "source": "github_release",
+  "status": "done",
+  "tag": "v1.16.0",
+  "version": "1.16.0",
+  "post_path": "src/content/posts/openhands-v1-16-0.md",
+  "commit_sha": "4e0513eed8366af214255f2af2c0b2014b9c7ba2",
+  "pushed": true,
+  "completed_at": "2026-08-27T18:34:00Z"
  }
 ]
