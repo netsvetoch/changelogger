@@ -5221,5 +5221,30 @@
     "post_path": "src/content/posts/gravity-ui-charts-v1-58-0.md",
     "commit_sha": "68f03a5242dd7d5426fbb45ebec055da59f89155",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/webpro-nl/knip/releases/378618217",
+    "body_excerpt": "* Support package manifest resolution under Yarn PnP (#1946) (a82efb62b290e004bdabee40bcb337baf3701a1b) - thanks @WooWan!\n* Resolve oxlint jsPlugins from .oxlintrc.jsonc (#1973) (d055023182789555a574eaefde80dac997190437) - thanks @DreierF!\n* Update dependency bun to v1.4.0 (#1964) (937ab38ad514a00edafecff4ca04603b015bf921) - thanks @renovate[bot]!\n* Expose `defineConfig` on a `./config` entrypoint (#1960) (17f7a6051d9781860f248cc2a745dbe837713cd9) - thanks @theRizwan!\n* Preserve all environment variables in exec.ts (#1979) (c0a9ecf8d1c0cdd7789c1e1bea893706c060239d) - thanks @DreamLongYT!\n* Add support for TypeScript content mappers (#1978) (db67f9bd8cebf0ea3c298690d462c154827aa462) - thanks @remcohaszing!\n* fix(vitest): resolve array entries and root-relative setup dependencies (#1982) (0ecf48538c339437e6f9dfe9a6013d307783cbd3) - thanks @DreamLongYT!\n* Fix type annotation in dynamic configuration function example (ada88c7f01563b73643af34a147a71fd9ab9d2dc)\n* Format docs with remark (7764c2a4ebecdbf226c19494d255d9cb14550822)\n* Throw on configuration that is not an object (d7ac0cf1de8f79be6ec53412cac9f7edf8f35ba7)\n* Clarify dependency inputs, isTypeOnly and toConfig in plugin docs (2bd367961554ad1addb520bdfad5e31125885969)\n* Resolve content mapper process from package.json#typescript.contentMapper.exec (74640c03e450624409692f4cc17699775108fd7e)\n* Encode argv arrays before parsing them as shell commands (b79234c15153fbf592e82c94e4e4e9f41b4479e0)\n* Update dependencies (28510146c2b97d88f7188f1239b9307aac7dbf0c)\n* Replace non-breaking space in module graph comment (4e22bfcd09deccc92ed158f5554fe3e03f3a2c51)\n* Update fix format test for oxfmt package.json key sorting (65011bf6054d03fb5580f3381867b07d1b8a9a0c)\n* fix(webpack): resolve entry descriptors using import field (#1981) (cad8910e7fb89c2510fc9f5885289335dd4e60da) - thanks @DreamLongYT!\n* fix: count enum element access as a whole-object read (#1958) (5a47d603aa23b388ae7ce4fe301656f1abc43b14) - thanks @addielaruee!\n* Resolve oxlint/vite-plus import resolvers from `settings` (#1983) (c1165b70efe27398b86fa50bcea7d85c253d3ee7) - thanks @DreierF!\n* fix(nuxt): resolve string extends configs (#1984) (4a5d7068d6264ea45c78c832abe7ba052763517e) - thanks @DreamLongYT!\n* Wrap up webpack entry resolution (505decdb821f9b76d194742cee7e98c75ef7d8e9)\n* Keep element access precise for number-like enum member names (bcbac3a8b8283da3b32256584b3cc6569ae5c02f)\n* Resolve `Object.*` enum enumeration through import aliases (347967daaed817ca20e1ad6148388a66ec8b421b)\n* Resolve named string-key access on namespace-qualified enums (2ac1fbc1e92f3dae662ca4d4701cf010346be49a)\n* Normalize line endings in nuxt-config-string fixture (9fe2b2b2db8690685ec7c6cf8b3d39b9ed7b3fdc)\n* Resolve nuxt layer sources from all `extends` entry shapes (db136151d9f98801837b33646ef7b02ae7b5a86d)\n* Report unused exports behind Vitest module promise mocks (resolve #1966) (74954c219367ca1577184cca08c30dbb3fb6222e)\n* Check line endings against `.gitattributes` in `pnpm run ci` (ddc9fd0cc3328260665203c8573702bb6c9d0dd6)",
+    "changelog_url": null,
+    "created_at": "2026-08-28T17:08:44Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "knip__webpro-nl-knip__knip@6.33.0",
+    "kind": "minor",
+    "name": "Release 6.33.0",
+    "package": "knip",
+    "processing_started_at": "2026-08-28T17:17:32Z",
+    "published_at": "2026-08-28T16:31:59Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/webpro-nl/knip/releases/tag/knip%406.33.0",
+    "repo": "webpro-nl/knip",
+    "source": "github_release",
+    "status": "done",
+    "tag": "knip@6.33.0",
+    "version": "6.33.0",
+    "completed_at": "2026-08-28T17:21:12Z",
+    "post_path": "src/content/posts/knip-6-33-0.md",
+    "commit_sha": "708a5bc5ef0d325571bd8ebe82562477179953ab",
+    "pushed": true
   }
 ]
