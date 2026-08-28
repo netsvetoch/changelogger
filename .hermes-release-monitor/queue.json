@@ -5246,5 +5246,30 @@
     "post_path": "src/content/posts/knip-6-33-0.md",
     "commit_sha": "708a5bc5ef0d325571bd8ebe82562477179953ab",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/colinhacks/zod/releases/378658476",
+    "body_excerpt": "Zod 4.5 is now available.\n\n```sh\nnpm install zod@latest\n```\n\nAt a glance:\n\n- [`z.compile()`](#zcompile) — the flagship feature of Zod 4.5\n- [`z.creditCard()`](#zcreditcard) — 12–19 digits plus Luhn checksum\n- [`z.properties()`](#zproperties) — the multi-property counterpart to `z.property()`\n- [`z.deepPartial()`](#zdeeppartial)/[`.exactPartial()`](#exactpartial)\n- [`z.validate(): boolean`](#zvalidate) — a fast-path to verify input validity without a full parse (up to 16x faster on invalid data)\n- [9x reduction in memory footprint](#9x-reduction-in-schema-memory-footprint)\n- [New locales](https://zod.dev/error-customization#locales): Bengali (`bn`), Central Kurdish (`ckb`), Hindi (`hi`), Kannada (`kn`), Norwegian Nynorsk (`nn`), Brazilian Portuguese (`pt-BR`), Slovak (`sk`), Turkmen (`tk`)\n\n## `z.compile()`\n\nYou can now pre-compile any Zod schema using `z.compile(schema)`. This dramatically speeds up parsing performance.\n\n```ts\nimport * as z from \"zod\";\n\nconst Player = z.object({\n  username: z.string(),\n  bio: z.string(),\n  xp: z.number()\n});\n\nconst CompiledPlayer = z.compile(Player);\n```\n\nA compiled schema can be used *exactly* like an uncompiled one. There are no special rules around compiled schemas. They're just faster.\n\n```ts\nPlayer.parse({ ... });\nCompiledPlayer.parse({ ... }); // ~2x faster\n```\n\nOn objects, arrays, and unions, this speeds up parsing by a factor of ~3–7. More complex schemas stand to benefit more than simpler ones.\n\n<picture>\n  <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://zod.dev/blog/compile-speedup-dark.svg\">\n  <img alt=\"Time per parse on a shared nanosecond axis, standard parser as a gray bar with the compiled time as a blue bar inside it: an array of 10 objects 377 ns to 68 ns (5.5x), a 20-key object 301 ns to 38 ns (7.8x), an array of 10 strings 241 ns to 33 ns (7.3x), a union of 3 objects 190 ns to 36 ns (5.3x), a 3-element tuple 119 ns to 33 ns (3.6x), a 5-key strict object 117 ns to 32 ns (3.7x), a discriminated union 92 ns to 27 ns (3.4x), a 5-key object 76 ns to 28 ns (2.8x); up to 7.8x faster when compiled\" src=\"https://zod.dev/blog/compile-speedup-light.svg\">\n</picture>\n\n*Time per parse by schema type, standard parser vs compiled — lower is better ([benchmark](https://github.com/colinhacks/zod/blob/main/packages/bench/compile-matrix.ts))*\n\nBelow are the Moltar benchmark results comparing Zod (compiled and uncompiled) against the [**Moltar ParseSafe**](https://github.com/moltar/typescript-runtime-type-benchmarks) bench.\n\n<picture>\n  <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://zod.dev/blog/moltar-dark.svg\">\n  <img alt=\"Bar chart of operations per second on the moltar benchmark fixture, parseSafe category: Zod 4 compiled 47.5M, typia 45.3M, Zod 4 11.6M, valibot 1.8M, effect 1.7M, Zod 3 1.2M, arktype 152k, yup 121k\" src=\"https://zod.dev/blog/moltar-light.svg\">\n</picture>\n\n*Throughput on the moltar benchmark fixture (parseSafe: returns a new object with unknown keys stripped) — higher is better ([benchmark](https://github.com/moltar/typescript-runtime-type-benchmarks/pull/2329))*\n\nAnd the equivalent results for the Moltar AssertLoose bench. Tested against the new `z.validate(schema, input)` function (detailed later in the post).\n\n<picture>\n  <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://zod.dev/blog/moltar-assertLoose-dark.svg\">\n  <img alt=\"Bar chart of operations per second on the moltar benchmark fixture, assertLoose category: typia 74.9M, arktype 66.2M, Zod 4 compiled 60.6M, Zod 4 6.5M, valibot 1.9M, effect 1.7M, Zod 3 1.2M, yup 124k\" src=\"https://zod.dev/blog/moltar-assertLoose-light.svg\">\n</picture>\n\n*Throughput on the moltar benchmark fixture (assertLoose: returns a boolean, unknown keys allowed) — higher is better ([benchmark](https://github.com/moltar/typescript-runtime-type-benchmarks/pull/2329))*\n\nZod's entire test suite runs twice—once normally and again with auto-compilation enabled globally—to ensure perfect fidelity.\n\n<details>\n<summary>",
+    "changelog_url": null,
+    "created_at": "2026-08-28T18:10:41Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "zod__colinhacks-zod__v4.5.0",
+    "kind": "minor",
+    "name": "v4.5.0",
+    "package": "zod",
+    "processing_started_at": "2026-08-28T18:18:33Z",
+    "published_at": "2026-08-28T17:50:01Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/colinhacks/zod/releases/tag/v4.5.0",
+    "repo": "colinhacks/zod",
+    "source": "github_release",
+    "status": "done",
+    "tag": "v4.5.0",
+    "version": "4.5.0",
+    "completed_at": "2026-08-28T18:22:00Z",
+    "post_path": "src/content/posts/zod-v4-5-0.md",
+    "commit_sha": "5c04c3474d4e8987c850321f725abc6f4c3203d6",
+    "pushed": true
   }
 ]
