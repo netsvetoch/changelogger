@@ -5169,5 +5169,32 @@
   "commit_sha": "4e0513eed8366af214255f2af2c0b2014b9c7ba2",
   "pushed": true,
   "completed_at": "2026-08-27T18:34:00Z"
+ },
+ {
+  "api_url": "https://api.github.com/repos/nubjs/nub/releases/378188955",
+  "body_excerpt": "Nub 0.8.0 reworks environment-file configuration, ships a round of package-manager correctness fixes, and adds garbage collection for the package store.\n\n> [!IMPORTANT]\n> Two changes are worth knowing before upgrading:\n> - File paths in `envFile` now go in an array — `\"envFile\": [\".env\"]`. A bare string path is an error that names the fix. ([#735](https://github.com/nubjs/nub/pull/735))\n> - The first install after upgrading relinks each warm tree once, because hidden-hoist link ordering changed. ([#775](https://github.com/nubjs/nub/pull/775))\n\n## Breaking changes\n\n**File paths in `envFile` go in an array.** `\"envFile\": \".env\"` is now an error naming `[\".env\"]`; a string value is reserved for mode names, and `\"varlock\"` is the only one. This makes `envFile` consistent with the other list-valued config fields. ([#735](https://github.com/nubjs/nub/pull/735))\n\n**A declared `envFile` now displaces a `.env.schema` hand-over, at every scope.** A `.env.schema` file decides the environment only when no `envFile` is declared. Previously the two together were a hard error, and `envFile: false` in a schema project loaded the schema anyway. Now declared intent wins: `envFile: false` (or `--no-env-file`) loads nothing, an `envFile` list loads those files, and `envFile: \"varlock\"` keeps the hand-over explicitly. This applies to a global-scope `envFile` too, so a machine-wide `envFile: false` empties a schema project unless the project declares `\"varlock\"`. ([#735](https://github.com/nubjs/nub/pull/735), [#774](https://github.com/nubjs/nub/pull/774))\n\n**An unreadable `tsconfig.json` now refuses the run.** A project tsconfig whose `extends` target is missing previously ran under options its author never wrote — `extends` is where `strict`, `target`, and path aliases usually live. Nub now stops with the read error, as `tsc` does (TS5083). Fix the config, or run with `--node`. A dependency's own unreadable tsconfig is still salvaged rather than fatal. ([#778](https://github.com/nubjs/nub/pull/778), [#768](https://github.com/nubjs/nub/pull/768))\n\n**Another package manager's config no longer directs the `node_modules` layout.** The layout is configured in `nub.jsonc` (`install.linker`, `install.publicHoist`) under every project identity. The last two branded exceptions are gone: pnpm 11's `pnpm-workspace.yaml` layout keys are no longer read, and npm's `install-strategy=nested` no longer aborts the install. ([#698](https://github.com/nubjs/nub/pull/698))\n\n**Version-gated feature flags moved out of `NODE_OPTIONS`.** `NODE_OPTIONS` is inherited by the whole process subtree, and flags matched to the host Node aborted any descendant on an older Node — Electron apps exited at startup. Feature flags now ride argv instead. Cost: a tool that spawns Node by absolute path (bypassing the shim) loses the version-gated features, though it keeps the preload and source-map remapping. ([#777](https://github.com/nubjs/nub/pull/777))\n\n## Package manager\n\n| Area | What changed | PR |\n| --- | --- | --- |\n| Optional dependencies | A build failure in an `optionalDependencies` entry skips the package with a warning instead of failing the install, matching npm and pnpm. | [#737](https://github.com/nubjs/nub/pull/737) |\n| Store maintenance | `nub store prune` now garbage-collects the global virtual store and extracted-tree tiers, not just the content store. Installs register the project with the store; a project whose last install predates 0.8.0 registers on its next install. | [#720](https://github.com/nubjs/nub/pull/720) |\n| `nub outdated` | `minimumReleaseAge` now applies to both reported columns, so the report no longer offers upgrades `nub update` would decline. A held version is marked with the time it becomes installable, and a project whose only pending upgrade is held exits 0. | [#743](https://github.com/nubjs/nub/pull/743) |\n| Release-age policy | A frozen install revalidates the release policy only when the age gate actually moved. | [#710](https://github.com/nu",
+  "changelog_url": null,
+  "created_at": "2026-08-28T00:36:24Z",
+  "existing_post_candidates": [
+   "src/content/posts/eslint-v10-8-0.md"
+  ],
+  "featured": false,
+  "id": "nub__nubjs-nub__v0.8.0",
+  "kind": "minor",
+  "name": "Nub 0.8.0",
+  "package": "nub",
+  "processing_started_at": "2026-08-28T00:45:10Z",
+  "published_at": "2026-08-28T00:07:06Z",
+  "reason": "hourly-new-major-minor",
+  "release_url": "https://github.com/nubjs/nub/releases/tag/v0.8.0",
+  "repo": "nubjs/nub",
+  "source": "github_release",
+  "status": "done",
+  "tag": "v0.8.0",
+  "version": "0.8.0",
+  "completed_at": "2026-08-28T00:47:57Z",
+  "post_path": "src/content/posts/nub-v0-8-0.md",
+  "commit_sha": "e17592e41bc890a46941596a1b4ee269eeabf46a",
+  "pushed": true
  }
 ]
