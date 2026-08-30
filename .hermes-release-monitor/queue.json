@@ -5296,5 +5296,29 @@
     "post_path": "src/content/posts/openai-codex-rust-v0-151-0.md",
     "commit_sha": "232f4b56e95da4409557b532ddb00758b5e2a0ce",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/openchamber/openchamber/releases/379338567",
+    "body_excerpt": "## [1.22.0] - 2026-08-30\n\n- **Linear integration:** connect a workspace in Settings → Integrations, browse and filter issues, and start a session or worktree from an issue. OpenChamber reports session progress back to Linear and can attach an issue to the next chat message (thanks to @AlexKutas).\n- **Voice:** local text-to-speech and macOS say now choose a voice that matches the reply's language. Additional local models download on first use, and the voice picker lists voices from every installed model.\n- **Git:** projects containing several repositories can now switch between them from the Git tab. Diff, pull request, walkthrough, mobile Changes, and work status follow the selected repository (thanks to @jaygupta17).\n- **Chat:** sessions opened from the sidebar stay at the latest message, and switching sessions no longer causes jumps, partial rendering, crossfades, or tab-title shifts.\n- Chat: command, skill, and file autocomplete in projectless chats no longer uses the previously selected project.\n- Chat: reverting to a message, or forking from one, now brings its attached context back to the composer — review comments, chat and file quotes, terminal selections, and browser annotations are no longer lost.\n- Chat: stopped and unanswered turns now explain what happened. The status report includes recent session, send, and managed OpenCode errors, plus log locations.\n- Files: Ctrl/Cmd+F opens search in the Markdown preview even when the preview is not focused.\n- GitHub: account connection has moved to Settings → Integrations. The pull-request panel includes account controls, and its context-rail icon appears only when connected.\n- Git: the commit graph no longer leaves a lane gap when the same branch is merged twice (thanks to @Naputt1).\n- Settings: themes are now remembered per OpenChamber instance, so windows connected to different instances keep their own theme (thanks to @kydorn).\n- Scheduled tasks: Goal, Auto-accept, and other task settings are preserved when older OpenChamber builds share the same project config.\n- Desktop: on Windows and Linux, the close button reaches the top-right corner and follows the theme on hover (thanks to @kydorn).\n",
+    "changelog_url": null,
+    "created_at": "2026-08-30T16:43:26Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "openchamber__openchamber-openchamber__v1.22.0",
+    "kind": "minor",
+    "name": "OpenChamber v1.22.0",
+    "package": "openchamber",
+    "published_at": "2026-08-30T16:38:33Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/openchamber/openchamber/releases/tag/v1.22.0",
+    "repo": "openchamber/openchamber",
+    "source": "github_release",
+    "status": "done",
+    "tag": "v1.22.0",
+    "version": "1.22.0",
+    "completed_at": "2026-08-30T17:02:08.000Z",
+    "post_path": "src/content/posts/openchamber-v1-22-0.md",
+    "commit_sha": "e2e58af",
+    "pushed": true
   }
 ]
