@@ -5348,5 +5348,33 @@
     "post_path": "src/content/posts/servo-0-5-0.md",
     "commit_sha": "b2813f0c9c730f79cad079c516a5860c4eccc2dc",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/getpaseo/paseo/releases/379934565",
+    "body_excerpt": "## 0.7.0 - 2026-08-31\n\n### Changed\n\n- Changed the project license to Apache-2.0 ([#3944](https://github.com/getpaseo/paseo/pull/3944))\n- Changed Cmd/Ctrl+E to toggle Explorer visibility without selecting a view ([#3896](https://github.com/getpaseo/paseo/pull/3896))\n- Changed the default mobile content text size from 15px to 16px ([#4111](https://github.com/getpaseo/paseo/pull/4111))\n\n### Added\n\n- Added plugin installation and updates directly from Git repositories ([#3920](https://github.com/getpaseo/paseo/pull/3920))\n- Added plugin-defined timeline transformations and rendering ([#3940](https://github.com/getpaseo/paseo/pull/3940))\n- Added SSH connections to existing remote daemons from Desktop and CLI ([#3989](https://github.com/getpaseo/paseo/pull/3989) by @reidlevesque)\n- Added workspace management and layout actions to the Command Center ([#3013](https://github.com/getpaseo/paseo/pull/3013) by @cleiter)\n- Added contextual composer-pill contributions for plugins ([#3956](https://github.com/getpaseo/paseo/pull/3956))\n- Added host UI primitives for client plugins ([#3967](https://github.com/getpaseo/paseo/pull/3967))\n- Added readable prompts, details, and results for Paseo tool calls ([#4066](https://github.com/getpaseo/paseo/pull/4066))\n- Added zoom and pan to workspace images and assistant timeline previews ([#4032](https://github.com/getpaseo/paseo/pull/4032), [#4049](https://github.com/getpaseo/paseo/pull/4049), [#4064](https://github.com/getpaseo/paseo/pull/4064))\n- Added opening child folders directly in the preferred desktop editor ([#3615](https://github.com/getpaseo/paseo/pull/3615) by @caikovsky)\n- Added host navigation from plugin surfaces to agents and workspaces ([#3901](https://github.com/getpaseo/paseo/pull/3901) by @omercnet)\n- Added host-rendered icons to plugin client surfaces ([#3903](https://github.com/getpaseo/paseo/pull/3903) by @omercnet)\n- Added semantic surface, border, success, and warning colors to plugin themes ([#3898](https://github.com/getpaseo/paseo/pull/3898) by @omercnet)\n- Added registered project listing to the public plugin SDK ([#3899](https://github.com/getpaseo/paseo/pull/3899) by @omercnet)\n- Added PR and MR number search to the Command Center ([#3008](https://github.com/getpaseo/paseo/pull/3008) by @cleiter)\n- Added session commands to agent SDK handles ([#3719](https://github.com/getpaseo/paseo/pull/3719) by @gpambrozio, @marvin-ambrozio)\n- Added F-Droid release metadata and stable changelog generation ([#2501](https://github.com/getpaseo/paseo/pull/2501) by @antonok-edm)\n- Added Astro syntax highlighting to files, the editor, and diffs ([#3997](https://github.com/getpaseo/paseo/pull/3997))\n\n### Improved\n\n- Streamed assistant text at a steady visual rate instead of in arrival lumps ([#3612](https://github.com/getpaseo/paseo/pull/3612) by @Tommypop2)\n- Painted cached conversations before unrelated cache restoration and network loading ([#3907](https://github.com/getpaseo/paseo/pull/3907))\n- Reused one OpenCode helper across ordinary agent sessions instead of spawning one per agent ([#4009](https://github.com/getpaseo/paseo/pull/4009))\n- Batched GitHub pull request polling within the reserved API budget ([#3825](https://github.com/getpaseo/paseo/pull/3825) by @dezchai)\n- Added manual, action-required, and warning states to GitLab and Gitea checks ([#2337](https://github.com/getpaseo/paseo/pull/2337) by @nllptrx)\n- Kept cold-start pull request status checks on the shared GitHub batch path ([#4025](https://github.com/getpaseo/paseo/pull/4025))\n\n### Fixed\n\n- Fixed the daemon crashing when a Claude or OMP JSONL process closes during a write ([#4048](https://github.com/getpaseo/paseo/pull/4048))\n- Fixed Android first-message submissions crashing when the keyboard restarted during composer teardown ([#4044](https://github.com/getpaseo/paseo/pull/4044))\n- Fixed long mobile drafts hiding composer controls behind the keyboard ([#4051](https://github.com/getpaseo/paseo/pull/4051))\n- Fixed Andro",
+    "changelog_url": null,
+    "created_at": "2026-08-31T17:32:50Z",
+    "existing_post_candidates": [
+      "src/content/posts/eslint-v10-7-0.md",
+      "src/content/posts/nub-v0-7-0.md"
+    ],
+    "featured": false,
+    "id": "paseo__getpaseo-paseo__v0.7.0",
+    "kind": "minor",
+    "name": "Paseo v0.7.0",
+    "package": "paseo",
+    "processing_started_at": "2026-08-31T17:40:32Z",
+    "published_at": "2026-08-31T17:29:06Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/getpaseo/paseo/releases/tag/v0.7.0",
+    "repo": "getpaseo/paseo",
+    "source": "github_release",
+    "status": "done",
+    "tag": "v0.7.0",
+    "version": "0.7.0",
+    "completed_at": "2026-08-31T17:48:56Z",
+    "post_path": "src/content/posts/paseo-v0-7-0.md",
+    "commit_sha": "d2b720d4b07350b8bfc1e5899f9255a24a1b2dad",
+    "pushed": true
   }
 ]
