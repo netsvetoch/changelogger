@@ -5403,5 +5403,29 @@
     "post_path": "src/content/posts/hermes-agent-v2026-8-31.md",
     "commit_sha": "3fbab539edfb2b06678729b792b6a012ceb0ddad",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/webpro-nl/knip/releases/380094090",
+    "body_excerpt": "* fix: report types used only in private parameters (resolve #1950) (3c785f55ce608d7921e37e41dd5fc61b623e5da2)\n* 💡 Add support for `node:fs/promises` `glob` (#1977) (44faf08e7f56ce695d1541a6c337b76bea0328d1) - thanks @DreamLongYT!\n* Respect JSDoc tags on URL dependencies (resolve #1943) (f93ad0997e1b8fc644f6487df52803cba6f7a9ad)\n* Make prop access consistent while at it (1c90b49b1b196795df6dcf9d7e85bc1b1399667a)\n* Set an explicit Bun test timeout (964085dfab0165db2658e51cb787e2301886f9ce)\n* Add note re. one scoped PRs (8f9490a581874e0fd7246e60223b20938bf4ebb1)\n* fix(cli): validate numeric options instead of passing NaN through (#1975) (ab90e2428a16ff50fe5323ce73172f6f1efb9730) - thanks @devYRPauli!\n* fix: compile files with workspace-scoped compilers (#1997) (462ae45df33a5ee2e2185f3b2db756b13dfbadd3) - thanks @gioboa!\n* Resolve Nuxt `#shared` imports from the shared directory (#1991) (cc470611042b01761491c21f6987549db4c11df8) - thanks @DreamLongYT!\n* Update dependencies (c4e0f082fbd7fb508a411c7dd0a782ea4556527c)\n* Declare webpack directly instead of through `@types/webpack` (96ff2df58dd1d229d077212e1cd80f10889650ca)\n* Assert counters in targeted regression tests (f0cf11dfcfbdeac053bba0dd12212356a67f6464)",
+    "changelog_url": null,
+    "created_at": "2026-08-31T22:41:52Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "knip__webpro-nl-knip__knip@6.34.0",
+    "kind": "minor",
+    "name": "Release 6.34.0",
+    "package": "knip",
+    "published_at": "2026-08-31T22:35:47Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/webpro-nl/knip/releases/tag/knip%406.34.0",
+    "repo": "webpro-nl/knip",
+    "source": "github_release",
+    "status": "done",
+    "tag": "knip@6.34.0",
+    "version": "6.34.0",
+    "completed_at": "2026-08-31T22:59:51.000Z",
+    "post_path": "src/content/posts/knip-6-34-0.md",
+    "commit_sha": "94da441d9e9a2c62739d895f5d920eee91dfca1d",
+    "pushed": true
   }
 ]
