@@ -5376,5 +5376,32 @@
     "post_path": "src/content/posts/paseo-v0-7-0.md",
     "commit_sha": "d2b720d4b07350b8bfc1e5899f9255a24a1b2dad",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/NousResearch/hermes-agent/releases/379999964",
+    "body_excerpt": "# Hermes Agent v0.21.0 (v2026.8.31)\n\n**Release Date:** August 31, 2026\n**Since v0.20.0:** ~5,800 commits · ~2,475 merged PRs · ~5,680 files changed · ~869,000 insertions · ~135,000 deletions · **~2,100 issues closed** · 760+ contributors\n\n> **The Pantheon Release.** v0.20.0 made Hermes the herald — he spoke, and he carried word to other agents. In v0.21.0 the gods assemble. Bot Mode ships built into the desktop app: a society of named agents with their own faces and group chats, where your bots talk to each other — and to you — like a team, not a toolbox. Around that spine: cron jobs gained memory and continuity so scheduled agents actually learn between runs, subagents can be steered live mid-flight, the MCP surface became a real command center, and the agent can now drive the desktop's own browser. This release rolls up everything from the v0.20.1–v0.20.6 infrastructure patch tags — those windows are fully documented here.\n\n---\n\n## ✨ Highlights\n\n- **Bot Mode — your agents become a society, built in** — Bot Mode is now a bundled, default-on part of the desktop app: every agent profile gets a name, a deterministic avatar face (with randomize/lock controls), and a place in a shared roster. Create Discord-style group chats where multiple bots and you talk in one room, @-mention any bot from the composer, and give rooms names and pictures. Before, \"multi-agent\" meant plumbing; now it looks like a chat app full of coworkers. ([#87886](https://github.com/NousResearch/hermes-agent/pull/87886), [#88243](https://github.com/NousResearch/hermes-agent/pull/88243), [#89386](https://github.com/NousResearch/hermes-agent/pull/89386), [#96726](https://github.com/NousResearch/hermes-agent/pull/96726) — @teknium1, @OutThisLife, @dokterdok)\n\n- **`hermes peer` — bot-to-bot DMs between your agents** — Any Hermes agent can now message any other by handle, across profiles and gateways, from the CLI or from inside a conversation. Ask your research bot to hand findings to your coding bot and get the reply back where you can read it. Replies land in each agent's canonical Bot Chat, so conversations between agents are durable and inspectable, not fire-and-forget. ([#88725](https://github.com/NousResearch/hermes-agent/pull/88725), [#88178](https://github.com/NousResearch/hermes-agent/pull/88178), [#91487](https://github.com/NousResearch/hermes-agent/pull/91487) — @teknium1)\n\n- **Cron jobs that remember** — Scheduled jobs stopped being goldfish. Cron agents now load and update persistent memory like every other agent, `continuity=true` carries each run's output into the next (so a monitor can dedupe against what it already reported), every job gets a durable notepad scratchpad, monitor-mode jobs skip the LLM entirely when nothing changed, and cron output can land in a bot's canonical Bot Chat — where the bot actually responds. Your 9am briefing job now knows what it told you yesterday. ([#91447](https://github.com/NousResearch/hermes-agent/pull/91447), [#80774](https://github.com/NousResearch/hermes-agent/pull/80774), [#81139](https://github.com/NousResearch/hermes-agent/pull/81139), [#81138](https://github.com/NousResearch/hermes-agent/pull/81138), [#91487](https://github.com/NousResearch/hermes-agent/pull/91487) — @teknium1, @smwbev)\n\n- **Steer your subagents while they run** — `delegate_task` gained live orchestration: list running children, steer one mid-flight with a course correction, or stop it early and keep the partial result. Add optional JSON-schema validation on child outputs, per-delegation cost surfaced in results, and raised defaults (250 iterations, 10 concurrent children) — delegation went from fire-and-pray to actually managed parallel work. ([#85232](https://github.com/NousResearch/hermes-agent/pull/85232), [#81144](https://github.com/NousResearch/hermes-agent/pull/81144), [#81142](https://github.com/NousResearch/hermes-agent/pull/81142), [#86506](https://github.com/NousResearch/hermes-agent/pull/86506), [#86745](https://github.com/Nous",
+    "changelog_url": null,
+    "created_at": "2026-08-31T19:36:33Z",
+    "existing_post_candidates": [
+      "src/content/posts/qwen-code-v0-21-0.md"
+    ],
+    "featured": false,
+    "id": "hermes-agent__NousResearch-hermes-agent__v2026.8.31",
+    "kind": "minor",
+    "name": "Hermes Agent v0.21.0 (v2026.8.31)",
+    "package": "hermes-agent",
+    "processing_started_at": "2026-08-31T19:40:35Z",
+    "published_at": "2026-08-31T19:29:49Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/NousResearch/hermes-agent/releases/tag/v2026.8.31",
+    "repo": "NousResearch/hermes-agent",
+    "source": "github_release",
+    "status": "done",
+    "tag": "v2026.8.31",
+    "version": "0.21.0",
+    "completed_at": "2026-08-31T19:41:38Z",
+    "post_path": "src/content/posts/hermes-agent-v2026-8-31.md",
+    "commit_sha": "3fbab539edfb2b06678729b792b6a012ceb0ddad",
+    "pushed": true
   }
 ]
