@@ -5320,5 +5320,33 @@
     "post_path": "src/content/posts/openchamber-v1-22-0.md",
     "commit_sha": "e2e58af",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/servo/servo/releases/369688005",
+    "body_excerpt": "See our [July blog post](https://servo.org/blog/2026/08/31/july-in-servo/) for a curated overview of the changes in this release.\r\n\r\n## Trying out the Servo Tech Demo\r\n\r\n[troubleshooting guide]: https://servo.org/download/#troubleshooting\r\n\r\n### Linux\r\n\r\nIf you see an error `loading shared libraries` when starting servo on Linux, please refer to the [troubleshooting guide].\r\n\r\n### HarmonyOS\r\n\r\nPlease note that the `servo-aarch64-linux-ohos.hap` attached here is signed for OpenHarmony, not HarmonyOS.\r\nFor HarmonyOS self-signing is currently required - You can download the `servo-aarch64-linux-ohos.so` shared library and use DevEco Studio to follow the instructions in the ArkTS [Servo Demo repository](https://github.com/jschwe/ServoDemo)\r\n\r\n## What's Changed\r\n\r\nPlease check out our [July blog post](https://servo.org/blog/2026/08/31/july-in-servo/) to get a curated overview over the recent changes.\r\n\r\n<details>\r\n  <summary>Generated Release notes</summary>\r\n\r\n## What's Changed\r\n* android: Convert refresh button on large screen to Compose UI by @veyndan in https://github.com/servo/servo/pull/46085\r\n* script: Implement importKey and exportKey operation of Ed448 by @kkoyung in https://github.com/servo/servo/pull/46141\r\n* net: Avoid creating empty cookie map entries on cookie deletion by @arayaryoma in https://github.com/servo/servo/pull/46124\r\n* script: Store unminified data: URL scripts under a generated file name by @officialasishkumar in https://github.com/servo/servo/pull/45119\r\n* android: Set AR and RANLIB by @jschwe in https://github.com/servo/servo/pull/46128\r\n* android: Determine default config dir and lower minSdk by @jschwe in https://github.com/servo/servo/pull/46142\r\n* script: Define scoped document set for CustomElementRegistry by @shubhamg13 in https://github.com/servo/servo/pull/46073\r\n* script: Switch reporting_observer_list to store Dom instead of DomRoot by @cychronex-labs in https://github.com/servo/servo/pull/46139\r\n* script: Remove `GlobalScope::get_cx()` by @TimvdLippe in https://github.com/servo/servo/pull/46147\r\n* script: Use range boundary point position algorithm by @SimonSapin in https://github.com/servo/servo/pull/46126\r\n* script: Remove `ScriptThread::get_cx()` by @TimvdLippe in https://github.com/servo/servo/pull/46150\r\n* script: Remove SafeJSContext by @TimvdLippe in https://github.com/servo/servo/pull/46151\r\n* Upgrade to Stylo with touch action property by @nicoburns in https://github.com/servo/servo/pull/46159\r\n* script: Pass &mut JSContext to get_in_memory_bytes by @kunalmohan in https://github.com/servo/servo/pull/46166\r\n* script: Migrate `dom/media` to `&mut JSContext` by @lumiscosity in https://github.com/servo/servo/pull/46156\r\n* layout: Refactor accessibility tree child node update logic by @alice in https://github.com/servo/servo/pull/45971\r\n* dependabot: Group wgpu and only allow patch updates by @sagudev in https://github.com/servo/servo/pull/46177\r\n* deny: Allow some `quick-xml` advistories by @mrobinson in https://github.com/servo/servo/pull/46192\r\n* android: Set explicit panic hook by @jschwe in https://github.com/servo/servo/pull/46157\r\n* net: Catch panics in `resvg::render` with `catch_unwind`. by @mukilan in https://github.com/servo/servo/pull/46185\r\n* script/net: Drop `ModuleFetchClient` in favour of `RequestClient` by @Gae24 in https://github.com/servo/servo/pull/46163\r\n* devtools: keep object actor identity stable across grips by @atbrakhi in https://github.com/servo/servo/pull/46201\r\n* script: Make `IframeCollection::set_viewport_details` resilient to missing `<iframe>`s by @mrobinson in https://github.com/servo/servo/pull/46194\r\n* script: Implement sign, verify and generateKey operations of Ed448 by @kkoyung in https://github.com/servo/servo/pull/46180\r\n* script: Remove `FromJSValConvertible::from_jsval` by @Gae24 in https://github.com/servo/servo/pull/46191\r\n* mach: Use git diff-tree to extract WPT changes in the export script by @jschwe in https://github.com/servo/servo/pull/462",
+    "changelog_url": null,
+    "created_at": "2026-08-31T11:19:40Z",
+    "existing_post_candidates": [
+      "src/content/posts/nub-v0-5-0.md",
+      "src/content/posts/paseo-v0-5-0.md"
+    ],
+    "featured": false,
+    "id": "servo__servo-servo__v0.5.0",
+    "kind": "minor",
+    "name": "v0.5.0",
+    "package": "servo",
+    "processing_started_at": "2026-08-31T11:25:10Z",
+    "published_at": "2026-08-31T10:20:07Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/servo/servo/releases/tag/v0.5.0",
+    "repo": "servo/servo",
+    "source": "github_release",
+    "status": "done",
+    "tag": "v0.5.0",
+    "version": "0.5.0",
+    "completed_at": "2026-08-31T11:29:00Z",
+    "post_path": "src/content/posts/servo-0-5-0.md",
+    "commit_sha": "b2813f0c9c730f79cad079c516a5860c4eccc2dc",
+    "pushed": true
   }
 ]
