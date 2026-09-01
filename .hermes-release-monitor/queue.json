@@ -5427,5 +5427,31 @@
     "post_path": "src/content/posts/knip-6-34-0.md",
     "commit_sha": "94da441d9e9a2c62739d895f5d920eee91dfca1d",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/openai/codex/releases/380164108",
+    "body_excerpt": "## New Features\n\n- Vim mode supports `/` and `?` searches within drafts, highlighted matches, and repeat navigation with `n` and `N`. (#41586)\n- Rate-limit banners offer actions for checking usage, managing credits, resetting limits, and managing plans. (#41742)\n- The terminal UI and `codex exec` show credential-refresh progress, including Amazon Bedrock reauthentication. (#41239)\n- MCP server names can contain `:`, `@`, `/`, and `.`, supporting package-style names throughout CLI commands and authentication. (#41700)\n- Individual MCP tools support an `output_token_limit` setting, with consistent truncation across session resumes. (#41421)\n- App-server clients can configure `thread/shellCommand` timeouts, including deadlines longer than one hour. (#41384)\n\n## Bug Fixes\n\n- Vim-enabled composers now start fresh drafts in Insert mode, including after submitting messages or dispatching slash commands. (#41921)\n- Automatic approval reviews can retain longer messages and a larger conversation transcript. (#41931)\n\n- Automatic approval reviews preserve user instructions, answers, and valid authorizations across history compaction. (#41660, #41846, #41852)\n- Resumed threads restore their saved working directory when none is supplied, and client metadata updates preserve filesystem permissions. (#41567, #41464)\n- MCP tools remain available through cache refreshes and remote plugin changes; authentication retries use refreshed helper-provided headers. (#41336, #41344, #41396, #41400)\n- Opening the model picker refreshes available models without losing the highlighted choice. (#41467)\n- Fixed Windows sandbox execution with Microsoft Store PowerShell, subprocess hangs on terminal queries, and cursor-related display corruption in older JediTerm terminals. (#41227, #41436, #41673)\n- Cloud task requests reject untrusted backend URLs and disable redirects to protect saved credentials. (#41403)\n\n## Chores\n\n- The planning tool is disabled by default; enable it with `tools.update_plan.enabled = true`. (#41744)\n- Plugin recommendations begin loading during startup, reducing delays before the first turn. (#41375)\n\n## Changelog\n\nFull Changelog: https://github.com/openai/codex/compare/rust-v0.151.0...rust-v0.152.0\n\n- #41210 Enable clock tools from model metadata @copyberry\n- #41215 Roll over Guardian context before follow-up reviews @copyberry\n- #41218 Share linked tool mention parsing in the TUI @copyberry\n- #41219 Retry confirmed remote registration conflicts @copyberry\n- #41221 Honor turn token budgets in Guardian review rollover @copyberry\n- #41223 Add recency sorting to `project/list` @copyberry\n- #41226 Move Guardian review session tests to a separate file @copyberry\n- #41227 Use compatible PowerShell for elevated Windows sandbox commands @copyberry\n- #41230 Apply app routing policy to unauthenticated plugin reads @copyberry\n- #41231 Instrument the loaded plugin cache @copyberry\n- #41232 Expose the PowerShell version in environment context @copyberry\n- #41235 Sanitize history notes backend errors @copyberry\n- #41239 Surface model provider authentication recovery progress @copyberry\n- #41243 Add configurable gating for the sleep tool @copyberry\n- #41250 Include thread source in realtime connection metadata @copyberry\n- #41260 Let the history backend enforce tool output budgets @copyberry\n- #41285 Drive keymap conflict checks from the action registry @copyberry\n- #41292 Forward history note images to the model @copyberry\n- #41308 Make subagents follow the root service tier @copyberry\n- #41309 Honor required reviews when reusing Guardian scores @copyberry\n- #41313 Decouple HTTP retry backoff from overload integration testing @copyberry\n- #41322 Isolate required-model Guardian approval coverage @copyberry\n- #41328 Review terminal input against retained permissions @copyberry\n- #41331 Classify clock tools as built-in control tools @copyberry\n- #41336 Preserve cached MCP tools during binding capture @copyberry\n- #41344 Use refreshed MCP tool caches d",
+    "changelog_url": null,
+    "created_at": "2026-09-01T02:50:36Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "codex__openai-codex__rust-v0.152.0",
+    "kind": "minor",
+    "name": "0.152.0",
+    "package": "codex",
+    "processing_started_at": "2026-09-01T02:56:44Z",
+    "published_at": "2026-09-01T01:58:32Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/openai/codex/releases/tag/rust-v0.152.0",
+    "repo": "openai/codex",
+    "source": "github_release",
+    "status": "done",
+    "tag": "rust-v0.152.0",
+    "version": "0.152.0",
+    "completed_at": "2026-09-01T03:00:10Z",
+    "post_path": "src/content/posts/openai-codex-rust-v0-152-0.md",
+    "commit_sha": "abd907361f38d6ba0be9a2764118353ef89f7570",
+    "pushed": true,
+    "error": null
   }
 ]
