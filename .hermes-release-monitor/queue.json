@@ -5453,5 +5453,32 @@
     "commit_sha": "abd907361f38d6ba0be9a2764118353ef89f7570",
     "pushed": true,
     "error": null
+  },
+  {
+    "api_url": "https://api.github.com/repos/can1357/oh-my-pi/releases/380550725",
+    "body_excerpt": "## @oh-my-pi/pi-ai\n\n### Added\n\n- Added an optional `completeSimple` callback that observes every result, including results from internal thinking-loop retries.\n- Added compatibility options for Anthropic-compatible proxies that reject `context_management` and OpenAI Responses proxies that provide incomplete reasoning-summary streams.\n- Added ClinePass API-key authentication via the official `CLINE_API_KEY` environment variable, with account validation, actionable subscription and quota errors, support for eligible ClinePass model rosters, and rolling quota-window reporting in `omp usage`.\n- Added Devin router-model support, including assignment of the concrete model before each request, routed-model metadata, credit usage reporting, and plan, quota-window, and account details through `omp usage`.\n\n### Changed\n\n- Provider behavior is now driven by each model's resolved compatibility, identity, thinking, and behavior policies rather than model-name matching, improving support for model-specific request formatting, vision, reasoning, routing, pricing, and quota handling.\n- Devin integrations now use the current released CLI identity and support parallel tool calls when the model declares that capability.\n\n### Fixed\n\n- Fixed OpenAI remote-compaction replay for persisted sessions, allowing sessions with previously stored compaction items to resume successfully.\n- Fixed Cursor Fable requests failing when advertised tools used JSON Schema composition keywords.\n- Fixed Z.AI (GLM Coding Plan) browser sign-in by using the registered CLI callback address.\n- Fixed OpenAI Codex/Responses tool results being lost when composite call identifiers could not be paired with the corresponding assistant call.\n- Fixed native OpenAI Responses history replay becoming stuck on malformed or truncated function-call arguments; invalid history items are now discarded so the session can recover.\n\n## @oh-my-pi/pi-catalog\n\n### Added\n\n- Added GitLab Duo model support.\n- Added provider support for Llama.cpp, LM Studio, and Minimax.\n- Added catalog entries for Qwen 3.8 27B, Granite 4.2 8B, Abliterated variants, GLM 5.3, and Qwen 3.8 Flash Next.\n- Added compatibility metadata for context management and reasoning summaries on supported provider-compatible model endpoints.\n- Added the native ClinePass provider with live model discovery, subscription and free-tier model listings, current limits and pricing, model modalities, and per-model reasoning controls. Subscription models display API-equivalent pricing while free-tier models display as free.\n- Added native Devin provider discovery with current Cascade model capabilities, pricing, limits, reasoning controls, selector aliases, and model descriptions and recommendation/beta metadata. Added static SWE-1.6 defaults so the provider can resolve a default model before account-scoped discovery completes.\n- Added per-tier model pricing and long-context pricing support, along with expanded catalog metadata for model limits, API routes, input modalities, and provider-specific model aliases.\n\n### Changed\n\n- Updated pricing data across the catalog to reflect current provider rates.\n- Standardized model display names for greater consistency.\n- Improved model compatibility classification and variant selection using structured model identities, providing more reliable detection of model families, revisions, reasoning variants, and provider-specific capabilities.\n\n### Fixed\n\n- Fixed compatibility detection for vendor-prefixed GLM models on Mistral and Cerebras, restoring the appropriate tokenizer and reasoning-history behavior.\n- Removed an obsolete OpenCode provider entry that exposed unavailable Zen models in the model picker.\n- Fixed model revision detection for parameterized model IDs, including correct classification of Qwen, Fireworks Kimi, and Cursor-wrapped Grok models.\n- Fixed Kimi K3 reasoning-effort handling on OpenAI-compatible hosts such as LiteLLM and vLLM.\n- Fixed pricing for Codex Daybreak aliases, including wor",
+    "changelog_url": null,
+    "created_at": "2026-09-01T14:13:02Z",
+    "existing_post_candidates": [
+      "src/content/posts/react-konva-v18-1-0.md"
+    ],
+    "featured": false,
+    "id": "oh-my-pi__can1357-oh-my-pi__v18.1.0",
+    "kind": "minor",
+    "name": "v18.1.0",
+    "package": "oh-my-pi",
+    "processing_started_at": "2026-09-01T14:27:01Z",
+    "published_at": "2026-09-01T14:00:00Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/can1357/oh-my-pi/releases/tag/v18.1.0",
+    "repo": "can1357/oh-my-pi",
+    "source": "github_release",
+    "status": "done",
+    "tag": "v18.1.0",
+    "version": "18.1.0",
+    "completed_at": "2026-09-01T14:30:13Z",
+    "post_path": "src/content/posts/oh-my-pi-v18-1-0.md",
+    "commit_sha": "87e8ea8494e375bfe3d6b314db8ffb36aecff86c",
+    "pushed": true
   }
 ]
