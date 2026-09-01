@@ -5480,5 +5480,30 @@
     "post_path": "src/content/posts/oh-my-pi-v18-1-0.md",
     "commit_sha": "87e8ea8494e375bfe3d6b314db8ffb36aecff86c",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/gravity-ui/charts/releases/380644502",
+    "body_excerpt": "## [1.59.0](https://github.com/gravity-ui/charts/compare/v1.58.0...v1.59.0) (2026-09-01)\n\n\n### Features\n\n* auto placement of dataLabels for line series ([#660](https://github.com/gravity-ui/charts/issues/660)) ([b049b88](https://github.com/gravity-ui/charts/commit/b049b88332065e6b477e462807c4a328689b9f9b))\n\n\n### Bug Fixes\n\n* keep data labels of the top series in a percent stack ([#682](https://github.com/gravity-ui/charts/issues/682)) ([93ef435](https://github.com/gravity-ui/charts/commit/93ef435f4759c09559848ea2da45e72df9720c63))",
+    "changelog_url": null,
+    "created_at": "2026-09-01T16:16:49Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "@gravity-ui-charts__gravity-ui-charts__v1.59.0",
+    "kind": "minor",
+    "name": "v1.59.0",
+    "package": "@gravity-ui/charts",
+    "processing_started_at": "2026-09-01T16:27:15Z",
+    "published_at": "2026-09-01T16:01:24Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/gravity-ui/charts/releases/tag/v1.59.0",
+    "repo": "gravity-ui/charts",
+    "source": "github_release",
+    "status": "done",
+    "tag": "v1.59.0",
+    "version": "1.59.0",
+    "completed_at": "2026-09-01T16:28:30Z",
+    "post_path": "src/content/posts/gravity-ui-charts-v1-59-0.md",
+    "commit_sha": "4c1b85e556a57cf19fd8d41b56a8f776d7af99fc",
+    "pushed": true
   }
 ]
