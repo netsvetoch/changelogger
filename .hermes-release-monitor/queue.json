@@ -5555,5 +5555,30 @@
     "post_path": "src/content/posts/kimi-cli-1-50-0.md",
     "commit_sha": "b53fc53b6eff32b1cf31e17bd6f48cdb48bb3ccf",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/razzant/ouroboros/releases/380828825",
+    "body_excerpt": "# Ouroboros v6.114.0\n\n## Download\n\nChoose your platform below. You do not need to clone the repository or install Python or uv.\n\n- **macOS 12+ on Apple silicon (.dmg):** [Ouroboros-6.114.0.dmg](https://github.com/razzant/ouroboros/releases/download/v6.114.0/Ouroboros-6.114.0.dmg)\n- **Windows x64 (.zip):** [Ouroboros-6.114.0-windows-x64.zip](https://github.com/razzant/ouroboros/releases/download/v6.114.0/Ouroboros-6.114.0-windows-x64.zip)\n- **Debian, Ubuntu, or Astra Linux x86_64 (.deb):** [ouroboros_6.114.0_amd64.deb](https://github.com/razzant/ouroboros/releases/download/v6.114.0/ouroboros_6.114.0_amd64.deb)\n- **Fedora or RHEL x86_64 (.rpm):** [ouroboros-6.114.0-1.x86_64.rpm](https://github.com/razzant/ouroboros/releases/download/v6.114.0/ouroboros-6.114.0-1.x86_64.rpm)\n- **RED OS 8 x86_64 (.rpm):** [ouroboros-6.114.0-1.red80.x86_64.rpm](https://github.com/razzant/ouroboros/releases/download/v6.114.0/ouroboros-6.114.0-1.red80.x86_64.rpm)\n- **Other Linux x86_64 (AppImage):** [Ouroboros-6.114.0-linux-x86_64.AppImage](https://github.com/razzant/ouroboros/releases/download/v6.114.0/Ouroboros-6.114.0-linux-x86_64.AppImage)\n- **Linux x86_64 archive (.tar.gz):** [Ouroboros-6.114.0-linux-x86_64.tar.gz](https://github.com/razzant/ouroboros/releases/download/v6.114.0/Ouroboros-6.114.0-linux-x86_64.tar.gz)\n\nFiles named `SHA256SUMS`, `release-evidence.json`, `release-smoke-*.json`, and `sbom-*.cdx.json` are verification evidence, not additional installers.\n\n## What's new\n\nfeat: capability preservation as a first-class invariant, shape-first OpenRouter failover, and a green 3-OS matrix. Capability preservation joins the immune system as a first-class invariant (#447, stages 1-3: golden capability suite, seam pins that actually differentiate, executable item-21 triggers, binaries judged by magic bytes). Same-model OpenRouter provider failover is now derived from the shape of the replayed reasoning artifact instead of a hard-coded model-family roster (#468): readable text/summary artifacts stay failover-eligible for every family, a bare `response_id` no longer pins, sealed artifacts (encrypted/signed/redacted, not vouched by the anthropic/gemini roster — `openai/` excluded on 2026-07 field evidence) keep the continuity pin on both the dispatch and reroute paths, and the pin reason plus the refusing upstream provider reach durable telemetry. Delegation and chat truth converge: delegated-run questions ride the escalation hierarchy (#204), the routing picker dispatches real routes (#198), typed owner quiz cards and the escalation channel (Q-2a/Q-2b), live-first owner deliveries, honest chat-activity conclusions with budget-pause resume, review findings in the task-card Reviews checkpoint, persistent stable-target registrations, a hold on the live delegated leaf when a nanny round dies unknown, and healed cross-generation custody disclosures. Rich chat stack (markdown, media, galleries, links — Andrei Kaznacheev), Chat viewport stability, Dashboard/Updates one-verdict action surface, Settings effect honesty, skill Repair affordance after preflight failure, node/npm launches through an execution-probed runtime ladder, the `ultra` reasoning-effort tier (@ndrew1337), and an O(delta) in-lock ledger read with a guarded torn-tail append boundary (@deebosh). Claudexor runtime pinned to 3.9.5 with delayed-startup reconciliation, a foreground quota-refresh bridge, and preserved delegated text fragments; Updates restart state survives same-SHA reconnects. CI: the serial service-log suites no longer race the child, web source pins are CRLF-safe on Windows, and the size-ratchet manifest is exact. This tag also carries the untagged 6.113.5 (generation-safe browser cleanup after timed-out tools, #440 audit fix-forward).\n\n## Release proof\n\nThis release was built from [`b9bcc2da71e0`](https://github.com/razzant/ouroboros/commit/b9bcc2da71e0bd51b6f5f906890b3b80265defed).\nThe release workflow passed the full test matrix, UI and Docker smoke tests, skill smoke te",
+    "changelog_url": null,
+    "created_at": "2026-09-01T21:27:23Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "ouroboros__razzant-ouroboros__v6.114.0",
+    "kind": "minor",
+    "name": "v6.114.0",
+    "package": "ouroboros",
+    "processing_started_at": "2026-09-01T21:28:23Z",
+    "published_at": "2026-09-01T21:19:13Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/razzant/ouroboros/releases/tag/v6.114.0",
+    "repo": "razzant/ouroboros",
+    "source": "github_release",
+    "status": "done",
+    "tag": "v6.114.0",
+    "version": "6.114.0",
+    "completed_at": "2026-09-01T21:32:16Z",
+    "post_path": "src/content/posts/ouroboros-v6-114-0.md",
+    "commit_sha": "6e819d558c4ad8813edbee9baa9b7923d376faeb",
+    "pushed": true
   }
 ]
