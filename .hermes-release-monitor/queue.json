@@ -5530,5 +5530,30 @@
     "commit_sha": "6d36aa061adab99e8e7ef843cdf64e41323bbed1",
     "pushed": true,
     "completed_at": "2026-09-01T16:46:00.000Z"
+  },
+  {
+    "api_url": "https://api.github.com/repos/MoonshotAI/kimi-cli/releases/380676092",
+    "body_excerpt": "## What's Changed\n* fix(kosong): omit empty anthropic-beta header when no beta features declared by @7Sageer in https://github.com/MoonshotAI/kimi-cli/pull/2580\n* chore(release): bump kosong to 0.56.0 by @jackfish212 in https://github.com/MoonshotAI/kimi-cli/pull/2581\n* feat(shell): deprecation-aware update flow with one-key migration to Kimi Code by @jackfish212 in https://github.com/MoonshotAI/kimi-cli/pull/2630\n* chore(release): bump kimi-cli to 1.50.0 by @sailist in https://github.com/MoonshotAI/kimi-cli/pull/2632\n\n\n**Full Changelog**: https://github.com/MoonshotAI/kimi-cli/compare/1.49.0...1.50.0",
+    "changelog_url": null,
+    "created_at": "2026-09-01T17:19:24Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "kimi-cli__MoonshotAI-kimi-cli__1.50.0",
+    "kind": "minor",
+    "name": "1.50.0",
+    "package": "kimi-cli",
+    "processing_started_at": "2026-09-01T17:27:17Z",
+    "published_at": "2026-09-01T16:53:20Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/MoonshotAI/kimi-cli/releases/tag/1.50.0",
+    "repo": "MoonshotAI/kimi-cli",
+    "source": "github_release",
+    "status": "done",
+    "tag": "1.50.0",
+    "version": "1.50.0",
+    "completed_at": "2026-09-01T17:28:00.000Z",
+    "post_path": "src/content/posts/kimi-cli-1-50-0.md",
+    "commit_sha": "b53fc53b6eff32b1cf31e17bd6f48cdb48bb3ccf",
+    "pushed": true
   }
 ]
