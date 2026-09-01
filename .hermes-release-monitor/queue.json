@@ -5505,5 +5505,30 @@
     "post_path": "src/content/posts/gravity-ui-charts-v1-59-0.md",
     "commit_sha": "4c1b85e556a57cf19fd8d41b56a8f776d7af99fc",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/oxc-project/oxc/releases/380614927",
+    "body_excerpt": "## Table of Contents\n\n- [Oxlint v1.81.0](#oxlint-v1.81.0)\n- [Oxfmt v0.66.0](#oxfmt-v0.66.0)\n\n## Oxlint v1.81.0\n### 🚀 Features\n\n- 60b945d linter/nextjs/no-typos: Implement suggestion (#26091) (Mikhail Baev)\n\n### 🐛 Bug Fixes\n\n- 33ac4b0 linter/lsp: Prevent tsgolint from holding onto processes (#25570) (Adrian Schaedle)\n- baf4b1e linter/import/no-empty-named-blocks: Make empty value import removal a suggestion (#26155) (camc314)\n- 77cfaec linter/eslint/object-shorthand: Preserve `__proto__` semantics (#26154) (camc314)\n- fa3c082 linter/unicorn/prefer-set-size: Ignore shadowed `Set` constructors (#26153) (camc314)\n- e412cf2 linter: Clamp invalid JS plugin locations (#26144) (camc314)\n- d86c113 linter: Normalize reversed JS plugin locations (#26138) (camc314)\n- 73c09b2 linter/eslint/no-use-before-define: Run on JS, JSX files (#26114) (camc314)\n- 03ef0f2 linter/unicorn/no-useless-spread: Treat typed arrays as a distinct value hint (#26067) (Aadharsh  Pannirselvam)\n- bd15905 linter/react/no-unstable-nested-components: Check nested component object property names (#26101) (camc314)\n- 3910e2b linter/eslint/no-unassigned-vars: Skip Svelte and Vue files (#26042) (Hamody We)\n- 047f7ca linter/plugins: Fix interaction between JS plugins and Vue rules (#26080) (overlookmotel)\n- 8531b9b linter/plugins: Alter method for obtaining mutable `Program` when sending AST to JS plugins (#26077) (overlookmotel)\n- dc464ff linter/unicorn/prefer-math-min-max: Avoid unsafe autofix (#26060) (camc314)\n\n### 📚 Documentation\n\n- 464ddd1 linter: Support a shared short description for jest/vitest rules (#26186) (connorshea)\n- 9db5ad3 linter: Add short description to `vue/no-dupe-keys` (#26183) (connorshea)\n- db66f58 linter: Correct export/import mismatch in bar and foo example (#25927) (billychannnnnn)\n- d5be037 linter/typescript/switch-exhaustiveness-check: Clarify default case comment pattern (#26100) (camc314)\n\n## Oxfmt v0.66.0\n### 🚀 Features\n\n- 1fb37b6 formatter/css: Format declaration-shaped raw-prelude rules (postcss nested config blocks) (#26194) (leaysgur)\n\n### 🐛 Bug Fixes\n\n- 9f81002 formatter: Re-add suppressed statement terminators per options.semi (#26220) (leaysgur)\n- 769ffd5 formatter: Print suppressed typecast parens (#26218) (leaysgur)\n- 5ff57f8 formatter/sort-imports: Handle custom side effect groups (#26217) (leaysgur)\n- 2f4d759 formatter: Do not skip cast comment lookup (#26216) (leaysgur)\n- 1213e12 formatter: Preserve comment for statement terminators and binary casts (#26213) (leaysgur)\n- 57e8e22 formatter_css: Space a folded sign after a call in Less operations (#26134) (leaysgur)\n- e4298fb formatter/jsdoc: Follow CommonMark for interrupting lists and guard wrapping from creating them (#26098) (leaysgur)\n- a1e21c2 formatter: Apply head body policy everywhere (#26074) (leaysgur)\n- 676b7e1 formatter: Keep comments in their for-head slot, before an empty-statement body and do-while (#26073) (leaysgur)\n- 3bbcea6 formatter: Keep comments between a head and its body out of the braces across all constructs (#26071) (leaysgur)\n- 57537a2 formatter: Place comments between a head and open paren (#26058) (leaysgur)\n- e2d53e7 formatter: Place comments between a statement head and its body (#26043) (leaysgur)\n- 662556c formatter: Print the idempotent placement for comments in dropped parens (#26041) (leaysgur)\n- faf11d9 formatter_yaml: Keep trailing whitespace in block scalars (#26072) (leaysgur)\n\n### ⚡ Performance\n\n- ac4785a diagnostics: Use fixed ANSI styles (#26130) (Boshen)\n\n### 📚 Documentation\n\n- b879608 formatter,formatter_graphql,formatter_yaml: Annotate own-line comment inlining as known policy violation (#26131) (leaysgur)\n- 181953b oxfmt,formatter_core,formatter,formatter_yaml,formatter_css,formatter_graphql: Extract `DIVERGENCES.md` out from `AGENTS.md` (#26121) (leaysgur)\n- a67cb9d formatter,formatter_core: Document comment moving policy (#26075) (leaysgur)\n- fc175b0 formatter_core: Clarify idempotency test infra (#26069) (leaysgur)",
+    "changelog_url": null,
+    "created_at": "2026-09-01T16:17:36Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "oxlint-oxfmt__oxc-project-oxc__apps_v1.81.0",
+    "kind": "minor",
+    "name": "oxlint v1.81.0 & oxfmt v0.66.0",
+    "package": "oxlint + oxfmt",
+    "processing_started_at": "2026-09-01T16:42:15Z",
+    "published_at": "2026-09-01T15:17:51Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/oxc-project/oxc/releases/tag/apps_v1.81.0",
+    "repo": "oxc-project/oxc",
+    "source": "github_release",
+    "status": "done",
+    "tag": "apps_v1.81.0",
+    "version": "1.81.0",
+    "post_path": "src/content/posts/oxlint-oxfmt-apps-v1-81-0.md",
+    "commit_sha": "6d36aa061adab99e8e7ef843cdf64e41323bbed1",
+    "pushed": true,
+    "completed_at": "2026-09-01T16:46:00.000Z"
   }
 ]
