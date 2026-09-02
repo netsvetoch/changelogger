@@ -5580,5 +5580,30 @@
     "post_path": "src/content/posts/ouroboros-v6-114-0.md",
     "commit_sha": "6e819d558c4ad8813edbee9baa9b7923d376faeb",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/gravity-ui/uikit/releases/381355341",
+    "body_excerpt": "## [7.49.0](https://github.com/gravity-ui/uikit/compare/v7.48.3...v7.49.0) (2026-09-02)\n\n\n### Features\n\n* **Button:** add icon size context ([#2802](https://github.com/gravity-ui/uikit/issues/2802)) ([cf62374](https://github.com/gravity-ui/uikit/commit/cf6237474611ca199f490d66471684fe8ab86cc0))\n* expose default props provider ([#2799](https://github.com/gravity-ui/uikit/issues/2799)) ([53ce6be](https://github.com/gravity-ui/uikit/commit/53ce6be20241bf556b5adfebd1dee5b4fdf5f25c))\n* **HelpMark:** add CSS API for size ([#2803](https://github.com/gravity-ui/uikit/issues/2803)) ([3b85e05](https://github.com/gravity-ui/uikit/commit/3b85e05fdab8aeb451787aca25094324feaadaad))\n* **useForkRef:** support React 19 cleanup function in ref callback ([#2804](https://github.com/gravity-ui/uikit/issues/2804)) ([4c35599](https://github.com/gravity-ui/uikit/commit/4c35599ab2ab8a2520955cde0081a9c2e3b06732))\n\n\n### Bug Fixes\n\n* **Drawer:** capture pointer while resizing ([#2793](https://github.com/gravity-ui/uikit/issues/2793)) ([a2ab4ad](https://github.com/gravity-ui/uikit/commit/a2ab4ad0c996bed0786d3b068c78fa990df5db43))\n* **Modal:** fix mobile styles ([#2800](https://github.com/gravity-ui/uikit/issues/2800)) ([2966952](https://github.com/gravity-ui/uikit/commit/2966952328836672ab5131d480908de80d232919))\n* **Modal:** use responsive viewport units ([#2798](https://github.com/gravity-ui/uikit/issues/2798)) ([7a67551](https://github.com/gravity-ui/uikit/commit/7a675516b1a72d11f625b6027b8296368754d7c6))",
+    "changelog_url": null,
+    "created_at": "2026-09-02T15:04:34Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "@gravity-ui-uikit__gravity-ui-uikit__v7.49.0",
+    "kind": "minor",
+    "name": "v7.49.0",
+    "package": "@gravity-ui/uikit",
+    "processing_started_at": "2026-09-02T15:15:04Z",
+    "published_at": "2026-09-02T15:01:48Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/gravity-ui/uikit/releases/tag/v7.49.0",
+    "repo": "gravity-ui/uikit",
+    "source": "github_release",
+    "status": "done",
+    "tag": "v7.49.0",
+    "version": "7.49.0",
+    "completed_at": "2026-09-02T15:18:21Z",
+    "post_path": "src/content/posts/gravity-ui-uikit-v7-49-0.md",
+    "commit_sha": "7c23e45c6fb34765ced7911a4a4d18f1e4744184",
+    "pushed": true
   }
 ]
