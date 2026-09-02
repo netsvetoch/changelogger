@@ -5605,5 +5605,35 @@
     "post_path": "src/content/posts/gravity-ui-uikit-v7-49-0.md",
     "commit_sha": "7c23e45c6fb34765ced7911a4a4d18f1e4744184",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/kahme247/ompweb/releases/381358427",
+    "body_excerpt": "## v0.4.0 — Auto-updates, native tray, unified notifications, top bar redesign\n\n**Highlights:**\n- **Durable auto-updates (trimmed PR #47):** File-based lease/status (`tmp/ompweb-self-update[-uid]` / `tmp/omp-self-update`) with 30m lease + 24h TTL, detached `bin/omp-web-update-worker.js` (copied outside `pkgDir` for Windows lock), 5 stages (preparing/stopping/installing/restarting/finalizing, PREPARING_MIN 1s, poll 500ms), `POST /api/app-update` `prepare/commit/status/acknowledge` (202) and `POST /api/omp-update` reusable `kind=omp` with 409 guard. Worker handles tray/launchd (bootout/bootstrap) and EBUSY retry.\n- **Native Windows tray:** `native/tray` dotnet WinForms `bin/omp-web-tray.exe` (171KB, single-file) — replaces hidden `wscript → powershell` heap; shortcuts now prefer native (`-OpenBrowser/-Startup`), fallback to `wscript`; `omp-web-service.ps1` headless (no Forms) for Task Scheduler `ONLOGON` (`schtasks`).\n- **Unified notifications:** `ui/toast` per-toast `timeout`/`id` (sticky `timeout:0` for update-available with `Update now → Settings System`), `ui/field` new `Alert` (success/error/warning/info, `TriangleAlert` for warning, `status-warning` border/bg), `AppShell` update toasts sticky, `Agents/Mcp` deduped (success → toast, error → inline Alert), `FieldError` now `status-error`.\n- **Top bar redesign:** 3-zone layout, center breadcrumb, provider cards, absolute popover anchoring, zoom-aware 3-dots menu (`placement below`), Archive immediate (no confirm) like Delete.\n\n**Fixes:**\n- `lib/self-update` `detectManager` via `detectInstallMethod`, `hasLivePreparedOwnership` now `(prepared||running)`, descriptor uses `OMP_WEB_HOSTNAME/PORT`, install failure now throws, lease DoS bound (`expiresAt > now+35m` not active) + cleanup without PID gate.\n- `lib/windows-service` HTTP fallback `fetch` probe for `isRunning` when WMI misses hidden `wscript`, `isTrayProcessRunning` watches `omp-web-tray.exe`/`service.ps1`, `start` prefers `schtasks /run` → native exe → `wscript`, `stop` also ends task + kills `omp-web-tray.exe`.\n- `scripts/windows`: strip emoji (UTF-8 without BOM `Unexpected token '<'`), add `-Sta` to `launch-tray.vbs`, `install-tray.ps1` now registers Scheduled Task `omp-web` ONLOGON.\n- `bin/omp-web-update-worker.js`: `kind=omp` now skips `stopOriginalProcesses`/`restartServices` (was killing `next dev` → `ECONNRESET`).\n- `components/SessionSidebar` 3-dots Archive immediate, menu `placement below`.\n\n**Commits since v0.3.6:**\ne200e5a Release v0.4.0\ndf2a6fd Merge pull request #47 feat: auto-updates, native tray service, unified notifications, and top bar redesign\nc69258e fix(worker): OMP update should not kill Next dev server\n635659a fix(ui): make 3-dots menu zoom-aware for Interface Scale\nc4477fa chore: ignore .NET build artifacts and npm packaging archives\n0b3e00f feat(ui): redesign top bar with 3-zone layout, center breadcrumb, provider cards, and absolute popover anchoring\n9984dca feat(ui): add styles for top bar breadcrumb and segmented metric pills\n8b44966 fix(ui): prevent number wrapping in session info popover\nd3e6651 fix(ui): 3-dots Archive immediate and menu placement below\n7c4876f fix(ui): unify notifications and make archive immediate\nb715bea chore: bump to 0.3.7 with native tray exe\n70dcdf6 feat(windows): headless service via Task Scheduler for reliable autostart\nd2e69bb fix(windows-service): fallback isRunning via HTTP probe and fix tray ps1 encoding\ne4137d8 feat: durable auto OMP and omp-web self-update (trimmed)\nfe4dc2a docs(readme): sync features and CLI with current code\nb4894e7 feat(composer): add tool preset picker to the composer toolbar (#45)\n5af9e13 feat: add macOS launchd installer\n51e8a57 chore(cleanup): remove dead code and dedup Content-Disposition helpers\n2b48f06 fix(sessions): delete from 3-dots menu is now immediate without confirmation\n096b4b1 fix(ui): restore Chat Font Size and Interface Scale — preserve CSS vars from Tailwind purge and prevent var() inlining\nd499bae test(perf): add test co",
+    "changelog_url": null,
+    "created_at": "2026-09-02T16:07:27Z",
+    "existing_post_candidates": [
+      "src/content/posts/minimax-cli-v0-4-0.md",
+      "src/content/posts/nub-v0-4-0.md",
+      "src/content/posts/paseo-v0-4-0.md",
+      "src/content/posts/servo-0-4-0.md"
+    ],
+    "featured": false,
+    "id": "ompweb__kahme247-ompweb__v0.4.0",
+    "kind": "minor",
+    "name": "v0.4.0",
+    "package": "ompweb",
+    "processing_started_at": "2026-09-02T16:15:05Z",
+    "published_at": "2026-09-02T15:06:41Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/kahme247/ompweb/releases/tag/v0.4.0",
+    "repo": "kahme247/ompweb",
+    "source": "github_release",
+    "status": "done",
+    "tag": "v0.4.0",
+    "version": "0.4.0",
+    "completed_at": "2026-09-02T16:18:40Z",
+    "post_path": "src/content/posts/ompweb-v0-4-0.md",
+    "commit_sha": "acd940152c1f2539cf8077f6c0113c33f02b5b3e",
+    "pushed": true
   }
 ]
