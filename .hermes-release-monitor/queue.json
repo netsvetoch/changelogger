@@ -5688,5 +5688,34 @@
     "post_path": "src/content/posts/openai-codex-rust-v0-153-0.md",
     "commit_sha": "8aa08326d870938575a8946c575bc2e92c7f2c38",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/withastro/astro/releases/381929258",
+    "body_excerpt": "### Minor Changes\n\n-   [#17767](https://github.com/withastro/astro/pull/17767) [`ce7c91f`](https://github.com/withastro/astro/commit/ce7c91f77dbd7be03c04bc13f87af9d01fef6cef) Thanks [@astro-factory](https://github.com/apps/astro-factory)! - Adds `--ignore-lock` flag to `astro preview`, allowing multiple preview servers to run simultaneously on different ports. This is useful for E2E testing workflows (e.g., Playwright) that need to run several preview servers at once.\n\n-   [#17818](https://github.com/withastro/astro/pull/17818) [`c0b6581`](https://github.com/withastro/astro/commit/c0b65811dfa0dafa1aa04b7d6d67fd09250ff8c1) Thanks [@florian-lefebvre](https://github.com/florian-lefebvre)! - Adds a `logger` parameter to image services hooks\n\n    Custom image services now receive Astro's runtime logger as an extra argument. Messages logged with it are routed through the destination configured in `logger` and respect your log level, instead of being written straight to the console:\n\n    ```ts\n    import type { LocalImageService } from 'astro';\n\n    const service: LocalImageService = {\n      // ...\n      async transform(inputBuffer, transform, imageConfig, logger) {\n        logger.warn(`Could not optimize \"${transform.src}\". Passing it through unchanged.`);\n        return { data: inputBuffer, format: 'png' };\n      },\n    };\n    ```\n\n    Astro's built-in Sharp service now uses this logger for the warnings it emits when it encounters an unexpected or unsupported source format.\n\n-   [#17818](https://github.com/withastro/astro/pull/17818) [`c0b6581`](https://github.com/withastro/astro/commit/c0b65811dfa0dafa1aa04b7d6d67fd09250ff8c1) Thanks [@florian-lefebvre](https://github.com/florian-lefebvre)! - Adds `logger` to the context object passed to cache providers\n\n    Custom cache providers now receive Astro's runtime logger on the context passed to `onRequest()`. Messages logged with it are routed through the destination configured in `logger` and respect your log level, instead of being written straight to the console:\n\n    ```ts\n    import type { CacheProvider } from 'astro';\n\n    const provider: CacheProvider = {\n      name: 'my-cache',\n      async onRequest({ request, url, logger }, next) {\n        logger.warn(`Skipping cache for ${url.pathname} because the response sets a cookie.`);\n        return next();\n      },\n      // ...\n    };\n    ```\n\n    Astro's built-in `memoryCache()` provider now uses this logger for the warnings it emits when it skips caching a response that sets cookies, and when a background revalidation fails.\n\n### Patch Changes\n\n-   [#17818](https://github.com/withastro/astro/pull/17818) [`c0b6581`](https://github.com/withastro/astro/commit/c0b65811dfa0dafa1aa04b7d6d67fd09250ff8c1) Thanks [@florian-lefebvre](https://github.com/florian-lefebvre)! - Updates Astro's remaining internal warnings and errors to be written through the configured logger instead of directly to the console, when possible\n\n-   [#17886](https://github.com/withastro/astro/pull/17886) [`e747cba`](https://github.com/withastro/astro/commit/e747cba07fcd2b9e7fb03c02ed42abfe2079daa2) Thanks [@matthewp](https://github.com/matthewp)! - Fixes the memory cache provider to skip responses with `Vary: Cookie` or `Vary: *`\n\n-   [#17885](https://github.com/withastro/astro/pull/17885) [`916b738`](https://github.com/withastro/astro/commit/916b738b0447728f1c274e32677c9bac09be78f6) Thanks [@Princesseuh](https://github.com/Princesseuh)! - Improves build performance for sites with a large number of pages coming from a large amount of different modules.\n\n-   [#17795](https://github.com/withastro/astro/pull/17795) [`15e2deb`](https://github.com/withastro/astro/commit/15e2debc7e81d353410ff76a76c3bf75b7fb3070) Thanks [@matthewp](https://github.com/matthewp)! - Adds concurrent rendering support for `experimental.incrementalBuild`, including when using `@astrojs/cloudflare`\n\n    Incremental builds no longer disable caching when `build.concurrency` is greater than `1`. Projec",
+    "changelog_url": null,
+    "created_at": "2026-09-03T10:42:56Z",
+    "existing_post_candidates": [
+      "src/content/posts/kilocode-v7-3-0.md",
+      "src/content/posts/oh-my-pi-v17-3-0.md",
+      "src/content/posts/rxjs-v7-3-0.md"
+    ],
+    "featured": false,
+    "id": "astro__withastro-astro__astro@7.3.0",
+    "kind": "minor",
+    "name": "astro@7.3.0",
+    "package": "astro",
+    "processing_started_at": "2026-09-03T10:46:39Z",
+    "published_at": "2026-09-03T10:29:21Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/withastro/astro/releases/tag/astro%407.3.0",
+    "repo": "withastro/astro",
+    "source": "github_release",
+    "status": "done",
+    "tag": "astro@7.3.0",
+    "version": "7.3.0",
+    "completed_at": "2026-09-03T10:49:00Z",
+    "post_path": "src/content/posts/astro-v7-3-0.md",
+    "commit_sha": "88bb3f41337ce5717d5c6f088d3d289103126e87",
+    "pushed": true
   }
 ]
