@@ -5717,5 +5717,30 @@
     "post_path": "src/content/posts/astro-v7-3-0.md",
     "commit_sha": "88bb3f41337ce5717d5c6f088d3d289103126e87",
     "pushed": true
+  },
+  {
+    "api_url": "https://api.github.com/repos/QwenLM/qwen-code/releases/381948921",
+    "body_excerpt": "<!-- qwen-release-notes:v1 -->\n\n## Highlights\n\n_See the complete change list below._\n\n## Breaking Changes\n\nNo known breaking changes.\n\n## Complete Change List\n\n### Features\n\n- The branch picker now displays git state hints like '↓3 · origin/main' or 'Up to date' beside Update Project, Commit, and Push actions to help users judge status before clicking. ([#10397](https://github.com/QwenLM/qwen-code/pull/10397)) by @wenshao\n- Adds the qwen review emit-workflow subcommand to generate a deterministic script that executes Review Step 3A's agent fan-out using parallel() instead of manual orchestration. ([#10119](https://github.com/QwenLM/qwen-code/pull/10119)) by @qqqys\n- The Web Shell 'Add workspace' dialog now hides the Browse button on headless daemon hosts that lack native directory picker capabilities like zenity or osascript. ([#9406](https://github.com/QwenLM/qwen-code/pull/9406)) by @qqqys\n- Adds support for scoped workspace memory tasks with project or user targets, enforcing strict filesystem permission boundaries between stores during remember and forget operations. ([#9895](https://github.com/QwenLM/qwen-code/pull/9895)) by @qqqys\n- Added a QR code button to the Web Shell header for quick Local Control pairing, with direct navigation to Settings if the feature is disabled. ([#10432](https://github.com/QwenLM/qwen-code/pull/10432)) by @wenshao\n- Enables the takeover loop to consume review convergence signals via a new ledger marker containing matched recommendation codes. ([#10122](https://github.com/QwenLM/qwen-code/pull/10122)) by @wenshao\n- Optimizes the Session Overview table with responsive columns, sorting, filtering, and improved handling for session management actions. ([#10115](https://github.com/QwenLM/qwen-code/pull/10115)) by @ytahdn\n- Adds per-run scheduled task sessions in Web Shell, creating fresh child conversations with unique timestamps for each execution. ([#10233](https://github.com/QwenLM/qwen-code/pull/10233)) by @qqqys\n- Removes the public-only network policy restriction in qwen serve, allowing extension installs from enterprise-private Git hosts. ([#10156](https://github.com/QwenLM/qwen-code/pull/10156)) by @callmeYe\n- feat(core): address other sessions by name from send_message and list_agents ([#10158](https://github.com/QwenLM/qwen-code/pull/10158)) by @qqqys\n- Added explicit daemon session contexts for workspace, standalone, and Live conversations to improve routing and runtime resolution. ([#10418](https://github.com/QwenLM/qwen-code/pull/10418)) by @doudouOUC\n- feat(core): report compression API failures distinctly ([#9119](https://github.com/QwenLM/qwen-code/pull/9119)) by @xianjianlf2\n- Automatically assigns exactly one accountable maintainer to new PRs touching mapped areas and resolves a single owner when automated triage defers a PR. ([#9813](https://github.com/QwenLM/qwen-code/pull/9813)) by @yiliang114\n- Forwards bounded MCP tool arguments and server annotations to the AUTO-mode classifier to improve decision accuracy beyond tool names alone. ([#10352](https://github.com/QwenLM/qwen-code/pull/10352)) by @qqqys\n- Enabled full operator API access on trusted loopback interfaces for qwen serve when no bearer token is configured and authentication is not explicitly required. ([#10403](https://github.com/QwenLM/qwen-code/pull/10403)) by @doudouOUC\n- Named Channel tasks now include source attribution labels like [task] or [sender · task] in their output for better delivery correlation. ([#10420](https://github.com/QwenLM/qwen-code/pull/10420)) by @doudouOUC\n- Enhanced the Web Shell sidebar to display workspace session counts, full paths, and detailed chips for MCP servers, skills, extensions, and context files. ([#10407](https://github.com/QwenLM/qwen-code/pull/10407)) by @wenshao\n- Exposed Workflow execution controls via the daemon, allowing clients to inspect, cancel, pause, resume, retry, and delete runs while preserving legacy task contracts. ([#10411](https://github.com/QwenLM/qwen-code/",
+    "changelog_url": null,
+    "created_at": "2026-09-03T11:45:48Z",
+    "existing_post_candidates": [],
+    "featured": false,
+    "id": "qwen-code__QwenLM-qwen-code__v0.23.0",
+    "kind": "minor",
+    "name": "Release v0.23.0",
+    "package": "qwen-code",
+    "processing_started_at": "2026-09-03T11:46:40Z",
+    "published_at": "2026-09-03T11:03:15Z",
+    "reason": "hourly-new-major-minor",
+    "release_url": "https://github.com/QwenLM/qwen-code/releases/tag/v0.23.0",
+    "repo": "QwenLM/qwen-code",
+    "source": "github_release",
+    "status": "done",
+    "tag": "v0.23.0",
+    "version": "0.23.0",
+    "completed_at": "2026-09-03T11:50:00Z",
+    "post_path": "src/content/posts/qwen-code-v0-23-0.md",
+    "commit_sha": "f2747d7a04db2dceddc18682e183ddd86f51ef76",
+    "pushed": true
   }
 ]
